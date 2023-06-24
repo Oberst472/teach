@@ -79,15 +79,11 @@ onMounted(() => {
   let word = ''
   if (localStorage.getItem('activeCategoryWord')) {
     word = localStorage.getItem('activeCategoryWord')
-  }
-  else {
+  } else {
     localStorage.setItem('activeCategoryWord', Object.keys(words.value)[0])
     word = Object.keys(words.value)[0]
   }
-
   data.activeCategoryWord = word
-
-
   data.currentCategoryWords = words.value[Object.keys(words.value)[0]]
   data.defaultEls = JSON.parse(JSON.stringify(data.currentCategoryWords))
   data.els = JSON.parse(JSON.stringify(data.currentCategoryWords))
@@ -96,9 +92,6 @@ onMounted(() => {
   window.addEventListener('keyup', goNextWord)
   console.info(`${new Date()} v2`);
 })
-
-
-
 </script>
 
 <style lang='scss'>
@@ -124,9 +117,11 @@ onMounted(() => {
     & + & {
       margin-left: 15px;
     }
+
     &.first {
       width: 400px;
     }
+
     &.second {
       width: 800px;
     }
@@ -139,12 +134,9 @@ onMounted(() => {
       border-bottom: 1px solid rgba(255, 255, 255, 0.04);
       font-weight: 300;
       cursor: pointer;
+
       &--active {
         background-color: rgba(255, 255, 255, 0.18);
-      }
-
-      span {
-        //font-weight: 700;
       }
     }
 
@@ -172,17 +164,20 @@ onMounted(() => {
     display: flex;
     flex-direction: column;
     border-radius: 10px;
+
     &-number {
       margin-bottom: 50px;
       opacity: 0.7;
       text-align: right;
     }
+
     &-current {
       font-size: 40px;
       text-align: center;
       line-height: 1.2;
       margin-bottom: 60px;
     }
+
     &-translate {
       border: 1px dashed;
       padding: 15px;
@@ -191,25 +186,30 @@ onMounted(() => {
       text-align: center;
       color: #6aff46;
       background-color: rgba(255, 255, 255, 0.07);
+
       &.hide {
         opacity: 0;
       }
     }
+
     &-btns {
       margin-top: 60px;
       display: flex;
       gap: 30px;
     }
+
     &-btn {
       flex-basis: 50%;
       height: 60px;
       background-color: #ff7f2e;
+
       &.show {
         background-color: #2d6cff;
       }
     }
   }
 }
+
 b {
   color: #20ff67;
   font-weight: 700;
