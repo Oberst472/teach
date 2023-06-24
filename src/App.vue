@@ -59,6 +59,7 @@ const changeActiveCategory = function(val: string) {
   data.defaultEls = JSON.parse(JSON.stringify(data.currentCategoryWords))
   data.els = JSON.parse(JSON.stringify(data.currentCategoryWords))
   changeInfo()
+  localStorage.setItem('activeCategoryWord', val)
 }
 const goNextWord = function(e) {
   if (e.code === 'Space' || e.code === 'ShiftRight') data.hidePrompt = false
@@ -75,14 +76,28 @@ const showNextWord = function() {
 }
 
 onMounted(() => {
-  data.activeCategoryWord = Object.keys(words.value)[0]
+  let word = ''
+  if (localStorage.getItem('activeCategoryWord')) {
+    word = localStorage.getItem('activeCategoryWord')
+  }
+  else {
+    localStorage.setItem('activeCategoryWord', Object.keys(words.value)[0])
+    word = Object.keys(words.value)[0]
+  }
+
+  data.activeCategoryWord = word
+
+
   data.currentCategoryWords = words.value[Object.keys(words.value)[0]]
   data.defaultEls = JSON.parse(JSON.stringify(data.currentCategoryWords))
   data.els = JSON.parse(JSON.stringify(data.currentCategoryWords))
   changeInfo()
 
   window.addEventListener('keyup', goNextWord)
+  console.info(`${new Date()} v2`);
 })
+
+
 
 </script>
 
