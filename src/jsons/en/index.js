@@ -482,8 +482,8 @@ export const en = {
 		},
 		{
 			id: 1687539708227,
-			original: 'хочу <b>обратить внимание</b> на один момент',
-			translate: 'I want to <b>point out</b> on one moment',
+			original: 'Я бы хотел <b>обратить внимание</b> на один момент',
+			translate: 'I would to <b>point out</b> on one moment',
 			isActive: true,
 		},
 		{
