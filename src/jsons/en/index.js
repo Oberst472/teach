@@ -476,8 +476,8 @@ export const en = {
 		},
 		{
 			id: 1687539708226,
-			original: 'un plug',
-			translate: 'отключить',
+			original: 'отключить',
+			translate: 'un plug',
 			isActive: true,
 		},
 		{
