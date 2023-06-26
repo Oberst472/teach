@@ -85,7 +85,7 @@ onMounted(() => {
     word = Object.keys(words.value)[0]
   }
   data.activeCategoryWord = word
-  data.currentCategoryWords = words.value[Object.keys(words.value)[0]]
+  data.currentCategoryWords = words.value[word]
   data.defaultEls = JSON.parse(JSON.stringify(data.currentCategoryWords))
   data.els = JSON.parse(JSON.stringify(data.currentCategoryWords))
   changeInfo()

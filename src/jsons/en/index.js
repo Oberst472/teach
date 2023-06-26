@@ -503,6 +503,14 @@ export const en = {
 			isActive: true,
 		},
 	],
+	verbs_5: [
+		{
+			id: 1687796212121,
+			original: '<b>вносить</b> изменения',
+			translate: '<b>introduce / introduced / introduced</b> changes',
+			isActive: true,
+		},
+	],
 
 	words_1: [
 		{
@@ -541,6 +549,19 @@ export const en = {
 			translate: 'junk food has such a nice <b>flavor</b>',
 			isActive: true,
 		},
+		{
+			id: 1687538848792,
+			original: 'подходящее решение',
+			translate: 'suitable solution',
+			isActive: true,
+		},
+		{
+			id: 1687538848793,
+			original: '<b>добывать</b> ресурсы',
+			translate: '<b>extract</b> a resources',
+			isActive: true,
+		},
+
 	],
 	phrasal_verbs_1: [
 		{
