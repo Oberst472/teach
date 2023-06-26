@@ -55,6 +55,7 @@ const words = computed(() => {
 })
 const changeActiveCategory = function(val: string) {
   data.activeCategoryWord = val
+  data.hidePrompt = true
   data.currentCategoryWords = words.value[val]
   data.defaultEls = JSON.parse(JSON.stringify(data.currentCategoryWords))
   data.els = JSON.parse(JSON.stringify(data.currentCategoryWords))

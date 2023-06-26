@@ -258,13 +258,13 @@ export const en = {
 		},
 		{
 			id: 1687536298184,
-			original: '',
-			translate: 'кусать',
+			original: 'кусать',
+			translate: 'bite bit bitten',
 			isActive: true,
 		},
 		{
 			id: 1687536298185,
-			original: '',
+			original: 'дуть',
 			translate: 'blow blew blown',
 			isActive: true,
 		},
@@ -429,6 +429,81 @@ export const en = {
 			isActive: true,
 		},
 	],
+	verbs_4: [
+		{
+			id: 1687761278396,
+			original: 'покидать оставлять',
+			translate: 'leave left left',
+			isActive: true,
+		},
+		{
+			id: 1687761278397,
+			original: 'давать взаймы',
+			translate: 'lend lent lent',
+			isActive: true,
+		},
+		{
+			id: 1687761278398,
+			original: 'позволять',
+			translate: 'let let let',
+			isActive: true,
+		},
+		{
+			id: 1687761278399,
+			original: 'лежать',
+			translate: 'lie lay lain',
+			isActive: true,
+		},
+		{
+			id: 1687761278310,
+			original: 'терять',
+			translate: 'lose lost lost',
+			isActive: true,
+		},
+		{
+			id: 1687761278312,
+			original: 'иметь в виду',
+			translate: 'mean meant meant',
+			isActive: true,
+		},
+		{
+			id: 1687761278313,
+			original: 'встречаться',
+			translate: 'meet met met',
+			isActive: true,
+		},
+		{
+			id: 1687761278314,
+			original: 'платить',
+			translate: 'pay paid paid',
+			isActive: true,
+		},
+		{
+			id: 1687761278315,
+			original: 'класть / перемещать',
+			translate: 'put put put',
+			isActive: true,
+		},
+		{
+			id: 1687761278316,
+			original: 'читать',
+			translate: 'read read read',
+			isActive: true,
+		},
+		{
+			id: 1687761278317,
+			original: 'ездить верхом',
+			translate: 'ride rode ridden',
+			isActive: true,
+		},
+		{
+			id: 1687761278318,
+			original: 'звонить',
+			translate: 'ring rang rung',
+			isActive: true,
+		},
+	],
+
 	words_1: [
 		{
 			id: 1687538848786,
