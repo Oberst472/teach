@@ -237,6 +237,7 @@ export const en = {
 			isActive: true,
 		}
 	],
+
 	verbs_1: [
 		{
 			id: 1687536298181,
@@ -563,6 +564,33 @@ export const en = {
 		},
 
 	],
+	words_2: [
+		{
+			id: 1688029786532,
+			original: 'внешний интерфейс',
+			translate: 'external interface',
+			isActive: true,
+		},
+		{
+			id: 1688029786533,
+			original: 'это <b>принадлежит</b> мне',
+			translate: 'it\'s <b>belong</b> to me',
+			isActive: true,
+		},
+		{
+			id: 1688029786534,
+			original: 'позволь <b>представить</b> моего друга',
+			translate: 'let me <b>external</b> my friend',
+			isActive: true,
+		},
+		{
+			id: 1688029786535,
+			original: 'внешний интерфейс',
+			translate: 'external interface',
+			isActive: true,
+		},
+	],
+
 	phrasal_verbs_1: [
 		{
 			id: 1687539708225,
@@ -592,6 +620,44 @@ export const en = {
 			id: 1687539708229,
 			original: 'придумать что то',
 			translate: 'make up',
+			isActive: true,
+		},
+		{
+			id: 1687539708230,
+			original: 'искать',
+			translate: 'look for',
+			isActive: true,
+		},
+		{
+			id: 1687539708230,
+			original: 'старательно записывать / конспектировать',
+			translate: 'write down',
+			isActive: true,
+		},
+		{
+			id: 1687539708230,
+			original: 'старательно записывать / конспектировать',
+			translate: 'write down',
+			isActive: true,
+		},
+		{
+			id: 1687539708231,
+			original: 'могла бы ты? / ты не против?',
+			translate: 'would you mind',
+			isActive: true,
+		},
+		{
+			id: 1687539708232,
+			original: 'соединять воедино',
+			translate: 'pull together',
+			isActive: true,
+		},
+	],
+	phrasal_verbs_2: [
+		{
+			id: 1688029636492,
+			original: 'Техника барахлит, что то болит переодически на погоду',
+			translate: 'to play up',
 			isActive: true,
 		},
 	]
