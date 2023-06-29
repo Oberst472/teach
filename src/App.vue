@@ -1,10 +1,18 @@
 <template>
   <section class='app'>
     <ul class='app__nav first'>
-      <li class='app__nav-item app__nav-title'>Categories</li>
+      <li class='app__nav-item app__nav-title'>
+        <button class="app__lang-btn app__lang-btn--en" @click="changeLang('en')">
+          <img src="/en.svg" alt="">
+        </button>
+        <button class="app__lang-btn app__lang-btn--pl" @click="changeLang('pl')">
+          <img src="/pl.svg" alt="">
+        </button>
+        Categories
+      </li>
       <li class='app__nav-item'
           :class='{"app__nav-item--active": data.activeCategoryWord === key}'
-          v-for='(item, key) in en'
+          v-for='(item, key) in data.words'
           @click='changeActiveCategory(key)'
       >
         {{ `${key} (${item.length} сл.)` }}
@@ -40,23 +48,47 @@ export default {
 
 <script setup lang='ts'>
 import { en } from './jsons/en'
+import { pl } from './jsons/pl'
 import { computed, onMounted, reactive, watch } from 'vue';
 
 const data = reactive({
+  currentLanguage: 'en',
   activeCategoryWord: '',
   hidePrompt: true,
   current: '' as string,
   els: [],
   defaultEls: [],
-  currentCategoryWords: []
+  currentCategoryWords: [],
+  words: [],
 })
-const words = computed(() => {
-  return en
-})
+// const words = computed(() => {
+//   console.log(9);
+//   localStorage.setItem('currentLanguage', data.currentLanguage)
+//   data.hidePrompt = false
+//   console.log(data.currentLanguage);
+//   return data.currentLanguage === 'en' ? en : pl
+// })
+
+const changeLang = function(val) {
+  data.currentLanguage = val
+    localStorage.setItem('currentLanguage', data.currentLanguage)
+  data.words = val === 'en' ? en : pl
+
+  const word = Object.keys(data.words)[0]
+
+  data.activeCategoryWord = Object.keys(data.words)[0]
+  localStorage.setItem('activeCategoryWord', Object.keys(data.words)[0])
+
+  data.currentCategoryWords = data.words[word]
+  data.defaultEls = JSON.parse(JSON.stringify(data.currentCategoryWords))
+  data.els = JSON.parse(JSON.stringify(data.currentCategoryWords))
+  changeInfo()
+}
+
 const changeActiveCategory = function(val: string) {
   data.activeCategoryWord = val
   data.hidePrompt = true
-  data.currentCategoryWords = words.value[val]
+  data.currentCategoryWords = data.words[val]
   data.defaultEls = JSON.parse(JSON.stringify(data.currentCategoryWords))
   data.els = JSON.parse(JSON.stringify(data.currentCategoryWords))
   changeInfo()
@@ -77,15 +109,20 @@ const showNextWord = function() {
 }
 
 onMounted(() => {
+  if (localStorage.getItem('currentLanguage')) {
+    data.currentLanguage = localStorage.getItem('currentLanguage')
+  }
+  data.words = data.currentLanguage === 'en' ? en : pl
+
   let word = ''
   if (localStorage.getItem('activeCategoryWord')) {
     word = localStorage.getItem('activeCategoryWord')
   } else {
-    localStorage.setItem('activeCategoryWord', Object.keys(words.value)[0])
-    word = Object.keys(words.value)[0]
+    localStorage.setItem('activeCategoryWord', Object.keys(data.words)[0])
+    word = Object.keys(data.words)[0]
   }
   data.activeCategoryWord = word
-  data.currentCategoryWords = words.value[word]
+  data.currentCategoryWords = data.words[word]
   data.defaultEls = JSON.parse(JSON.stringify(data.currentCategoryWords))
   data.els = JSON.parse(JSON.stringify(data.currentCategoryWords))
   changeInfo()
@@ -103,6 +140,31 @@ onMounted(() => {
   box-sizing: border-box;
   display: flex;
   padding: 30px;
+  &__lang-btn {
+    margin-right: 4px;
+    padding: 0;
+    font-size: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 0;
+    border: 0;
+    width: 40px;
+    height: 30px;
+    background-color: transparent;
+    background-position: center;
+    cursor: pointer;
+    img {
+      width: 100%;
+      height: 100%;
+      max-width: 100%;
+      object-fit: contain;
+    }
+    &--en {
+    }
+    &--pl {
+
+    }
+  }
 
   &__nav {
     padding: 0;
