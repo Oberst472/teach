@@ -660,5 +660,11 @@ export const en = {
 			translate: 'to play up',
 			isActive: true,
 		},
+		{
+			id: 1688029636493,
+			original: 'что то заканчивается / на исходе',
+			translate: 'to run out',
+			isActive: true,
+		},
 	]
 }
