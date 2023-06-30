@@ -28,7 +28,7 @@
     </ul>
 
     <div class='app__content'>
-      <div class='app__content-number'> {{ data.els.length }}</div>
+      <div class='app__content-number' :class="{'app__content-number--accent': data.els.length === 0}"> {{ data.els.length }}</div>
       <div class='app__content-current' v-html="data.current.original"></div>
       <div class='app__content-translate' :class='{"hide": data.hidePrompt}' v-html="data.current.translate"></div>
       <div class='app__content-btns'>
@@ -227,11 +227,21 @@ onMounted(() => {
     display: flex;
     flex-direction: column;
     border-radius: 10px;
+    position: relative;
+    padding-top: 60px;
 
     &-number {
       margin-bottom: 50px;
       opacity: 0.7;
       text-align: right;
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      &--accent {
+        font-size: 30px;
+        color: #20ff67;
+
+      }
     }
 
     &-current {
