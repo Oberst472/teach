@@ -346,7 +346,7 @@ export const en = {
 		{
 			id: 1687517920212,
 			original: 'получать',
-			translate: 'get got got',
+			translate: 'get got gotten',
 			isActive: true,
 		},
 		{
