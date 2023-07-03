@@ -545,13 +545,7 @@ export const en = {
 		},
 		{
 			id: 1687796212131,
-			original: 'поднимать',
-			translate: 'pass passed passed',
-			isActive: true,
-		},
-		{
-			id: 1687796212131,
-			original: 'поднимать',
+			original: 'проходить',
 			translate: 'pass passed passed',
 			isActive: true,
 		},
