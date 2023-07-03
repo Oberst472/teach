@@ -519,14 +519,14 @@ export const en = {
 		},
 		{
 			id: 1687796212128,
-			original: 'служить / обслуживать',
-			translate: 'serve served served',
+			original: 'Он слудит правительству',
+			translate: 'He <b>serve / served / served</b> the government',
 			isActive: true,
 		},
 		{
 			id: 1687796212129,
-			original: 'достигать',
-			translate: 'reach reached reached',
+			original: 'достигнуть соглашения',
+			translate: '<b>reach / reached / reached</b> an agreement ',
 			isActive: true,
 		},
 		{
