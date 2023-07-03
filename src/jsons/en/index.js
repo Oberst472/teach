@@ -507,14 +507,14 @@ export const en = {
 		},
 		{
 			id: 1687796212126,
-			original: 'предлагать',
-			translate: 'offer offered offered',
+			original: 'он <b>предложил</b> помошь',
+			translate: 'he <b>offer / offered / offered</b> help',
 			isActive: true,
 		},
 		{
 			id: 1687796212127,
-			original: 'считать / рассматривать',
-			translate: 'consider considered considered',
+			original: 'рассматривать разные варианты отпуска',
+			translate: '<b>consider / considered / considered</b>> different vacation options',
 			isActive: true,
 		},
 		{
