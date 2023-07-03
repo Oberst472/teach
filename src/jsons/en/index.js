@@ -670,12 +670,6 @@ export const en = {
 		},
 		{
 			id: 1688029786535,
-			original: 'внешний интерфейс',
-			translate: 'external interface',
-			isActive: true,
-		},
-		{
-			id: 1688029786535,
 			original: 'расписание',
 			translate: 'schedule',
 			isActive: true,
@@ -702,12 +696,6 @@ export const en = {
 			id: 1688029786535,
 			original: 'снижение / сокращение / уменьшение',
 			translate: 'reduction',
-			isActive: true,
-		},
-		{
-			id: 1688029786535,
-			original: '',
-			translate: '',
 			isActive: true,
 		},
 	],
