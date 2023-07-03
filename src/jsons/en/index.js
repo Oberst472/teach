@@ -514,12 +514,12 @@ export const en = {
 		{
 			id: 1687796212127,
 			original: 'рассматривать разные варианты отпуска',
-			translate: '<b>consider / considered / considered</b>> different vacation options',
+			translate: '<b>consider / considered / considered</b> different vacation options',
 			isActive: true,
 		},
 		{
 			id: 1687796212128,
-			original: 'Он слудит правительству',
+			original: 'Он служдит правительству',
 			translate: 'He <b>serve / served / served</b> the government',
 			isActive: true,
 		},
@@ -531,8 +531,8 @@ export const en = {
 		},
 		{
 			id: 1687796212130,
-			original: 'оставаться',
-			translate: 'remain remained remained',
+			original: 'я могу остаться?',
+			translate: 'can I <b>remain / remained / remained</b>?',
 			isActive: true,
 		},
 	],
