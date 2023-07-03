@@ -221,7 +221,7 @@ export const en = {
 		{
 			id: 1665682041271,
 			original: 'как я говорил',
-			translate: 'how was i saying',
+			translate: 'how i was saying',
 			isActive: true,
 		},
 		{
@@ -349,18 +349,6 @@ export const en = {
 			translate: 'get got gotten',
 			isActive: true,
 		},
-		{
-			id: 1687517920213,
-			original: 'давать',
-			translate: 'give gave given',
-			isActive: true,
-		},
-		{
-			id: 1687517920214,
-			original: 'идти',
-			translate: 'go went gone',
-			isActive: true,
-		},
 	],
 	verbs_3: [
 		{
@@ -421,12 +409,6 @@ export const en = {
 			id: 1687518552013,
 			original: 'знать',
 			translate: 'know knew known',
-			isActive: true,
-		},
-		{
-			id: 1687518552014,
-			original: 'учить',
-			translate: 'learn learned learned',
 			isActive: true,
 		},
 	],
@@ -491,6 +473,94 @@ export const en = {
 			translate: 'read read read',
 			isActive: true,
 		},
+	],
+	verbs_5: [
+		{
+			id: 1687796212121,
+			original: '<b>вносить</b> изменения',
+			translate: '<b>introduce / introduced / introduced</b> changes',
+			isActive: true,
+		},
+		{
+			id: 1687796212122,
+			original: 'стоять',
+			translate: 'stand stood stood',
+			isActive: true,
+		},
+		{
+			id: 1687796212123,
+			original: 'устанавливать',
+			translate: 'set set set',
+			isActive: true,
+		},
+		{
+			id: 1687796212124,
+			original: 'поворачивать',
+			translate: 'turn turned turned',
+			isActive: true,
+		},
+		{
+			id: 1687796212125,
+			original: 'руководить',
+			translate: 'lead led led',
+			isActive: true,
+		},
+		{
+			id: 1687796212126,
+			original: 'предлагать',
+			translate: 'offer offered offered',
+			isActive: true,
+		},
+		{
+			id: 1687796212127,
+			original: 'считать / рассматривать',
+			translate: 'consider considered considered',
+			isActive: true,
+		},
+		{
+			id: 1687796212128,
+			original: 'служить / обслуживать',
+			translate: 'serve served served',
+			isActive: true,
+		},
+		{
+			id: 1687796212129,
+			original: 'достигать',
+			translate: 'reach reached reached',
+			isActive: true,
+		},
+		{
+			id: 1687796212130,
+			original: 'оставаться',
+			translate: 'remain remained remained',
+			isActive: true,
+		},
+	],
+	verbs_6: [
+		{
+			id: 1687796212130,
+			original: 'поднимать',
+			translate: 'raise raised raised',
+			isActive: true,
+		},
+		{
+			id: 1687796212131,
+			original: 'поднимать',
+			translate: 'pass passed passed',
+			isActive: true,
+		},
+		{
+			id: 1687796212131,
+			original: 'поднимать',
+			translate: 'pass passed passed',
+			isActive: true,
+		},
+		{
+			id: 1687796212132,
+			original: 'требовать',
+			translate: 'require required required',
+			isActive: true,
+		},
 		{
 			id: 1687761278317,
 			original: 'ездить верхом',
@@ -503,12 +573,22 @@ export const en = {
 			translate: 'ring rang rung',
 			isActive: true,
 		},
-	],
-	verbs_5: [
 		{
-			id: 1687796212121,
-			original: '<b>вносить</b> изменения',
-			translate: '<b>introduce / introduced / introduced</b> changes',
+			id: 1687518552014,
+			original: 'учить',
+			translate: 'learn learned learned',
+			isActive: true,
+		},
+		{
+			id: 1687517920213,
+			original: 'давать',
+			translate: 'give gave given',
+			isActive: true,
+		},
+		{
+			id: 1687517920214,
+			original: 'идти',
+			translate: 'go went gone',
 			isActive: true,
 		},
 	],
@@ -562,9 +642,6 @@ export const en = {
 			translate: '<b>extract</b> a resources',
 			isActive: true,
 		},
-
-	],
-	words_2: [
 		{
 			id: 1688029786532,
 			original: 'внешний интерфейс',
@@ -577,6 +654,8 @@ export const en = {
 			translate: 'it\'s <b>belong</b> to me',
 			isActive: true,
 		},
+	],
+	words_2: [
 		{
 			id: 1688029786534,
 			original: 'позволь <b>представить</b> моего друга',
@@ -587,6 +666,48 @@ export const en = {
 			id: 1688029786535,
 			original: 'внешний интерфейс',
 			translate: 'external interface',
+			isActive: true,
+		},
+		{
+			id: 1688029786535,
+			original: 'внешний интерфейс',
+			translate: 'external interface',
+			isActive: true,
+		},
+		{
+			id: 1688029786535,
+			original: 'расписание',
+			translate: 'schedule',
+			isActive: true,
+		},
+		{
+			id: 1688029786535,
+			original: 'кардинально',
+			translate: 'drastically',
+			isActive: true,
+		},
+		{
+			id: 1688029786535,
+			original: 'главная <b>причина</b>',
+			translate: 'main <b>reason</b>',
+			isActive: true,
+		},
+		{
+			id: 1688029786535,
+			original: 'выгода / преимущество / привелегия',
+			translate: 'benefit',
+			isActive: true,
+		},
+		{
+			id: 1688029786535,
+			original: 'снижение / сокращение / уменьшение',
+			translate: 'reduction',
+			isActive: true,
+		},
+		{
+			id: 1688029786535,
+			original: '',
+			translate: '',
 			isActive: true,
 		},
 	],
@@ -607,7 +728,7 @@ export const en = {
 		{
 			id: 1687539708227,
 			original: 'Я бы хотел <b>обратить внимание</b> на один момент',
-			translate: 'I would to <b>point out</b> on one moment',
+			translate: 'I would like to <b>point out</b> on one moment',
 			isActive: true,
 		},
 		{
