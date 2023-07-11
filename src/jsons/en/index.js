@@ -732,35 +732,21 @@ export const en = {
 			isActive: true,
 		},
 		{
-			id: 1687539708230,
-			original: 'старательно записывать / конспектировать',
-			translate: 'write down',
-			isActive: true,
-		},
-		{
-			id: 1687539708230,
-			original: 'старательно записывать / конспектировать',
-			translate: 'write down',
-			isActive: true,
-		},
-		{
 			id: 1687539708231,
+			original: 'старательно записывать / конспектировать',
+			translate: 'write down',
+			isActive: true,
+		},
+		{
+			id: 1687539708232,
 			original: 'могла бы ты? / ты не против?',
 			translate: 'would you mind',
 			isActive: true,
 		},
 		{
-			id: 1687539708232,
+			id: 1687539708233,
 			original: 'соединять воедино',
 			translate: 'pull together',
-			isActive: true,
-		},
-	],
-	phrasal_verbs_2: [
-		{
-			id: 1688029636492,
-			original: 'Техника барахлит, что то болит переодически на погоду',
-			translate: 'to play up',
 			isActive: true,
 		},
 		{
@@ -769,5 +755,19 @@ export const en = {
 			translate: 'to run out',
 			isActive: true,
 		},
-	]
+		{
+			id: 1688029636492,
+			original: 'Техника барахлит, что то болит переодически на погоду',
+			translate: 'to play up',
+			isActive: true,
+		},
+	],
+	// phrasal_verbs_2: [
+	// 	{
+	// 		id: 1688029636492,
+	// 		original: 'Техника барахлит, что то болит переодически на погоду',
+	// 		translate: 'to play up',
+	// 		isActive: true,
+	// 	},
+	// ]
 }
