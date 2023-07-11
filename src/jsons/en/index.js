@@ -653,7 +653,7 @@ export const en = {
 		{
 			id: 1688029786534,
 			original: 'позволь <b>представить</b> моего друга',
-			translate: 'let me <b>external</b> my friend',
+			translate: 'let me <b>introduce</b> my friend',
 			isActive: true,
 		},
 		{

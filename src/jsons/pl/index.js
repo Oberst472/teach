@@ -19,13 +19,49 @@ export const pl = {
 			isActive: true,
 		},
 		{
-			id: 1688046571201,
+			id: 1688046571343,
 			original: 'понял',
 			translate: 'uświadomiłem',
 			isActive: true,
 		},
+		{
+			id: 1688046571202,
+			original: 'на севере',
+			translate: 'na północy',
+			isActive: true,
+		},
+		{
+			id: 1688046571203,
+			original: 'на юге',
+			translate: 'na południu ',
+			isActive: true,
+		},
+		{
+			id: 1688046571204,
+			original: 'на западе',
+			translate: 'na zachodzie',
+			isActive: true,
+		},
+		{
+			id: 1688046571205,
+			original: 'на востоке',
+			translate: 'na wschodzie',
+			isActive: true,
+		},
+		{
+			id: 1688046571206,
+			original: 'памятник',
+			translate: 'pomnik',
+			isActive: true,
+		},
+		{
+			id: 1688046571207,
+			original: 'взволнованный / возбужденный',
+			translate: 'nakręcony',
+			isActive: true,
+		},
 	],
-	werbs_1: [
+	words_2: [
 		{
 			id: 1688046848628,
 			original: 'открывать',
@@ -35,7 +71,7 @@ export const pl = {
 		{
 			id: 1688046571209,
 			original: 'пользуется популярностью',
-			translate: 'biec / ',
+			translate: 'cieszy się popularnością',
 			isActive: true,
 		},
 		{
@@ -50,5 +86,18 @@ export const pl = {
 			translate: 'uświadomiłem',
 			isActive: true,
 		},
+		{
+			id: 1688046571211,
+			original: 'пол',
+			translate: 'plieć',
+			isActive: true,
+		},
+		{
+			id: 1688046571212,
+			original: 'шрам',
+			translate: 'blizna',
+			isActive: true,
+		},
 	],
+
 }
