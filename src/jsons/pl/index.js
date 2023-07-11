@@ -69,24 +69,6 @@ export const pl = {
 			isActive: true,
 		},
 		{
-			id: 1688046571209,
-			original: 'пользуется популярностью',
-			translate: 'cieszy się popularnością',
-			isActive: true,
-		},
-		{
-			id: 1688046571210,
-			original: 'соединять',
-			translate: 'łączyć',
-			isActive: true,
-		},
-		{
-			id: 1688046571211,
-			original: 'понял',
-			translate: 'uświadomiłem',
-			isActive: true,
-		},
-		{
 			id: 1688046571211,
 			original: 'пол',
 			translate: 'plieć',
@@ -98,6 +80,151 @@ export const pl = {
 			translate: 'blizna',
 			isActive: true,
 		},
+		{
+			id: 1688046571213,
+			original: 'недостаток',
+			translate: 'wada',
+			isActive: true,
+		},
+		{
+			id: 1688046571213,
+			original: 'преимущество',
+			translate: 'zalet',
+			isActive: true,
+		},
+		{
+			id: 1688046571213,
+			original: 'вдохновляться',
+			translate: 'inspirować',
+			isActive: true,
+		},
+
 	],
+	words_3: [
+	{
+		"id": 1681316859642,
+		"original": "как минимум",
+		"translate": "przynajmniej",
+		"isActive": true,
+	},
+	{
+		"id": 1681316888246,
+		"original": "ну конечно!",
+		"translate": "no właśnie!",
+		"isActive": true,
+	},
+	{
+		"id": 1681316921819,
+		"original": "потому что боялся",
+		"translate": "ponieważ bał się",
+		"isActive": true,
+	},
+	{
+		"id": 1681316945223,
+		"original": "только завтра",
+		"translate": "dopiero jutro",
+		"isActive": true,
+	},
+	{
+		"id": 1681316967969,
+		"original": "скорее всего ",
+		"translate": "raczej",
+		"isActive": true,
+	},
+	{
+		"id": 1681317133004,
+		"original": "возможно на одну ночь",
+		"translate": "ewentualnie na jedną noc",
+		"isActive": true,
+	},
+	{
+		"id": 1681317147917,
+		"original": "В основном нет",
+		"translate": "generalnie nie",
+		"isActive": true,
+	},
+	{
+		"id": 1681317183157,
+		"original": "точно не помню",
+		"translate": "dokładnie nie pamiętam",
+		"isActive": true,
+	},
+	{
+		"id": 1681317267968,
+		"original": "в настоящее время",
+		"translate": "obecnie",
+		"isActive": true,
+	},
+	{
+		"id": 1681317282887,
+		"original": "Почти ничего не ела",
+		"translate": "prawie nic nie jadła",
+		"isActive": true,
+	}
+	],
+	werbs_1: [
+		{
+			id: 1689101927523,
+			original: 'доверять',
+			translate: 'ufać',
+			isActive: true,
+		},
+		{
+			id: 1689101927523,
+			original: 'увлекаться',
+			translate: 'fascynować',
+			isActive: true,
+		},
+		{
+			id: 1689101927523,
+			original: 'уважать',
+			translate: 'szanować',
+			isActive: true,
+		},
+		{
+			id: 1689101927523,
+			original: 'забывать',
+			translate: 'zapominać',
+			isActive: true,
+		},
+		{
+			id: 1689101927523,
+			original: 'защищать',
+			translate: 'chronić',
+			isActive: true,
+		},
+		{
+			id: 1689101927523,
+			original: 'преувеличивать',
+			translate: 'wyolbrzymiać',
+			isActive: true,
+		},
+		{
+			id: 1689101927523,
+			original: 'привлекать (на свою сторону)',
+			translate: 'angażować',
+			isActive: true,
+		},
+		{
+			id: 1689101927523,
+			original: 'мешать',
+			translate: 'wstrzymywać',
+			isActive: true,
+		},
+		{
+			id: 1689101927523,
+			original: 'упоминать / говорить о',
+			translate: 'wzmiankować',
+			isActive: true,
+		},
+		{
+			id: 1689101927523,
+			original: 'достигать',
+			translate: 'docierać',
+			isActive: true,
+		},
+
+	],
+
 
 }
