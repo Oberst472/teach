@@ -586,6 +586,80 @@ export const en = {
 			isActive: true,
 		},
 	],
+	verbs_7: [
+		{
+			id: 1689142844450,
+			original: 'бегать',
+			translate: 'run ran run',
+			isActive: true,
+		},
+		{
+			id: 1689142844451,
+			original: 'сказать',
+			translate: 'say said said',
+			isActive: true,
+		},
+		{
+			id: 1689142844452,
+			original: 'видеть',
+			translate: 'see saw seen',
+			isActive: true,
+		},
+		{
+			id: 1689142844453,
+			original: 'продавать',
+			translate: 'sell sold sold',
+			isActive: true,
+		},
+		{
+			id: 1689142844454,
+			original: 'отправлять',
+			translate: 'send sent sent',
+			isActive: true,
+		},
+		{
+			id: 1689142844455,
+			original: 'устанавливать',
+			translate: 'set set set',
+			isActive: true,
+		},
+		{
+			id: 1689142844456,
+			original: 'трясти',
+			translate: 'shake shook shaken',
+			isActive: true,
+		},
+		{
+			id: 1689142844457,
+			original: 'светить / сиять',
+			translate: 'shine shone shone',
+			isActive: true,
+		},
+		{
+			id: 1689142844458,
+			original: 'показывать',
+			translate: 'show showed shown',
+			isActive: true,
+		},
+		{
+			id: 1689142844459,
+			original: 'закрывать',
+			translate: 'shut shut shut',
+			isActive: true,
+		},
+		{
+			id: 1689142844460,
+			original: 'петь',
+			translate: 'sing sang sung',
+			isActive: true,
+		},
+		{
+			id: 16891428444561,
+			original: 'сидеть',
+			translate: 'sit sat sat',
+			isActive: true,
+		},
+	],
 
 	words_1: [
 		{
