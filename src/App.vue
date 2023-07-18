@@ -20,7 +20,7 @@
     </ul>
 
     <ul class='app__nav second'>
-      <li class='app__nav-item app__nav-title'>Words</li>
+      <li class='app__nav-item app__nav-title'>Words <button class="app__nav-item-btn" @click="data.isKeyboardActive = true">Open keyboard</button></li>
 
       <li class='app__nav-item' v-for='item in data.currentCategoryWords'>
         <span v-html="item.original"></span>: <span v-html="item.translate"></span>
@@ -36,9 +36,13 @@
         <button class='app__content-btn' @click='showNextWord'>Next word</button>
       </div>
     </div>
+    <SectionKeyboard
+        v-if="data.isKeyboardActive"
+        :items="data.currentCategoryWords"
+        @onClose="data.isKeyboardActive = false"
+    />
   </section>
 </template>
-
 
 <script lang='ts'>
 export default {
@@ -50,6 +54,7 @@ export default {
 import { en } from './jsons/en'
 import { pl } from './jsons/pl'
 import { computed, onMounted, reactive, watch } from 'vue';
+import SectionKeyboard from './components/sections/keyboard/index.vue'
 
 const data = reactive({
   currentLanguage: 'en',
@@ -60,14 +65,8 @@ const data = reactive({
   defaultEls: [],
   currentCategoryWords: [],
   words: [],
+  isKeyboardActive: false
 })
-// const words = computed(() => {
-//   console.log(9);
-//   localStorage.setItem('currentLanguage', data.currentLanguage)
-//   data.hidePrompt = false
-//   console.log(data.currentLanguage);
-//   return data.currentLanguage === 'en' ? en : pl
-// })
 
 const changeLang = function(val) {
   data.currentLanguage = val
@@ -159,11 +158,6 @@ onMounted(() => {
       max-width: 100%;
       object-fit: contain;
     }
-    &--en {
-    }
-    &--pl {
-
-    }
   }
 
   &__nav {
@@ -197,6 +191,14 @@ onMounted(() => {
       border-bottom: 1px solid rgba(255, 255, 255, 0.04);
       font-weight: 300;
       cursor: pointer;
+
+      &-btn {
+        padding: 5px 10px;
+        font-size: 12px;
+        margin-left: auto;
+        background-color: #4efff0;
+        color: #333333;
+      }
 
       &--active {
         background-color: rgba(255, 255, 255, 0.18);
