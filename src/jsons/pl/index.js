@@ -162,6 +162,32 @@ export const pl = {
 		"isActive": true,
 	}
 	],
+	words_4: [
+		{
+			"id": 1689780863435,
+			"original": "все в порядке",
+			"translate": "wszystko gra / wrszystko git",
+			"isActive": true,
+		},
+		{
+			"id": 1689780863436,
+			"original": "спасти",
+			"translate": "uratować",
+			"isActive": true,
+		},
+		{
+			"id": 1689780863437,
+			"original": "не исключаю",
+			"translate": "nie wykluczam",
+			"isActive": true,
+		},
+		{
+			"id": 1689780863438,
+			"original": "исключение",
+			"translate": "evenement",
+			"isActive": true,
+		},
+	],
 	werbs_1: [
 		{
 			id: 1689101927523,
@@ -223,7 +249,6 @@ export const pl = {
 			translate: 'docierać',
 			isActive: true,
 		},
-
 	],
 
 

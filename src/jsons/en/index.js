@@ -737,33 +737,45 @@ export const en = {
 			isActive: true,
 		},
 		{
-			id: 1688029786535,
+			id: 1688029786536,
 			original: 'расписание',
 			translate: 'schedule',
 			isActive: true,
 		},
 		{
-			id: 1688029786535,
+			id: 1688029786537,
 			original: 'кардинально',
 			translate: 'drastically',
 			isActive: true,
 		},
 		{
-			id: 1688029786535,
+			id: 1688029786538,
 			original: 'главная <b>причина</b>',
 			translate: 'main <b>reason</b>',
 			isActive: true,
 		},
 		{
-			id: 1688029786535,
+			id: 1688029786539,
 			original: 'выгода / преимущество / привелегия',
 			translate: 'benefit',
 			isActive: true,
 		},
 		{
-			id: 1688029786535,
+			id: 1688029786540,
 			original: 'снижение / сокращение / уменьшение',
 			translate: 'reduction',
+			isActive: true,
+		},
+		{
+			id: 1688029786541,
+			original: 'обеспечивать',
+			translate: 'provide',
+			isActive: true,
+		},
+		{
+			id: 1688029786542,
+			original: 'подход',
+			translate: 'approach',
 			isActive: true,
 		},
 	],
@@ -829,19 +841,49 @@ export const en = {
 			translate: 'to run out',
 			isActive: true,
 		},
+	],
+	phrasal_verbs_2: [
 		{
 			id: 1688029636492,
 			original: 'Техника барахлит, что то болит переодически на погоду',
 			translate: 'to play up',
 			isActive: true,
 		},
-	],
-	// phrasal_verbs_2: [
-	// 	{
-	// 		id: 1688029636492,
-	// 		original: 'Техника барахлит, что то болит переодически на погоду',
-	// 		translate: 'to play up',
-	// 		isActive: true,
-	// 	},
-	// ]
+		{
+			id: 1688029636493,
+			original: 'куча / нагромождение / куча людей',
+			translate: 'pile in',
+			isActive: true,
+		},
+		{
+			id: 1688029636494,
+			original: 'куча / нагромождение вещей / что то накапливается',
+			translate: 'pile up',
+			isActive: true,
+		},
+		{
+			id: 1688029636495,
+			original: 'до меня дошло / меня осенило',
+			translate: 'dawn on',
+			isActive: true,
+		},
+		{
+			id: 1688029636496,
+			original: 'узнавать',
+			translate: 'to find out',
+			isActive: true,
+		},
+		{
+			id: 1688029636497,
+			original: 'вернуться к какой то идее',
+			translate: 'pick up on',
+			isActive: true,
+		},
+		{
+			id: 1688029636498,
+			original: 'прекратить',
+			translate: 'shut down',
+			isActive: true,
+		},
+	]
 }
