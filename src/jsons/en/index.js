@@ -477,8 +477,8 @@ export const en = {
 	verbs_5: [
 		{
 			id: 1687796212121,
-			original: '<b>вносить</b> изменения',
-			translate: '<b>introduce / introduced / introduced</b> changes',
+			original: 'Я хочу <b>представить</b> несколько новых фич',
+			translate: 'I want to <b>introduce / introduced / introduced</b> a several new features',
 			isActive: true,
 		},
 		{
@@ -531,8 +531,8 @@ export const en = {
 		},
 		{
 			id: 1687796212130,
-			original: 'я могу остаться?',
-			translate: 'can I <b>remain / remained / remained</b>?',
+			original: 'я могу остаться? / осталась одна проблема',
+			translate: 'can I <b>remain / remained / remained</b>? / <b>remain</b> the one problem',
 			isActive: true,
 		},
 	],
