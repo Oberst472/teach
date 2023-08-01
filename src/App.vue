@@ -29,8 +29,8 @@
 
     <div class='app__content'>
       <div class='app__content-number' :class="{'app__content-number--accent': data.els.length === 0}"> {{ data.els.length }}</div>
-      <div class='app__content-current' v-html="data.current.original"></div>
-      <div class='app__content-translate' :class='{"hide": data.hidePrompt}' v-html="data.current.translate"></div>
+      <div class='app__content-current' v-html="data.current.translate"></div>
+      <div class='app__content-translate' :class='{"hide": data.hidePrompt}' v-html="data.current.original"></div>
       <div class='app__content-btns'>
         <button class='app__content-btn show' @click='data.hidePrompt = false'>Prompt</button>
         <button class='app__content-btn' @click='showNextWord'>Next word</button>
