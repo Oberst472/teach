@@ -292,7 +292,7 @@ export const en = {
 		{
 			id: 1687517714358,
 			original: 'есть',
-			translate: 'eat / ate / eaten',
+			translate: 'eat ate eaten',
 			isActive: true,
 		},
 		{
