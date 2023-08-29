@@ -240,7 +240,7 @@ export const pl = {
 		{
 			id: 1689101927523,
 			original: 'упоминать / говорить о',
-			translate: 'Jeszcze nie <b>wzmiankowałem</b>>',
+			translate: 'Jeszcze nie <b>wzmiankowałem</b>',
 			isActive: true,
 		},
 		{

@@ -148,7 +148,7 @@ export const en = {
 		},
 		{
 			id: 1665681612396,
-			original: 'Довольно давно',
+			original: 'Довольно редко',
 			translate: 'quite rarely',
 			isActive: true,
 		},
