@@ -97,6 +97,128 @@ export const en = {
 			isActive: true,
 		}
 	],
+	'столовые приборы': [
+		{
+			id: 1693413046267,
+			original: 'fork',
+			translate: 'вилка',
+			isActive: true,
+		},
+		{
+			id: 1693413046268,
+			original: 'knife',
+			translate: 'нож',
+			isActive: true,
+		},
+		{
+			id: 1693413046269,
+			original: 'spoon',
+			translate: 'ложка',
+			isActive: true,
+		},
+		{
+			id: 1693413046270,
+			original: 'teaspoon',
+			translate: 'чайная ложка',
+			isActive: true,
+		},
+		{
+			id: 1693413046271,
+			original: 'tablespoon',
+			translate: 'столовая ложка',
+			isActive: true,
+		},
+		{
+			id: 1693413046272,
+			original: 'dinner plate',
+			translate: 'обеденная тарелка',
+			isActive: true,
+		},
+		{
+			id: 1693413046273,
+			original: 'soup bowl',
+			translate: 'суповая миска',
+			isActive: true,
+		},
+		{
+			id: 1693413046274,
+			original: 'salad fork',
+			translate: 'вилка для салата',
+			isActive: true,
+		},
+		{
+			id: 1693413046275,
+			original: 'butter knife',
+			translate: 'нож для масла',
+			isActive: true,
+		},
+		{
+			id: 1693413046276,
+			original: 'desert spoon',
+			translate: 'десертная ложка',
+			isActive: true,
+		},
+		{
+			id: 1693413046277,
+			original: 'cup',
+			translate: 'чашка',
+			isActive: true,
+		},
+		{
+			id: 1693413046278,
+			original: 'mug',
+			translate: 'кружка (для горячих напитков)',
+			isActive: true,
+		},
+		{
+			id: 1693413046279,
+			original: 'glass',
+			translate: 'стакан',
+			isActive: true,
+		},
+		{
+			id: 1693413046280,
+			original: 'wine glass',
+			translate: 'бокал для вина',
+			isActive: true,
+		},
+		{
+			id: 16934130462681,
+			original: 'tumbler',
+			translate: 'рюмка',
+			isActive: true,
+		},
+		{
+			id: 1693413046282,
+			original: 'teacup',
+			translate: 'чашка для чая',
+			isActive: true,
+		},
+		{
+			id: 1693413046283,
+			original: 'coffee cup',
+			translate: 'чашка для кофе',
+			isActive: true,
+		},
+		{
+			id: 1693413046284,
+			original: 'saucer',
+			translate: 'блюдце',
+			isActive: true,
+		},
+		{
+			id: 1693413046285,
+			original: 'pitcher',
+			translate: 'кувшин (для наливания напитков)',
+			isActive: true,
+		},
+		{
+			id: 1693413046286,
+			original: 'straw',
+			translate: 'соломинка',
+			isActive: true,
+		},
+	],
 	'08.10': [
 		{
 			id: 1665681468543,
