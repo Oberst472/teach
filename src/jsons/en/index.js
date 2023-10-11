@@ -1033,5 +1033,55 @@ export const en = {
 			translate: 'shut down',
 			isActive: true,
 		},
+	],
+	b1_words: [
+		{
+			id: 1697045092560,
+			original: 'Вы здравомыслящие люди',
+			translate: 'You are sensible people',
+			isActive: true,
+		},
+		{
+			id: 1697045092561,
+			original: 'Ты очень чувствительный',
+			translate: 'You are very sensitive',
+			isActive: true,
+		},
+		{
+			id: 1697045092562,
+			original: 'Он лысый',
+			translate: 'He is a bald',
+			isActive: true,
+		},
+		{
+			id: 1697045092563,
+			original: 'Кошелек сделан из кожи',
+			translate: 'The wallet is made of leather',
+			isActive: true,
+		},
+		{
+			id: 1697045092564,
+			original: 'Нам надо стремится к лучшему',
+			translate: 'We need go to the better',
+			isActive: true,
+		},
+		{
+			id: 1697045092565,
+			original: 'У меня двойственное отношение к php',
+			translate: 'I have an ambivalent attitude towards php',
+			isActive: true,
+		},
+		{
+			id: 1697045092566,
+			original: 'У меня двойственное отношение к php',
+			translate: 'I have an ambivalent attitude towards php',
+			isActive: true,
+		},
+		{
+			id: 1697045092567,
+			original: 'Непослушный ребенок',
+			translate: 'Rebellious kid',
+			isActive: true,
+		},
 	]
 }
