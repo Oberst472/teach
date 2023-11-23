@@ -1233,8 +1233,8 @@ export const en = {
 		},
 		{
 			id: 1698826350130,
-			original: 'To expect results',
-			translate: 'Oczekiwać wyników (Ожидать результатов)',
+			original: 'Oczekiwać wyników (Ожидать результатов)',
+			translate: 'To expect results',
 			isActive: true,
 		},
 		{
