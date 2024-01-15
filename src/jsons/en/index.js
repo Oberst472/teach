@@ -1184,143 +1184,211 @@ export const en = {
     ],
     week_4: [
         {
-            "id": 1234567890123,
-            "original": "zdumiony widokiem (изумлённый видом)",
-            "translate": "amazed by the view",
-            "isActive": true
+            id: 1234567890123,
+            original: "zdumiony widokiem (изумлённый видом)",
+            translate: "amazed by the view",
+            isActive: true
         },
         {
-            "id": 2345678901234,
-            "original": "niespokojny o przyszłość (тревожный о будущем)",
-            "translate": "anxious about the future",
-            "isActive": true
+            id: 2345678901234,
+            original: "niespokojny o przyszłość (тревожный о будущем)",
+            translate: "anxious about the future",
+            isActive: true
         },
         {
-            "id": 3456789012345,
-            "original": "zawstydzony błędem (стыдящийся за ошибку)",
-            "translate": "ashamed of the mistake",
-            "isActive": true
+            id: 3456789012345,
+            original: "zawstydzony błędem (стыдящийся за ошибку)",
+            translate: "ashamed of the mistake",
+            isActive: true
         },
         {
-            "id": 4567890123456,
-            "original": "znudzony rutyną (скучающий по рутине)",
-            "translate": "bored with the routine",
-            "isActive": true
+            id: 4567890123456,
+            original: "znudzony rutyną (скучающий по рутине)",
+            translate: "bored with the routine",
+            isActive: true
         },
         {
-            "id": 5678901234567,
-            "original": "zdezorientowany instrukcjami (сбитый с толку инструкциями)",
-            "translate": "confused by the instructions",
-            "isActive": true
+            id: 5678901234567,
+            original: "zdezorientowany instrukcjami (сбитый с толку инструкциями)",
+            translate: "confused by the instructions",
+            isActive: true
         },
         {
-            "id": 6789012345678,
-            "original": "zachwycony prezentem (восхищенный подарком)",
-            "translate": "delighted with the gift",
-            "isActive": true
+            id: 6789012345678,
+            original: "zachwycony prezentem (восхищенный подарком)",
+            translate: "delighted with the gift",
+            isActive: true
         },
         {
-            "id": 7890123456789,
-            "original": "załamany wiadomościami (подавленный новостями)",
-            "translate": "depressed about the news",
-            "isActive": true
+            id: 7890123456789,
+            original: "załamany wiadomościami (подавленный новостями)",
+            translate: "depressed about the news",
+            isActive: true
         },
         {
-            "id": 8901234567890,
-            "original": "zawiedziony wynikami (разочарованный результатами)",
-            "translate": "disappointed by the results",
-            "isActive": true
+            id: 8901234567890,
+            original: "zawiedziony wynikami (разочарованный результатами)",
+            translate: "disappointed by the results",
+            isActive: true
         },
         {
-            "id": 9012345678901,
-            "original": "zniesmaczony zachowaniem (отвращенный поведением)",
-            "translate": "disgusted by the behavior",
-            "isActive": true
+            id: 9012345678901,
+            original: "zniesmaczony zachowaniem (отвращенный поведением)",
+            translate: "disgusted by the behavior",
+            isActive: true
         },
         {
-            "id": 1234567890124,
-            "original": "pijany na imprezie (пьяный на вечеринке)",
-            "translate": "drunk at the party",
-            "isActive": true
+            id: 1234567890124,
+            original: "pijany na imprezie (пьяный на вечеринке)",
+            translate: "drunk at the party",
+            isActive: true
         },
         {
-            "id": 2345678901235,
-            "original": "zakłopotany błędem (смущенный ошибкой)",
-            "translate": "embarrassed by the mistake",
-            "isActive": true
+            id: 2345678901235,
+            original: "zakłopotany błędem (смущенный ошибкой)",
+            translate: "embarrassed by the mistake",
+            isActive: true
         },
         {
-            "id": 3456789012346,
-            "original": "podekscytowany wyjazdem (возбужденный поездкой)",
-            "translate": "excited about the trip",
-            "isActive": true
+            id: 3456789012346,
+            original: "podekscytowany wyjazdem (возбужденный поездкой)",
+            translate: "excited about the trip",
+            isActive: true
         },
         {
-            "id": 4567890123457,
-            "original": "wyczerpany po pracy (истощенный после работы)",
-            "translate": "exhausted after work",
-            "isActive": true
+            id: 4567890123457,
+            original: "wyczerpany po pracy (истощенный после работы)",
+            translate: "exhausted after work",
+            isActive: true
         },
         {
-            "id": 5678901234568,
-            "original": "wdzięczny za pomoc (благодарный за помощь)",
-            "translate": "grateful for the help",
-            "isActive": true
+            id: 5678901234568,
+            original: "wdzięczny za pomoc (благодарный за помощь)",
+            translate: "grateful for the help",
+            isActive: true
         },
         {
-            "id": 6789012345679,
-            "original": "głodny sukcesu (голодный до успеха)",
-            "translate": "hungry for success",
-            "isActive": true
+            id: 6789012345679,
+            original: "głodny sukcesu (голодный до успеха)",
+            translate: "hungry for success",
+            isActive: true
         },
         {
-            "id": 7890123456780,
-            "original": "odczuwający ulgę po wiadomości (облегченный новостью)",
-            "translate": "relieved at the news",
-            "isActive": true
+            id: 7890123456780,
+            original: "odczuwający ulgę po wiadomości (облегченный новостью)",
+            translate: "relieved at the news",
+            isActive: true
         },
         {
-            "id": 8901234567891,
-            "original": "śpiący rano (сонный утром)",
-            "translate": "sleepy in the morning",
-            "isActive": true
+            id: 8901234567891,
+            original: "śpiący rano (сонный утром)",
+            translate: "sleepy in the morning",
+            isActive: true
         },
         {
-            "id": 9012345678902,
-            "original": "zaskoczony wynikiem (удивленный исходом)",
-            "translate": "surprised by the outcome",
-            "isActive": true
+            id: 9012345678902,
+            original: "zaskoczony wynikiem (удивленный исходом)",
+            translate: "surprised by the outcome",
+            isActive: true
         },
         {
-            "id": 1234567890125,
-            "original": "przerażony ciemnością (ужаснутый темнотой)",
-            "translate": "terrified of the dark",
-            "isActive": true
+            id: 1234567890125,
+            original: "przerażony ciemnością (ужаснутый темнотой)",
+            translate: "terrified of the dark",
+            isActive: true
         },
         {
-            "id": 2345678901236,
-            "original": "spragniony wiedzy (испытывающий жажду знаний)",
-            "translate": "thirsty for knowledge",
-            "isActive": true
+            id: 2345678901236,
+            original: "spragniony wiedzy (испытывающий жажду знаний)",
+            translate: "thirsty for knowledge",
+            isActive: true
         },
         {
-            "id": 3456789012347,
-            "original": "podekscytowany występem (в восторге от представления)",
-            "translate": "thrilled with the performance",
-            "isActive": true
+            id: 3456789012347,
+            original: "podekscytowany występem (в восторге от представления)",
+            translate: "thrilled with the performance",
+            isActive: true
         },
         {
-            "id": 4567890123458,
-            "original": "zmęczony podróżą (уставший от путешествия)",
-            "translate": "tired from the journey",
-            "isActive": true
+            id: 4567890123458,
+            original: "zmęczony podróżą (уставший от путешествия)",
+            translate: "tired from the journey",
+            isActive: true
         },
         {
-            "id": 5678901234569,
-            "original": "zasmucony zmianami (расстроенный изменениями)",
-            "translate": "upset about the changes",
-            "isActive": true
+            id: 5678901234569,
+            original: "zasmucony zmianami (расстроенный изменениями)",
+            translate: "upset about the changes",
+            isActive: true
         }
+    ],
+    week_4_verbs: [
+        {
+            id: 1705307435279,
+            original: "Она боится высоты",
+            translate: "She is afraid <b>of</b> height",
+            isActive: true
+        },
+        {
+            id: 1705307435280,
+            original: "Он был в настроении для приключений, поэтому забронировал поездку в Армению",
+            translate: "He was <b>in</b> a mood for adventure, so he booked a trip to the Armenia",
+            isActive: true
+        },
+        {
+            id: 1705307435281,
+            original: "Она нервничает из за завтрашнего собеседования на работу",
+            translate: "She is nervous <b>about</b> her job interview tomorrow",
+            isActive: true
+        },
+        {
+            id: 1705307435282,
+            original: "Я горжусь своей командой",
+            translate: "I'm proud <b>of</b> my team",
+            isActive: true
+        },
+        {
+            id: 1705307435283,
+            original: "Они были шокированы неожиданными новостями",
+            translate: "they were shocked <b>by</b> the unexpected news",
+            isActive: true
+        },
+        {
+            id: 1705307435284,
+            original: "Родиели часто волнуются о безопасности своих детей",
+            translate: "Parents often worry <b>about</b> their children's safety",
+            isActive: true
+        },
+        {
+            id: 1705307435285,
+            original: "Глубокое дыхание помогает ей <b>успокоиться</b>",
+            translate: "Deep breathing helps her to <b>calm down</b>",
+            isActive: true
+        },
+        {
+            id: 1705307435286,
+            original: "Водитель решил <b>ускориться</b>",
+            translate: "The driver decided to <b>speed up</b>",
+            isActive: true
+        },
+        {
+            id: 1705307435287,
+            original: "Пожалуйста, <b>распечатайте</b> отчет для встречи",
+            translate: "Please <b>print out the report for the meeting</b>",
+            isActive: true
+        },
+        {
+            id: 1705307435288,
+            original: "Он должен был <b>замедлить</b> свою машину из за сильного дождя",
+            translate: "He had to <b>slow down</b> his car due to the heavy rain",
+            isActive: true
+        },
+        {
+            id: 1705307435289,
+            original: "Атлеты <b>разминаются</b> перед соревниваниями",
+            translate: "The athletes <b>warm up</b> before the competition",
+            isActive: true
+        },
     ],
     week_5: [
         {
