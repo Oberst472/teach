@@ -1374,7 +1374,7 @@ export const en = {
         {
             id: 1705307435287,
             original: "Пожалуйста, <b>распечатайте</b> отчет для встречи",
-            translate: "Please <b>print out the report for the meeting</b>",
+            translate: "Please <b>print out</b> the report for the meeting",
             isActive: true
         },
         {
@@ -1511,5 +1511,67 @@ export const en = {
             translate: 'To use a tool ',
             isActive: true,
         },
+    ],
+    week_5_verbs: [
+        {
+            "id": 1,
+            "original": "<b>Вместо того</b>, чтобы смотреть телевизор, он решил почитать книгу.",
+            "translate": "Instead <b>of</b> watching TV, he decided to read a book.",
+            "isActive": true
+        },
+        {
+            "id": 2,
+            "original": "Она извинилась <b>перед</b> подругой за</b> опоздание.",
+            "translate": "She apologised <b>to</b> her friend <b>for</b> being late.",
+            "isActive": true
+        },
+        {
+            "id": 3,
+            "original": "<b>Для начала</b>, давайте определим основные цели нашего проекта. (Начнем с / Для начала)",
+            "translate": "To begin <b>with</b>, let's define the main goals of our project.",
+            "isActive": true
+        },
+        {
+            "id": 4,
+            "original": "Он <b>пожаловался на</b> шумных соседей.",
+            "translate": "He <b>complained about</b> the noisy neighbors.",
+            "isActive": true
+        },
+        {
+            "id": 5,
+            "original": "Она собирается <b>участвовать</b> в марафоне.",
+            "translate": "She is going to <b>participate in</b> the marathon.",
+            "isActive": true
+        },
+        {
+            "id": 6,
+            "original": "Официант <b>забрал</b> тарелки со стола. (Еда на вынос)",
+            "translate": "The waiter <b>took away</b> the plates from the table.",
+            "isActive": true
+        },
+        {
+            "id": 7,
+            "original": "Он <b>записал</b> её комментарий, чтобы не забыть.",
+            "translate": "<b>He took down</b> her comment so he wouldn't forget.",
+            "isActive": true
+        },
+        {
+            "id": 8,
+            "original": "<b>Снимать</b> платье.",
+            "translate": "<b>Take off</b> the dress.",
+            "isActive": true
+        },
+        {
+            "id": 9,
+            "original": "<b>Он пригласил</b> её в ресторан на ужин.",
+            "translate": "He <b>took her out</b> to a restaurant for dinner.",
+            "isActive": true
+        },
+        {
+            "id": 10,
+            "original": "Пожалуйста, <b>выньте</b> эту книгу из моего рюкзака.",
+            "translate": "Please <b>take</b> this book <b>out</b> of my backpack.",
+            "isActive": true
+        }
     ]
 }
