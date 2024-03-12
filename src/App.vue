@@ -20,7 +20,13 @@
     </ul>
 
     <ul class='app__nav second'>
-      <li class='app__nav-item app__nav-title'>Words <button class="app__nav-item-btn" @click="data.isKeyboardActive = true">Open keyboard</button></li>
+      <li class='app__nav-item app__nav-title'>
+        <span class="app__nav-title-text">Words</span>
+        <button class="app__nav-item-btn app__nav-item-btn--green"
+                @click="data.isAlgorithmChanged = !data.isAlgorithmChanged">Change algorithm
+        </button>
+        <button class="app__nav-item-btn" @click="data.isKeyboardActive = true">Open keyboard</button>
+      </li>
 
       <li class='app__nav-item' v-for='item in data.currentCategoryWords'>
         <span v-html="item.original"></span>: <span v-html="item.translate"></span>
@@ -28,9 +34,19 @@
     </ul>
 
     <div class='app__content'>
-      <div class='app__content-number' :class="{'app__content-number--accent': data.els.length === 0}"> {{ data.els.length }}</div>
-      <div class='app__content-current' v-html="data.current.original"></div>
-      <div class='app__content-translate' :class='{"hide": data.hidePrompt}' v-html="data.current.translate"></div>
+      <div class='app__content-number' :class="{'app__content-number--accent': data.els.length === 0}">
+        {{ data.els.length }}
+      </div>
+      <div class='app__content-current'
+           v-html="data.isAlgorithmChanged ? data.current.original : data.current.translate"
+      ></div>
+      <div class='app__content-translate'
+           :class='{"hide": data.hidePrompt}'
+           v-html="data.isAlgorithmChanged ? data.current.translate : data.current.original"
+      ></div>
+      <div class="app__content-inp">
+        <input type="text" v-model="data.inpValue" placeholder="enter the word">
+      </div>
       <div class='app__content-btns'>
         <button class='app__content-btn show' @click='data.hidePrompt = false'>Prompt</button>
         <button class='app__content-btn' @click='showNextWord'>Next word</button>
@@ -51,12 +67,13 @@ export default {
 </script>
 
 <script setup lang='ts'>
-import { en } from './jsons/en'
-import { pl } from './jsons/pl'
-import { computed, onMounted, reactive, watch } from 'vue';
+import {en} from './jsons/en'
+import {pl} from './jsons/pl'
+import {computed, onMounted, reactive, watch} from 'vue';
 import SectionKeyboard from './components/sections/keyboard/index.vue'
 
 const data = reactive({
+  inpValue: '',
   currentLanguage: 'en',
   activeCategoryWord: '',
   hidePrompt: true,
@@ -65,12 +82,13 @@ const data = reactive({
   defaultEls: [],
   currentCategoryWords: [],
   words: [],
-  isKeyboardActive: false
+  isKeyboardActive: false,
+  isAlgorithmChanged: false
 })
 
-const changeLang = function(val) {
+const changeLang = function (val) {
   data.currentLanguage = val
-    localStorage.setItem('currentLanguage', data.currentLanguage)
+  localStorage.setItem('currentLanguage', data.currentLanguage)
   data.words = val === 'en' ? en : pl
 
   const word = Object.keys(data.words)[0]
@@ -84,7 +102,7 @@ const changeLang = function(val) {
   changeInfo()
 }
 
-const changeActiveCategory = function(val: string) {
+const changeActiveCategory = function (val: string) {
   data.activeCategoryWord = val
   data.hidePrompt = true
   data.currentCategoryWords = data.words[val]
@@ -93,19 +111,29 @@ const changeActiveCategory = function(val: string) {
   changeInfo()
   localStorage.setItem('activeCategoryWord', val)
 }
-const goNextWord = function(e) {
+const goNextWord = function (e) {
   if (e.code === 'Space' || e.code === 'ShiftRight') data.hidePrompt = false
   if (['MetaRight', 'Enter', 'ArrowRight'].includes(e.code)) showNextWord()
 }
-const changeInfo = function() {
+const changeInfo = function () {
   if (!data.els.length) data.els = JSON.parse(JSON.stringify(data.defaultEls))
   let randomIndex = Math.floor(Math.random() * data.els.length)
   data.current = data.els.splice(randomIndex, 1)[0]
 }
-const showNextWord = function() {
+const showNextWord = function () {
   changeInfo()
   data.hidePrompt = true
 }
+
+watch(() => [
+  data.isKeyboardActive,
+  data.isAlgorithmChanged,
+  data.currentLanguage,
+  data.words,
+  data.currentCategoryWords,
+], () => {
+  data.inpValue = ''
+})
 
 onMounted(() => {
   if (localStorage.getItem('currentLanguage')) {
@@ -139,6 +167,7 @@ onMounted(() => {
   box-sizing: border-box;
   display: flex;
   padding: 30px;
+
   &__lang-btn {
     margin-right: 4px;
     padding: 0;
@@ -152,6 +181,7 @@ onMounted(() => {
     background-color: transparent;
     background-position: center;
     cursor: pointer;
+
     img {
       width: 100%;
       height: 100%;
@@ -195,9 +225,13 @@ onMounted(() => {
       &-btn {
         padding: 5px 10px;
         font-size: 12px;
-        margin-left: auto;
+        margin-left: 10px;
         background-color: #4efff0;
         color: #333333;
+
+        &--green {
+          background-color: #ff50c0;
+        }
       }
 
       &--active {
@@ -215,6 +249,10 @@ onMounted(() => {
       padding: 0 15px;
       background-color: #2f2f2f;
       border-bottom: 1px solid white;
+
+      &-text {
+        margin-right: auto;
+      }
     }
   }
 
@@ -239,10 +277,10 @@ onMounted(() => {
       position: absolute;
       right: 10px;
       top: 10px;
+
       &--accent {
         font-size: 30px;
         color: #20ff67;
-
       }
     }
 
@@ -264,6 +302,20 @@ onMounted(() => {
 
       &.hide {
         opacity: 0;
+      }
+    }
+
+    &-inp {
+      margin-top: 30px;
+
+      input {
+        width: 100%;
+        min-height: 60px;
+        padding: 10px 15px;
+        font-size: 18px;
+        border: 1px solid #ff50c0;
+        border-radius: 15px;
+        box-sizing: border-box;
       }
     }
 

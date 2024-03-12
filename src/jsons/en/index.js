@@ -207,6 +207,7 @@ export const en = {
             isActive: true
         },
     ],
+
     week_5: [
         {
             id: 1698826350122,
@@ -391,7 +392,8 @@ export const en = {
             "isActive": true
         }
     ],
-    week_6: [
+
+    week_6_jobs: [
         {
             id: 1698826350122,
             original: 'Osiągnąć sukces (Достичь успеха)',
@@ -581,5 +583,211 @@ export const en = {
             "isActive": true
         }
 
-    ]
+    ],
+
+    week_7_weather: [
+        {
+            id: 1,
+            original: 'weather forecast',
+            translate: "prognoza pogody / 'перевод слова на русском'",
+            isActive: true
+        },
+        {
+            id: 2,
+            original: 'boiling (hot)',
+            translate: "upalny, upalnie / 'перевод слова на русском'",
+            isActive: true
+        },
+        {
+            id: 3,
+            original: 'hot',
+            translate: "gorący, gorąco / 'перевод слова на русском'",
+            isActive: true
+        },
+        {
+            id: 4,
+            original: 'warm',
+            translate: "ciepły, ciepło / 'перевод слова на русском'",
+            isActive: true
+        },
+        {
+            id: 5,
+            original: 'cool/chilly',
+            translate: "chłodny, chłodno / 'перевод слова на русском'",
+            isActive: true
+        },
+        {
+            id: 6,
+            original: 'cold',
+            translate: "zimny, zimno / 'перевод слова на русском'",
+            isActive: true
+        },
+        {
+            id: 7,
+            original: 'freezing',
+            translate: "mroźny, mroźno / 'перевод слова на русском'",
+            isActive: true
+        },
+        {
+            id: 8,
+            original: 'sunny',
+            translate: "słoneczny, słonecznie / 'перевод слова на русском'",
+            isActive: true
+        },
+        {
+            id: 9,
+            original: 'cloudy',
+            translate: "pochmurny, pochmurnie / 'перевод слова на русском'",
+            isActive: true
+        },
+        {
+            id: 10,
+            original: 'rainy',
+            translate: "deszczowy, deszczowo / 'перевод слова на русском'",
+            isActive: true
+        },
+        {
+            id: 11,
+            original: 'windy',
+            translate: "wietrzny, wietrznie / 'перевод слова на русском'",
+            isActive: true
+        },
+        {
+            id: 12,
+            original: 'foggy',
+            translate: "mglisty, mgliście / 'перевод слова на русском'",
+            isActive: true
+        },
+        {
+            id: 13,
+            original: 'snowy',
+            translate: "śnieżny, śnieżnie / 'перевод слова на русском'",
+            isActive: true
+        },
+        {
+            id: 14,
+            original: 'stormy',
+            translate: "burzowy, burzowo / 'перевод слова на русском'",
+            isActive: true
+        },
+        {
+            id: 15,
+            original: 'dry',
+            translate: "suchy, sucho / 'перевод слова на русском'",
+            isActive: true
+        },
+        {
+            id: 16,
+            original: 'wet',
+            translate: "mokry, mokro / 'перевод слова на русском'",
+            isActive: true
+        },
+        {
+            id: 17,
+            original: 'clear',
+            translate: "czysty, przejrzysty / 'перевод слова на русском'",
+            isActive: true
+        },
+        {
+            id: 18,
+            original: 'cloudless sky',
+            translate: "bezchmurne niebo / 'перевод слова на русском'",
+            isActive: true
+        },
+        {
+            id: 19,
+            original: 'breeze',
+            translate: "wietrzyk / 'перевод слова на русском'",
+            isActive: true
+        },
+        {
+            id: 20,
+            original: 'drizzle',
+            translate: "mżawka / 'перевод слова на русском'",
+            isActive: true
+        },
+        {
+            id: 21,
+            original: 'shower',
+            translate: "przelotny opad / 'перевод слова на русском'",
+            isActive: true
+        },
+        {
+            id: 22,
+            original: 'heavy rain',
+            translate: "ulewny deszcz / 'перевод слова на русском'",
+            isActive: true
+        },
+        {
+            id: 23,
+            original: 'lightning',
+            translate: "błyskawica / 'перевод слова на русском'",
+            isActive: true
+        },
+        {
+            id: 24,
+            original: 'thunder',
+            translate: "grzmot / 'перевод слова на русском'",
+            isActive: true
+        },
+        {
+            id: 25,
+            original: 'rainbow',
+            translate: "tęcza / 'перевод слова на русском'",
+            isActive: true
+        },
+        {
+            id: 26,
+            original: 'shade',
+            translate: "cień / 'перевод слова на русском'",
+            isActive: true
+        },
+        {
+            id: 27,
+            original: 'degrees',
+            translate: "stopnie / 'перевод слова на русском'",
+            isActive: true
+        },
+        {
+            id: 28,
+            original: 'temperature',
+            translate: "temperatura / 'перевод слова на русском'",
+            isActive: true
+        },
+        {
+            id: 29,
+            original: 'mild',
+            translate: "łagodny / 'перевод слова на русском'",
+            isActive: true
+        },
+        {
+            id: 30,
+            original: 'to clear up',
+            translate: "przejaśniać, rozpogadzać się / 'перевод слова на русском'",
+            isActive: true
+        },
+        {
+            id: 31,
+            original: 'to cloud over',
+            translate: "chmurzyć się / 'перевод слова на русском'",
+            isActive: true
+        },
+        {
+            id: 32,
+            original: 'to rise',
+            translate: "wschodzić (o słońcu) / 'перевод слова на русском'",
+            isActive: true
+        },
+        {
+            id: 33,
+            original: 'to set',
+            translate: "zachodzić (o słońcu) / 'перевод слова на русском'",
+            isActive: true
+        },
+        {
+            id: 34,
+            original: 'to shine',
+            translate: "świecić / 'перевод слова на русском'",
+            isActive: true
+        }]
 }
