@@ -223,7 +223,7 @@ export const en = {
         },
         {
             id: 1698826350124,
-            original: 'Zgodzić się na plan (Согласовать план)',
+            original: 'Zgodzić się na plan (Согласиться на план)',
             translate: 'To agree on a plan',
             isActive: true,
         },
