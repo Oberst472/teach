@@ -121,6 +121,7 @@ const changeInfo = function () {
   data.current = data.els.splice(randomIndex, 1)[0]
 }
 const showNextWord = function () {
+  data.inpValue = ''
   changeInfo()
   data.hidePrompt = true
 }
