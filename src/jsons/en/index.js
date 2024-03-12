@@ -394,126 +394,41 @@ export const en = {
     ],
 
     week_6_jobs: [
-        {
-            id: 1698826350122,
-            original: 'Osiągnąć sukces (Достичь успеха)',
-            translate: 'To achieve success',
-            isActive: true,
-        },
-        {
-            id: 1698826350123,
-            original: 'Pozwolić sobie na samochód (Позволить себе машину)',
-            translate: 'To afford a car',
-            isActive: true,
-        },
-        {
-            id: 1698826350124,
-            original: 'Zgodzić się na plan (Согласовать план)',
-            translate: 'To agree on a plan',
-            isActive: true,
-        },
-        {
-            id: 1698826350125,
-            original: 'Odwołać spotkanie (Отменить встречу)',
-            translate: 'To cancel a meeting ',
-            isActive: true,
-        },
-        {
-            id: 1698826350126,
-            original: 'Sprawdzić informację (Проверить информацию)',
-            translate: 'To check information',
-            isActive: true,
-        },
-        {
-            id: 1698826350127,
-            original: 'Skarżyć się na obsługę (Пожаловаться на обслуживание)',
-            translate: 'To complain about service',
-            isActive: true,
-        },
-        {
-            id: 1698826350128,
-            original: 'Odkryć sekret (Обнаружить секрет)',
-            translate: 'To discover a secret',
-            isActive: true,
-        },
-        {
-            id: 1698826350129,
-            original: 'Przeszkadzać komuś (Помешать кому-то)',
-            translate: 'To disturb someone',
-            isActive: true,
-        },
-        {
-            id: 1698826350130,
-            original: 'Oczekiwać wyników (Ожидать результатов)',
-            translate: 'To expect results',
-            isActive: true,
-        },
-        {
-            id: 1698826350131,
-            original: 'Podobać się komuś (Нравиться кому-то)',
-            translate: 'To fancy someone',
-            isActive: true,
-        },
-        {
-            id: 1698826350132,
-            original: 'Odgadnąć odpowiedź (Угадать ответ)',
-            translate: 'To guess an answer',
-            isActive: true,
-        },
-        {
-            id: 1698826350133,
-            original: 'Zawierać szczegóły (Включить детали)',
-            translate: 'To include details',
-            isActive: true,
-        },
-        {
-            id: 1698826350134,
-            original: 'Ściszyć głośność (Понизить громкость)',
-            translate: 'To lower the volume',
-            isActive: true,
-        },
-        {
-            id: 1698826350135,
-            original: 'Pilnować manier (Следить за манерами)',
-            translate: 'To mind your manners',
-            isActive: true,
-        },
-        {
-            id: 1698826350136,
-            original: 'Zdać egzamin (Сдать экзамен)',
-            translate: 'To pass an exam',
-            isActive: true,
-        },
-        {
-            id: 1698826350137,
-            original: 'Udawać szczęśliwego (Притворяться счастливым)',
-            translate: 'To pretend to be happy',
-            isActive: true,
-        },
-        {
-            id: 1698826350138,
-            original: 'Pociągnąć drzwi (Тянуть дверь)',
-            translate: 'To pull a door ',
-            isActive: true,
-        },
-        {
-            id: 1698826350139,
-            original: 'Nacisnąć przycisk (Нажать кнопку)',
-            translate: 'To push a button',
-            isActive: true,
-        },
-        {
-            id: 1698826350140,
-            original: 'Rozwiązać problem (Решить проблему)',
-            translate: 'To solve a problem',
-            isActive: true,
-        },
-        {
-            id: 1698826350141,
-            original: 'Używać narzędzia (Использовать инструмент)',
-            translate: 'To use a tool ',
-            isActive: true,
-        },
+        { id: 1, original: 'accountant', translate: "księgowy / бухгалтер", isActive: true },
+        { id: 2, original: 'bank clerk', translate: "urzędnik bankowy / банковский клерк", isActive: true },
+        { id: 3, original: 'beautician', translate: "kosmetyczka / косметолог", isActive: true },
+        { id: 4, original: 'chef', translate: "kucharz (w restauracji) / шеф-повар", isActive: true },
+        { id: 5, original: 'doctor', translate: "lekarz / врач", isActive: true },
+        { id: 6, original: 'driving instructor', translate: "instruktor jazdy / инструктор по вождению", isActive: true },
+        { id: 7, original: 'electrician', translate: "elektryk / электрик", isActive: true },
+        { id: 8, original: 'engineer', translate: "inżynier / инженер", isActive: true },
+        { id: 9, original: 'estate agent', translate: "agent nieruchomości / агент по недвижимости", isActive: true },
+        { id: 10, original: 'fashion/interior designer', translate: "projektant mody/wnętrz / дизайнер одежды/интерьеров", isActive: true },
+        { id: 11, original: 'firefighter/fireman', translate: "strażak / пожарный", isActive: true },
+        { id: 12, original: 'flight attendant', translate: "stewardesa / стюардесса", isActive: true },
+        { id: 13, original: 'hairdresser', translate: "fryzjerka / парикмахер", isActive: true },
+        { id: 14, original: 'lawyer', translate: "prawnik / юрист", isActive: true },
+        { id: 15, original: 'lorry/taxi driver', translate: "kierowca ciężarówki/taksówki / водитель грузовика/такси", isActive: true },
+        { id: 16, original: 'musician', translate: "muzyk / музыкант", isActive: true },
+        { id: 17, original: 'nurse', translate: "pielęgniarka / медсестра", isActive: true },
+        { id: 18, original: 'photographer', translate: "fotograf / фотограф", isActive: true },
+        { id: 19, original: 'plumber', translate: "hydraulik / сантехник", isActive: true },
+        { id: 20, original: 'politician', translate: "polityk / политик", isActive: true },
+        { id: 21, original: 'postman', translate: "listonosz / почтальон", isActive: true },
+        { id: 22, original: 'priest', translate: "ksiądz / священник", isActive: true },
+        { id: 23, original: 'programmer', translate: "programista / программист", isActive: true },
+        { id: 24, original: 'receptionist', translate: "recepcjonista / рецепционист", isActive: true },
+        { id: 25, original: 'journalist', translate: "dziennikarz / журналист", isActive: true },
+        { id: 26, original: 'sales rep (representative)', translate: "przedstawiciel handlowy / торговый представитель", isActive: true },
+        { id: 27, original: 'scientist', translate: "naukowiec / ученый", isActive: true },
+        { id: 28, original: 'security guard', translate: "ochroniarz / охранник", isActive: true },
+        { id: 29, original: 'shoemaker/cobbler', translate: "szewc / сапожник", isActive: true },
+        { id: 30, original: 'soldier', translate: "żołnierz / солдат", isActive: true },
+        { id: 31, original: 'tailor', translate: "krawiec / портной", isActive: true },
+        { id: 32, original: 'teacher', translate: "nauczyciel / учитель", isActive: true },
+        { id: 33, original: 'tour guide', translate: "przewodnik wycieczek / гид", isActive: true },
+        { id: 34, original: 'vet (veterinarian)', translate: "weterynarz / ветеринар", isActive: true },
+        { id: 35, original: 'waiter/waitress', translate: "kelner/kelnerka / официант/официантка", isActive: true }
     ],
     week_6_verbs: [
         {
@@ -589,205 +504,206 @@ export const en = {
         {
             id: 1,
             original: 'weather forecast',
-            translate: "prognoza pogody",
+            translate: "prognoza pogody / прогноз погоды",
             isActive: true
         },
         {
             id: 2,
             original: 'boiling (hot)',
-            translate: "upalny, upalnie",
+            translate: "upalny, upalnie / жаркий, очень жарко",
             isActive: true
         },
         {
             id: 3,
             original: 'hot',
-            translate: "gorący, gorąco",
+            translate: "gorący, gorąco / горячий, жарко",
             isActive: true
         },
         {
             id: 4,
             original: 'warm',
-            translate: "ciepły, ciepło",
+            translate: "ciepły, ciepło / теплый, тепло",
             isActive: true
         },
         {
             id: 5,
             original: 'cool/chilly',
-            translate: "chłodny, chłodno",
+            translate: "chłodny, chłodno / прохладный, прохладно",
             isActive: true
         },
         {
             id: 6,
             original: 'cold',
-            translate: "zimny, zimno",
+            translate: "zimny, zimno / холодный, холодно",
             isActive: true
         },
         {
             id: 7,
             original: 'freezing',
-            translate: "mroźny, mroźno",
+            translate: "mroźny, mroźno / морозный, морозно",
             isActive: true
         },
         {
             id: 8,
             original: 'sunny',
-            translate: "słoneczny, słonecznie",
+            translate: "słoneczny, słonecznie / солнечный, солнечно",
             isActive: true
         },
         {
             id: 9,
             original: 'cloudy',
-            translate: "pochmurny, pochmurnie",
+            translate: "pochmurny, pochmurnie / облачный, облачно",
             isActive: true
         },
         {
             id: 10,
             original: 'rainy',
-            translate: "deszczowy, deszczowo",
+            translate: "deszczowy, deszczowo / дождливый, дождливо",
             isActive: true
         },
         {
             id: 11,
             original: 'windy',
-            translate: "wietrzny, wietrznie",
+            translate: "wietrzny, wietrznie / ветреный, ветрено",
             isActive: true
         },
         {
             id: 12,
             original: 'foggy',
-            translate: "mglisty, mgliście",
+            translate: "mglisty, mgliście / туманный, туманно",
             isActive: true
         },
         {
             id: 13,
             original: 'snowy',
-            translate: "śnieżny, śnieżnie",
+            translate: "śnieżny, śnieżnie / снежный, снежно",
             isActive: true
         },
         {
             id: 14,
             original: 'stormy',
-            translate: "burzowy, burzowo",
+            translate: "burzowy, burzowo / бурный, бурно",
             isActive: true
         },
         {
             id: 15,
             original: 'dry',
-            translate: "suchy, sucho",
+            translate: "suchy, sucho / сухой, сухо",
             isActive: true
         },
         {
             id: 16,
             original: 'wet',
-            translate: "mokry, mokro",
+            translate: "mokry, mokro / мокрый, мокро",
             isActive: true
         },
         {
             id: 17,
             original: 'clear',
-            translate: "czysty, przejrzysty",
+            translate: "czysty, przejrzysty / ясный, ясно",
             isActive: true
         },
         {
             id: 18,
             original: 'cloudless sky',
-            translate: "bezchmurne niebo",
+            translate: "bezchmurne niebo / безоблачное небо",
             isActive: true
         },
         {
             id: 19,
             original: 'breeze',
-            translate: "wietrzyk",
+            translate: "wietrzyk / легкий ветерок",
             isActive: true
         },
         {
             id: 20,
             original: 'drizzle',
-            translate: "mżawka",
+            translate: "mżawka / морось",
             isActive: true
         },
         {
             id: 21,
             original: 'shower',
-            translate: "przelotny opad",
+            translate: "przelotny opad / ливень",
             isActive: true
         },
         {
             id: 22,
             original: 'heavy rain',
-            translate: "ulewny deszcz",
+            translate: "ulewny deszcz / проливной дождь",
             isActive: true
         },
         {
             id: 23,
             original: 'lightning',
-            translate: "błyskawica",
+            translate: "błyskawica / молния",
             isActive: true
         },
         {
             id: 24,
             original: 'thunder',
-            translate: "grzmot",
+            translate: "grzmot / гром",
             isActive: true
         },
         {
             id: 25,
             original: 'rainbow',
-            translate: "tęcza",
+            translate: "tęcza / радуга",
             isActive: true
         },
         {
             id: 26,
             original: 'shade',
-            translate: "cień",
+            translate: "cień / тень",
             isActive: true
         },
         {
             id: 27,
             original: 'degrees',
-            translate: "stopnie",
+            translate: "stopnie / градусы",
             isActive: true
         },
         {
             id: 28,
             original: 'temperature',
-            translate: "temperatura",
+            translate: "temperatura / температура",
             isActive: true
         },
         {
             id: 29,
             original: 'mild',
-            translate: "łagodny",
+            translate: "łagodny / мягкий",
             isActive: true
         },
         {
             id: 30,
             original: 'to clear up',
-            translate: "przejaśniać, rozpogadzać się",
+            translate: "przejaśniać, rozpogadzać się / проясняться, разгонять облака",
             isActive: true
         },
         {
             id: 31,
             original: 'to cloud over',
-            translate: "chmurzyć się",
+            translate: "chmurzyć się / затягиваться облаками",
             isActive: true
         },
         {
             id: 32,
             original: 'to rise',
-            translate: "wschodzić (o słońcu)",
+            translate: "wschodzić (o słońcu) / восходить (о солнце)",
             isActive: true
         },
         {
             id: 33,
             original: 'to set',
-            translate: "zachodzić (o słońcu)",
+            translate: "zachodzić (o słońcu) / заходить (о солнце)",
             isActive: true
         },
         {
             id: 34,
             original: 'to shine',
-            translate: "świecić",
+            translate: "świecić / светить",
             isActive: true
-        }]
+        }
+    ]
 }
