@@ -705,5 +705,38 @@ export const en = {
             translate: "świecić / светить",
             isActive: true
         }
-    ]
+    ],
+    week_7_verbs: [
+        {
+            "id": 1,
+            "original": "abowe / belaw",
+            "translate": "powyzej/ ponizei zera",
+            "isActive": true
+        },
+        {
+            "id": 1,
+            "original": "be like",
+            "translate": "What's he like?, What's the weather like today?",
+            "isActive": true
+        },
+        {
+            "id": 1,
+            "original": "in the sky ",
+            "translate": "na niebie",
+            "isActive": true
+        },
+        {
+            "id": 1,
+            "original": "to lie in the sun",
+            "translate": "lezed w stoncu",
+            "isActive": true
+        },
+        {
+            "id": 1,
+            "original": "to pour with rain ",
+            "translate": "дождь как из ведра",
+            "isActive": true
+        }
+    ],
+
 }
