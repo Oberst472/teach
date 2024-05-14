@@ -736,9 +736,27 @@ export const en = {
             "original": "to pour with rain ",
             "translate": "дождь как из ведра",
             "isActive": true
+        },
+        {
+            "id": 6,
+            "original": "to go away",
+            "translate": "wyjeżdżać, znicać (bol)",
+            "isActive": true
+        },
+        {
+            "id": 7,
+            "original": "go through a lot of problems",
+            "translate": "пройти через что то",
+            "isActive": true
+        },
+        {
+            "id": 8,
+            "original": "to go off",
+            "translate": "zadzwonić (o alarmie)",
+            "isActive": true
         }
     ],
-    week_8: [
+    week_9: [
         {
             "id": 1,
             "original": "amazing",
