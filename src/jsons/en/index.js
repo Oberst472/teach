@@ -714,29 +714,111 @@ export const en = {
             "isActive": true
         },
         {
-            "id": 1,
+            "id": 2,
             "original": "be like",
             "translate": "What's he like?, What's the weather like today?",
             "isActive": true
         },
         {
-            "id": 1,
+            "id": 3,
             "original": "in the sky ",
             "translate": "na niebie",
             "isActive": true
         },
         {
-            "id": 1,
+            "id": 4,
             "original": "to lie in the sun",
             "translate": "lezed w stoncu",
             "isActive": true
         },
         {
-            "id": 1,
+            "id": 5,
             "original": "to pour with rain ",
             "translate": "дождь как из ведра",
             "isActive": true
         }
     ],
+    week_8: [
+        {
+            "id": 1,
+            "original": "amazing",
+            "translate": "niezwykły, wspaniały (удивительный изумительный)",
+            "isActive": true
+        },
+        {
+            "id": 2,
+            "original": "awful",
+            "translate": "okropny (ужасный)",
+            "isActive": true
+        },
+        {
+            "id": 3,
+            "original": "devastated",
+            "translate": "załamany (опустошенный / разрушенный)",
+            "isActive": true
+        },
+        {
+            "id": 4,
+            "original": "enormous",
+            "translate": "ogromny (грандиозный здоровенный)",
+            "isActive": true
+        },
+        {
+            "id": 5,
+            "original": "filthy",
+            "translate": "bardzo brudny",
+            "isActive": true
+        },
+        {
+            "id": 6,
+            "original": "furious",
+            "translate": "wściekły (яростный / свирепый / бешенный)",
+            "isActive": true
+        },
+        {
+            "id": 7,
+            "original": "gorgeous",
+            "translate": "przepiękny, boski",
+            "isActive": true
+        },
+        {
+            "id": 8,
+            "original": "hilarious",
+            "translate": "bardzo zabawny, kimiczny",
+            "isActive": true
+        },
+        {
+            "id": 9,
+            "original": "straving",
+            "translate": "baardzo głodny",
+            "isActive": true
+        },
+        {
+            "id": 10,
+            "original": "",
+            "translate": "przepiękny, boski",
+            "isActive": true
+        },
+        {
+            "id": 11,
+            "original": "terrified",
+            "translate": "przerażony (напуганный)",
+            "isActive": true
+        },
+        {
+            "id": 12,
+            "original": "thrilled",
+            "translate": "zachwycony, podekscytowany (в восторге / взволнованный / взбудораженный)",
+            "isActive": true
+        },
+        {
+            "id": 13,
+            "original": "tiny",
+            "translate": "malutki",
+            "isActive": true
+        },
+    ],
+
+
 
 }
