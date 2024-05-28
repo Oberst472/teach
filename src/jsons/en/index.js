@@ -813,7 +813,7 @@ export const en = {
         },
         {
             "id": 10,
-            "original": "",
+            "original": "gorgeous",
             "translate": "przepiękny, boski",
             "isActive": true
         },
