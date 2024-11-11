@@ -784,19 +784,13 @@ export const en = {
         {
             "id": 5,
             "original": "filthy",
-            "translate": "bardzo brudny",
+            "translate": "bardzo brudny / замызганный / омерзительный / отвратительный",
             "isActive": true
         },
         {
             "id": 6,
             "original": "furious",
             "translate": "wściekły (яростный / свирепый / бешенный)",
-            "isActive": true
-        },
-        {
-            "id": 7,
-            "original": "gorgeous",
-            "translate": "przepiękny, boski",
             "isActive": true
         },
         {
@@ -836,7 +830,78 @@ export const en = {
             "isActive": true
         },
     ],
-
-
-
+    week_12: [
+        {
+            "id": 1,
+            "original": "cure <b>for</b>",
+            "translate": "lekarstwo na",
+            "isActive": true
+        },
+        {
+            "id": 2,
+            "original": "to be allergic <b>to</b>",
+            "translate": "mieć alergię na",
+            "isActive": true
+        },
+        {
+            "id": 3,
+            "original": "to be <b>in<b/> good/bad health",
+            "translate": "być w dobrej/złej kondycji zdrowotnej",
+            "isActive": true
+        },
+        {
+            "id": 4,
+            "original": "to be <b>in<b/> hospital",
+            "translate": "być w szpitalu",
+            "isActive": true
+        },
+        {
+            "id": 5,
+            "original": "to be <b>in<b/> pain",
+            "translate": "испытывать боль",
+            "isActive": true
+        },
+        {
+            "id": 6,
+            "original": "to suffer from",
+            "translate": "страдать из за чего то",
+            "isActive": true
+        },
+        {
+            "id": 7,
+            "original": "to get back",
+            "translate": "возвращаться, восстанавливать (например, деньги)",
+            "isActive": true
+        },
+        {
+            "id": 8,
+            "original": "to get in(to)",
+            "translate": "входить, садиться (например, в машину)",
+            "isActive": true
+        },
+        {
+            "id": 9,
+            "original": "to get out (of)",
+            "translate": "выходить, высаживаться (например, из машины)",
+            "isActive": true
+        },
+        {
+            "id": 10,
+            "original": "to get off",
+            "translate": "сходить, выходить (например, из поезда)",
+            "isActive": true
+        },
+        {
+            "id": 11,
+            "original": "to get on",
+            "translate": "садиться (например, в поезд)",
+            "isActive": true
+        },
+        {
+            "id": 12,
+            "original": "to get up",
+            "translate": "вставать",
+            "isActive": true
+        }
+    ]
 }
