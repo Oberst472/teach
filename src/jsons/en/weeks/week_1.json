@@ -1,0 +1,347 @@
+[
+    {
+        "title": "words",
+        "items": [
+            {
+                "id": 1,
+                "original": "wife",
+                "translate": "жена",
+                "isActive": true
+            },
+            {
+                "id": 2,
+                "original": "husband",
+                "translate": "муж",
+                "isActive": true
+            },
+            {
+                "id": 3,
+                "original": "mother, mum",
+                "translate": "мать, мама",
+                "isActive": true
+            },
+            {
+                "id": 4,
+                "original": "father, dad",
+                "translate": "отец, папа",
+                "isActive": true
+            },
+            {
+                "id": 5,
+                "original": "daughter",
+                "translate": "дочь",
+                "isActive": true
+            },
+            {
+                "id": 6,
+                "original": "son",
+                "translate": "сын",
+                "isActive": true
+            },
+            {
+                "id": 7,
+                "original": "only child",
+                "translate": "единственный ребёнок",
+                "isActive": true
+            },
+            {
+                "id": 8,
+                "original": "sister",
+                "translate": "сестра",
+                "isActive": true
+            },
+            {
+                "id": 9,
+                "original": "brother",
+                "translate": "брат",
+                "isActive": true
+            },
+            {
+                "id": 10,
+                "original": "siblings",
+                "translate": "братья и сёстры",
+                "isActive": true
+            },
+            {
+                "id": 11,
+                "original": "twin",
+                "translate": "близнец",
+                "isActive": true
+            },
+            {
+                "id": 12,
+                "original": "grandmother",
+                "translate": "бабушка",
+                "isActive": true
+            },
+            {
+                "id": 13,
+                "original": "great-grandmother",
+                "translate": "прабабушка",
+                "isActive": true
+            },
+            {
+                "id": 14,
+                "original": "granddaughter",
+                "translate": "внучка",
+                "isActive": true
+            },
+            {
+                "id": 15,
+                "original": "aunt",
+                "translate": "тётя",
+                "isActive": true
+            },
+            {
+                "id": 16,
+                "original": "uncle",
+                "translate": "дядя",
+                "isActive": true
+            },
+            {
+                "id": 17,
+                "original": "nephew",
+                "translate": "племянник",
+                "isActive": true
+            },
+            {
+                "id": 18,
+                "original": "niece",
+                "translate": "племянница",
+                "isActive": true
+            },
+            {
+                "id": 19,
+                "original": "cousin",
+                "translate": "двоюродный брат, двоюродная сестра",
+                "isActive": true
+            },
+            {
+                "id": 20,
+                "original": "parents-in-law",
+                "translate": "родители мужа/жены (свёкры, тесть и тёща)",
+                "isActive": true
+            },
+            {
+                "id": 21,
+                "original": "daughter-in-law",
+                "translate": "невестка (жена сына)",
+                "isActive": true
+            },
+            {
+                "id": 22,
+                "original": "sister-in-law",
+                "translate": "золовка, свояченица, невестка (жена брата)",
+                "isActive": true
+            },
+            {
+                "id": 23,
+                "original": "stepmother",
+                "translate": "мачеха",
+                "isActive": true
+            }
+        ]
+    },
+    {
+        "title": "prepositions",
+        "items": [
+            {
+                "id": 24,
+                "original": "to argue <b>with</b>",
+                "translate": "ссориться с",
+                "isActive": true
+            },
+            {
+                "id": 25,
+                "original": "to get <b>on</b> (well) <b>with</b>",
+                "translate": "ладить с кем-то, быть в хороших отношениях",
+                "isActive": true
+            },
+            {
+                "id": 26,
+                "original": "to have sth <b>in</b> common <b>with</b> sb",
+                "translate": "иметь что-то общее с кем-то",
+                "isActive": true
+            },
+            {
+                "id": 27,
+                "original": "to live <b>with</b> sb",
+                "translate": "жить с кем-то",
+                "isActive": true
+            },
+            {
+                "id": 28,
+                "original": "to look <b>like</b>",
+                "translate": "быть похожим на, выглядеть как",
+                "isActive": true
+            },
+            {
+                "id": 29,
+                "original": "to take care <b>of</b>",
+                "translate": "заботиться о (ком-то), присматривать за",
+                "isActive": true
+            }
+        ]
+    },
+    {
+        "title": "phrasal verbs",
+        "items": [
+            {
+                "id": 30,
+                "original": "to turn on",
+                "translate": "включать, открывать (воду, кран)",
+                "isActive": true
+            },
+            {
+                "id": 31,
+                "original": "to turn off",
+                "translate": "выключать, закрывать (воду, кран)",
+                "isActive": true
+            },
+            {
+                "id": 32,
+                "original": "to turn down",
+                "translate": "делать тише, убавлять; также: отклонять (например, предложение)",
+                "isActive": true
+            },
+            {
+                "id": 33,
+                "original": "to turn up",
+                "translate": "делать громче, прибавлять; также: появляться (о человеке или вещи)",
+                "isActive": true
+            },
+            {
+                "id": 34,
+                "original": "to turn around",
+                "translate": "поворачиваться, оборачиваться",
+                "isActive": true
+            }
+        ]
+    },
+    {
+        "title": "grammar",
+        "description": "<h3>Present Simple vs Present Continuous</h3>\n<p><b>Present Simple</b> — то, что происходит регулярно, всегда или вообще: привычки, факты, расписания.</p>\n<ul>\n<li>Форма: I/you/we/they <b>work</b>, he/she/it <b>works</b></li>\n<li>Отрицание и вопрос: <b>don't/doesn't work</b>, <b>Do/Does</b> … <b>work</b>?</li>\n<li>Маркеры: always, usually, often, sometimes, never, every day, on Fridays</li>\n<li>Пример: My brother <b>lives</b> with our parents.</li>\n</ul>\n<p><b>Present Continuous</b> — то, что происходит сейчас или временно в этот период.</p>\n<ul>\n<li>Форма: am/is/are + глагол с -ing: I'<b>m working</b>, she'<b>s working</b></li>\n<li>Отрицание и вопрос: <b>isn't/aren't working</b>, <b>Are</b> you <b>working</b>?</li>\n<li>Маркеры: now, right now, at the moment, this week, today, Look!, Listen!</li>\n<li>Пример: My husband <b>is cooking</b> dinner right now.</li>\n</ul>\n<p><b>Запомни</b></p>\n<ul>\n<li>Обычно vs временно: She usually <b>works</b> from home, but this week she <b>is working</b> in the office.</li>\n<li>Continuous для планов на ближайшее будущее: We <b>are visiting</b> my parents tomorrow.</li>\n<li>always + Continuous — раздражающая привычка: He <b>is always borrowing</b> my things!</li>\n<li>Глаголы состояния обычно не бывают в Continuous: know, understand, like, love, hate, want, need, believe, belong, have (= иметь).</li>\n</ul>",
+        "items": [
+            {
+                "id": 35,
+                "original": "My brother <b>lives</b> with our parents.",
+                "translate": "Мой брат живёт с нашими родителями. (Present Simple)",
+                "isActive": true
+            },
+            {
+                "id": 36,
+                "original": "My sister <b>doesn't get on</b> well with her mother-in-law.",
+                "translate": "Моя сестра не ладит со своей свекровью. (Present Simple)",
+                "isActive": true
+            },
+            {
+                "id": 37,
+                "original": "<b>Do</b> you <b>have</b> any siblings?",
+                "translate": "У тебя есть братья или сёстры? (Present Simple)",
+                "isActive": true
+            },
+            {
+                "id": 38,
+                "original": "My grandmother <b>takes care of</b> my nephew every Friday.",
+                "translate": "Моя бабушка присматривает за моим племянником каждую пятницу. (Present Simple)",
+                "isActive": true
+            },
+            {
+                "id": 39,
+                "original": "My twin brother and I <b>have</b> a lot in common.",
+                "translate": "У нас с братом-близнецом много общего. (Present Simple)",
+                "isActive": true
+            },
+            {
+                "id": 40,
+                "original": "Our cousins usually <b>visit</b> us at Christmas.",
+                "translate": "Наши двоюродные братья обычно навещают нас на Рождество. (Present Simple)",
+                "isActive": true
+            },
+            {
+                "id": 41,
+                "original": "She <b>looks</b> like her father.",
+                "translate": "Она похожа на своего отца. (Present Simple)",
+                "isActive": true
+            },
+            {
+                "id": 42,
+                "original": "My parents never <b>argue</b> with each other.",
+                "translate": "Мои родители никогда не ссорятся друг с другом. (Present Simple)",
+                "isActive": true
+            },
+            {
+                "id": 43,
+                "original": "<b>Does</b> your aunt <b>work</b> as a teacher?",
+                "translate": "Твоя тётя работает учителем? (Present Simple)",
+                "isActive": true
+            },
+            {
+                "id": 44,
+                "original": "I <b>don't understand</b> why my uncle is angry.",
+                "translate": "Я не понимаю, почему мой дядя злится. (Present Simple) — understand не используется в Continuous",
+                "isActive": true
+            },
+            {
+                "id": 45,
+                "original": "My husband <b>is cooking</b> dinner right now.",
+                "translate": "Мой муж сейчас готовит ужин. (Present Continuous)",
+                "isActive": true
+            },
+            {
+                "id": 46,
+                "original": "Look! The kids <b>are arguing</b> again.",
+                "translate": "Смотри! Дети опять ссорятся. (Present Continuous)",
+                "isActive": true
+            },
+            {
+                "id": 47,
+                "original": "<b>Are</b> you <b>looking after</b> your niece this week?",
+                "translate": "Ты присматриваешь за своей племянницей на этой неделе? (Present Continuous)",
+                "isActive": true
+            },
+            {
+                "id": 48,
+                "original": "My daughter <b>isn't living</b> with us at the moment.",
+                "translate": "Моя дочь сейчас не живёт с нами. (Present Continuous)",
+                "isActive": true
+            },
+            {
+                "id": 49,
+                "original": "My son <b>is staying</b> with his grandparents this summer.",
+                "translate": "Мой сын этим летом гостит у бабушки с дедушкой. (Present Continuous)",
+                "isActive": true
+            },
+            {
+                "id": 50,
+                "original": "What <b>is</b> your sister <b>doing</b> now?",
+                "translate": "Что твоя сестра сейчас делает? (Present Continuous)",
+                "isActive": true
+            },
+            {
+                "id": 51,
+                "original": "We <b>are visiting</b> my parents-in-law tomorrow.",
+                "translate": "Завтра мы навещаем родителей жены/мужа. (Present Continuous) — запланированное будущее",
+                "isActive": true
+            },
+            {
+                "id": 52,
+                "original": "My brother <b>is always borrowing</b> my things!",
+                "translate": "Мой брат вечно берёт мои вещи! (Present Continuous) — раздражающая привычка с always",
+                "isActive": true
+            },
+            {
+                "id": 53,
+                "original": "Can you turn down the music? The baby <b>is sleeping</b>.",
+                "translate": "Можешь сделать музыку потише? Малыш спит. (Present Continuous)",
+                "isActive": true
+            },
+            {
+                "id": 54,
+                "original": "My stepmother usually <b>works</b> from home, but this week she <b>is working</b> in the office.",
+                "translate": "Моя мачеха обычно работает из дома, но на этой неделе она работает в офисе. (Present Simple + Present Continuous)",
+                "isActive": true
+            }
+        ]
+    }
+]

@@ -1,0 +1,419 @@
+[
+    {
+        "title": "words",
+        "items": [
+            {
+                "id": 1,
+                "original": "absolutely",
+                "translate": "абсолютно, совершенно",
+                "isActive": true
+            },
+            {
+                "id": 2,
+                "original": "actually",
+                "translate": "на самом деле, вообще-то",
+                "isActive": true
+            },
+            {
+                "id": 3,
+                "original": "certainly",
+                "translate": "конечно, безусловно",
+                "isActive": true
+            },
+            {
+                "id": 4,
+                "original": "completely",
+                "translate": "полностью, совершенно",
+                "isActive": true
+            },
+            {
+                "id": 5,
+                "original": "easily",
+                "translate": "легко, без труда",
+                "isActive": true
+            },
+            {
+                "id": 6,
+                "original": "especially",
+                "translate": "особенно",
+                "isActive": true
+            },
+            {
+                "id": 7,
+                "original": "even",
+                "translate": "даже",
+                "isActive": true
+            },
+            {
+                "id": 8,
+                "original": "except (for)",
+                "translate": "кроме, за исключением",
+                "isActive": true
+            },
+            {
+                "id": 9,
+                "original": "extremely",
+                "translate": "чрезвычайно, крайне",
+                "isActive": true
+            },
+            {
+                "id": 10,
+                "original": "finally",
+                "translate": "наконец, в конце концов",
+                "isActive": true
+            },
+            {
+                "id": 11,
+                "original": "hard",
+                "translate": "усердно, тяжело",
+                "isActive": true
+            },
+            {
+                "id": 12,
+                "original": "hardly",
+                "translate": "едва, почти не (I can hardly hear you — Я тебя едва слышу)",
+                "isActive": true
+            },
+            {
+                "id": 13,
+                "original": "hopefully",
+                "translate": "надеюсь, будем надеяться",
+                "isActive": true
+            },
+            {
+                "id": 14,
+                "original": "immediately",
+                "translate": "немедленно",
+                "isActive": true
+            },
+            {
+                "id": 15,
+                "original": "kindly",
+                "translate": "любезно, вежливо",
+                "isActive": true
+            },
+            {
+                "id": 16,
+                "original": "madly",
+                "translate": "безумно",
+                "isActive": true
+            },
+            {
+                "id": 17,
+                "original": "nearly",
+                "translate": "почти",
+                "isActive": true
+            },
+            {
+                "id": 18,
+                "original": "particularly",
+                "translate": "особенно, в частности",
+                "isActive": true
+            },
+            {
+                "id": 19,
+                "original": "probably",
+                "translate": "вероятно",
+                "isActive": true
+            },
+            {
+                "id": 20,
+                "original": "quickly",
+                "translate": "быстро",
+                "isActive": true
+            },
+            {
+                "id": 21,
+                "original": "quite",
+                "translate": "довольно, вполне",
+                "isActive": true
+            },
+            {
+                "id": 22,
+                "original": "recently",
+                "translate": "недавно",
+                "isActive": true
+            },
+            {
+                "id": 23,
+                "original": "shortly",
+                "translate": "вскоре",
+                "isActive": true
+            },
+            {
+                "id": 24,
+                "original": "slightly",
+                "translate": "слегка, немного",
+                "isActive": true
+            },
+            {
+                "id": 25,
+                "original": "slowly",
+                "translate": "медленно",
+                "isActive": true
+            },
+            {
+                "id": 26,
+                "original": "unfortunately",
+                "translate": "к сожалению",
+                "isActive": true
+            }
+        ]
+    },
+    {
+        "title": "prepositions",
+        "items": [
+            {
+                "id": 27,
+                "original": "<b>at</b> 7 o'clock",
+                "translate": "в 7 часов",
+                "isActive": true
+            },
+            {
+                "id": 28,
+                "original": "<b>at</b> (mid)night",
+                "translate": "в полночь / ночью",
+                "isActive": true
+            },
+            {
+                "id": 29,
+                "original": "<b>at</b> noon/midday",
+                "translate": "в полдень",
+                "isActive": true
+            },
+            {
+                "id": 30,
+                "original": "<b>at</b> the weekend",
+                "translate": "на выходных",
+                "isActive": true
+            },
+            {
+                "id": 31,
+                "original": "<b>at</b> Christmas/Easter",
+                "translate": "на Рождество/Пасху",
+                "isActive": true
+            },
+            {
+                "id": 32,
+                "original": "<b>in</b> the morning/afternoon/evening",
+                "translate": "утром / днём / вечером",
+                "isActive": true
+            },
+            {
+                "id": 33,
+                "original": "<b>in</b> 20 minutes",
+                "translate": "через 20 минут",
+                "isActive": true
+            },
+            {
+                "id": 34,
+                "original": "<b>in</b> March",
+                "translate": "в марте",
+                "isActive": true
+            },
+            {
+                "id": 35,
+                "original": "<b>in</b> summer",
+                "translate": "летом",
+                "isActive": true
+            },
+            {
+                "id": 36,
+                "original": "<b>in</b> 2005",
+                "translate": "в 2005 году",
+                "isActive": true
+            },
+            {
+                "id": 37,
+                "original": "<b>in</b> the 50s",
+                "translate": "в 50-х",
+                "isActive": true
+            },
+            {
+                "id": 38,
+                "original": "<b>in</b> the 21st century",
+                "translate": "в 21 веке",
+                "isActive": true
+            },
+            {
+                "id": 39,
+                "original": "<b>on</b> Monday",
+                "translate": "в понедельник",
+                "isActive": true
+            },
+            {
+                "id": 40,
+                "original": "<b>on</b> Friday evening",
+                "translate": "в пятницу вечером",
+                "isActive": true
+            },
+            {
+                "id": 41,
+                "original": "<b>on</b> the 5th of July",
+                "translate": "5 июля",
+                "isActive": true
+            },
+            {
+                "id": 42,
+                "original": "<b>on</b> New Year's Eve / my birthday",
+                "translate": "в канун Нового года / в мой день рождения",
+                "isActive": true
+            }
+        ]
+    },
+    {
+        "title": "phrasal verbs",
+        "items": [
+            {
+                "id": 43,
+                "original": "to make up",
+                "translate": "выдумывать (например, историю, отговорку)",
+                "isActive": true
+            },
+            {
+                "id": 44,
+                "original": "to make up (with sb)",
+                "translate": "помириться (с кем-то)",
+                "isActive": true
+            },
+            {
+                "id": 45,
+                "original": "to make up for sth",
+                "translate": "компенсировать что-то, наверстать",
+                "isActive": true
+            },
+            {
+                "id": 46,
+                "original": "to make up one's mind",
+                "translate": "решиться, принять решение",
+                "isActive": true
+            }
+        ]
+    },
+    {
+        "title": "grammar",
+        "description": "<h3>Present Perfect Simple – already, yet, just</h3>\n<p><b>Форма:</b> have/has + <b>3-я форма</b> глагола (правильные — -ed, неправильные — третья колонка).</p>\n<ul>\n<li>I'<b>ve seen</b> him. · She'<b>s seen</b> him. (I've = I have, she's = she has)</li>\n<li>Вопрос: <b>Have</b> you <b>seen</b> him? / <b>Has</b> she <b>seen</b> him?</li>\n<li>Отрицание: I <b>haven't seen</b> him. / She <b>hasn't seen</b> him.</li>\n<li>Краткий ответ: Yes, I <b>have</b>. / No, she <b>hasn't</b>.</li>\n</ul>\n<p><b>Когда используем</b> — связь прошлого с настоящим:</p>\n<ul>\n<li>период ещё <b>не закончился</b>: I <b>have received</b> three emails <b>today</b>. (день ещё идёт)</li>\n<li>важен <b>факт</b>, а не время: I'<b>ve read</b> this book. (когда — неважно)</li>\n<li>виден <b>результат</b> сейчас: I'<b>ve cut</b> my finger. I'm bleeding.</li>\n</ul>\n<p><b>Слова-маркеры</b></p>\n<ul>\n<li><b>already</b> — уже: I'<b>ve already done</b> it.</li>\n<li><b>yet</b> — в отрицании «ещё», в вопросе «уже», в конце: I <b>haven't done</b> it <b>yet</b>. / <b>Have</b> you <b>done</b> it <b>yet</b>?</li>\n<li><b>just</b> — только что: I'<b>ve just done</b> it.</li>\n</ul>",
+        "items": [
+            {
+                "id": 47,
+                "original": "She <b>has done</b> her homework.",
+                "translate": "Она сделала домашнее задание. (has done — результат)",
+                "isActive": true
+            },
+            {
+                "id": 48,
+                "original": "I <b>have received</b> three emails today.",
+                "translate": "Сегодня я получил три письма. (today — день ещё не закончился)",
+                "isActive": true
+            },
+            {
+                "id": 49,
+                "original": "I'<b>ve read</b> this book.",
+                "translate": "Я читал эту книгу. (важен факт, не время)",
+                "isActive": true
+            },
+            {
+                "id": 50,
+                "original": "I'<b>ve cut</b> my finger. I'm bleeding.",
+                "translate": "Я порезал палец. У меня идёт кровь. (результат виден сейчас)",
+                "isActive": true
+            },
+            {
+                "id": 51,
+                "original": "We'<b>ve seen</b> three films this week.",
+                "translate": "На этой неделе мы посмотрели три фильма. (this week — период не закончился)",
+                "isActive": true
+            },
+            {
+                "id": 52,
+                "original": "Tom <b>hasn't eaten</b> anything today.",
+                "translate": "Том сегодня ничего не ел. (hasn't eaten)",
+                "isActive": true
+            },
+            {
+                "id": 53,
+                "original": "We'<b>ve already seen</b> this film.",
+                "translate": "Мы уже смотрели этот фильм. (already)",
+                "isActive": true
+            },
+            {
+                "id": 54,
+                "original": "– Let's go to Paris! – No, I'<b>ve already been</b> there.",
+                "translate": "– Поехали в Париж! – Нет, я там уже был. (already been)",
+                "isActive": true
+            },
+            {
+                "id": 55,
+                "original": "We'<b>ve already done</b> the shopping.",
+                "translate": "Мы уже сходили за покупками. (already done)",
+                "isActive": true
+            },
+            {
+                "id": 56,
+                "original": "I'<b>ve</b> nearly <b>finished</b>. I'<b>ve already written</b> the report.",
+                "translate": "Я почти закончил. Я уже написал отчёт. (already)",
+                "isActive": true
+            },
+            {
+                "id": 57,
+                "original": "She'<b>s just gone</b> out.",
+                "translate": "Она только что вышла. (just)",
+                "isActive": true
+            },
+            {
+                "id": 58,
+                "original": "– Have you finished work yet? – Yes, I'<b>ve just left</b>.",
+                "translate": "– Ты уже закончил работу? – Да, только что ушёл. (just left)",
+                "isActive": true
+            },
+            {
+                "id": 59,
+                "original": "I'<b>ve just had</b> an enormous pizza. I can hardly move.",
+                "translate": "Я только что съел огромную пиццу. Еле могу двигаться. (just had)",
+                "isActive": true
+            },
+            {
+                "id": 60,
+                "original": "Unfortunately, the train <b>has just left</b>.",
+                "translate": "К сожалению, поезд только что ушёл. (just left)",
+                "isActive": true
+            },
+            {
+                "id": 61,
+                "original": "I <b>haven't had</b> breakfast <b>yet</b>.",
+                "translate": "Я ещё не завтракал. (not … yet = ещё не)",
+                "isActive": true
+            },
+            {
+                "id": 62,
+                "original": "I <b>haven't talked</b> to him <b>yet</b>.",
+                "translate": "Я ещё не поговорил с ним. (not … yet)",
+                "isActive": true
+            },
+            {
+                "id": 63,
+                "original": "<b>Has</b> your boyfriend <b>started</b> his new job <b>yet</b>?",
+                "translate": "Твой парень уже начал новую работу? (yet в вопросе = уже)",
+                "isActive": true
+            },
+            {
+                "id": 64,
+                "original": "<b>Have</b> you <b>finished</b> work <b>yet</b>?",
+                "translate": "Ты уже закончил работу? (yet в вопросе)",
+                "isActive": true
+            },
+            {
+                "id": 65,
+                "original": "We <b>haven't prepared</b> dinner <b>yet</b>, but we'<b>ve already done</b> the shopping.",
+                "translate": "Мы ещё не приготовили ужин, но уже сходили за покупками. (yet / already)",
+                "isActive": true
+            },
+            {
+                "id": 66,
+                "original": "– <b>Has</b> she <b>called</b> you? – No, she <b>hasn't</b>.",
+                "translate": "– Она тебе звонила? – Нет. (Has … called? / No, she hasn't)",
+                "isActive": true
+            }
+        ]
+    }
+]

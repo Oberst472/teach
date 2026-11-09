@@ -1,0 +1,335 @@
+[
+    {
+        "title": "words",
+        "items": [
+            {
+                "id": 1,
+                "original": "action-packed",
+                "translate": "насыщенный действием, динамичный",
+                "isActive": true
+            },
+            {
+                "id": 2,
+                "original": "boring",
+                "translate": "скучный",
+                "isActive": true
+            },
+            {
+                "id": 3,
+                "original": "catchy",
+                "translate": "цепляющий, легко запоминающийся",
+                "isActive": true
+            },
+            {
+                "id": 4,
+                "original": "complex",
+                "translate": "сложный, многоплановый",
+                "isActive": true
+            },
+            {
+                "id": 5,
+                "original": "dull",
+                "translate": "скучный, унылый",
+                "isActive": true
+            },
+            {
+                "id": 6,
+                "original": "enjoyable",
+                "translate": "приятный",
+                "isActive": true
+            },
+            {
+                "id": 7,
+                "original": "entertaining",
+                "translate": "занимательный, развлекательный",
+                "isActive": true
+            },
+            {
+                "id": 8,
+                "original": "far-fetched",
+                "translate": "надуманный, неправдоподобный",
+                "isActive": true
+            },
+            {
+                "id": 9,
+                "original": "fascinating",
+                "translate": "увлекательный, захватывающий",
+                "isActive": true
+            },
+            {
+                "id": 10,
+                "original": "funny",
+                "translate": "смешной",
+                "isActive": true
+            },
+            {
+                "id": 11,
+                "original": "gripping",
+                "translate": "захватывающий, увлекательный",
+                "isActive": true
+            },
+            {
+                "id": 12,
+                "original": "heartbreaking",
+                "translate": "душераздирающий",
+                "isActive": true
+            },
+            {
+                "id": 13,
+                "original": "humorous",
+                "translate": "юмористический",
+                "isActive": true
+            },
+            {
+                "id": 14,
+                "original": "interesting",
+                "translate": "интересный",
+                "isActive": true
+            },
+            {
+                "id": 15,
+                "original": "masterpiece",
+                "translate": "шедевр",
+                "isActive": true
+            },
+            {
+                "id": 16,
+                "original": "moving",
+                "translate": "трогательный",
+                "isActive": true
+            },
+            {
+                "id": 17,
+                "original": "overrated",
+                "translate": "переоценённый",
+                "isActive": true
+            },
+            {
+                "id": 18,
+                "original": "(un)predictable",
+                "translate": "(не)предсказуемый",
+                "isActive": true
+            },
+            {
+                "id": 19,
+                "original": "remarkable",
+                "translate": "выдающийся, замечательный",
+                "isActive": true
+            },
+            {
+                "id": 20,
+                "original": "surprising",
+                "translate": "удивительный, неожиданный",
+                "isActive": true
+            },
+            {
+                "id": 21,
+                "original": "thought-provoking",
+                "translate": "заставляющий задуматься",
+                "isActive": true
+            },
+            {
+                "id": 22,
+                "original": "weird",
+                "translate": "странный, чудной",
+                "isActive": true
+            }
+        ]
+    },
+    {
+        "title": "prepositions",
+        "items": [
+            {
+                "id": 23,
+                "original": "<b>at</b> the cinema",
+                "translate": "в кино",
+                "isActive": true
+            },
+            {
+                "id": 24,
+                "original": "to be based <b>on</b>",
+                "translate": "быть основанным на (например, книге)",
+                "isActive": true
+            },
+            {
+                "id": 25,
+                "original": "to be directed <b>by</b>",
+                "translate": "быть снятым (режиссёром)",
+                "isActive": true
+            },
+            {
+                "id": 26,
+                "original": "to go <b>to</b> a concert",
+                "translate": "идти на концерт",
+                "isActive": true
+            },
+            {
+                "id": 27,
+                "original": "to go <b>on</b> tour",
+                "translate": "отправиться в турне, гастроли",
+                "isActive": true
+            },
+            {
+                "id": 28,
+                "original": "to tell the story <b>of</b>",
+                "translate": "рассказывать историю (кого-то/чего-то)",
+                "isActive": true
+            }
+        ]
+    },
+    {
+        "title": "phrasal verbs",
+        "items": [
+            {
+                "id": 29,
+                "original": "to break up (with sb)",
+                "translate": "расстаться (с кем-то)",
+                "isActive": true
+            },
+            {
+                "id": 30,
+                "original": "to break down",
+                "translate": "сломаться",
+                "isActive": true
+            },
+            {
+                "id": 31,
+                "original": "to break out",
+                "translate": "вспыхнуть, разразиться (например, о войне, протестах)",
+                "isActive": true
+            },
+            {
+                "id": 32,
+                "original": "to break in(to)",
+                "translate": "вломиться (в), совершить кражу со взломом",
+                "isActive": true
+            }
+        ]
+    },
+    {
+        "title": "grammar",
+        "description": "<h3>Will & to be going to</h3>\n<p>Две конструкции для будущего.</p>\n<p><b>to be going to</b> + глагол</p>\n<ul>\n<li><b>конкретный план, намерение</b>: I'<b>m going to move</b> to the UK in a few months.</li>\n<li><b>видим признаки</b>, что что-то сейчас случится: Look at those clouds. It'<b>s going to rain</b>.</li>\n<li>в прошедшем (<b>was/were going to</b>) — собирался, но не сделал: I <b>was going to do</b> the shopping, but I didn't have time.</li>\n<li>Вопрос: What <b>are</b> you <b>going to</b> do? Отрицание: I'<b>m not going to</b> tell him.</li>\n</ul>\n<p><b>will</b> + глагол</p>\n<ul>\n<li><b>не уверены</b>, предположение; часто с I think, I hope, I promise, I'm not sure, maybe, it's possible: I'm not sure he'<b>ll come</b>.</li>\n<li><b>решение в момент речи</b>: It's getting cold. I'<b>ll close</b> the window.</li>\n<li>в First Conditional: If I still feel bad tomorrow, I'<b>ll stay</b> at home.</li>\n<li>Вопрос: <b>Will</b> you come? Отрицание: <b>won't</b> (= will not): I <b>won't</b> do it.</li>\n</ul>\n<p><b>Сравни:</b> The fridge is empty. I'<b>ll do</b> the shopping. (решил сейчас) / I'<b>m going to do</b> the shopping after work. (уже запланировал)</p>",
+        "items": [
+            {
+                "id": 33,
+                "original": "I'<b>m going to move</b> to the UK in a few months.",
+                "translate": "Через несколько месяцев я собираюсь переехать в Великобританию. (going to — план)",
+                "isActive": true
+            },
+            {
+                "id": 34,
+                "original": "Jenny bought a ticket yesterday. She'<b>s going to travel</b> around Europe.",
+                "translate": "Дженни вчера купила билет. Она собирается путешествовать по Европе. (going to — план)",
+                "isActive": true
+            },
+            {
+                "id": 35,
+                "original": "How long <b>are</b> you <b>going to stay</b> here?",
+                "translate": "Как долго ты собираешься здесь пробыть? (going to — вопрос)",
+                "isActive": true
+            },
+            {
+                "id": 36,
+                "original": "I'<b>m not going to tell</b> him the ending of the film.",
+                "translate": "Я не собираюсь рассказывать ему, чем кончается фильм. (not going to)",
+                "isActive": true
+            },
+            {
+                "id": 37,
+                "original": "We'<b>re going to watch</b> that new thriller tonight.",
+                "translate": "Сегодня вечером мы собираемся посмотреть тот новый триллер. (going to — план)",
+                "isActive": true
+            },
+            {
+                "id": 38,
+                "original": "Look at those clouds. It'<b>s going to rain</b>.",
+                "translate": "Посмотри на эти тучи. Сейчас пойдёт дождь. (going to — видим признаки)",
+                "isActive": true
+            },
+            {
+                "id": 39,
+                "original": "Look at those cars! They'<b>re going to crash</b>!",
+                "translate": "Смотри на эти машины! Они сейчас врежутся! (going to — видим признаки)",
+                "isActive": true
+            },
+            {
+                "id": 40,
+                "original": "I <b>was going to call</b> him, but my battery was dead.",
+                "translate": "Я собирался ему позвонить, но у меня сел телефон. (was going to — не сделал)",
+                "isActive": true
+            },
+            {
+                "id": 41,
+                "original": "We <b>were going to go</b> on foot, but it was late, so we took a taxi.",
+                "translate": "Мы собирались пойти пешком, но было поздно, и мы взяли такси. (were going to)",
+                "isActive": true
+            },
+            {
+                "id": 42,
+                "original": "Are you hungry again? I'<b>ll make</b> you another sandwich.",
+                "translate": "Ты опять голоден? Я сделаю тебе ещё бутерброд. (will — решение сейчас)",
+                "isActive": true
+            },
+            {
+                "id": 43,
+                "original": "Just a second. I'<b>ll help</b> you with the bags.",
+                "translate": "Секунду. Я помогу тебе с сумками. (will — решение сейчас)",
+                "isActive": true
+            },
+            {
+                "id": 44,
+                "original": "The fridge is empty. I'<b>ll do</b> the shopping.",
+                "translate": "Холодильник пуст. Я схожу за покупками. (will — решение сейчас)",
+                "isActive": true
+            },
+            {
+                "id": 45,
+                "original": "It's getting cold. I'<b>ll close</b> the window.",
+                "translate": "Становится холодно. Я закрою окно. (will — решение сейчас)",
+                "isActive": true
+            },
+            {
+                "id": 46,
+                "original": "I promise I'<b>ll do</b> the washing up today.",
+                "translate": "Обещаю, что сегодня помою посуду. (will — с I promise)",
+                "isActive": true
+            },
+            {
+                "id": 47,
+                "original": "Maybe we'<b>ll buy</b> a new car next year.",
+                "translate": "Может быть, в следующем году мы купим новую машину. (will — с maybe)",
+                "isActive": true
+            },
+            {
+                "id": 48,
+                "original": "I think you'<b>ll love</b> this book. It's a masterpiece.",
+                "translate": "Думаю, тебе понравится эта книга. Это шедевр. (will — с I think)",
+                "isActive": true
+            },
+            {
+                "id": 49,
+                "original": "I'm not sure he'<b>ll come</b>.",
+                "translate": "Я не уверен, что он придёт. (will — с I'm not sure)",
+                "isActive": true
+            },
+            {
+                "id": 50,
+                "original": "<b>Will</b> you <b>come</b> to the concert with me?",
+                "translate": "Ты пойдёшь со мной на концерт? (will — вопрос)",
+                "isActive": true
+            },
+            {
+                "id": 51,
+                "original": "I <b>won't watch</b> it again. It was so boring.",
+                "translate": "Я не буду смотреть это снова. Было так скучно. (won't)",
+                "isActive": true
+            },
+            {
+                "id": 52,
+                "original": "I'<b>m going to call</b> him tomorrow, but I'm not sure he'<b>ll answer</b>.",
+                "translate": "Я собираюсь позвонить ему завтра, но не уверен, что он ответит. (going to — план / will — неуверенность)",
+                "isActive": true
+            }
+        ]
+    }
+]

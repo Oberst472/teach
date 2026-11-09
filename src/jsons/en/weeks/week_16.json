@@ -1,0 +1,323 @@
+[
+    {
+        "title": "words",
+        "items": [
+            {
+                "id": 1,
+                "original": "to be born",
+                "translate": "родиться",
+                "isActive": true
+            },
+            {
+                "id": 2,
+                "original": "newborn",
+                "translate": "новорождённый",
+                "isActive": true
+            },
+            {
+                "id": 3,
+                "original": "baby",
+                "translate": "младенец",
+                "isActive": true
+            },
+            {
+                "id": 4,
+                "original": "toddler",
+                "translate": "малыш (который учится ходить)",
+                "isActive": true
+            },
+            {
+                "id": 5,
+                "original": "childhood",
+                "translate": "детство",
+                "isActive": true
+            },
+            {
+                "id": 6,
+                "original": "adolescence",
+                "translate": "подростковый возраст, период взросления",
+                "isActive": true
+            },
+            {
+                "id": 7,
+                "original": "teenager/teen",
+                "translate": "подросток",
+                "isActive": true
+            },
+            {
+                "id": 8,
+                "original": "to grow up",
+                "translate": "вырасти, взрослеть",
+                "isActive": true
+            },
+            {
+                "id": 9,
+                "original": "to bring up",
+                "translate": "воспитывать",
+                "isActive": true
+            },
+            {
+                "id": 10,
+                "original": "to be brought up",
+                "translate": "быть воспитанным",
+                "isActive": true
+            },
+            {
+                "id": 11,
+                "original": "to move house",
+                "translate": "переехать (в другой дом)",
+                "isActive": true
+            },
+            {
+                "id": 12,
+                "original": "to get married",
+                "translate": "выйти замуж / жениться",
+                "isActive": true
+            },
+            {
+                "id": 13,
+                "original": "newlyweds",
+                "translate": "молодожёны",
+                "isActive": true
+            },
+            {
+                "id": 14,
+                "original": "turning point",
+                "translate": "поворотный момент",
+                "isActive": true
+            },
+            {
+                "id": 15,
+                "original": "young",
+                "translate": "молодой",
+                "isActive": true
+            },
+            {
+                "id": 16,
+                "original": "middle-aged",
+                "translate": "средних лет",
+                "isActive": true
+            },
+            {
+                "id": 17,
+                "original": "old",
+                "translate": "старый",
+                "isActive": true
+            },
+            {
+                "id": 18,
+                "original": "elderly",
+                "translate": "пожилой",
+                "isActive": true
+            },
+            {
+                "id": 19,
+                "original": "to retire",
+                "translate": "уйти на пенсию",
+                "isActive": true
+            }
+        ]
+    },
+    {
+        "title": "prepositions",
+        "items": [
+            {
+                "id": 20,
+                "original": "<b>at</b> the age <b>of</b>",
+                "translate": "в возрасте",
+                "isActive": true
+            },
+            {
+                "id": 21,
+                "original": "married <b>to</b>",
+                "translate": "женат на / замужем за",
+                "isActive": true
+            },
+            {
+                "id": 22,
+                "original": "to be <b>in</b> one's twenties/thirties",
+                "translate": "быть в возрасте двадцати/тридцати с чем-то лет",
+                "isActive": true
+            },
+            {
+                "id": 23,
+                "original": "to come <b>from</b>",
+                "translate": "быть родом из",
+                "isActive": true
+            },
+            {
+                "id": 24,
+                "original": "to die <b>of</b> (but: to die <b>in</b> an accident)",
+                "translate": "умереть от (но: погибнуть в аварии)",
+                "isActive": true
+            },
+            {
+                "id": 25,
+                "original": "to happen <b>to</b>",
+                "translate": "случиться (с кем-то)",
+                "isActive": true
+            }
+        ]
+    },
+    {
+        "title": "phrasal verbs",
+        "items": [
+            {
+                "id": 26,
+                "original": "to run away",
+                "translate": "убегать",
+                "isActive": true
+            },
+            {
+                "id": 27,
+                "original": "to run for",
+                "translate": "баллотироваться (на должность)",
+                "isActive": true
+            },
+            {
+                "id": 28,
+                "original": "to run into sb/sth",
+                "translate": "случайно встретить кого-то, наткнуться на что-то",
+                "isActive": true
+            },
+            {
+                "id": 29,
+                "original": "to run out (of sth)",
+                "translate": "заканчиваться, исчерпать запас (чего-то)",
+                "isActive": true
+            },
+            {
+                "id": 30,
+                "original": "to run up to sb",
+                "translate": "подбежать к кому-то",
+                "isActive": true
+            }
+        ]
+    },
+    {
+        "title": "grammar",
+        "description": "<h3>Past Simple</h3>\n<p>Законченные действия в прошлом. Маркеры: <b>yesterday</b>, <b>last</b> week/year/summer, three days <b>ago</b>, in 1990…</p>\n<p><b>Глагол to be: was / were</b></p>\n<ul>\n<li>I/he/she/it <b>was</b> · you/we/they <b>were</b>: We <b>were</b> very tired yesterday.</li>\n<li>Без вспомогательного глагола. Отрицание: <b>wasn't / weren't</b>. Вопрос — меняем порядок: <b>Were</b> you tired?</li>\n<li>Краткий ответ: Yes, I <b>was</b>. / No, we <b>weren't</b>.</li>\n</ul>\n<p><b>Остальные глаголы</b> — одна форма для всех лиц.</p>\n<ul>\n<li><b>правильные:</b> + <b>-ed</b>: move → mov<b>ed</b>, start → start<b>ed</b></li>\n<li><b>неправильные:</b> вторая форма из таблицы: leave → <b>left</b>, go → <b>went</b>, come → <b>came</b></li>\n<li>Отрицание и вопрос — через <b>did</b>, а глагол в <b>начальной форме</b>: He <b>didn't move</b> out. / <b>Did</b> she <b>leave</b>? (не <s>Did she left</s>)</li>\n<li>Краткий ответ: Yes, he <b>did</b>. / No, she <b>didn't</b>.</li>\n</ul>\n<p><b>Таблица:</b> It was sunny / He moved out / She left → It <b>wasn't</b> sunny / He <b>didn't move</b> out / She <b>didn't leave</b> → <b>Was</b> it sunny? / <b>Did</b> he <b>move</b> out? / <b>Did</b> she <b>leave</b>?</p>",
+        "items": [
+            {
+                "id": 31,
+                "original": "We <b>were</b> very tired yesterday.",
+                "translate": "Вчера мы очень устали. (were — to be)",
+                "isActive": true
+            },
+            {
+                "id": 32,
+                "original": "He <b>wasn't</b> at work yesterday because he <b>felt</b> sick.",
+                "translate": "Его вчера не было на работе, потому что он плохо себя чувствовал. (wasn't / felt — неправ.)",
+                "isActive": true
+            },
+            {
+                "id": 33,
+                "original": "– <b>Were</b> you sick last week? – No, I <b>wasn't</b>. I <b>went</b> on holiday.",
+                "translate": "– Ты болел на прошлой неделе? – Нет. Я уезжал в отпуск. (Were…? / wasn't / went)",
+                "isActive": true
+            },
+            {
+                "id": 34,
+                "original": "Why didn't you come last Saturday? It <b>was</b> great!",
+                "translate": "Почему ты не пришёл в прошлую субботу? Было здорово! (was)",
+                "isActive": true
+            },
+            {
+                "id": 35,
+                "original": "I <b>was born</b> in 1990.",
+                "translate": "Я родился в 1990 году. (was born)",
+                "isActive": true
+            },
+            {
+                "id": 36,
+                "original": "She <b>grew up</b> in a small village.",
+                "translate": "Она выросла в маленькой деревне. (grow → grew — неправ.)",
+                "isActive": true
+            },
+            {
+                "id": 37,
+                "original": "He <b>was brought up</b> by his grandparents.",
+                "translate": "Его воспитывали бабушка с дедушкой. (was brought up)",
+                "isActive": true
+            },
+            {
+                "id": 38,
+                "original": "They <b>got married</b> three years ago.",
+                "translate": "Они поженились три года назад. (get → got, ago)",
+                "isActive": true
+            },
+            {
+                "id": 39,
+                "original": "We <b>moved</b> house last summer.",
+                "translate": "Прошлым летом мы переехали. (move → moved — правильный)",
+                "isActive": true
+            },
+            {
+                "id": 40,
+                "original": "My grandfather <b>retired</b> five years ago.",
+                "translate": "Мой дедушка вышел на пенсию пять лет назад. (retire → retired)",
+                "isActive": true
+            },
+            {
+                "id": 41,
+                "original": "The meeting <b>started</b> an hour ago.",
+                "translate": "Совещание началось час назад. (start → started)",
+                "isActive": true
+            },
+            {
+                "id": 42,
+                "original": "My friends <b>came back</b> from their honeymoon last Friday.",
+                "translate": "Мои друзья вернулись из медового месяца в прошлую пятницу. (come → came)",
+                "isActive": true
+            },
+            {
+                "id": 43,
+                "original": "He <b>forgot</b> to call me because he <b>was</b> busy.",
+                "translate": "Он забыл мне позвонить, потому что был занят. (forget → forgot / was)",
+                "isActive": true
+            },
+            {
+                "id": 44,
+                "original": "We <b>flew</b> to Paris last weekend, but we <b>didn't see</b> the Eiffel Tower.",
+                "translate": "В прошлые выходные мы летали в Париж, но не видели Эйфелеву башню. (flew / didn't see)",
+                "isActive": true
+            },
+            {
+                "id": 45,
+                "original": "We <b>went</b> to the cinema, but we <b>didn't like</b> the film.",
+                "translate": "Мы ходили в кино, но фильм нам не понравился. (went / didn't like)",
+                "isActive": true
+            },
+            {
+                "id": 46,
+                "original": "Maria and her husband <b>were</b> here, but we <b>didn't talk</b> to them.",
+                "translate": "Мария с мужем были здесь, но мы с ними не разговаривали. (were / didn't talk)",
+                "isActive": true
+            },
+            {
+                "id": 47,
+                "original": "What <b>did</b> you <b>have</b> for dinner yesterday?",
+                "translate": "Что ты ел на ужин вчера? (did + начальная форма)",
+                "isActive": true
+            },
+            {
+                "id": 48,
+                "original": "– What <b>did</b> you <b>do</b> after work? – I <b>did</b> the shopping and <b>had</b> dinner.",
+                "translate": "– Что ты делал после работы? – Сходил за покупками и поужинал. (did … do / did / had)",
+                "isActive": true
+            },
+            {
+                "id": 49,
+                "original": "Why <b>didn't</b> you <b>come</b> to my birthday party?",
+                "translate": "Почему ты не пришёл на мой день рождения? (didn't + начальная форма)",
+                "isActive": true
+            },
+            {
+                "id": 50,
+                "original": "– <b>Did</b> she <b>leave</b> early? – Yes, she <b>did</b>.",
+                "translate": "– Она ушла рано? – Да. (Did … leave? / Yes, she did)",
+                "isActive": true
+            }
+        ]
+    }
+]

@@ -1,0 +1,395 @@
+[
+    {
+        "title": "words",
+        "items": [
+            {
+                "id": 1,
+                "original": "(dis)honest",
+                "translate": "(не)честный",
+                "isActive": true
+            },
+            {
+                "id": 2,
+                "original": "(im)mature",
+                "translate": "(не)зрелый",
+                "isActive": true
+            },
+            {
+                "id": 3,
+                "original": "(im)patient",
+                "translate": "(не)терпеливый",
+                "isActive": true
+            },
+            {
+                "id": 4,
+                "original": "(ir)responsible",
+                "translate": "(без)ответственный",
+                "isActive": true
+            },
+            {
+                "id": 5,
+                "original": "(un)reliable",
+                "translate": "(не)надёжный, на которого (нельзя) можно положиться",
+                "isActive": true
+            },
+            {
+                "id": 6,
+                "original": "absent-minded",
+                "translate": "рассеянный",
+                "isActive": true
+            },
+            {
+                "id": 7,
+                "original": "bossy",
+                "translate": "властный, любящий командовать",
+                "isActive": true
+            },
+            {
+                "id": 8,
+                "original": "cheerful",
+                "translate": "жизнерадостный, весёлый",
+                "isActive": true
+            },
+            {
+                "id": 9,
+                "original": "competitive",
+                "translate": "амбициозный, любящий соперничество",
+                "isActive": true
+            },
+            {
+                "id": 10,
+                "original": "easy-going",
+                "translate": "спокойный, лёгкий в общении",
+                "isActive": true
+            },
+            {
+                "id": 11,
+                "original": "generous",
+                "translate": "щедрый",
+                "isActive": true
+            },
+            {
+                "id": 12,
+                "original": "hard-working",
+                "translate": "трудолюбивый",
+                "isActive": true
+            },
+            {
+                "id": 13,
+                "original": "helpful",
+                "translate": "готовый помочь, услужливый",
+                "isActive": true
+            },
+            {
+                "id": 14,
+                "original": "insecure",
+                "translate": "неуверенный в себе, закомплексованный",
+                "isActive": true
+            },
+            {
+                "id": 15,
+                "original": "jealous",
+                "translate": "ревнивый, завистливый",
+                "isActive": true
+            },
+            {
+                "id": 16,
+                "original": "lazy",
+                "translate": "ленивый",
+                "isActive": true
+            },
+            {
+                "id": 17,
+                "original": "mean",
+                "translate": "скупой, жадный",
+                "isActive": true
+            },
+            {
+                "id": 18,
+                "original": "modest",
+                "translate": "скромный",
+                "isActive": true
+            },
+            {
+                "id": 19,
+                "original": "moody",
+                "translate": "капризный, с переменчивым настроением",
+                "isActive": true
+            },
+            {
+                "id": 20,
+                "original": "nosy",
+                "translate": "любопытный, сующий нос в чужие дела",
+                "isActive": true
+            },
+            {
+                "id": 21,
+                "original": "open-minded",
+                "translate": "непредвзятый, открытый новому",
+                "isActive": true
+            },
+            {
+                "id": 22,
+                "original": "outgoing",
+                "translate": "общительный, открытый",
+                "isActive": true
+            },
+            {
+                "id": 23,
+                "original": "self-confident",
+                "translate": "уверенный в себе",
+                "isActive": true
+            },
+            {
+                "id": 24,
+                "original": "sensible",
+                "translate": "разумный, благоразумный",
+                "isActive": true
+            },
+            {
+                "id": 25,
+                "original": "sensitive",
+                "translate": "чувствительный, ранимый",
+                "isActive": true
+            },
+            {
+                "id": 26,
+                "original": "shy",
+                "translate": "застенчивый, робкий",
+                "isActive": true
+            },
+            {
+                "id": 27,
+                "original": "sociable",
+                "translate": "общительный",
+                "isActive": true
+            },
+            {
+                "id": 28,
+                "original": "stubborn",
+                "translate": "упрямый",
+                "isActive": true
+            },
+            {
+                "id": 29,
+                "original": "talkative",
+                "translate": "разговорчивый, болтливый",
+                "isActive": true
+            },
+            {
+                "id": 30,
+                "original": "thoughtful",
+                "translate": "заботливый, внимательный к другим",
+                "isActive": true
+            },
+            {
+                "id": 31,
+                "original": "vain",
+                "translate": "тщеславный, самовлюблённый",
+                "isActive": true
+            }
+        ]
+    },
+    {
+        "title": "prepositions",
+        "items": [
+            {
+                "id": 32,
+                "original": "a good/bad sense <b>of</b> humour",
+                "translate": "хорошее/плохое чувство юмора",
+                "isActive": true
+            },
+            {
+                "id": 33,
+                "original": "<b>behind</b> sb's back",
+                "translate": "за чьей-то спиной",
+                "isActive": true
+            },
+            {
+                "id": 34,
+                "original": "to laugh <b>at</b>",
+                "translate": "смеяться над",
+                "isActive": true
+            },
+            {
+                "id": 35,
+                "original": "to listen <b>to</b>",
+                "translate": "слушать",
+                "isActive": true
+            },
+            {
+                "id": 36,
+                "original": "to pay <b>for</b>",
+                "translate": "платить за",
+                "isActive": true
+            },
+            {
+                "id": 37,
+                "original": "to think <b>about</b> sb/sth",
+                "translate": "думать о ком-то/чём-то",
+                "isActive": true
+            }
+        ]
+    },
+    {
+        "title": "phrasal verbs",
+        "items": [
+            {
+                "id": 38,
+                "original": "to look at",
+                "translate": "смотреть, взглянуть на",
+                "isActive": true
+            },
+            {
+                "id": 39,
+                "original": "to look for",
+                "translate": "искать",
+                "isActive": true
+            },
+            {
+                "id": 40,
+                "original": "to look after",
+                "translate": "присматривать за, заботиться о",
+                "isActive": true
+            },
+            {
+                "id": 41,
+                "original": "to look around",
+                "translate": "осматриваться, оглядываться",
+                "isActive": true
+            },
+            {
+                "id": 42,
+                "original": "to look up",
+                "translate": "искать, проверять (например, в словаре)",
+                "isActive": true
+            }
+        ]
+    },
+    {
+        "title": "grammar",
+        "description": "<h3>Someone / anyone / no one</h3>\n<p>Неопределённые местоимения для людей. У каждого есть пара с тем же значением: <b>someone = somebody</b>, <b>anyone = anybody</b>, <b>no one = nobody</b>.</p>\n<ul>\n<li><b>someone/somebody</b> — <b>кто-то</b>. В утвердительных предложениях: There's <b>someone</b> outside the house. Иногда в вопросах — вежливых просьбах и когда ждём ответа «да»: Could <b>someone</b> help me?</li>\n<li><b>anyone/anybody</b> — в вопросах = <b>кто-нибудь</b>: Is there <b>anyone</b> outside? В отрицаниях = <b>никто</b>: There isn't <b>anyone</b> outside.</li>\n<li><b>no one / nobody</b> — <b>никто</b>. Глагол остаётся <b>утвердительным</b>, потому что no one уже само отрицание: <b>Nobody</b> has seen her. (не <s>Nobody hasn't seen her</s>)</li>\n</ul>\n<p><b>Шпаргалка</b></p>\n<ul>\n<li>утверждение ✓ — someone</li>\n<li>вопрос ? — anyone (someone в просьбах и предложениях)</li>\n<li>отрицание × — not … anyone <b>или</b> no one</li>\n</ul>\n<p>There isn't <b>anyone</b> outside. = There is <b>no one</b> outside. — Возле дома никого нет.</p>",
+        "items": [
+            {
+                "id": 43,
+                "original": "<b>Someone</b> called you when you were out.",
+                "translate": "Кто-то звонил тебе, пока тебя не было. (someone — утверждение)",
+                "isActive": true
+            },
+            {
+                "id": 44,
+                "original": "There's <b>somebody</b> outside the house.",
+                "translate": "Кто-то стоит возле дома. (somebody = someone)",
+                "isActive": true
+            },
+            {
+                "id": 45,
+                "original": "<b>Someone</b> has to do it. It doesn't matter who.",
+                "translate": "Кто-то должен это сделать. Неважно кто. (someone)",
+                "isActive": true
+            },
+            {
+                "id": 46,
+                "original": "I need <b>someone</b> who is reliable and hard-working.",
+                "translate": "Мне нужен кто-то надёжный и трудолюбивый. (someone)",
+                "isActive": true
+            },
+            {
+                "id": 47,
+                "original": "I know <b>somebody</b> who is even more stubborn than you.",
+                "translate": "Я знаю кое-кого, кто ещё упрямее тебя. (somebody)",
+                "isActive": true
+            },
+            {
+                "id": 48,
+                "original": "Could <b>someone</b> help me, please?",
+                "translate": "Может кто-нибудь мне помочь, пожалуйста? (someone в вежливой просьбе)",
+                "isActive": true
+            },
+            {
+                "id": 49,
+                "original": "Would you like to talk to <b>someone</b>?",
+                "translate": "Хочешь с кем-нибудь поговорить? (someone в предложении — ждём «да»)",
+                "isActive": true
+            },
+            {
+                "id": 50,
+                "original": "Is there <b>anyone</b> here who can speak Italian?",
+                "translate": "Здесь есть кто-нибудь, кто говорит по-итальянски? (anyone — вопрос)",
+                "isActive": true
+            },
+            {
+                "id": 51,
+                "original": "Did you meet <b>anybody</b> on your way home?",
+                "translate": "Ты встретил кого-нибудь по дороге домой? (anybody — вопрос)",
+                "isActive": true
+            },
+            {
+                "id": 52,
+                "original": "Does <b>anyone</b> know where Maria is?",
+                "translate": "Кто-нибудь знает, где Мария? (anyone — вопрос)",
+                "isActive": true
+            },
+            {
+                "id": 53,
+                "original": "I don't know <b>anyone</b> as mean as Tom.",
+                "translate": "Я не знаю никого настолько жадного, как Том. (not … anyone = никто)",
+                "isActive": true
+            },
+            {
+                "id": 54,
+                "original": "There isn't <b>anybody</b> in the office.",
+                "translate": "В офисе никого нет. (isn't … anybody)",
+                "isActive": true
+            },
+            {
+                "id": 55,
+                "original": "She didn't tell <b>anyone</b> about it. She's very modest.",
+                "translate": "Она никому об этом не сказала. Она очень скромная. (didn't … anyone)",
+                "isActive": true
+            },
+            {
+                "id": 56,
+                "original": "<b>No one</b> could do that exercise.",
+                "translate": "Никто не смог сделать то упражнение. (no one + утвердительный глагол)",
+                "isActive": true
+            },
+            {
+                "id": 57,
+                "original": "<b>Nobody</b> has seen her since Tuesday.",
+                "translate": "Никто не видел её со вторника. (nobody + has seen, не hasn't)",
+                "isActive": true
+            },
+            {
+                "id": 58,
+                "original": "<b>No one</b> in our group is cleverer than Dan.",
+                "translate": "Никто в нашей группе не умнее Дэна. (no one)",
+                "isActive": true
+            },
+            {
+                "id": 59,
+                "original": "There is <b>no one</b> outside the house.",
+                "translate": "Возле дома никого нет. (is no one = isn't anyone)",
+                "isActive": true
+            },
+            {
+                "id": 60,
+                "original": "<b>Nobody</b> likes people who are nosy.",
+                "translate": "Никто не любит любопытных людей. (nobody)",
+                "isActive": true
+            },
+            {
+                "id": 61,
+                "original": "– Who did you talk to? – <b>No one</b>.",
+                "translate": "– С кем ты говорил? – Ни с кем. (no one как краткий ответ)",
+                "isActive": true
+            },
+            {
+                "id": 62,
+                "original": "<b>Someone</b> is at the door, but I don't see <b>anyone</b>. Maybe <b>nobody</b> is there.",
+                "translate": "Кто-то у двери, но я никого не вижу. Может, там никого нет. (someone / anyone / nobody)",
+                "isActive": true
+            }
+        ]
+    }
+]

@@ -1,0 +1,407 @@
+[
+    {
+        "title": "words",
+        "items": [
+            {
+                "id": 1,
+                "original": "(weather) forecast",
+                "translate": "прогноз (погоды)",
+                "isActive": true
+            },
+            {
+                "id": 2,
+                "original": "boiling (hot)",
+                "translate": "знойный, очень жарко",
+                "isActive": true
+            },
+            {
+                "id": 3,
+                "original": "hot",
+                "translate": "жаркий, жарко",
+                "isActive": true
+            },
+            {
+                "id": 4,
+                "original": "warm",
+                "translate": "тёплый, тепло",
+                "isActive": true
+            },
+            {
+                "id": 5,
+                "original": "cool/chilly",
+                "translate": "прохладный, прохладно",
+                "isActive": true
+            },
+            {
+                "id": 6,
+                "original": "cold",
+                "translate": "холодный, холодно",
+                "isActive": true
+            },
+            {
+                "id": 7,
+                "original": "freezing",
+                "translate": "морозный, морозно",
+                "isActive": true
+            },
+            {
+                "id": 8,
+                "original": "sunny",
+                "translate": "солнечный, солнечно",
+                "isActive": true
+            },
+            {
+                "id": 9,
+                "original": "cloudy",
+                "translate": "облачный, пасмурно",
+                "isActive": true
+            },
+            {
+                "id": 10,
+                "original": "rainy",
+                "translate": "дождливый, дождливо",
+                "isActive": true
+            },
+            {
+                "id": 11,
+                "original": "windy",
+                "translate": "ветреный, ветрено",
+                "isActive": true
+            },
+            {
+                "id": 12,
+                "original": "foggy",
+                "translate": "туманный, туманно",
+                "isActive": true
+            },
+            {
+                "id": 13,
+                "original": "snowy",
+                "translate": "снежный, снежно",
+                "isActive": true
+            },
+            {
+                "id": 14,
+                "original": "stormy",
+                "translate": "грозовой, штормовой",
+                "isActive": true
+            },
+            {
+                "id": 15,
+                "original": "dry",
+                "translate": "сухой, сухо",
+                "isActive": true
+            },
+            {
+                "id": 16,
+                "original": "wet",
+                "translate": "мокрый, сыро",
+                "isActive": true
+            },
+            {
+                "id": 17,
+                "original": "clear",
+                "translate": "ясный, чистый",
+                "isActive": true
+            },
+            {
+                "id": 18,
+                "original": "cloudless sky",
+                "translate": "безоблачное небо",
+                "isActive": true
+            },
+            {
+                "id": 19,
+                "original": "breeze",
+                "translate": "лёгкий ветерок, бриз",
+                "isActive": true
+            },
+            {
+                "id": 20,
+                "original": "drizzle",
+                "translate": "морось, мелкий дождь",
+                "isActive": true
+            },
+            {
+                "id": 21,
+                "original": "shower",
+                "translate": "кратковременный дождь, ливень",
+                "isActive": true
+            },
+            {
+                "id": 22,
+                "original": "heavy rain",
+                "translate": "проливной дождь",
+                "isActive": true
+            },
+            {
+                "id": 23,
+                "original": "lightning",
+                "translate": "молния",
+                "isActive": true
+            },
+            {
+                "id": 24,
+                "original": "thunder",
+                "translate": "гром",
+                "isActive": true
+            },
+            {
+                "id": 25,
+                "original": "rainbow",
+                "translate": "радуга",
+                "isActive": true
+            },
+            {
+                "id": 26,
+                "original": "shade",
+                "translate": "тень",
+                "isActive": true
+            },
+            {
+                "id": 27,
+                "original": "degrees",
+                "translate": "градусы",
+                "isActive": true
+            },
+            {
+                "id": 28,
+                "original": "temperature",
+                "translate": "температура",
+                "isActive": true
+            },
+            {
+                "id": 29,
+                "original": "mild",
+                "translate": "мягкий (о погоде, климате)",
+                "isActive": true
+            },
+            {
+                "id": 30,
+                "original": "to clear up",
+                "translate": "проясняться (о погоде)",
+                "isActive": true
+            },
+            {
+                "id": 31,
+                "original": "to cloud over",
+                "translate": "затягиваться облаками",
+                "isActive": true
+            },
+            {
+                "id": 32,
+                "original": "to rise",
+                "translate": "восходить (о солнце)",
+                "isActive": true
+            },
+            {
+                "id": 33,
+                "original": "to set",
+                "translate": "заходить, садиться (о солнце)",
+                "isActive": true
+            },
+            {
+                "id": 34,
+                "original": "to shine",
+                "translate": "светить, сиять",
+                "isActive": true
+            }
+        ]
+    },
+    {
+        "title": "prepositions",
+        "items": [
+            {
+                "id": 35,
+                "original": "<b>above/below</b> 0",
+                "translate": "выше/ниже нуля",
+                "isActive": true
+            },
+            {
+                "id": 36,
+                "original": "to be <b>like</b>",
+                "translate": "быть каким-то (What's sb/sth like? — Какой кто-то/что-то? также о погоде)",
+                "isActive": true
+            },
+            {
+                "id": 37,
+                "original": "<b>in</b> the sky",
+                "translate": "на небе",
+                "isActive": true
+            },
+            {
+                "id": 38,
+                "original": "to lie <b>in</b> the sun",
+                "translate": "лежать на солнце",
+                "isActive": true
+            },
+            {
+                "id": 39,
+                "original": "to pour <b>with</b> rain",
+                "translate": "лить как из ведра",
+                "isActive": true
+            }
+        ]
+    },
+    {
+        "title": "phrasal verbs",
+        "items": [
+            {
+                "id": 40,
+                "original": "to go away",
+                "translate": "уезжать; также: проходить, исчезать (например, о боли)",
+                "isActive": true
+            },
+            {
+                "id": 41,
+                "original": "to go through sth",
+                "translate": "просматривать что-то (например, отчёт); переживать (например, трудный период)",
+                "isActive": true
+            },
+            {
+                "id": 42,
+                "original": "to go off",
+                "translate": "звонить, срабатывать (о будильнике, сигнализации); портиться (о еде)",
+                "isActive": true
+            },
+            {
+                "id": 43,
+                "original": "to go on",
+                "translate": "продолжать; происходить",
+                "isActive": true
+            },
+            {
+                "id": 44,
+                "original": "to go on to sth",
+                "translate": "переходить к чему-то (например, к следующему пункту)",
+                "isActive": true
+            }
+        ]
+    },
+    {
+        "title": "grammar",
+        "description": "<h3>First Conditional</h3>\n<p>Первый тип условных предложений — о <b>реальном будущем</b>: если выполнится условие, будет результат.</p>\n<ul>\n<li><b>If + Present Simple</b>, <b>will + глагол</b>: <b>If</b> I <b>have</b> enough time, I <b>will do</b> the shopping. — Если у меня будет время, я схожу за покупками.</li>\n<li>Вместо will можно другой модальный глагол (can, may, must…) или повелительное наклонение: <b>If</b> you <b>have</b> time, <b>do</b> the shopping.</li>\n</ul>\n<p><b>Главное:</b> после if глагол в <b>настоящем</b> времени, хотя по-русски — будущее: if it <b>rains</b> (не <s>if it will rain</s>).</p>\n<p><b>Те же правила с другими союзами</b></p>\n<ul>\n<li><b>when</b> — когда: <b>When</b> I <b>get</b> home, I'<b>ll prepare</b> something to eat.</li>\n<li><b>as soon as</b> — как только: <b>As soon as</b> I <b>finish</b> my homework, I'<b>ll go</b> for a walk.</li>\n<li><b>unless</b> — если не (= if … not): I <b>won't do</b> it <b>unless</b> you <b>help</b> me.</li>\n</ul>\n<p>Порядок частей можно менять. Если предложение начинается с if, ставим запятую: If it rains, we'll stay home. / We'll stay home if it rains.</p>",
+        "items": [
+            {
+                "id": 45,
+                "original": "<b>If</b> I <b>have</b> enough time, I <b>will do</b> the shopping.",
+                "translate": "Если у меня будет достаточно времени, я схожу за покупками. (if + Present Simple, will)",
+                "isActive": true
+            },
+            {
+                "id": 46,
+                "original": "We <b>won't go</b> to the beach <b>if</b> it <b>rains</b> tomorrow.",
+                "translate": "Мы не пойдём на пляж, если завтра будет дождь. (won't, if + rains)",
+                "isActive": true
+            },
+            {
+                "id": 47,
+                "original": "<b>If</b> it's <b>sunny</b> at the weekend, we'<b>ll have</b> a barbecue.",
+                "translate": "Если на выходных будет солнечно, мы устроим барбекю. (if + is, will)",
+                "isActive": true
+            },
+            {
+                "id": 48,
+                "original": "<b>If</b> it <b>gets</b> colder, it <b>will snow</b>.",
+                "translate": "Если похолодает, пойдёт снег. (if + gets, will)",
+                "isActive": true
+            },
+            {
+                "id": 49,
+                "original": "<b>If</b> I <b>find</b> a better job, I'<b>ll earn</b> more money.",
+                "translate": "Если я найду работу получше, я буду зарабатывать больше. (if + find, will)",
+                "isActive": true
+            },
+            {
+                "id": 50,
+                "original": "What <b>will</b> you <b>do if</b> she <b>doesn't agree</b>?",
+                "translate": "Что ты будешь делать, если она не согласится? (вопрос, if + doesn't)",
+                "isActive": true
+            },
+            {
+                "id": 51,
+                "original": "You'<b>ll get</b> wet <b>if</b> you <b>don't take</b> an umbrella.",
+                "translate": "Ты промокнешь, если не возьмёшь зонт. (if + don't)",
+                "isActive": true
+            },
+            {
+                "id": 52,
+                "original": "<b>If</b> the weather <b>clears up</b>, we <b>can go</b> for a walk.",
+                "translate": "Если погода прояснится, мы можем пойти погулять. (if + clears up, can)",
+                "isActive": true
+            },
+            {
+                "id": 53,
+                "original": "<b>If</b> you <b>see</b> lightning, <b>stay</b> inside.",
+                "translate": "Если увидишь молнию, оставайся в помещении. (if + повелительное наклонение)",
+                "isActive": true
+            },
+            {
+                "id": 54,
+                "original": "<b>If</b> you <b>have</b> time, <b>do</b> the shopping.",
+                "translate": "Если у тебя будет время, сходи за покупками. (повелительное наклонение)",
+                "isActive": true
+            },
+            {
+                "id": 55,
+                "original": "<b>When</b> I <b>get</b> home, I'<b>ll prepare</b> something to eat.",
+                "translate": "Когда я приду домой, я приготовлю что-нибудь поесть. (when + Present Simple)",
+                "isActive": true
+            },
+            {
+                "id": 56,
+                "original": "I'<b>ll have</b> dinner <b>when</b> I <b>get</b> back home.",
+                "translate": "Я поужинаю, когда вернусь домой. (when)",
+                "isActive": true
+            },
+            {
+                "id": 57,
+                "original": "<b>Call</b> me <b>when</b> you <b>wake</b> up.",
+                "translate": "Позвони мне, когда проснёшься. (when + повелительное)",
+                "isActive": true
+            },
+            {
+                "id": 58,
+                "original": "What <b>will</b> you <b>tell</b> him <b>when</b> you <b>see</b> him?",
+                "translate": "Что ты ему скажешь, когда увидишь его? (when)",
+                "isActive": true
+            },
+            {
+                "id": 59,
+                "original": "<b>As soon as</b> I <b>finish</b> my homework, I'<b>ll go</b> for a walk.",
+                "translate": "Как только я закончу домашнее задание, я пойду гулять. (as soon as)",
+                "isActive": true
+            },
+            {
+                "id": 60,
+                "original": "I'<b>ll call</b> you back <b>as soon as</b> I <b>have</b> a break.",
+                "translate": "Я перезвоню тебе, как только у меня будет перерыв. (as soon as)",
+                "isActive": true
+            },
+            {
+                "id": 61,
+                "original": "She'<b>ll visit</b> her parents <b>as soon as</b> she <b>comes</b> to Warsaw.",
+                "translate": "Она навестит родителей, как только приедет в Варшаву. (as soon as)",
+                "isActive": true
+            },
+            {
+                "id": 62,
+                "original": "I <b>won't do</b> it <b>unless</b> you <b>help</b> me.",
+                "translate": "Я не сделаю этого, если ты мне не поможешь. (unless = if not)",
+                "isActive": true
+            },
+            {
+                "id": 63,
+                "original": "You'<b>ll miss</b> your train <b>unless</b> you <b>hurry</b> up.",
+                "translate": "Ты опоздаешь на поезд, если не поторопишься. (unless)",
+                "isActive": true
+            },
+            {
+                "id": 64,
+                "original": "Tom <b>won't get</b> into university <b>unless</b> he <b>passes</b> all his exams.",
+                "translate": "Том не поступит в университет, если не сдаст все экзамены. (unless)",
+                "isActive": true
+            }
+        ]
+    }
+]

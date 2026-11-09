@@ -2,21 +2,34 @@
   <section class='app'>
     <ul class='app__nav first'>
       <li class='app__nav-item app__nav-title'>
-        <button class="app__lang-btn app__lang-btn--en" @click="changeLang('en')">
-          <img src="/en.svg" alt="">
-        </button>
-        <button class="app__lang-btn app__lang-btn--pl" @click="changeLang('pl')">
-          <img src="/pl.svg" alt="">
-        </button>
         Categories
       </li>
-      <li class='app__nav-item'
-          :class='{"app__nav-item--active": data.activeCategoryWord === key}'
-          v-for='(item, key) in data.words'
-          @click='changeActiveCategory(key)'
-      >
-        {{ `${key} (${item.length} сл.)` }}
-      </li>
+      <template v-for='(item, key) in data.words'>
+        <template v-if='isGroup(item)'>
+          <li class='app__nav-item app__nav-group'
+              :class='{"app__nav-group--open": data.openGroups.includes(key)}'
+              @click='toggleGroup(key)'
+          >
+            <span class='app__nav-group-arrow'>▸</span>{{ key }}
+          </li>
+          <template v-if='data.openGroups.includes(key)'>
+            <li class='app__nav-item app__nav-item--nested'
+                :class='{"app__nav-item--active": data.activeCategoryWord === `${key} / ${group.title}`}'
+                v-for='group in item'
+                @click='changeActiveCategory(`${key} / ${group.title}`)'
+            >
+              {{ `${group.title} (${group.items.length} сл.)` }}
+            </li>
+          </template>
+        </template>
+        <li class='app__nav-item'
+            v-else
+            :class='{"app__nav-item--active": data.activeCategoryWord === key}'
+            @click='changeActiveCategory(key)'
+        >
+          {{ `${key} (${item.length} сл.)` }}
+        </li>
+      </template>
     </ul>
 
     <ul class='app__nav second'>
@@ -28,8 +41,15 @@
         <button class="app__nav-item-btn" @click="data.isKeyboardActive = true">Open keyboard</button>
       </li>
 
+      <li class='app__nav-item app__nav-description'
+          v-if='descriptions[data.activeCategoryWord]'
+          v-html='descriptions[data.activeCategoryWord]'
+      ></li>
+
       <li class='app__nav-item' v-for='item in data.currentCategoryWords'>
-        <span v-html="item.original"></span>: <span v-html="item.translate"></span>
+        <span class="app__nav-word" v-html="item.original"></span>
+        <span class="app__nav-word-sep">—</span>
+        <span class="app__nav-word-translate" v-html="item.translate"></span>
       </li>
     </ul>
 
@@ -68,13 +88,11 @@ export default {
 
 <script setup lang='ts'>
 import {en} from './jsons/en'
-import {pl} from './jsons/pl'
 import {computed, onMounted, reactive, watch} from 'vue';
 import SectionKeyboard from './components/sections/keyboard/index.vue'
 
 const data = reactive({
   inpValue: '',
-  currentLanguage: 'en',
   activeCategoryWord: '',
   hidePrompt: true,
   current: '' as string,
@@ -83,29 +101,50 @@ const data = reactive({
   currentCategoryWords: [],
   words: [],
   isKeyboardActive: false,
-  isAlgorithmChanged: false
+  isAlgorithmChanged: false,
+  openGroups: [] as string[]
 })
 
-const changeLang = function (val) {
-  data.currentLanguage = val
-  localStorage.setItem('currentLanguage', data.currentLanguage)
-  data.words = val === 'en' ? en : pl
+// A category is either an array of words or an array of groups: { title, items: [words] }
+const isGroup = (item) => Boolean(item[0]?.items)
 
-  const word = Object.keys(data.words)[0]
+// Flat map of selectable categories; grouped ones are keyed as `week / group title`
+const categories = computed(() => {
+  const result = {}
+  Object.entries(data.words).forEach(([key, item]) => {
+    if (isGroup(item)) item.forEach(group => result[`${key} / ${group.title}`] = group.items)
+    else result[key] = item
+  })
+  return result
+})
 
-  data.activeCategoryWord = Object.keys(data.words)[0]
-  localStorage.setItem('activeCategoryWord', Object.keys(data.words)[0])
+// Optional group descriptions (e.g. a grammar explanation), keyed the same way as `categories`
+const descriptions = computed(() => {
+  const result = {}
+  Object.entries(data.words).forEach(([key, item]) => {
+    if (isGroup(item)) item.forEach(group => {
+      if (group.description) result[`${key} / ${group.title}`] = group.description
+    })
+  })
+  return result
+})
 
-  data.currentCategoryWords = data.words[word]
-  data.defaultEls = JSON.parse(JSON.stringify(data.currentCategoryWords))
-  data.els = JSON.parse(JSON.stringify(data.currentCategoryWords))
-  changeInfo()
+const toggleGroup = function (key: string) {
+  data.openGroups = data.openGroups.includes(key)
+    ? data.openGroups.filter(item => item !== key)
+    : [...data.openGroups, key]
+}
+
+// Expand the group that contains the given category, e.g. `week_1` for `week_1 / words`
+const openParentGroup = function (category: string) {
+  const parent = category.split(' / ')[0]
+  if (parent !== category && !data.openGroups.includes(parent)) data.openGroups.push(parent)
 }
 
 const changeActiveCategory = function (val: string) {
   data.activeCategoryWord = val
   data.hidePrompt = true
-  data.currentCategoryWords = data.words[val]
+  data.currentCategoryWords = categories.value[val]
   data.defaultEls = JSON.parse(JSON.stringify(data.currentCategoryWords))
   data.els = JSON.parse(JSON.stringify(data.currentCategoryWords))
   changeInfo()
@@ -129,7 +168,6 @@ const showNextWord = function () {
 watch(() => [
   data.isKeyboardActive,
   data.isAlgorithmChanged,
-  data.currentLanguage,
   data.words,
   data.currentCategoryWords,
 ], () => {
@@ -137,20 +175,16 @@ watch(() => [
 })
 
 onMounted(() => {
-  if (localStorage.getItem('currentLanguage')) {
-    data.currentLanguage = localStorage.getItem('currentLanguage')
-  }
-  data.words = data.currentLanguage === 'en' ? en : pl
+  data.words = en
 
-  let word = ''
-  if (localStorage.getItem('activeCategoryWord')) {
-    word = localStorage.getItem('activeCategoryWord')
-  } else {
-    localStorage.setItem('activeCategoryWord', Object.keys(data.words)[0])
-    word = Object.keys(data.words)[0]
+  let word = localStorage.getItem('activeCategoryWord')
+  if (!word || !categories.value[word]) {
+    word = Object.keys(categories.value)[0]
+    localStorage.setItem('activeCategoryWord', word)
   }
   data.activeCategoryWord = word
-  data.currentCategoryWords = data.words[word]
+  openParentGroup(word)
+  data.currentCategoryWords = categories.value[word]
   data.defaultEls = JSON.parse(JSON.stringify(data.currentCategoryWords))
   data.els = JSON.parse(JSON.stringify(data.currentCategoryWords))
   changeInfo()
@@ -168,28 +202,6 @@ onMounted(() => {
   box-sizing: border-box;
   display: flex;
   padding: 30px;
-
-  &__lang-btn {
-    margin-right: 4px;
-    padding: 0;
-    font-size: 0;
-    background-size: contain;
-    background-repeat: no-repeat;
-    border-radius: 0;
-    border: 0;
-    width: 40px;
-    height: 30px;
-    background-color: transparent;
-    background-position: center;
-    cursor: pointer;
-
-    img {
-      width: 100%;
-      height: 100%;
-      max-width: 100%;
-      object-fit: contain;
-    }
-  }
 
   &__nav {
     padding: 0;
@@ -237,6 +249,66 @@ onMounted(() => {
 
       &--active {
         background-color: rgba(255, 255, 255, 0.18);
+      }
+
+      &--nested {
+        padding-left: 35px;
+      }
+    }
+
+    &-group {
+      font-weight: 500;
+      user-select: none;
+
+      &-arrow {
+        display: inline-block;
+        margin-right: 8px;
+        transition: transform 0.15s;
+      }
+
+      &--open &-arrow {
+        transform: rotate(90deg);
+      }
+    }
+
+    &-description {
+      cursor: default;
+      line-height: 1.5;
+      background-color: rgba(78, 255, 240, 0.06);
+
+      h3 {
+        margin: 0 0 10px;
+        font-size: 17px;
+        font-weight: 600;
+      }
+
+      p {
+        margin: 10px 0 4px;
+      }
+
+      ul {
+        margin: 0;
+        padding-left: 20px;
+      }
+
+      li {
+        margin-bottom: 2px;
+      }
+    }
+
+    &-word {
+      font-size: 15px;
+      font-weight: 600;
+      color: #ffffff;
+
+      &-sep {
+        margin: 0 6px;
+        opacity: 0.3;
+      }
+
+      &-translate {
+        font-size: 13px;
+        color: rgba(255, 255, 255, 0.55);
       }
     }
 

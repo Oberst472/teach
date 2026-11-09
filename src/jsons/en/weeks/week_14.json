@@ -1,0 +1,461 @@
+[
+    {
+        "title": "words",
+        "items": [
+            {
+                "id": 1,
+                "original": "company",
+                "translate": "компания, фирма",
+                "isActive": true
+            },
+            {
+                "id": 2,
+                "original": "office",
+                "translate": "офис",
+                "isActive": true
+            },
+            {
+                "id": 3,
+                "original": "(job) interview",
+                "translate": "собеседование (при приёме на работу)",
+                "isActive": true
+            },
+            {
+                "id": 4,
+                "original": "experience",
+                "translate": "опыт",
+                "isActive": true
+            },
+            {
+                "id": 5,
+                "original": "qualifications",
+                "translate": "квалификация",
+                "isActive": true
+            },
+            {
+                "id": 6,
+                "original": "contract",
+                "translate": "контракт, договор",
+                "isActive": true
+            },
+            {
+                "id": 7,
+                "original": "department",
+                "translate": "отдел",
+                "isActive": true
+            },
+            {
+                "id": 8,
+                "original": "duty/responsibility",
+                "translate": "обязанность",
+                "isActive": true
+            },
+            {
+                "id": 9,
+                "original": "full-time",
+                "translate": "на полную ставку",
+                "isActive": true
+            },
+            {
+                "id": 10,
+                "original": "part-time",
+                "translate": "на неполную ставку, на полставки",
+                "isActive": true
+            },
+            {
+                "id": 11,
+                "original": "onboarding/orientation/induction",
+                "translate": "адаптация, введение нового сотрудника в должность",
+                "isActive": true
+            },
+            {
+                "id": 12,
+                "original": "self-employed",
+                "translate": "самозанятый, работающий на себя",
+                "isActive": true
+            },
+            {
+                "id": 13,
+                "original": "reception",
+                "translate": "ресепшен, приёмная",
+                "isActive": true
+            },
+            {
+                "id": 14,
+                "original": "staff",
+                "translate": "персонал",
+                "isActive": true
+            },
+            {
+                "id": 15,
+                "original": "colleague/workmate",
+                "translate": "коллега",
+                "isActive": true
+            },
+            {
+                "id": 16,
+                "original": "boss",
+                "translate": "начальник",
+                "isActive": true
+            },
+            {
+                "id": 17,
+                "original": "client/customer",
+                "translate": "клиент",
+                "isActive": true
+            },
+            {
+                "id": 18,
+                "original": "meeting",
+                "translate": "встреча, совещание",
+                "isActive": true
+            },
+            {
+                "id": 19,
+                "original": "report",
+                "translate": "отчёт",
+                "isActive": true
+            },
+            {
+                "id": 20,
+                "original": "goal",
+                "translate": "цель",
+                "isActive": true
+            },
+            {
+                "id": 21,
+                "original": "flexible working hours",
+                "translate": "гибкий рабочий график",
+                "isActive": true
+            },
+            {
+                "id": 22,
+                "original": "lunchtime",
+                "translate": "обеденное время",
+                "isActive": true
+            },
+            {
+                "id": 23,
+                "original": "to do an internship",
+                "translate": "проходить стажировку",
+                "isActive": true
+            },
+            {
+                "id": 24,
+                "original": "intern",
+                "translate": "стажёр, практикант",
+                "isActive": true
+            },
+            {
+                "id": 25,
+                "original": "to get a job",
+                "translate": "получить работу",
+                "isActive": true
+            },
+            {
+                "id": 26,
+                "original": "to get a (pay) rise",
+                "translate": "получить повышение зарплаты",
+                "isActive": true
+            },
+            {
+                "id": 27,
+                "original": "to get promoted",
+                "translate": "получить повышение (в должности)",
+                "isActive": true
+            },
+            {
+                "id": 28,
+                "original": "to do business with",
+                "translate": "вести дела с",
+                "isActive": true
+            },
+            {
+                "id": 29,
+                "original": "to fill in",
+                "translate": "заполнять",
+                "isActive": true
+            },
+            {
+                "id": 30,
+                "original": "to sign",
+                "translate": "подписывать",
+                "isActive": true
+            },
+            {
+                "id": 31,
+                "original": "to invest in",
+                "translate": "инвестировать в",
+                "isActive": true
+            },
+            {
+                "id": 32,
+                "original": "to earn",
+                "translate": "зарабатывать",
+                "isActive": true
+            },
+            {
+                "id": 33,
+                "original": "to work as",
+                "translate": "работать кем-то",
+                "isActive": true
+            },
+            {
+                "id": 34,
+                "original": "to work for",
+                "translate": "работать на (какую-то компанию)",
+                "isActive": true
+            },
+            {
+                "id": 35,
+                "original": "to work long hours",
+                "translate": "работать допоздна, много часов",
+                "isActive": true
+            },
+            {
+                "id": 36,
+                "original": "to work overtime",
+                "translate": "работать сверхурочно",
+                "isActive": true
+            },
+            {
+                "id": 37,
+                "original": "to hire",
+                "translate": "нанимать",
+                "isActive": true
+            },
+            {
+                "id": 38,
+                "original": "to fire sb",
+                "translate": "увольнять кого-то",
+                "isActive": true
+            },
+            {
+                "id": 39,
+                "original": "to be fired",
+                "translate": "быть уволенным",
+                "isActive": true
+            },
+            {
+                "id": 40,
+                "original": "to make sb redundant",
+                "translate": "сократить кого-то (по сокращению штата)",
+                "isActive": true
+            },
+            {
+                "id": 41,
+                "original": "to be made redundant",
+                "translate": "попасть под сокращение",
+                "isActive": true
+            },
+            {
+                "id": 42,
+                "original": "to resign / to quit one's job / to give in one's notice",
+                "translate": "уволиться по собственному желанию / бросить работу / подать заявление об уходе",
+                "isActive": true
+            },
+            {
+                "id": 43,
+                "original": "to retire",
+                "translate": "уйти на пенсию",
+                "isActive": true
+            }
+        ]
+    },
+    {
+        "title": "prepositions",
+        "items": [
+            {
+                "id": 44,
+                "original": "<b>in</b> a meeting",
+                "translate": "на совещании",
+                "isActive": true
+            },
+            {
+                "id": 45,
+                "original": "<b>on</b> business",
+                "translate": "по делам, в командировке",
+                "isActive": true
+            },
+            {
+                "id": 46,
+                "original": "<b>out of</b> work",
+                "translate": "безработный",
+                "isActive": true
+            },
+            {
+                "id": 47,
+                "original": "to apply <b>for</b>",
+                "translate": "подавать заявку на (например, работу, должность)",
+                "isActive": true
+            },
+            {
+                "id": 48,
+                "original": "to be <b>in</b> charge <b>of</b> / to be responsible <b>for</b>",
+                "translate": "отвечать за, быть ответственным за",
+                "isActive": true
+            },
+            {
+                "id": 49,
+                "original": "to take a day <b>off</b>",
+                "translate": "взять выходной",
+                "isActive": true
+            }
+        ]
+    },
+    {
+        "title": "phrasal verbs",
+        "items": [
+            {
+                "id": 50,
+                "original": "to fall down",
+                "translate": "упасть",
+                "isActive": true
+            },
+            {
+                "id": 51,
+                "original": "to fall into",
+                "translate": "упасть в, попасть в",
+                "isActive": true
+            },
+            {
+                "id": 52,
+                "original": "to fall out of",
+                "translate": "выпасть из",
+                "isActive": true
+            },
+            {
+                "id": 53,
+                "original": "to fall over",
+                "translate": "упасть, споткнувшись",
+                "isActive": true
+            }
+        ]
+    },
+    {
+        "title": "grammar",
+        "description": "<h3>Comparison: as … as …</h3>\n<p><b>as … as</b> — <b>такой же … как</b> (равенство). В отрицании <b>not as … as</b> — <b>не такой … как</b> (меньше).</p>\n<ul>\n<li>с <b>прилагательными</b>: Tom is <b>as tall as</b> his brother.</li>\n<li>с <b>наречиями</b>: He doesn't wake up <b>as early as</b> I do / me.</li>\n<li><b>as much as</b> + неисчисляемое или после глагола: I don't have <b>as much time</b> today <b>as</b> yesterday. / I sleep <b>as much as</b> he does.</li>\n<li><b>as many as</b> + исчисляемое: He doesn't have <b>as many friends as</b> I do / me.</li>\n</ul>\n<p>После второго as — как и с than: <b>as me / him</b> или <b>as I do / he did</b>.</p>\n<p><b>Как переделать сравнение:</b> Your car was <b>more expensive than</b> mine. → My car <b>wasn't as expensive as</b> yours.</p>\n<p><b>Полезные выражения</b></p>\n<ul>\n<li><b>as soon as possible</b> (asap) — как можно скорее</li>\n<li><b>as far as I know</b> — насколько я знаю · <b>as far as I remember</b> — насколько я помню</li>\n<li><b>as stubborn as a mule</b> — упрямый как осёл · <b>as old as the hills</b> — старо как мир</li>\n</ul>",
+        "items": [
+            {
+                "id": 54,
+                "original": "Tom is <b>as tall as</b> his brother.",
+                "translate": "Том такой же высокий, как его брат. (as + прилагательное + as)",
+                "isActive": true
+            },
+            {
+                "id": 55,
+                "original": "The weather this summer is <b>as bad as</b> last year.",
+                "translate": "Погода этим летом такая же плохая, как в прошлом году. (as bad as)",
+                "isActive": true
+            },
+            {
+                "id": 56,
+                "original": "My new job is <b>as stressful as</b> my old one.",
+                "translate": "Моя новая работа такая же напряжённая, как старая. (as stressful as)",
+                "isActive": true
+            },
+            {
+                "id": 57,
+                "original": "My car <b>wasn't as expensive as</b> yours.",
+                "translate": "Моя машина была не такой дорогой, как твоя. (not as … as)",
+                "isActive": true
+            },
+            {
+                "id": 58,
+                "original": "Working part-time is<b>n't as tiring as</b> working full-time.",
+                "translate": "Работать на полставки не так утомительно, как на полную ставку. (not as … as)",
+                "isActive": true
+            },
+            {
+                "id": 59,
+                "original": "He doesn't wake up <b>as early as</b> I do.",
+                "translate": "Он просыпается не так рано, как я. (as + наречие + as, as I do)",
+                "isActive": true
+            },
+            {
+                "id": 60,
+                "original": "You don't know me <b>as well as</b> she does.",
+                "translate": "Ты знаешь меня не так хорошо, как она. (as well as she does)",
+                "isActive": true
+            },
+            {
+                "id": 61,
+                "original": "Will you have to get up <b>as early as</b> me?",
+                "translate": "Тебе придётся вставать так же рано, как мне? (as early as me)",
+                "isActive": true
+            },
+            {
+                "id": 62,
+                "original": "I don't have <b>as much time</b> today <b>as</b> yesterday.",
+                "translate": "Сегодня у меня не так много времени, как вчера. (as much + неисчисляемое)",
+                "isActive": true
+            },
+            {
+                "id": 63,
+                "original": "At least there isn't <b>as much rain</b>.",
+                "translate": "По крайней мере, нет столько дождя. (as much)",
+                "isActive": true
+            },
+            {
+                "id": 64,
+                "original": "Monica's husband didn't eat <b>as much</b> pasta <b>as</b> she did.",
+                "translate": "Муж Моники съел не так много пасты, как она. (as much … as she did)",
+                "isActive": true
+            },
+            {
+                "id": 65,
+                "original": "As far as I know, he earns <b>as much as</b> his boss.",
+                "translate": "Насколько я знаю, он зарабатывает столько же, сколько его начальник. (as much as после глагола)",
+                "isActive": true
+            },
+            {
+                "id": 66,
+                "original": "Why don't you study <b>as much as</b> you did in the past?",
+                "translate": "Почему ты не учишься так много, как раньше? (as much as you did)",
+                "isActive": true
+            },
+            {
+                "id": 67,
+                "original": "He doesn't have <b>as many friends as</b> me.",
+                "translate": "У него не так много друзей, как у меня. (as many + исчисляемое)",
+                "isActive": true
+            },
+            {
+                "id": 68,
+                "original": "Our son doesn't have <b>as many toys as</b> our daughter.",
+                "translate": "У нашего сына не так много игрушек, как у дочери. (as many … as)",
+                "isActive": true
+            },
+            {
+                "id": 69,
+                "original": "She doesn't have <b>as much experience as</b> the other candidates.",
+                "translate": "У неё не так много опыта, как у других кандидатов. (as much experience as)",
+                "isActive": true
+            },
+            {
+                "id": 70,
+                "original": "Please send me the report <b>as soon as possible</b>.",
+                "translate": "Пожалуйста, пришли мне отчёт как можно скорее. (as soon as possible — asap)",
+                "isActive": true
+            },
+            {
+                "id": 71,
+                "original": "<b>As far as I remember</b>, the meeting is on Monday.",
+                "translate": "Насколько я помню, совещание в понедельник. (as far as I remember)",
+                "isActive": true
+            },
+            {
+                "id": 72,
+                "original": "My boss is <b>as stubborn as a mule</b>.",
+                "translate": "Мой начальник упрямый как осёл. (идиома as stubborn as a mule)",
+                "isActive": true
+            },
+            {
+                "id": 73,
+                "original": "That joke is <b>as old as the hills</b>.",
+                "translate": "Эта шутка стара как мир. (идиома as old as the hills)",
+                "isActive": true
+            }
+        ]
+    }
+]

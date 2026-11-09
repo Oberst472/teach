@@ -1,0 +1,419 @@
+[
+    {
+        "title": "words",
+        "items": [
+            {
+                "id": 1,
+                "original": "accountant",
+                "translate": "бухгалтер",
+                "isActive": true
+            },
+            {
+                "id": 2,
+                "original": "bank clerk",
+                "translate": "банковский служащий",
+                "isActive": true
+            },
+            {
+                "id": 3,
+                "original": "beautician",
+                "translate": "косметолог",
+                "isActive": true
+            },
+            {
+                "id": 4,
+                "original": "chef",
+                "translate": "повар (в ресторане)",
+                "isActive": true
+            },
+            {
+                "id": 5,
+                "original": "doctor",
+                "translate": "врач",
+                "isActive": true
+            },
+            {
+                "id": 6,
+                "original": "driving instructor",
+                "translate": "инструктор по вождению",
+                "isActive": true
+            },
+            {
+                "id": 7,
+                "original": "electrician",
+                "translate": "электрик",
+                "isActive": true
+            },
+            {
+                "id": 8,
+                "original": "engineer",
+                "translate": "инженер",
+                "isActive": true
+            },
+            {
+                "id": 9,
+                "original": "estate agent",
+                "translate": "агент по недвижимости, риелтор",
+                "isActive": true
+            },
+            {
+                "id": 10,
+                "original": "fashion/interior designer",
+                "translate": "модельер / дизайнер интерьеров",
+                "isActive": true
+            },
+            {
+                "id": 11,
+                "original": "firefighter/fireman",
+                "translate": "пожарный",
+                "isActive": true
+            },
+            {
+                "id": 12,
+                "original": "flight attendant",
+                "translate": "бортпроводник, стюардесса",
+                "isActive": true
+            },
+            {
+                "id": 13,
+                "original": "hairdresser",
+                "translate": "парикмахер",
+                "isActive": true
+            },
+            {
+                "id": 14,
+                "original": "lawyer",
+                "translate": "юрист, адвокат",
+                "isActive": true
+            },
+            {
+                "id": 15,
+                "original": "lorry/taxi driver",
+                "translate": "водитель грузовика / таксист",
+                "isActive": true
+            },
+            {
+                "id": 16,
+                "original": "musician",
+                "translate": "музыкант",
+                "isActive": true
+            },
+            {
+                "id": 17,
+                "original": "nurse",
+                "translate": "медсестра",
+                "isActive": true
+            },
+            {
+                "id": 18,
+                "original": "photographer",
+                "translate": "фотограф",
+                "isActive": true
+            },
+            {
+                "id": 19,
+                "original": "plumber",
+                "translate": "сантехник",
+                "isActive": true
+            },
+            {
+                "id": 20,
+                "original": "politician",
+                "translate": "политик",
+                "isActive": true
+            },
+            {
+                "id": 21,
+                "original": "postman",
+                "translate": "почтальон",
+                "isActive": true
+            },
+            {
+                "id": 22,
+                "original": "priest",
+                "translate": "священник",
+                "isActive": true
+            },
+            {
+                "id": 23,
+                "original": "programmer",
+                "translate": "программист",
+                "isActive": true
+            },
+            {
+                "id": 24,
+                "original": "receptionist",
+                "translate": "администратор на ресепшене",
+                "isActive": true
+            },
+            {
+                "id": 25,
+                "original": "journalist",
+                "translate": "журналист",
+                "isActive": true
+            },
+            {
+                "id": 26,
+                "original": "sales rep (representative)",
+                "translate": "торговый представитель",
+                "isActive": true
+            },
+            {
+                "id": 27,
+                "original": "scientist",
+                "translate": "учёный",
+                "isActive": true
+            },
+            {
+                "id": 28,
+                "original": "security guard",
+                "translate": "охранник",
+                "isActive": true
+            },
+            {
+                "id": 29,
+                "original": "shoemaker/cobbler",
+                "translate": "сапожник",
+                "isActive": true
+            },
+            {
+                "id": 30,
+                "original": "soldier",
+                "translate": "солдат",
+                "isActive": true
+            },
+            {
+                "id": 31,
+                "original": "tailor",
+                "translate": "портной",
+                "isActive": true
+            },
+            {
+                "id": 32,
+                "original": "teacher",
+                "translate": "учитель",
+                "isActive": true
+            },
+            {
+                "id": 33,
+                "original": "tour guide",
+                "translate": "экскурсовод, гид",
+                "isActive": true
+            },
+            {
+                "id": 34,
+                "original": "vet (veterinarian)",
+                "translate": "ветеринар",
+                "isActive": true
+            },
+            {
+                "id": 35,
+                "original": "waiter/waitress",
+                "translate": "официант / официантка",
+                "isActive": true
+            }
+        ]
+    },
+    {
+        "title": "prepositions",
+        "items": [
+            {
+                "id": 36,
+                "original": "to work <b>as</b>",
+                "translate": "работать кем-то (например, парикмахером)",
+                "isActive": true
+            },
+            {
+                "id": 37,
+                "original": "to work <b>at</b>",
+                "translate": "работать в (конкретной компании)",
+                "isActive": true
+            },
+            {
+                "id": 38,
+                "original": "to work <b>for</b>",
+                "translate": "работать на (компанию, кого-то)",
+                "isActive": true
+            },
+            {
+                "id": 39,
+                "original": "to work <b>in</b>",
+                "translate": "работать в (здании, например in a library; отрасли, например in the fashion industry)",
+                "isActive": true
+            },
+            {
+                "id": 40,
+                "original": "to work <b>on</b>",
+                "translate": "работать над",
+                "isActive": true
+            }
+        ]
+    },
+    {
+        "title": "phrasal verbs",
+        "items": [
+            {
+                "id": 41,
+                "original": "to put sth away",
+                "translate": "убирать что-то (на место)",
+                "isActive": true
+            },
+            {
+                "id": 42,
+                "original": "to put off",
+                "translate": "откладывать (например, встречу); отталкивать, отбивать желание",
+                "isActive": true
+            },
+            {
+                "id": 43,
+                "original": "to put sth on",
+                "translate": "надевать (одежду), включать (музыку), ставить (например, чайник)",
+                "isActive": true
+            },
+            {
+                "id": 44,
+                "original": "to put out",
+                "translate": "тушить (например, сигарету, пожар)",
+                "isActive": true
+            },
+            {
+                "id": 45,
+                "original": "to put sth down",
+                "translate": "класть, положить что-то (например, ручку)",
+                "isActive": true
+            },
+            {
+                "id": 46,
+                "original": "to put sth in(to somewhere)",
+                "translate": "класть что-то (куда-то)",
+                "isActive": true
+            }
+        ]
+    },
+    {
+        "title": "grammar",
+        "description": "<h3>Comparatives and superlatives</h3>\n<p>Степени сравнения прилагательных зависят от их длины.</p>\n<p><b>1. Короткие</b> (один слог и некоторые двусложные) — <b>-er</b> / <b>the -est</b></p>\n<ul>\n<li>tall – tall<b>er</b> – <b>the</b> tall<b>est</b>; heavy – heav<b>ier</b> – <b>the</b> heav<b>iest</b></li>\n<li>He is tall<b>er than</b> me, but Tommy is <b>the</b> tall<b>est</b>. (than — чем)</li>\n</ul>\n<p><b>2. Длинные</b> — <b>more</b> / <b>the most</b></p>\n<ul>\n<li>interesting – <b>more</b> interesting – <b>the most</b> interesting</li>\n<li>This book is <b>more</b> interesting than that one, but this is <b>the most</b> interesting <b>of all</b>.</li>\n</ul>\n<p><b>Неправильные формы</b></p>\n<ul>\n<li>good – <b>better</b> – <b>the best</b></li>\n<li>bad – <b>worse</b> – <b>the worst</b></li>\n<li>far – <b>farther/further</b> – <b>the farthest/furthest</b></li>\n</ul>\n<p><b>Запомни:</b> перед превосходной степенью нужен <b>the</b>, кроме случаев с притяжательным местоимением: <b>my</b> best friend.</p>",
+        "items": [
+            {
+                "id": 47,
+                "original": "Your house is <b>bigger than</b> mine.",
+                "translate": "Твой дом больше моего. (big → bigger)",
+                "isActive": true
+            },
+            {
+                "id": 48,
+                "original": "He is <b>taller than</b> me, but Tommy is <b>the tallest</b>.",
+                "translate": "Он выше меня, но Томми самый высокий. (tall → taller → the tallest)",
+                "isActive": true
+            },
+            {
+                "id": 49,
+                "original": "This film is a bit <b>longer</b> but <b>more interesting than</b> that one.",
+                "translate": "Этот фильм немного длиннее, но интереснее того. (longer / more interesting)",
+                "isActive": true
+            },
+            {
+                "id": 50,
+                "original": "I feel <b>happier</b> and <b>smarter</b> with you.",
+                "translate": "С тобой я чувствую себя счастливее и умнее. (happy → happier)",
+                "isActive": true
+            },
+            {
+                "id": 51,
+                "original": "A doctor earns <b>more</b> money, but a nurse's job is <b>harder</b>.",
+                "translate": "Врач зарабатывает больше, но работа медсестры тяжелее. (hard → harder)",
+                "isActive": true
+            },
+            {
+                "id": 52,
+                "original": "She's <b>more hard-working than</b> her brother.",
+                "translate": "Она трудолюбивее своего брата. (more + длинное прилагательное)",
+                "isActive": true
+            },
+            {
+                "id": 53,
+                "original": "Being a firefighter is <b>more dangerous than</b> being a teacher.",
+                "translate": "Быть пожарным опаснее, чем учителем. (more dangerous)",
+                "isActive": true
+            },
+            {
+                "id": 54,
+                "original": "It's <b>the shortest</b> day of the year today.",
+                "translate": "Сегодня самый короткий день в году. (short → the shortest)",
+                "isActive": true
+            },
+            {
+                "id": 55,
+                "original": "How much is <b>the cheapest</b> phone in this shop?",
+                "translate": "Сколько стоит самый дешёвый телефон в этом магазине? (cheap → the cheapest)",
+                "isActive": true
+            },
+            {
+                "id": 56,
+                "original": "That was <b>the most difficult</b> question they asked me.",
+                "translate": "Это был самый трудный вопрос, который мне задали. (the most difficult)",
+                "isActive": true
+            },
+            {
+                "id": 57,
+                "original": "Cracow is <b>the most polluted</b> city in Poland.",
+                "translate": "Краков — самый загрязнённый город в Польше. (the most polluted)",
+                "isActive": true
+            },
+            {
+                "id": 58,
+                "original": "He's <b>the most famous</b> chef in the city.",
+                "translate": "Он самый знаменитый шеф-повар в городе. (the most famous)",
+                "isActive": true
+            },
+            {
+                "id": 59,
+                "original": "My daughter has <b>better</b> grades <b>than</b> my son.",
+                "translate": "У моей дочери оценки лучше, чем у сына. (good → better)",
+                "isActive": true
+            },
+            {
+                "id": 60,
+                "original": "What's <b>the best</b> book you've ever read?",
+                "translate": "Какая самая лучшая книга, которую ты когда-либо читал? (the best)",
+                "isActive": true
+            },
+            {
+                "id": 61,
+                "original": "The weather is much <b>worse</b> today <b>than</b> yesterday.",
+                "translate": "Погода сегодня намного хуже, чем вчера. (bad → worse)",
+                "isActive": true
+            },
+            {
+                "id": 62,
+                "original": "It's <b>the worst</b> film I've ever seen.",
+                "translate": "Это худший фильм, который я когда-либо видел. (the worst)",
+                "isActive": true
+            },
+            {
+                "id": 63,
+                "original": "Birmingham is <b>farther</b> from London <b>than</b> Oxford.",
+                "translate": "Бирмингем дальше от Лондона, чем Оксфорд. (far → farther/further)",
+                "isActive": true
+            },
+            {
+                "id": 64,
+                "original": "My <b>best</b> friend is a lawyer.",
+                "translate": "Мой лучший друг — юрист. (my best — без the)",
+                "isActive": true
+            },
+            {
+                "id": 65,
+                "original": "Is a plumber's job <b>easier than</b> an electrician's?",
+                "translate": "Работа сантехника легче, чем электрика? (easy → easier)",
+                "isActive": true
+            },
+            {
+                "id": 66,
+                "original": "She is <b>the youngest</b> and <b>the most talented</b> musician in the band.",
+                "translate": "Она самый молодой и самый талантливый музыкант в группе. (the youngest / the most talented)",
+                "isActive": true
+            }
+        ]
+    }
+]

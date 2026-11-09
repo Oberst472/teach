@@ -1,0 +1,467 @@
+[
+    {
+        "title": "words",
+        "items": [
+            {
+                "id": 1,
+                "original": "bicycle/bike",
+                "translate": "велосипед",
+                "isActive": true
+            },
+            {
+                "id": 2,
+                "original": "boat",
+                "translate": "лодка",
+                "isActive": true
+            },
+            {
+                "id": 3,
+                "original": "bus",
+                "translate": "автобус",
+                "isActive": true
+            },
+            {
+                "id": 4,
+                "original": "car",
+                "translate": "машина, автомобиль",
+                "isActive": true
+            },
+            {
+                "id": 5,
+                "original": "coach",
+                "translate": "междугородний автобус",
+                "isActive": true
+            },
+            {
+                "id": 6,
+                "original": "ferry",
+                "translate": "паром",
+                "isActive": true
+            },
+            {
+                "id": 7,
+                "original": "lorry",
+                "translate": "грузовик",
+                "isActive": true
+            },
+            {
+                "id": 8,
+                "original": "motorcycle/motorbike",
+                "translate": "мотоцикл",
+                "isActive": true
+            },
+            {
+                "id": 9,
+                "original": "(air)plane",
+                "translate": "самолёт",
+                "isActive": true
+            },
+            {
+                "id": 10,
+                "original": "ship",
+                "translate": "корабль",
+                "isActive": true
+            },
+            {
+                "id": 11,
+                "original": "train",
+                "translate": "поезд",
+                "isActive": true
+            },
+            {
+                "id": 12,
+                "original": "tram",
+                "translate": "трамвай",
+                "isActive": true
+            },
+            {
+                "id": 13,
+                "original": "arrivals (to arrive)",
+                "translate": "прилёт, зона прилёта (прибывать)",
+                "isActive": true
+            },
+            {
+                "id": 14,
+                "original": "departures (to depart)",
+                "translate": "вылет, зона вылета (отправляться)",
+                "isActive": true
+            },
+            {
+                "id": 15,
+                "original": "boarding pass/card",
+                "translate": "посадочный талон",
+                "isActive": true
+            },
+            {
+                "id": 16,
+                "original": "gate",
+                "translate": "выход на посадку (в аэропорту)",
+                "isActive": true
+            },
+            {
+                "id": 17,
+                "original": "baggage (re)claim area",
+                "translate": "зона выдачи багажа",
+                "isActive": true
+            },
+            {
+                "id": 18,
+                "original": "direct flight",
+                "translate": "прямой рейс",
+                "isActive": true
+            },
+            {
+                "id": 19,
+                "original": "delayed",
+                "translate": "задержанный",
+                "isActive": true
+            },
+            {
+                "id": 20,
+                "original": "cancelled",
+                "translate": "отменённый",
+                "isActive": true
+            },
+            {
+                "id": 21,
+                "original": "railway station",
+                "translate": "железнодорожный вокзал",
+                "isActive": true
+            },
+            {
+                "id": 22,
+                "original": "platform",
+                "translate": "платформа, перрон",
+                "isActive": true
+            },
+            {
+                "id": 23,
+                "original": "compartment",
+                "translate": "купе",
+                "isActive": true
+            },
+            {
+                "id": 24,
+                "original": "ticket office",
+                "translate": "билетная касса",
+                "isActive": true
+            },
+            {
+                "id": 25,
+                "original": "return ticket / round-trip ticket (≠ one way ticket)",
+                "translate": "билет туда и обратно (≠ билет в одну сторону)",
+                "isActive": true
+            },
+            {
+                "id": 26,
+                "original": "timetable",
+                "translate": "расписание",
+                "isActive": true
+            },
+            {
+                "id": 27,
+                "original": "motorway/highway",
+                "translate": "автомагистраль, шоссе",
+                "isActive": true
+            },
+            {
+                "id": 28,
+                "original": "petrol/gas station",
+                "translate": "заправка, АЗС",
+                "isActive": true
+            },
+            {
+                "id": 29,
+                "original": "directions",
+                "translate": "указания, как пройти/проехать",
+                "isActive": true
+            },
+            {
+                "id": 30,
+                "original": "travel agency",
+                "translate": "туристическое агентство",
+                "isActive": true
+            },
+            {
+                "id": 31,
+                "original": "to travel",
+                "translate": "путешествовать",
+                "isActive": true
+            },
+            {
+                "id": 32,
+                "original": "to set off/out",
+                "translate": "отправляться в путь",
+                "isActive": true
+            },
+            {
+                "id": 33,
+                "original": "to take off",
+                "translate": "взлетать (о самолёте)",
+                "isActive": true
+            },
+            {
+                "id": 34,
+                "original": "to fly",
+                "translate": "летать, лететь",
+                "isActive": true
+            },
+            {
+                "id": 35,
+                "original": "to take a taxi",
+                "translate": "взять такси",
+                "isActive": true
+            },
+            {
+                "id": 36,
+                "original": "to catch (e.g. a bus)",
+                "translate": "успеть на (например, автобус)",
+                "isActive": true
+            },
+            {
+                "id": 37,
+                "original": "to miss (e.g. a bus)",
+                "translate": "опоздать на, не успеть (например, на автобус)",
+                "isActive": true
+            },
+            {
+                "id": 38,
+                "original": "to fasten one's seat belt (to belt up, to buckle up)",
+                "translate": "пристегнуть ремень безопасности",
+                "isActive": true
+            },
+            {
+                "id": 39,
+                "original": "to change",
+                "translate": "делать пересадку",
+                "isActive": true
+            },
+            {
+                "id": 40,
+                "original": "to fill up the car / tank up",
+                "translate": "заправить машину",
+                "isActive": true
+            }
+        ]
+    },
+    {
+        "title": "prepositions",
+        "items": [
+            {
+                "id": 41,
+                "original": "<b>at</b> the airport",
+                "translate": "в аэропорту",
+                "isActive": true
+            },
+            {
+                "id": 42,
+                "original": "<b>in</b> a car",
+                "translate": "в машине",
+                "isActive": true
+            },
+            {
+                "id": 43,
+                "original": "<b>on</b> a bus/a train",
+                "translate": "в автобусе/поезде",
+                "isActive": true
+            },
+            {
+                "id": 44,
+                "original": "to be <b>on</b> sb's way",
+                "translate": "быть в пути",
+                "isActive": true
+            },
+            {
+                "id": 45,
+                "original": "to depart <b>from</b>",
+                "translate": "отправляться с/из",
+                "isActive": true
+            },
+            {
+                "id": 46,
+                "original": "to drive <b>at</b>… km per hour (kph)",
+                "translate": "ехать со скоростью … км/ч",
+                "isActive": true
+            },
+            {
+                "id": 47,
+                "original": "to go <b>by</b> bus/car/plane",
+                "translate": "ехать автобусом/машиной / лететь самолётом",
+                "isActive": true
+            },
+            {
+                "id": 48,
+                "original": "to go <b>on</b> foot",
+                "translate": "идти пешком",
+                "isActive": true
+            }
+        ]
+    },
+    {
+        "title": "phrasal verbs",
+        "items": [
+            {
+                "id": 49,
+                "original": "to ask sb out",
+                "translate": "пригласить кого-то (на свидание, куда-то)",
+                "isActive": true
+            },
+            {
+                "id": 50,
+                "original": "to check in",
+                "translate": "заселиться (в отель), зарегистрироваться (в аэропорту)",
+                "isActive": true
+            },
+            {
+                "id": 51,
+                "original": "to check out",
+                "translate": "выселиться (из отеля)",
+                "isActive": true
+            },
+            {
+                "id": 52,
+                "original": "to cheer (sb) up",
+                "translate": "взбодриться, развеселить (кого-то)",
+                "isActive": true
+            },
+            {
+                "id": 53,
+                "original": "to find out",
+                "translate": "узнать, выяснить",
+                "isActive": true
+            },
+            {
+                "id": 54,
+                "original": "to sign up (for)",
+                "translate": "записаться (на что-то)",
+                "isActive": true
+            }
+        ]
+    },
+    {
+        "title": "grammar",
+        "description": "<h3>Past Simple & Past Continuous</h3>\n<p><b>Past Simple</b> — действие <b>завершено</b> в прошлом (сделал, прочитал).</p>\n<ul>\n<li>I <b>read</b> a book. · I <b>didn't read</b> a book. · <b>Did</b> you <b>read</b> a book? · Yes, I did. / No, I didn't.</li>\n<li>Правильные глаголы + -ed, неправильные — вторая форма. Вопрос и отрицание — через did.</li>\n<li>to be: <b>was/were</b>, вопрос и отрицание без did: He <b>was</b> hungry. <b>Was</b> he hungry? He <b>wasn't</b> hungry.</li>\n</ul>\n<p><b>Past Continuous</b> — действие <b>в процессе</b> в момент в прошлом (делал, читал).</p>\n<ul>\n<li>I <b>was reading</b> a book. · I <b>wasn't reading</b>. · <b>Were</b> you <b>reading</b>? · Yes, I was. / No, I wasn't.</li>\n</ul>\n<p><b>Вместе в одном предложении</b></p>\n<ul>\n<li><b>длинное</b> действие (Past Continuous) + <b>короткое</b>, которое его прерывает (Past Simple): I <b>was working</b> when he <b>came</b>.</li>\n<li>Обычно: <b>when</b> + Past Simple, <b>while</b> + Past Continuous.</li>\n<li>Иногда подходят оба, но смысл разный: I called him when I <b>was coming</b> back (по дороге) / when I <b>came</b> back (после возвращения).</li>\n</ul>",
+        "items": [
+            {
+                "id": 55,
+                "original": "I <b>was working</b> when he <b>came</b>.",
+                "translate": "Я работал, когда он пришёл. (was working — длинное / came — короткое)",
+                "isActive": true
+            },
+            {
+                "id": 56,
+                "original": "What <b>were</b> you <b>doing</b> when I <b>called</b> you?",
+                "translate": "Что ты делал, когда я тебе позвонил? (were … doing / called)",
+                "isActive": true
+            },
+            {
+                "id": 57,
+                "original": "It <b>wasn't raining</b> when I <b>got up</b> this morning.",
+                "translate": "Когда я встал сегодня утром, дождя не было. (wasn't raining / got up)",
+                "isActive": true
+            },
+            {
+                "id": 58,
+                "original": "The police <b>stopped</b> him because he <b>was driving</b> over the speed limit.",
+                "translate": "Полиция остановила его, потому что он превышал скорость. (stopped / was driving)",
+                "isActive": true
+            },
+            {
+                "id": 59,
+                "original": "She <b>lost</b> her keys when she <b>was dancing</b> in the club.",
+                "translate": "Она потеряла ключи, когда танцевала в клубе. (lost / was dancing)",
+                "isActive": true
+            },
+            {
+                "id": 60,
+                "original": "I <b>called</b> Alex when I <b>was coming</b> back from work.",
+                "translate": "Я позвонил Алексу, когда возвращался с работы. (по дороге — Past Continuous)",
+                "isActive": true
+            },
+            {
+                "id": 61,
+                "original": "I <b>called</b> Alex when I <b>came</b> back from work.",
+                "translate": "Я позвонил Алексу, когда вернулся с работы. (после возвращения — Past Simple)",
+                "isActive": true
+            },
+            {
+                "id": 62,
+                "original": "I <b>didn't hear</b> anything because I <b>was listening</b> to music.",
+                "translate": "Я ничего не слышал, потому что слушал музыку. (didn't hear / was listening)",
+                "isActive": true
+            },
+            {
+                "id": 63,
+                "original": "He <b>didn't come</b> because he <b>was studying</b> all evening.",
+                "translate": "Он не пришёл, потому что весь вечер занимался. (didn't come / was studying)",
+                "isActive": true
+            },
+            {
+                "id": 64,
+                "original": "– <b>Did</b> you <b>go</b> to the party? – No, I <b>stayed</b> at home because I <b>was feeling</b> bad.",
+                "translate": "– Ты ходил на вечеринку? – Нет, остался дома, потому что плохо себя чувствовал. (did go / stayed / was feeling)",
+                "isActive": true
+            },
+            {
+                "id": 65,
+                "original": "I <b>didn't do</b> the shopping because I <b>was working</b> all day.",
+                "translate": "Я не сходил за покупками, потому что весь день работал. (didn't do / was working)",
+                "isActive": true
+            },
+            {
+                "id": 66,
+                "original": "We <b>were waiting</b> at the gate when they <b>cancelled</b> our flight.",
+                "translate": "Мы ждали у выхода на посадку, когда наш рейс отменили. (were waiting / cancelled)",
+                "isActive": true
+            },
+            {
+                "id": 67,
+                "original": "While we <b>were driving</b> on the motorway, we <b>ran out</b> of petrol.",
+                "translate": "Пока мы ехали по автостраде, у нас закончился бензин. (while + Past Continuous)",
+                "isActive": true
+            },
+            {
+                "id": 68,
+                "original": "I <b>met</b> an old friend while I <b>was waiting</b> for the train.",
+                "translate": "Я встретил старого друга, пока ждал поезд. (met / was waiting)",
+                "isActive": true
+            },
+            {
+                "id": 69,
+                "original": "The plane <b>took off</b> while I <b>was sleeping</b>.",
+                "translate": "Самолёт взлетел, пока я спал. (took off / was sleeping)",
+                "isActive": true
+            },
+            {
+                "id": 70,
+                "original": "She <b>missed</b> the bus because she <b>was talking</b> on the phone.",
+                "translate": "Она опоздала на автобус, потому что говорила по телефону. (missed / was talking)",
+                "isActive": true
+            },
+            {
+                "id": 71,
+                "original": "When we <b>arrived</b> at the station, the train <b>was leaving</b>.",
+                "translate": "Когда мы приехали на вокзал, поезд уже отправлялся. (arrived / was leaving)",
+                "isActive": true
+            },
+            {
+                "id": 72,
+                "original": "He <b>was</b> hungry, so he <b>bought</b> a sandwich at the station.",
+                "translate": "Он был голоден, поэтому купил бутерброд на вокзале. (was — to be / bought)",
+                "isActive": true
+            },
+            {
+                "id": 73,
+                "original": "<b>Was</b> it <b>snowing</b> when you <b>set off</b>?",
+                "translate": "Шёл снег, когда вы отправились в путь? (Was … snowing / set off)",
+                "isActive": true
+            },
+            {
+                "id": 74,
+                "original": "We <b>flew</b> to Rome, <b>took</b> a taxi and <b>checked in</b> at the hotel.",
+                "translate": "Мы прилетели в Рим, взяли такси и заселились в отель. (последовательные завершённые действия — Past Simple)",
+                "isActive": true
+            }
+        ]
+    }
+]

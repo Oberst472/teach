@@ -1,0 +1,275 @@
+[
+    {
+        "title": "words",
+        "items": [
+            {
+                "id": 1,
+                "original": "amazing",
+                "translate": "удивительный, потрясающий",
+                "isActive": true
+            },
+            {
+                "id": 2,
+                "original": "awful",
+                "translate": "ужасный",
+                "isActive": true
+            },
+            {
+                "id": 3,
+                "original": "devastated",
+                "translate": "опустошённый, убитый горем",
+                "isActive": true
+            },
+            {
+                "id": 4,
+                "original": "enormous",
+                "translate": "огромный",
+                "isActive": true
+            },
+            {
+                "id": 5,
+                "original": "filthy",
+                "translate": "очень грязный",
+                "isActive": true
+            },
+            {
+                "id": 6,
+                "original": "furious",
+                "translate": "разъярённый, в бешенстве",
+                "isActive": true
+            },
+            {
+                "id": 7,
+                "original": "gorgeous",
+                "translate": "великолепный, ослепительный",
+                "isActive": true
+            },
+            {
+                "id": 8,
+                "original": "hilarious",
+                "translate": "уморительный, очень смешной",
+                "isActive": true
+            },
+            {
+                "id": 9,
+                "original": "starving",
+                "translate": "очень голодный",
+                "isActive": true
+            },
+            {
+                "id": 10,
+                "original": "terrified",
+                "translate": "напуганный до ужаса",
+                "isActive": true
+            },
+            {
+                "id": 11,
+                "original": "thrilled",
+                "translate": "в восторге, взволнованный",
+                "isActive": true
+            },
+            {
+                "id": 12,
+                "original": "tiny",
+                "translate": "крошечный",
+                "isActive": true
+            }
+        ]
+    },
+    {
+        "title": "prepositions",
+        "items": [
+            {
+                "id": 13,
+                "original": "to be fed up <b>with</b>",
+                "translate": "быть сытым по горло, надоесть",
+                "isActive": true
+            },
+            {
+                "id": 14,
+                "original": "famous <b>for</b>",
+                "translate": "известный (чем-то)",
+                "isActive": true
+            },
+            {
+                "id": 15,
+                "original": "good/bad <b>at</b>",
+                "translate": "хорош/плох в (чём-то)",
+                "isActive": true
+            },
+            {
+                "id": 16,
+                "original": "interested <b>in</b>",
+                "translate": "интересующийся (чем-то)",
+                "isActive": true
+            },
+            {
+                "id": 17,
+                "original": "rude <b>to</b> sb",
+                "translate": "грубый по отношению к кому-то",
+                "isActive": true
+            }
+        ]
+    },
+    {
+        "title": "phrasal verbs",
+        "items": [
+            {
+                "id": 18,
+                "original": "to come (a)round/over/by",
+                "translate": "заходить, заглядывать (к кому-то)",
+                "isActive": true
+            },
+            {
+                "id": 19,
+                "original": "to come across sth/sb",
+                "translate": "натыкаться на что-то/кого-то",
+                "isActive": true
+            },
+            {
+                "id": 20,
+                "original": "to come back",
+                "translate": "возвращаться",
+                "isActive": true
+            },
+            {
+                "id": 21,
+                "original": "to come down with sth",
+                "translate": "заболеть чем-то",
+                "isActive": true
+            },
+            {
+                "id": 22,
+                "original": "to come out",
+                "translate": "выходить (например, об альбоме), появляться (например, на экране)",
+                "isActive": true
+            }
+        ]
+    },
+    {
+        "title": "grammar",
+        "description": "<h3>Still, yet, already, not anymore</h3>\n<ul>\n<li><b>still</b> — <b>всё ещё, по-прежнему</b>. В утверждениях и вопросах.<br>\nПосле <b>be</b> и модальных: He's <b>still</b> at work. / We can <b>still</b> cancel it.<br>\nПеред остальными глаголами: I <b>still</b> work there.<br>\nВ вопросах после подлежащего: Do you <b>still</b> live with your parents?</li>\n<li><b>yet</b> — в отрицаниях = <b>ещё</b>, в вопросах = <b>уже</b>. Всегда <b>в конце</b>: I'm not there <b>yet</b>. / Are you there <b>yet</b>?</li>\n<li><b>already</b> — <b>уже</b>. В утверждениях и вопросах.<br>\nПосле <b>be</b> и модальных: She's <b>already</b> married. / I can <b>already</b> speak English.<br>\nПеред остальными глаголами: I <b>already</b> have all his books.<br>\nВ вопросах — после подлежащего или в конце, и выражает <b>удивление</b>, что так быстро.</li>\n<li><b>not … anymore</b> — <b>больше не, уже не</b>. Только в отрицаниях, <b>в конце</b>: You don't have to lie <b>anymore</b>.</li>\n</ul>\n<p><b>yet или already в вопросе?</b></p>\n<ul>\n<li>Have you finished <b>yet</b>? — Ты уже закончил? (обычный вопрос)</li>\n<li>Have you finished <b>already</b>? — Ты уже закончил?! (так быстро — удивление)</li>\n</ul>",
+        "items": [
+            {
+                "id": 23,
+                "original": "I'm <b>still</b> waiting for you.",
+                "translate": "Я всё ещё жду тебя. (still после am)",
+                "isActive": true
+            },
+            {
+                "id": 24,
+                "original": "He's <b>still</b> at work.",
+                "translate": "Он всё ещё на работе. (still после is)",
+                "isActive": true
+            },
+            {
+                "id": 25,
+                "original": "Although they are divorced, they <b>still</b> live together.",
+                "translate": "Хотя они в разводе, они всё ещё живут вместе. (still перед глаголом)",
+                "isActive": true
+            },
+            {
+                "id": 26,
+                "original": "Do you <b>still</b> live with your parents?",
+                "translate": "Ты всё ещё живёшь с родителями? (still в вопросе после подлежащего)",
+                "isActive": true
+            },
+            {
+                "id": 27,
+                "original": "We can <b>still</b> cancel the meeting.",
+                "translate": "Мы ещё можем отменить встречу. (still после модального)",
+                "isActive": true
+            },
+            {
+                "id": 28,
+                "original": "It's <b>still</b> early, but I'm <b>already</b> tired.",
+                "translate": "Ещё рано, а я уже устал. (still / already)",
+                "isActive": true
+            },
+            {
+                "id": 29,
+                "original": "Why aren't you here <b>yet</b>?",
+                "translate": "Почему тебя ещё нет? (yet в отрицании = ещё)",
+                "isActive": true
+            },
+            {
+                "id": 30,
+                "original": "Wait for me! I'm not ready <b>yet</b>.",
+                "translate": "Подожди меня! Я ещё не готов. (not … yet)",
+                "isActive": true
+            },
+            {
+                "id": 31,
+                "original": "Have you finished <b>yet</b>?",
+                "translate": "Ты уже закончил? (yet в вопросе = уже)",
+                "isActive": true
+            },
+            {
+                "id": 32,
+                "original": "It's already nine, but I don't want to go <b>yet</b>.",
+                "translate": "Уже девять, но я ещё не хочу уходить. (not … yet)",
+                "isActive": true
+            },
+            {
+                "id": 33,
+                "original": "Are we there <b>yet</b>? I'm starving!",
+                "translate": "Мы уже приехали? Я умираю с голоду! (yet в вопросе)",
+                "isActive": true
+            },
+            {
+                "id": 34,
+                "original": "She finished work an hour ago. She's <b>already</b> at home.",
+                "translate": "Она закончила работу час назад. Она уже дома. (already после is)",
+                "isActive": true
+            },
+            {
+                "id": 35,
+                "original": "I <b>already</b> have all his books.",
+                "translate": "У меня уже есть все его книги. (already перед глаголом)",
+                "isActive": true
+            },
+            {
+                "id": 36,
+                "original": "He's <b>already</b> 18. He's not a child <b>anymore</b>.",
+                "translate": "Ему уже 18. Он больше не ребёнок. (already / not … anymore)",
+                "isActive": true
+            },
+            {
+                "id": 37,
+                "original": "Have you finished <b>already</b>? That was quick!",
+                "translate": "Ты уже закончил? Быстро! (already — удивление)",
+                "isActive": true
+            },
+            {
+                "id": 38,
+                "original": "I can <b>already</b> speak English after a two-month course.",
+                "translate": "Я уже могу говорить по-английски после двухмесячного курса. (already после модального)",
+                "isActive": true
+            },
+            {
+                "id": 39,
+                "original": "I don't want to talk to you <b>anymore</b>.",
+                "translate": "Я больше не хочу с тобой разговаривать. (not … anymore)",
+                "isActive": true
+            },
+            {
+                "id": 40,
+                "original": "You don't have to lie <b>anymore</b>.",
+                "translate": "Тебе больше не нужно лгать. (not … anymore)",
+                "isActive": true
+            },
+            {
+                "id": 41,
+                "original": "He doesn't call me <b>anymore</b>, but he <b>still</b> lives in London.",
+                "translate": "Он мне больше не звонит, но всё ещё живёт в Лондоне. (anymore / still)",
+                "isActive": true
+            },
+            {
+                "id": 42,
+                "original": "She <b>already</b> knows she doesn't want to work there <b>anymore</b>.",
+                "translate": "Она уже знает, что больше не хочет там работать. (already / anymore)",
+                "isActive": true
+            }
+        ]
+    }
+]

@@ -1,0 +1,323 @@
+[
+    {
+        "title": "words",
+        "items": [
+            {
+                "id": 1,
+                "original": "to achieve",
+                "translate": "достигать",
+                "isActive": true
+            },
+            {
+                "id": 2,
+                "original": "to afford sth",
+                "translate": "позволить себе что-то (по деньгам)",
+                "isActive": true
+            },
+            {
+                "id": 3,
+                "original": "to agree",
+                "translate": "соглашаться",
+                "isActive": true
+            },
+            {
+                "id": 4,
+                "original": "to cancel",
+                "translate": "отменять",
+                "isActive": true
+            },
+            {
+                "id": 5,
+                "original": "to check",
+                "translate": "проверять",
+                "isActive": true
+            },
+            {
+                "id": 6,
+                "original": "to complain",
+                "translate": "жаловаться",
+                "isActive": true
+            },
+            {
+                "id": 7,
+                "original": "to discover",
+                "translate": "обнаружить, узнать",
+                "isActive": true
+            },
+            {
+                "id": 8,
+                "original": "to disturb",
+                "translate": "беспокоить, мешать",
+                "isActive": true
+            },
+            {
+                "id": 9,
+                "original": "to expect (sb to do sth)",
+                "translate": "ожидать (что кто-то что-то сделает)",
+                "isActive": true
+            },
+            {
+                "id": 10,
+                "original": "to fancy",
+                "translate": "хотеть, быть не прочь (чего-то)",
+                "isActive": true
+            },
+            {
+                "id": 11,
+                "original": "to guess",
+                "translate": "угадывать, догадываться",
+                "isActive": true
+            },
+            {
+                "id": 12,
+                "original": "to include",
+                "translate": "включать (в себя)",
+                "isActive": true
+            },
+            {
+                "id": 13,
+                "original": "to lower",
+                "translate": "понижать, снижать (например, голос)",
+                "isActive": true
+            },
+            {
+                "id": 14,
+                "original": "to mind",
+                "translate": "возражать, иметь что-то против (обычно в отрицаниях и вопросах: Do you mind…? / I don't mind…)",
+                "isActive": true
+            },
+            {
+                "id": 15,
+                "original": "to pass",
+                "translate": "передавать (подать что-то)",
+                "isActive": true
+            },
+            {
+                "id": 16,
+                "original": "to pretend",
+                "translate": "притворяться",
+                "isActive": true
+            },
+            {
+                "id": 17,
+                "original": "to pull",
+                "translate": "тянуть",
+                "isActive": true
+            },
+            {
+                "id": 18,
+                "original": "to push",
+                "translate": "толкать",
+                "isActive": true
+            },
+            {
+                "id": 19,
+                "original": "to solve",
+                "translate": "решать (проблему)",
+                "isActive": true
+            },
+            {
+                "id": 20,
+                "original": "to use",
+                "translate": "использовать, пользоваться",
+                "isActive": true
+            }
+        ]
+    },
+    {
+        "title": "prepositions",
+        "items": [
+            {
+                "id": 21,
+                "original": "instead <b>of</b>",
+                "translate": "вместо",
+                "isActive": true
+            },
+            {
+                "id": 22,
+                "original": "to apologise <b>to</b> sb <b>for</b> sth",
+                "translate": "извиняться перед кем-то за что-то",
+                "isActive": true
+            },
+            {
+                "id": 23,
+                "original": "to begin <b>with</b>",
+                "translate": "начинать с",
+                "isActive": true
+            },
+            {
+                "id": 24,
+                "original": "to complain <b>about</b>",
+                "translate": "жаловаться на",
+                "isActive": true
+            },
+            {
+                "id": 25,
+                "original": "to participate <b>in</b> (to take part <b>in</b>)",
+                "translate": "участвовать в, принимать участие в",
+                "isActive": true
+            }
+        ]
+    },
+    {
+        "title": "phrasal verbs",
+        "items": [
+            {
+                "id": 26,
+                "original": "to take away",
+                "translate": "брать навынос (a take-away — еда навынос)",
+                "isActive": true
+            },
+            {
+                "id": 27,
+                "original": "to take down",
+                "translate": "записывать",
+                "isActive": true
+            },
+            {
+                "id": 28,
+                "original": "to take off",
+                "translate": "снимать (например, одежду)",
+                "isActive": true
+            },
+            {
+                "id": 29,
+                "original": "to take sb out",
+                "translate": "сводить кого-то куда-то (например, на свидание)",
+                "isActive": true
+            },
+            {
+                "id": 30,
+                "original": "to take sth out (of somewhere)",
+                "translate": "вынимать, доставать что-то (откуда-то)",
+                "isActive": true
+            }
+        ]
+    },
+    {
+        "title": "grammar",
+        "description": "<h3>Noun comparison: more / less / fewer than</h3>\n<p>Как сравнивать <b>количество</b> чего-то.</p>\n<ul>\n<li><b>more … than</b> — больше, чем (с любыми существительными): She has <b>more</b> problems <b>than</b> we do. / She has <b>more</b> money <b>than</b> us.</li>\n<li><b>fewer … than</b> — меньше, чем (с <b>исчисляемыми</b>): She has <b>fewer</b> problems <b>than</b> we do.</li>\n<li><b>less … than</b> — меньше, чем (с <b>неисчисляемыми</b>): She has <b>less</b> money <b>than</b> us.</li>\n</ul>\n<p>В разговорной речи часто слышно less и с исчисляемыми, но грамматически правильно — <b>fewer</b>.</p>\n<p><b>Местоимения после than — два варианта</b></p>\n<ul>\n<li>объектное местоимение: than <b>me / him / her / us / them</b> — You have more money than <b>me</b>.</li>\n<li>подлежащее + вспомогательный глагол нужного времени: You have more money than <b>I do</b>. (Present Simple → do) / She took fewer photos than <b>he did</b>. (Past Simple → did)</li>\n</ul>",
+        "items": [
+            {
+                "id": 31,
+                "original": "He earns <b>more</b> money <b>than</b> she does.",
+                "translate": "Он зарабатывает больше денег, чем она. (more + неисчисляемое)",
+                "isActive": true
+            },
+            {
+                "id": 32,
+                "original": "Olivia has <b>more</b> work <b>than</b> her husband.",
+                "translate": "У Оливии больше работы, чем у её мужа. (more)",
+                "isActive": true
+            },
+            {
+                "id": 33,
+                "original": "I'm sure she will buy <b>more</b> souvenirs <b>than</b> him.",
+                "translate": "Я уверен, что она купит больше сувениров, чем он. (more + исчисляемое)",
+                "isActive": true
+            },
+            {
+                "id": 34,
+                "original": "You have <b>more</b> money <b>than</b> I do.",
+                "translate": "У тебя больше денег, чем у меня. (than I do — Present Simple)",
+                "isActive": true
+            },
+            {
+                "id": 35,
+                "original": "My sister has <b>more</b> friends <b>than</b> me.",
+                "translate": "У моей сестры больше друзей, чем у меня. (than me)",
+                "isActive": true
+            },
+            {
+                "id": 36,
+                "original": "This year we spent <b>more</b> money <b>than</b> we expected.",
+                "translate": "В этом году мы потратили больше денег, чем ожидали. (more)",
+                "isActive": true
+            },
+            {
+                "id": 37,
+                "original": "She bought <b>fewer</b> books <b>than</b> he did.",
+                "translate": "Она купила меньше книг, чем он. (fewer + исчисляемое, than he did)",
+                "isActive": true
+            },
+            {
+                "id": 38,
+                "original": "There are <b>fewer</b> tourists in Oxford <b>than</b> in London.",
+                "translate": "В Оксфорде меньше туристов, чем в Лондоне. (fewer)",
+                "isActive": true
+            },
+            {
+                "id": 39,
+                "original": "He watches <b>fewer</b> films <b>than</b> her.",
+                "translate": "Он смотрит меньше фильмов, чем она. (fewer, than her)",
+                "isActive": true
+            },
+            {
+                "id": 40,
+                "original": "I made <b>fewer</b> mistakes <b>than</b> last time.",
+                "translate": "Я сделал меньше ошибок, чем в прошлый раз. (fewer)",
+                "isActive": true
+            },
+            {
+                "id": 41,
+                "original": "Our new flat has <b>fewer</b> rooms <b>than</b> the old one.",
+                "translate": "В нашей новой квартире меньше комнат, чем в старой. (fewer)",
+                "isActive": true
+            },
+            {
+                "id": 42,
+                "original": "She took <b>fewer</b> photos <b>than</b> he did.",
+                "translate": "Она сделала меньше фотографий, чем он. (fewer, than he did — Past Simple)",
+                "isActive": true
+            },
+            {
+                "id": 43,
+                "original": "She has <b>less</b> free time <b>than</b> him.",
+                "translate": "У неё меньше свободного времени, чем у него. (less + неисчисляемое)",
+                "isActive": true
+            },
+            {
+                "id": 44,
+                "original": "He drank <b>less</b> beer <b>than</b> she did.",
+                "translate": "Он выпил меньше пива, чем она. (less)",
+                "isActive": true
+            },
+            {
+                "id": 45,
+                "original": "She spent <b>less</b> time studying <b>than</b> him.",
+                "translate": "Она потратила меньше времени на учёбу, чем он. (less)",
+                "isActive": true
+            },
+            {
+                "id": 46,
+                "original": "I want to use <b>less</b> sugar <b>than</b> the recipe says.",
+                "translate": "Я хочу положить меньше сахара, чем сказано в рецепте. (less)",
+                "isActive": true
+            },
+            {
+                "id": 47,
+                "original": "They can't afford it. They have <b>less</b> money <b>than</b> us.",
+                "translate": "Они не могут себе этого позволить. У них меньше денег, чем у нас. (less, than us)",
+                "isActive": true
+            },
+            {
+                "id": 48,
+                "original": "Do you get <b>more</b> emails <b>than</b> your boss?",
+                "translate": "Ты получаешь больше писем, чем твой начальник? (more — вопрос)",
+                "isActive": true
+            },
+            {
+                "id": 49,
+                "original": "My new phone uses <b>less</b> energy and has <b>fewer</b> problems.",
+                "translate": "Мой новый телефон потребляет меньше энергии и с ним меньше проблем. (less + неисчисляемое, fewer + исчисляемое)",
+                "isActive": true
+            },
+            {
+                "id": 50,
+                "original": "I have <b>more</b> books but <b>less</b> space <b>than</b> you do.",
+                "translate": "У меня больше книг, но меньше места, чем у тебя. (more / less, than you do)",
+                "isActive": true
+            }
+        ]
+    }
+]

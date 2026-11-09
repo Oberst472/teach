@@ -1,0 +1,395 @@
+[
+    {
+        "title": "words",
+        "items": [
+            {
+                "id": 1,
+                "original": "rich/wealthy/well-off",
+                "translate": "богатый, состоятельный",
+                "isActive": true
+            },
+            {
+                "id": 2,
+                "original": "broke / hard up",
+                "translate": "на мели, без денег",
+                "isActive": true
+            },
+            {
+                "id": 3,
+                "original": "poor",
+                "translate": "бедный",
+                "isActive": true
+            },
+            {
+                "id": 4,
+                "original": "poverty",
+                "translate": "бедность, нищета",
+                "isActive": true
+            },
+            {
+                "id": 5,
+                "original": "can't afford",
+                "translate": "не мочь себе позволить (что-то)",
+                "isActive": true
+            },
+            {
+                "id": 6,
+                "original": "debt",
+                "translate": "долг",
+                "isActive": true
+            },
+            {
+                "id": 7,
+                "original": "loan",
+                "translate": "заём, кредит",
+                "isActive": true
+            },
+            {
+                "id": 8,
+                "original": "mortgage",
+                "translate": "ипотека",
+                "isActive": true
+            },
+            {
+                "id": 9,
+                "original": "overdraft",
+                "translate": "овердрафт, превышение кредита",
+                "isActive": true
+            },
+            {
+                "id": 10,
+                "original": "instalment",
+                "translate": "взнос (при рассрочке)",
+                "isActive": true
+            },
+            {
+                "id": 11,
+                "original": "interest",
+                "translate": "проценты (по кредиту)",
+                "isActive": true
+            },
+            {
+                "id": 12,
+                "original": "account",
+                "translate": "счёт (в банке)",
+                "isActive": true
+            },
+            {
+                "id": 13,
+                "original": "cash machine / cashpoint / ATM",
+                "translate": "банкомат",
+                "isActive": true
+            },
+            {
+                "id": 14,
+                "original": "currency",
+                "translate": "валюта",
+                "isActive": true
+            },
+            {
+                "id": 15,
+                "original": "exchange rate",
+                "translate": "курс обмена валют",
+                "isActive": true
+            },
+            {
+                "id": 16,
+                "original": "tax",
+                "translate": "налог",
+                "isActive": true
+            },
+            {
+                "id": 17,
+                "original": "tip",
+                "translate": "чаевые",
+                "isActive": true
+            },
+            {
+                "id": 18,
+                "original": "refund",
+                "translate": "возврат денег",
+                "isActive": true
+            },
+            {
+                "id": 19,
+                "original": "savings",
+                "translate": "сбережения",
+                "isActive": true
+            },
+            {
+                "id": 20,
+                "original": "to borrow",
+                "translate": "брать взаймы (у кого-то)",
+                "isActive": true
+            },
+            {
+                "id": 21,
+                "original": "to lend",
+                "translate": "давать взаймы (кому-то)",
+                "isActive": true
+            },
+            {
+                "id": 22,
+                "original": "to owe sb",
+                "translate": "быть должным кому-то",
+                "isActive": true
+            },
+            {
+                "id": 23,
+                "original": "to pay back",
+                "translate": "вернуть долг",
+                "isActive": true
+            },
+            {
+                "id": 24,
+                "original": "to earn peanuts",
+                "translate": "получать гроши",
+                "isActive": true
+            },
+            {
+                "id": 25,
+                "original": "to make ends meet",
+                "translate": "сводить концы с концами",
+                "isActive": true
+            },
+            {
+                "id": 26,
+                "original": "to be/live on the breadline",
+                "translate": "жить за чертой бедности",
+                "isActive": true
+            },
+            {
+                "id": 27,
+                "original": "to tighten one's belt",
+                "translate": "затянуть пояс",
+                "isActive": true
+            },
+            {
+                "id": 28,
+                "original": "to pay in(to)",
+                "translate": "внести (деньги на счёт)",
+                "isActive": true
+            },
+            {
+                "id": 29,
+                "original": "to take out / to withdraw",
+                "translate": "снять (деньги)",
+                "isActive": true
+            },
+            {
+                "id": 30,
+                "original": "to pay by (credit) card",
+                "translate": "платить (кредитной) картой",
+                "isActive": true
+            },
+            {
+                "id": 31,
+                "original": "to pay (in) cash",
+                "translate": "платить наличными",
+                "isActive": true
+            },
+            {
+                "id": 32,
+                "original": "to inherit money",
+                "translate": "унаследовать деньги",
+                "isActive": true
+            }
+        ]
+    },
+    {
+        "title": "prepositions",
+        "items": [
+            {
+                "id": 33,
+                "original": "to be short <b>of</b> sth",
+                "translate": "испытывать нехватку чего-то",
+                "isActive": true
+            },
+            {
+                "id": 34,
+                "original": "to borrow sth <b>from</b> sb",
+                "translate": "взять что-то взаймы у кого-то",
+                "isActive": true
+            },
+            {
+                "id": 35,
+                "original": "to give sth <b>to</b> sb (to give sb sth)",
+                "translate": "дать что-то кому-то",
+                "isActive": true
+            },
+            {
+                "id": 36,
+                "original": "to lend sth <b>to</b> sb (to lend sb sth)",
+                "translate": "одолжить что-то кому-то",
+                "isActive": true
+            },
+            {
+                "id": 37,
+                "original": "to save (money) <b>for</b> sth",
+                "translate": "копить (деньги) на что-то",
+                "isActive": true
+            },
+            {
+                "id": 38,
+                "original": "to spend/waste money <b>on</b> sth",
+                "translate": "тратить/транжирить деньги на что-то",
+                "isActive": true
+            }
+        ]
+    },
+    {
+        "title": "phrasal verbs",
+        "items": [
+            {
+                "id": 39,
+                "original": "to throw sb out of",
+                "translate": "выгнать кого-то из",
+                "isActive": true
+            },
+            {
+                "id": 40,
+                "original": "to throw sth away",
+                "translate": "выбросить что-то",
+                "isActive": true
+            },
+            {
+                "id": 41,
+                "original": "to throw sth on",
+                "translate": "накинуть что-то на себя",
+                "isActive": true
+            },
+            {
+                "id": 42,
+                "original": "to throw up",
+                "translate": "рвать, тошнить",
+                "isActive": true
+            }
+        ]
+    },
+    {
+        "title": "grammar",
+        "description": "<h3>Adjectives with -ing & -ed</h3>\n<ul>\n<li><b>-ed</b> — <b>что чувствует</b> человек: I'm <b>bored</b>. — Мне скучно. По-русски часто на <b>-нный / -тый</b>: tir<b>ed</b> — устал<b>ый</b>, excit<b>ed</b> — взволнован<b>ный</b>.</li>\n<li><b>-ing</b> — <b>что вызывает</b> это чувство (человек, вещь, ситуация): The lesson is <b>boring</b>. — Урок скучный. По-русски часто на <b>-щий</b>: tir<b>ing</b> — утомля<b>ющий</b>, excit<b>ing</b> — захватыва<b>ющий</b>.</li>\n</ul>\n<p><b>Boring</b> lessons make students <b>bored</b>. — Скучные уроки нагоняют на учеников скуку.</p>\n<p><b>Пары</b></p>\n<ul>\n<li>tired — уставший · tiring — утомительный</li>\n<li>interested — заинтересованный · interesting — интересный</li>\n<li>bored — скучающий · boring — скучный</li>\n<li>confused — растерянный · confusing — запутанный</li>\n<li>amazed — изумлённый · amazing — удивительный</li>\n<li>frightened — испуганный · frightening — пугающий</li>\n</ul>\n<p><b>Ловушка:</b> I'm <b>boring</b> = я скучный человек, а не «мне скучно» (I'm <b>bored</b>).</p>",
+        "items": [
+            {
+                "id": 43,
+                "original": "<b>Boring</b> lessons make students <b>bored</b>.",
+                "translate": "Скучные уроки нагоняют на учеников скуку. (boring — причина / bored — чувство)",
+                "isActive": true
+            },
+            {
+                "id": 44,
+                "original": "Our trip was very <b>exciting</b>.",
+                "translate": "Наша поездка была очень увлекательной. (exciting — какая поездка)",
+                "isActive": true
+            },
+            {
+                "id": 45,
+                "original": "I'm very <b>excited</b> about our trip.",
+                "translate": "Я очень взволнован предстоящей поездкой. (excited — что я чувствую)",
+                "isActive": true
+            },
+            {
+                "id": 46,
+                "original": "I felt really <b>disappointed</b> when I saw my exam results.",
+                "translate": "Я был очень разочарован, когда увидел результаты экзамена. (disappointed — чувство)",
+                "isActive": true
+            },
+            {
+                "id": 47,
+                "original": "This has been an <b>exhausting</b> week.",
+                "translate": "Это была изнурительная неделя. (exhausting — какая неделя)",
+                "isActive": true
+            },
+            {
+                "id": 48,
+                "original": "– What's the matter? – Nothing, I'm just <b>exhausted</b>.",
+                "translate": "– Что случилось? – Ничего, я просто вымотан. (exhausted — чувство)",
+                "isActive": true
+            },
+            {
+                "id": 49,
+                "original": "The horror film was really <b>frightening</b>.",
+                "translate": "Фильм ужасов был действительно страшным. (frightening — какой фильм)",
+                "isActive": true
+            },
+            {
+                "id": 50,
+                "original": "The children were <b>frightened</b> of the dog.",
+                "translate": "Дети испугались собаки. (frightened — чувство)",
+                "isActive": true
+            },
+            {
+                "id": 51,
+                "original": "I'm really <b>confused</b>. Was that his sister or his girlfriend?",
+                "translate": "Я совсем запутался. Это была его сестра или девушка? (confused — чувство)",
+                "isActive": true
+            },
+            {
+                "id": 52,
+                "original": "These instructions are so <b>confusing</b>!",
+                "translate": "Эти инструкции такие запутанные! (confusing — какие инструкции)",
+                "isActive": true
+            },
+            {
+                "id": 53,
+                "original": "His programme is really <b>amusing</b>. It always makes me laugh.",
+                "translate": "Его передача очень забавная. Она всегда меня смешит. (amusing)",
+                "isActive": true
+            },
+            {
+                "id": 54,
+                "original": "I was so <b>bored</b> at the party that I left after an hour.",
+                "translate": "Мне было так скучно на вечеринке, что я ушёл через час. (bored)",
+                "isActive": true
+            },
+            {
+                "id": 55,
+                "original": "We were <b>surprised</b> to see him there.",
+                "translate": "Мы удивились, увидев его там. (surprised — чувство)",
+                "isActive": true
+            },
+            {
+                "id": 56,
+                "original": "Can you stop doing that? It's so <b>annoying</b>!",
+                "translate": "Можешь перестать это делать? Это так раздражает! (annoying — что вызывает)",
+                "isActive": true
+            },
+            {
+                "id": 57,
+                "original": "It's so <b>frustrating</b>! I sleep a lot but still feel <b>tired</b>.",
+                "translate": "Это так досадно! Я много сплю, но всё равно чувствую себя уставшим. (frustrating / tired)",
+                "isActive": true
+            },
+            {
+                "id": 58,
+                "original": "We're <b>excited</b> about our wedding, but the preparation is really <b>tiring</b>.",
+                "translate": "Мы в предвкушении свадьбы, но подготовка очень утомительна. (excited / tiring)",
+                "isActive": true
+            },
+            {
+                "id": 59,
+                "original": "Are you <b>interested</b> in investing your savings?",
+                "translate": "Тебе интересно вложить свои сбережения? (interested — чувство)",
+                "isActive": true
+            },
+            {
+                "id": 60,
+                "original": "The talk about money was <b>interesting</b>.",
+                "translate": "Лекция о деньгах была интересной. (interesting — какая лекция)",
+                "isActive": true
+            },
+            {
+                "id": 61,
+                "original": "I was <b>amazed</b> by the exchange rate. It's <b>amazing</b> how cheap it is!",
+                "translate": "Меня поразил курс обмена. Удивительно, как дёшево! (amazed / amazing)",
+                "isActive": true
+            },
+            {
+                "id": 62,
+                "original": "He's so <b>boring</b> that everyone gets <b>bored</b> when he talks about his loans.",
+                "translate": "Он такой скучный, что всем становится скучно, когда он рассказывает о своих кредитах. (boring / bored)",
+                "isActive": true
+            }
+        ]
+    }
+]

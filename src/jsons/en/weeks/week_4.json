@@ -1,0 +1,347 @@
+[
+    {
+        "title": "words",
+        "items": [
+            {
+                "id": 1,
+                "original": "amazed",
+                "translate": "изумлённый, поражённый",
+                "isActive": true
+            },
+            {
+                "id": 2,
+                "original": "anxious",
+                "translate": "встревоженный, обеспокоенный",
+                "isActive": true
+            },
+            {
+                "id": 3,
+                "original": "ashamed",
+                "translate": "пристыженный, стыдящийся",
+                "isActive": true
+            },
+            {
+                "id": 4,
+                "original": "bored",
+                "translate": "скучающий",
+                "isActive": true
+            },
+            {
+                "id": 5,
+                "original": "confused",
+                "translate": "сбитый с толку, растерянный",
+                "isActive": true
+            },
+            {
+                "id": 6,
+                "original": "delighted",
+                "translate": "восхищённый, очень довольный",
+                "isActive": true
+            },
+            {
+                "id": 7,
+                "original": "depressed",
+                "translate": "подавленный, в депрессии",
+                "isActive": true
+            },
+            {
+                "id": 8,
+                "original": "disappointed",
+                "translate": "разочарованный",
+                "isActive": true
+            },
+            {
+                "id": 9,
+                "original": "disgusted",
+                "translate": "испытывающий отвращение",
+                "isActive": true
+            },
+            {
+                "id": 10,
+                "original": "drunk",
+                "translate": "пьяный",
+                "isActive": true
+            },
+            {
+                "id": 11,
+                "original": "embarrassed",
+                "translate": "смущённый, сконфуженный",
+                "isActive": true
+            },
+            {
+                "id": 12,
+                "original": "excited",
+                "translate": "взволнованный (в предвкушении)",
+                "isActive": true
+            },
+            {
+                "id": 13,
+                "original": "exhausted",
+                "translate": "измученный, обессиленный",
+                "isActive": true
+            },
+            {
+                "id": 14,
+                "original": "grateful",
+                "translate": "благодарный",
+                "isActive": true
+            },
+            {
+                "id": 15,
+                "original": "hungry",
+                "translate": "голодный",
+                "isActive": true
+            },
+            {
+                "id": 16,
+                "original": "relieved",
+                "translate": "испытывающий облегчение",
+                "isActive": true
+            },
+            {
+                "id": 17,
+                "original": "sleepy",
+                "translate": "сонный",
+                "isActive": true
+            },
+            {
+                "id": 18,
+                "original": "surprised",
+                "translate": "удивлённый",
+                "isActive": true
+            },
+            {
+                "id": 19,
+                "original": "terrified",
+                "translate": "напуганный, в ужасе",
+                "isActive": true
+            },
+            {
+                "id": 20,
+                "original": "thirsty",
+                "translate": "испытывающий жажду",
+                "isActive": true
+            },
+            {
+                "id": 21,
+                "original": "thrilled",
+                "translate": "в восторге, взволнованный",
+                "isActive": true
+            },
+            {
+                "id": 22,
+                "original": "tired",
+                "translate": "уставший",
+                "isActive": true
+            },
+            {
+                "id": 23,
+                "original": "upset",
+                "translate": "расстроенный, огорчённый",
+                "isActive": true
+            }
+        ]
+    },
+    {
+        "title": "prepositions",
+        "items": [
+            {
+                "id": 24,
+                "original": "to be afraid <b>of</b>",
+                "translate": "бояться (кого-то/чего-то)",
+                "isActive": true
+            },
+            {
+                "id": 25,
+                "original": "to be <b>in</b> a mood",
+                "translate": "быть не в духе",
+                "isActive": true
+            },
+            {
+                "id": 26,
+                "original": "to be nervous <b>about</b>",
+                "translate": "нервничать из-за (чего-то)",
+                "isActive": true
+            },
+            {
+                "id": 27,
+                "original": "to be proud <b>of</b>",
+                "translate": "гордиться",
+                "isActive": true
+            },
+            {
+                "id": 28,
+                "original": "to be shocked <b>by</b>",
+                "translate": "быть шокированным (чем-то)",
+                "isActive": true
+            },
+            {
+                "id": 29,
+                "original": "to worry <b>about</b> (to be worried <b>about</b>)",
+                "translate": "беспокоиться о (быть обеспокоенным чем-то)",
+                "isActive": true
+            }
+        ]
+    },
+    {
+        "title": "phrasal verbs",
+        "items": [
+            {
+                "id": 30,
+                "original": "to calm down",
+                "translate": "успокоиться",
+                "isActive": true
+            },
+            {
+                "id": 31,
+                "original": "to speed up",
+                "translate": "ускорить(ся)",
+                "isActive": true
+            },
+            {
+                "id": 32,
+                "original": "to print out",
+                "translate": "распечатать",
+                "isActive": true
+            },
+            {
+                "id": 33,
+                "original": "to slow down",
+                "translate": "замедлить(ся), сбавить скорость",
+                "isActive": true
+            },
+            {
+                "id": 34,
+                "original": "to warm up",
+                "translate": "разогреться (перед тренировкой), подогреть (что-то)",
+                "isActive": true
+            }
+        ]
+    },
+    {
+        "title": "grammar",
+        "description": "<h3>Much, many, (a) few, (a) little</h3>\n<p>Как сказать о количестве. Сначала реши, <b>исчисляемое</b> существительное (можно посчитать: friends, apples, questions) или <b>неисчисляемое</b> (нельзя посчитать: money, milk, time, snow).</p>\n<ul>\n<li><b>Исчисляемые:</b> a lot of — много · <b>many</b> — много · <b>few</b> — мало · <b>a few</b> — несколько</li>\n<li><b>Неисчисляемые:</b> a lot of — много · <b>much</b> — много · <b>little</b> — мало · <b>a little</b> — немного</li>\n</ul>\n<p><b>Много</b></p>\n<ul>\n<li><b>a lot of</b> — с любыми существительными, обычно в утверждениях: There are <b>a lot of</b> hotels.</li>\n<li><b>many / much</b> — чаще в вопросах и отрицаниях: How <b>many</b> friends…? / I don't have <b>much</b> money.</li>\n</ul>\n<p><b>Мало vs немного — артикль меняет смысл!</b></p>\n<ul>\n<li><b>few / little</b> — мало, <b>недостаточно</b> (звучит негативно): Last winter there was <b>little</b> snow.</li>\n<li><b>a few / a little</b> — несколько, немного, <b>но хватает</b> (звучит позитивно): There's <b>a little</b> snow. Let's make a snowman!</li>\n</ul>",
+        "items": [
+            {
+                "id": 35,
+                "original": "There are <b>a lot of</b> hotels in the centre of Warsaw.",
+                "translate": "В центре Варшавы много отелей. (a lot of + исчисляемое, утверждение)",
+                "isActive": true
+            },
+            {
+                "id": 36,
+                "original": "She drinks <b>a lot of</b> coffee when she's tired.",
+                "translate": "Она пьёт много кофе, когда устаёт. (a lot of + неисчисляемое)",
+                "isActive": true
+            },
+            {
+                "id": 37,
+                "original": "<b>A lot of</b> students fail this exam every year.",
+                "translate": "Много студентов проваливают этот экзамен каждый год. (a lot of)",
+                "isActive": true
+            },
+            {
+                "id": 38,
+                "original": "There aren't <b>many</b> people in Iceland.",
+                "translate": "В Исландии не так много людей. (many — отрицание, исчисляемое)",
+                "isActive": true
+            },
+            {
+                "id": 39,
+                "original": "How <b>many</b> friends do you have here?",
+                "translate": "Сколько у тебя здесь друзей? (How many + исчисляемое)",
+                "isActive": true
+            },
+            {
+                "id": 40,
+                "original": "Did you make <b>many</b> mistakes? You look embarrassed.",
+                "translate": "Ты сделал много ошибок? Ты выглядишь смущённым. (many — вопрос)",
+                "isActive": true
+            },
+            {
+                "id": 41,
+                "original": "How <b>much</b> money do you have?",
+                "translate": "Сколько у тебя денег? (How much + неисчисляемое)",
+                "isActive": true
+            },
+            {
+                "id": 42,
+                "original": "I didn't sleep <b>much</b> last night, so I'm exhausted.",
+                "translate": "Я мало спал прошлой ночью, поэтому я вымотан. (much — отрицание)",
+                "isActive": true
+            },
+            {
+                "id": 43,
+                "original": "Is there <b>much</b> milk in the fridge?",
+                "translate": "В холодильнике много молока? (much — вопрос, неисчисляемое)",
+                "isActive": true
+            },
+            {
+                "id": 44,
+                "original": "I feel lonely. I have <b>few</b> friends here.",
+                "translate": "Мне одиноко. У меня здесь мало друзей. (few — мало, недостаточно)",
+                "isActive": true
+            },
+            {
+                "id": 45,
+                "original": "<b>Few</b> people live here.",
+                "translate": "Здесь живёт мало людей. (few — исчисляемое)",
+                "isActive": true
+            },
+            {
+                "id": 46,
+                "original": "Can I ask you <b>a few</b> questions?",
+                "translate": "Можно задать тебе несколько вопросов? (a few — несколько)",
+                "isActive": true
+            },
+            {
+                "id": 47,
+                "original": "I was relieved because there were <b>a few</b> people I knew at the party.",
+                "translate": "Я почувствовал облегчение, потому что на вечеринке было несколько знакомых. (a few)",
+                "isActive": true
+            },
+            {
+                "id": 48,
+                "original": "There's <b>little</b> chance of her winning.",
+                "translate": "У неё мало шансов на победу. (little — мало, неисчисляемое)",
+                "isActive": true
+            },
+            {
+                "id": 49,
+                "original": "We have very <b>little</b> milk left.",
+                "translate": "У нас осталось совсем мало молока. (very little)",
+                "isActive": true
+            },
+            {
+                "id": 50,
+                "original": "He's depressed because he has <b>little</b> hope.",
+                "translate": "Он подавлен, потому что у него мало надежды. (little)",
+                "isActive": true
+            },
+            {
+                "id": 51,
+                "original": "We need <b>a little</b> more time.",
+                "translate": "Нам нужно немного больше времени. (a little — немного)",
+                "isActive": true
+            },
+            {
+                "id": 52,
+                "original": "There's <b>a little</b> snow. Let's make a snowman!",
+                "translate": "Есть немного снега. Давай слепим снеговика! (a little — достаточно)",
+                "isActive": true
+            },
+            {
+                "id": 53,
+                "original": "Last winter there was <b>little</b> snow here.",
+                "translate": "Прошлой зимой здесь было мало снега. (little — недостаточно)",
+                "isActive": true
+            },
+            {
+                "id": 54,
+                "original": "I have <b>a few</b> apples and <b>a little</b> sugar, so we can bake a pie.",
+                "translate": "У меня есть несколько яблок и немного сахара, так что можно испечь пирог. (a few + исчисляемое, a little + неисчисляемое)",
+                "isActive": true
+            }
+        ]
+    }
+]

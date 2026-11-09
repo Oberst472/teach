@@ -1,0 +1,371 @@
+[
+    {
+        "title": "words",
+        "items": [
+            {
+                "id": 1,
+                "original": "to be short of breath",
+                "translate": "задыхаться, не хватать дыхания",
+                "isActive": true
+            },
+            {
+                "id": 2,
+                "original": "to be under the weather",
+                "translate": "неважно себя чувствовать",
+                "isActive": true
+            },
+            {
+                "id": 3,
+                "original": "to bleed",
+                "translate": "кровоточить, истекать кровью",
+                "isActive": true
+            },
+            {
+                "id": 4,
+                "original": "to catch a cold",
+                "translate": "простудиться",
+                "isActive": true
+            },
+            {
+                "id": 5,
+                "original": "to come down with",
+                "translate": "заболеть (чем-то)",
+                "isActive": true
+            },
+            {
+                "id": 6,
+                "original": "to feel dizzy",
+                "translate": "чувствовать головокружение",
+                "isActive": true
+            },
+            {
+                "id": 7,
+                "original": "to have a cold",
+                "translate": "быть простуженным",
+                "isActive": true
+            },
+            {
+                "id": 8,
+                "original": "to have a cough",
+                "translate": "кашлять, иметь кашель",
+                "isActive": true
+            },
+            {
+                "id": 9,
+                "original": "to have a hangover",
+                "translate": "иметь похмелье",
+                "isActive": true
+            },
+            {
+                "id": 10,
+                "original": "to have a headache / an earache / a stomach ache / a toothache",
+                "translate": "болит голова / ухо / живот / зуб",
+                "isActive": true
+            },
+            {
+                "id": 11,
+                "original": "to have a nosebleed",
+                "translate": "идёт кровь из носа",
+                "isActive": true
+            },
+            {
+                "id": 12,
+                "original": "to have a rash",
+                "translate": "иметь сыпь",
+                "isActive": true
+            },
+            {
+                "id": 13,
+                "original": "to have a runny nose",
+                "translate": "иметь насморк",
+                "isActive": true
+            },
+            {
+                "id": 14,
+                "original": "to have a sore throat",
+                "translate": "болит горло",
+                "isActive": true
+            },
+            {
+                "id": 15,
+                "original": "to have a splinter",
+                "translate": "занозить, иметь занозу",
+                "isActive": true
+            },
+            {
+                "id": 16,
+                "original": "to have a temperature/fever",
+                "translate": "иметь температуру/жар",
+                "isActive": true
+            },
+            {
+                "id": 17,
+                "original": "to have an ear/eye infection",
+                "translate": "иметь инфекцию уха/глаза",
+                "isActive": true
+            },
+            {
+                "id": 18,
+                "original": "to have diarrhea",
+                "translate": "иметь диарею, понос",
+                "isActive": true
+            },
+            {
+                "id": 19,
+                "original": "to have flu",
+                "translate": "болеть гриппом",
+                "isActive": true
+            },
+            {
+                "id": 20,
+                "original": "to have food poisoning",
+                "translate": "иметь пищевое отравление",
+                "isActive": true
+            },
+            {
+                "id": 21,
+                "original": "to have heartburn",
+                "translate": "иметь изжогу",
+                "isActive": true
+            },
+            {
+                "id": 22,
+                "original": "to have indigestion",
+                "translate": "иметь несварение",
+                "isActive": true
+            },
+            {
+                "id": 23,
+                "original": "to lose one's appetite",
+                "translate": "потерять аппетит",
+                "isActive": true
+            },
+            {
+                "id": 24,
+                "original": "to recover",
+                "translate": "выздороветь",
+                "isActive": true
+            },
+            {
+                "id": 25,
+                "original": "to sneeze",
+                "translate": "чихать",
+                "isActive": true
+            },
+            {
+                "id": 26,
+                "original": "to vomit / throw up",
+                "translate": "рвать, тошнить",
+                "isActive": true
+            }
+        ]
+    },
+    {
+        "title": "prepositions",
+        "items": [
+            {
+                "id": 27,
+                "original": "cure <b>for</b>",
+                "translate": "лекарство от",
+                "isActive": true
+            },
+            {
+                "id": 28,
+                "original": "to be allergic <b>to</b>",
+                "translate": "иметь аллергию на",
+                "isActive": true
+            },
+            {
+                "id": 29,
+                "original": "to be <b>in</b> good/bad health",
+                "translate": "быть в хорошем/плохом здоровье",
+                "isActive": true
+            },
+            {
+                "id": 30,
+                "original": "to be <b>in</b> hospital",
+                "translate": "лежать в больнице",
+                "isActive": true
+            },
+            {
+                "id": 31,
+                "original": "to be <b>in</b> pain",
+                "translate": "испытывать боль, страдать",
+                "isActive": true
+            },
+            {
+                "id": 32,
+                "original": "to suffer <b>from</b>",
+                "translate": "страдать от (какой-то болезни)",
+                "isActive": true
+            }
+        ]
+    },
+    {
+        "title": "phrasal verbs",
+        "items": [
+            {
+                "id": 33,
+                "original": "to get back",
+                "translate": "возвращаться; получить обратно (например, деньги)",
+                "isActive": true
+            },
+            {
+                "id": 34,
+                "original": "to get in(to)",
+                "translate": "садиться (например, в машину), попасть внутрь",
+                "isActive": true
+            },
+            {
+                "id": 35,
+                "original": "to get out (of)",
+                "translate": "выходить (например, из машины)",
+                "isActive": true
+            },
+            {
+                "id": 36,
+                "original": "to get off",
+                "translate": "выходить, сходить (например, с поезда)",
+                "isActive": true
+            },
+            {
+                "id": 37,
+                "original": "to get on",
+                "translate": "садиться (например, в поезд)",
+                "isActive": true
+            },
+            {
+                "id": 38,
+                "original": "to get up",
+                "translate": "вставать",
+                "isActive": true
+            }
+        ]
+    },
+    {
+        "title": "grammar",
+        "description": "<h3>There + to be в трёх временах</h3>\n<p><b>There is / there are</b> говорят, что что-то <b>есть</b> или <b>находится</b> где-то. По-русски вместо there ничего нет: There is a spider on my desk. — На моём столе (есть) паук.</p>\n<ul>\n<li><b>Past:</b> There <b>was</b> / <b>were</b> · There <b>wasn't</b> / <b>weren't</b> · <b>Was / Were</b> there…? · Yes, there was. / No, there wasn't.</li>\n<li><b>Present:</b> There <b>is</b> / <b>are</b> · There <b>isn't</b> / <b>aren't</b> · <b>Is / Are</b> there…? · Yes, there is. / No, there isn't.</li>\n<li><b>Future:</b> There <b>will be</b> · There <b>won't be</b> · <b>Will</b> there <b>be</b>…? · Yes, there will. / No, there won't.</li>\n</ul>\n<p><b>Запомни</b></p>\n<ul>\n<li>is/was — с единственным числом и неисчисляемыми; are/were — с множественным: There <b>is</b> a pharmacy… / There <b>are</b> seven days…</li>\n<li>В будущем форма одна для всех: There <b>will be</b> a break / There <b>will be</b> snacks.</li>\n<li>В вопросах there идёт после глагола: <b>Is there</b>…? <b>Were there</b>…? <b>Will there be</b>…?</li>\n</ul>",
+        "items": [
+            {
+                "id": 39,
+                "original": "There <b>is</b> a pharmacy nearby.",
+                "translate": "Рядом есть аптека. (there is — Present, ед. ч.)",
+                "isActive": true
+            },
+            {
+                "id": 40,
+                "original": "There <b>are</b> seven days in a week.",
+                "translate": "В неделе семь дней. (there are — Present, мн. ч.)",
+                "isActive": true
+            },
+            {
+                "id": 41,
+                "original": "There <b>isn't</b> any money in my wallet!",
+                "translate": "В моём кошельке нет денег! (there isn't)",
+                "isActive": true
+            },
+            {
+                "id": 42,
+                "original": "There <b>aren't</b> any painkillers in the house.",
+                "translate": "В доме нет обезболивающих. (there aren't)",
+                "isActive": true
+            },
+            {
+                "id": 43,
+                "original": "<b>Is there</b> anything interesting on TV? – No, <b>there isn't</b>.",
+                "translate": "Есть что-нибудь интересное по телевизору? – Нет. (Is there…? / No, there isn't)",
+                "isActive": true
+            },
+            {
+                "id": 44,
+                "original": "<b>Are there</b> any eggs in the fridge? – Yes, <b>there are</b> a few.",
+                "translate": "В холодильнике есть яйца? – Да, несколько есть. (Are there…? / Yes, there are)",
+                "isActive": true
+            },
+            {
+                "id": 45,
+                "original": "How many people <b>are there</b> in the waiting room?",
+                "translate": "Сколько человек в комнате ожидания? (How many… are there)",
+                "isActive": true
+            },
+            {
+                "id": 46,
+                "original": "There <b>was</b> an accident in the city centre yesterday.",
+                "translate": "Вчера в центре города была авария. (there was — Past)",
+                "isActive": true
+            },
+            {
+                "id": 47,
+                "original": "There <b>were</b> a lot of people at the doctor's.",
+                "translate": "У врача было много людей. (there were — Past, мн. ч.)",
+                "isActive": true
+            },
+            {
+                "id": 48,
+                "original": "There <b>wasn't</b> any fresh bread in the shop.",
+                "translate": "В магазине не было свежего хлеба. (there wasn't)",
+                "isActive": true
+            },
+            {
+                "id": 49,
+                "original": "There <b>weren't</b> many tourists last winter.",
+                "translate": "Прошлой зимой было не так много туристов. (there weren't)",
+                "isActive": true
+            },
+            {
+                "id": 50,
+                "original": "<b>Were there</b> any important letters for me? – No, <b>there weren't</b>.",
+                "translate": "Были для меня важные письма? – Нет. (Were there…? / No, there weren't)",
+                "isActive": true
+            },
+            {
+                "id": 51,
+                "original": "<b>Was there</b> enough time to finish it? – Yes, <b>there was</b>.",
+                "translate": "Было достаточно времени, чтобы закончить? – Да. (Was there…? / Yes, there was)",
+                "isActive": true
+            },
+            {
+                "id": 52,
+                "original": "I think <b>there will be</b> a thunderstorm tomorrow.",
+                "translate": "Думаю, завтра будет гроза. (there will be — Future)",
+                "isActive": true
+            },
+            {
+                "id": 53,
+                "original": "<b>There'll be</b> a break soon, but <b>there won't be</b> any snacks.",
+                "translate": "Скоро будет перерыв, но перекусить ничего не будет. (there'll be / there won't be)",
+                "isActive": true
+            },
+            {
+                "id": 54,
+                "original": "We have to do it now because <b>there won't be</b> time tomorrow.",
+                "translate": "Нам нужно сделать это сейчас, потому что завтра не будет времени. (there won't be)",
+                "isActive": true
+            },
+            {
+                "id": 55,
+                "original": "<b>Will there be</b> a meeting next Friday? – Of course, <b>there will</b>.",
+                "translate": "В следующую пятницу будет собрание? – Конечно, будет. (Will there be…? / there will)",
+                "isActive": true
+            },
+            {
+                "id": 56,
+                "original": "<b>Will there be</b> a doctor on duty at night? – No, <b>there won't</b>.",
+                "translate": "Ночью будет дежурный врач? – Нет. (Will there be…? / No, there won't)",
+                "isActive": true
+            },
+            {
+                "id": 57,
+                "original": "There <b>was</b> a rash on his arm, but now <b>there isn't</b>.",
+                "translate": "У него на руке была сыпь, а теперь нет. (there was / there isn't)",
+                "isActive": true
+            },
+            {
+                "id": 58,
+                "original": "There <b>were</b> two patients yesterday, there <b>are</b> five today, and there <b>will be</b> more tomorrow.",
+                "translate": "Вчера было два пациента, сегодня пять, а завтра будет больше. (was/were · is/are · will be)",
+                "isActive": true
+            }
+        ]
+    }
+]

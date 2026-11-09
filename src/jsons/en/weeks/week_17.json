@@ -1,0 +1,365 @@
+[
+    {
+        "title": "words",
+        "items": [
+            {
+                "id": 1,
+                "original": "relationship",
+                "translate": "отношения",
+                "isActive": true
+            },
+            {
+                "id": 2,
+                "original": "girlfriend",
+                "translate": "девушка (подруга)",
+                "isActive": true
+            },
+            {
+                "id": 3,
+                "original": "boyfriend",
+                "translate": "парень (друг)",
+                "isActive": true
+            },
+            {
+                "id": 4,
+                "original": "fiancée",
+                "translate": "невеста (до свадьбы)",
+                "isActive": true
+            },
+            {
+                "id": 5,
+                "original": "fiancé",
+                "translate": "жених (до свадьбы)",
+                "isActive": true
+            },
+            {
+                "id": 6,
+                "original": "bride",
+                "translate": "невеста (на свадьбе)",
+                "isActive": true
+            },
+            {
+                "id": 7,
+                "original": "groom",
+                "translate": "жених (на свадьбе)",
+                "isActive": true
+            },
+            {
+                "id": 8,
+                "original": "bridesmaid",
+                "translate": "подружка невесты",
+                "isActive": true
+            },
+            {
+                "id": 9,
+                "original": "maid of honour",
+                "translate": "главная подружка невесты, свидетельница",
+                "isActive": true
+            },
+            {
+                "id": 10,
+                "original": "best man",
+                "translate": "шафер, свидетель",
+                "isActive": true
+            },
+            {
+                "id": 11,
+                "original": "hen party/night",
+                "translate": "девичник",
+                "isActive": true
+            },
+            {
+                "id": 12,
+                "original": "stag party/night",
+                "translate": "мальчишник",
+                "isActive": true
+            },
+            {
+                "id": 13,
+                "original": "wedding",
+                "translate": "свадьба",
+                "isActive": true
+            },
+            {
+                "id": 14,
+                "original": "wedding reception",
+                "translate": "свадебный банкет",
+                "isActive": true
+            },
+            {
+                "id": 15,
+                "original": "wife",
+                "translate": "жена",
+                "isActive": true
+            },
+            {
+                "id": 16,
+                "original": "husband",
+                "translate": "муж",
+                "isActive": true
+            },
+            {
+                "id": 17,
+                "original": "honeymoon",
+                "translate": "медовый месяц, свадебное путешествие",
+                "isActive": true
+            },
+            {
+                "id": 18,
+                "original": "to fancy sb",
+                "translate": "запасть на кого-то, нравиться",
+                "isActive": true
+            },
+            {
+                "id": 19,
+                "original": "to go out with sb / see sb",
+                "translate": "встречаться с кем-то",
+                "isActive": true
+            },
+            {
+                "id": 20,
+                "original": "to kiss sb",
+                "translate": "поцеловать кого-то",
+                "isActive": true
+            },
+            {
+                "id": 21,
+                "original": "to hug sb",
+                "translate": "обнять кого-то",
+                "isActive": true
+            },
+            {
+                "id": 22,
+                "original": "to love sb",
+                "translate": "любить кого-то",
+                "isActive": true
+            },
+            {
+                "id": 23,
+                "original": "to trust sb",
+                "translate": "доверять кому-то",
+                "isActive": true
+            },
+            {
+                "id": 24,
+                "original": "to get engaged (to sb)",
+                "translate": "обручиться (с кем-то)",
+                "isActive": true
+            },
+            {
+                "id": 25,
+                "original": "to get married",
+                "translate": "выйти замуж / жениться",
+                "isActive": true
+            },
+            {
+                "id": 26,
+                "original": "to break up / split up (with sb)",
+                "translate": "расстаться (с кем-то)",
+                "isActive": true
+            },
+            {
+                "id": 27,
+                "original": "to get divorced",
+                "translate": "развестись",
+                "isActive": true
+            },
+            {
+                "id": 28,
+                "original": "to get custody of the children",
+                "translate": "получить опеку над детьми",
+                "isActive": true
+            }
+        ]
+    },
+    {
+        "title": "prepositions",
+        "items": [
+            {
+                "id": 29,
+                "original": "to be crazy <b>about</b> sb",
+                "translate": "быть без ума от кого-то",
+                "isActive": true
+            },
+            {
+                "id": 30,
+                "original": "to cheat <b>on</b> sb",
+                "translate": "изменять кому-то",
+                "isActive": true
+            },
+            {
+                "id": 31,
+                "original": "to fall <b>in</b> love (<b>with</b> sb)",
+                "translate": "влюбиться (в кого-то)",
+                "isActive": true
+            },
+            {
+                "id": 32,
+                "original": "to go <b>on</b> a date (<b>with</b> sb)",
+                "translate": "пойти на свидание (с кем-то)",
+                "isActive": true
+            },
+            {
+                "id": 33,
+                "original": "to propose <b>to</b> sb",
+                "translate": "сделать кому-то предложение",
+                "isActive": true
+            }
+        ]
+    },
+    {
+        "title": "phrasal verbs",
+        "items": [
+            {
+                "id": 34,
+                "original": "to turn back",
+                "translate": "повернуть назад",
+                "isActive": true
+            },
+            {
+                "id": 35,
+                "original": "to turn into sth",
+                "translate": "превратить(ся) во что-то, переделать во что-то",
+                "isActive": true
+            },
+            {
+                "id": 36,
+                "original": "to turn out",
+                "translate": "оказаться",
+                "isActive": true
+            },
+            {
+                "id": 37,
+                "original": "to turn to sb",
+                "translate": "обратиться к кому-то (за помощью)",
+                "isActive": true
+            }
+        ]
+    },
+    {
+        "title": "grammar",
+        "description": "<h3>Past Continuous</h3>\n<p>Действие <b>в процессе</b> в определённый момент в прошлом (по-русски — несовершенный вид: делал, читал, спал).</p>\n<p><b>Форма:</b> was/were + глагол<b>-ing</b></p>\n<ul>\n<li>I <b>was eating</b>. · I <b>wasn't eating</b>. · <b>Were</b> you <b>eating</b>? · Yes, I <b>was</b>. / No, I <b>wasn't</b>.</li>\n<li>I/he/she/it — <b>was</b>; you/we/they — <b>were</b>.</li>\n</ul>\n<p><b>Когда используем</b></p>\n<ul>\n<li>действие длилось в <b>конкретный момент</b>: at 10 o'clock yesterday, at this time last Friday — We <b>were sleeping</b> at 9 p.m. yesterday.</li>\n<li>два действия шли <b>одновременно</b> (часто с while): She <b>was talking</b> on the phone <b>while</b> I <b>was making</b> dinner.</li>\n<li>длительное действие <b>прервало</b> короткое (Past Simple): He <b>stopped</b> the music while we <b>were dancing</b>. (подробнее — в week 18)</li>\n</ul>",
+        "items": [
+            {
+                "id": 38,
+                "original": "What <b>were</b> you <b>doing</b> at 6 o'clock yesterday?",
+                "translate": "Что ты делал вчера в шесть часов? (were … doing — вопрос)",
+                "isActive": true
+            },
+            {
+                "id": 39,
+                "original": "What <b>were</b> you <b>doing</b> at this time yesterday?",
+                "translate": "Что ты делал вчера в это время? (конкретный момент)",
+                "isActive": true
+            },
+            {
+                "id": 40,
+                "original": "We <b>were sleeping</b> at 9 p.m. yesterday.",
+                "translate": "Вчера в 9 вечера мы спали. (were sleeping)",
+                "isActive": true
+            },
+            {
+                "id": 41,
+                "original": "At 9 a.m., we <b>were</b> still <b>sleeping</b>.",
+                "translate": "В 9 утра мы ещё спали. (were still sleeping)",
+                "isActive": true
+            },
+            {
+                "id": 42,
+                "original": "I <b>was having</b> a bath, and my husband <b>was cleaning</b> the house.",
+                "translate": "Я принимала ванну, а муж убирал дом. (два действия одновременно)",
+                "isActive": true
+            },
+            {
+                "id": 43,
+                "original": "She <b>was talking</b> on the phone while I <b>was making</b> dinner.",
+                "translate": "Она говорила по телефону, пока я готовила ужин. (while — одновременно)",
+                "isActive": true
+            },
+            {
+                "id": 44,
+                "original": "We <b>were talking</b> about her boyfriend, but she <b>wasn't listening</b>.",
+                "translate": "Мы говорили о её парне, но она не слушала. (were talking / wasn't listening)",
+                "isActive": true
+            },
+            {
+                "id": 45,
+                "original": "They <b>were lying</b> in bed, but they <b>weren't sleeping</b>.",
+                "translate": "Они лежали в кровати, но не спали. (were lying / weren't sleeping)",
+                "isActive": true
+            },
+            {
+                "id": 46,
+                "original": "I <b>wasn't driving</b>, my wife <b>was</b>.",
+                "translate": "Я не был за рулём, вела моя жена. (wasn't driving)",
+                "isActive": true
+            },
+            {
+                "id": 47,
+                "original": "When I arrived, my boss <b>was having</b> a meeting, and my colleagues <b>were having</b> lunch.",
+                "translate": "Когда я пришёл, начальник проводил совещание, а коллеги обедали. (was having / were having)",
+                "isActive": true
+            },
+            {
+                "id": 48,
+                "original": "What <b>was</b> she <b>doing</b> when you <b>were working</b>?",
+                "translate": "Что она делала, пока ты работал? (was … doing / were working)",
+                "isActive": true
+            },
+            {
+                "id": 49,
+                "original": "Why <b>weren't</b> you <b>looking</b> at me while I <b>was performing</b>?",
+                "translate": "Почему ты не смотрел на меня, пока я выступала? (weren't looking / was performing)",
+                "isActive": true
+            },
+            {
+                "id": 50,
+                "original": "It <b>was raining</b> when I <b>was riding</b> my bike.",
+                "translate": "Шёл дождь, когда я катался на велосипеде. (was raining / was riding)",
+                "isActive": true
+            },
+            {
+                "id": 51,
+                "original": "<b>Were</b> you <b>dancing</b> with her at the wedding? – Yes, I <b>was</b>.",
+                "translate": "Ты танцевал с ней на свадьбе? – Да. (Were … dancing? / Yes, I was)",
+                "isActive": true
+            },
+            {
+                "id": 52,
+                "original": "<b>Was</b> he <b>crying</b> during the ceremony? – No, he <b>wasn't</b>.",
+                "translate": "Он плакал во время церемонии? – Нет. (Was … crying? / No, he wasn't)",
+                "isActive": true
+            },
+            {
+                "id": 53,
+                "original": "The bride <b>was smiling</b> and the groom <b>was holding</b> her hand.",
+                "translate": "Невеста улыбалась, а жених держал её за руку. (was smiling / was holding)",
+                "isActive": true
+            },
+            {
+                "id": 54,
+                "original": "At midnight, the guests <b>were</b> still <b>dancing</b>.",
+                "translate": "В полночь гости ещё танцевали. (were still dancing)",
+                "isActive": true
+            },
+            {
+                "id": 55,
+                "original": "I <b>was looking</b> for my phone when I found my daughter's diary.",
+                "translate": "Я искала свой телефон, когда нашла дневник дочери. (was looking — прервано Past Simple)",
+                "isActive": true
+            },
+            {
+                "id": 56,
+                "original": "He <b>stopped</b> the music while we <b>were dancing</b>.",
+                "translate": "Он выключил музыку, пока мы танцевали. (stopped — Past Simple / were dancing)",
+                "isActive": true
+            },
+            {
+                "id": 57,
+                "original": "They <b>were going out</b> together when she <b>met</b> Tom.",
+                "translate": "Они встречались, когда она познакомилась с Томом. (were going out / met)",
+                "isActive": true
+            }
+        ]
+    }
+]

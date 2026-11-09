@@ -1,0 +1,509 @@
+[
+    {
+        "title": "words",
+        "items": [
+            {
+                "id": 1,
+                "original": "nursery (school) / kindergarten",
+                "translate": "детский сад",
+                "isActive": true
+            },
+            {
+                "id": 2,
+                "original": "primary school",
+                "translate": "начальная школа",
+                "isActive": true
+            },
+            {
+                "id": 3,
+                "original": "secondary/high school",
+                "translate": "средняя школа, старшая школа",
+                "isActive": true
+            },
+            {
+                "id": 4,
+                "original": "state school",
+                "translate": "государственная школа",
+                "isActive": true
+            },
+            {
+                "id": 5,
+                "original": "vocational school",
+                "translate": "профессиональное училище",
+                "isActive": true
+            },
+            {
+                "id": 6,
+                "original": "technical school/college",
+                "translate": "техникум",
+                "isActive": true
+            },
+            {
+                "id": 7,
+                "original": "boarding school",
+                "translate": "школа-интернат",
+                "isActive": true
+            },
+            {
+                "id": 8,
+                "original": "head teacher/master",
+                "translate": "директор (школы)",
+                "isActive": true
+            },
+            {
+                "id": 9,
+                "original": "deputy head",
+                "translate": "заместитель директора",
+                "isActive": true
+            },
+            {
+                "id": 10,
+                "original": "form teacher",
+                "translate": "классный руководитель",
+                "isActive": true
+            },
+            {
+                "id": 11,
+                "original": "strict",
+                "translate": "строгий, требовательный",
+                "isActive": true
+            },
+            {
+                "id": 12,
+                "original": "term",
+                "translate": "семестр, четверть",
+                "isActive": true
+            },
+            {
+                "id": 13,
+                "original": "art",
+                "translate": "изобразительное искусство",
+                "isActive": true
+            },
+            {
+                "id": 14,
+                "original": "biology",
+                "translate": "биология",
+                "isActive": true
+            },
+            {
+                "id": 15,
+                "original": "chemistry",
+                "translate": "химия",
+                "isActive": true
+            },
+            {
+                "id": 16,
+                "original": "economics",
+                "translate": "экономика",
+                "isActive": true
+            },
+            {
+                "id": 17,
+                "original": "geography",
+                "translate": "география",
+                "isActive": true
+            },
+            {
+                "id": 18,
+                "original": "history",
+                "translate": "история",
+                "isActive": true
+            },
+            {
+                "id": 19,
+                "original": "IT (information technology)",
+                "translate": "информатика",
+                "isActive": true
+            },
+            {
+                "id": 20,
+                "original": "maths",
+                "translate": "математика",
+                "isActive": true
+            },
+            {
+                "id": 21,
+                "original": "music",
+                "translate": "музыка",
+                "isActive": true
+            },
+            {
+                "id": 22,
+                "original": "PE (physical education)",
+                "translate": "физкультура",
+                "isActive": true
+            },
+            {
+                "id": 23,
+                "original": "physics",
+                "translate": "физика",
+                "isActive": true
+            },
+            {
+                "id": 24,
+                "original": "RE (religious education)",
+                "translate": "религиоведение, закон Божий",
+                "isActive": true
+            },
+            {
+                "id": 25,
+                "original": "classes",
+                "translate": "занятия",
+                "isActive": true
+            },
+            {
+                "id": 26,
+                "original": "deadline",
+                "translate": "крайний срок",
+                "isActive": true
+            },
+            {
+                "id": 27,
+                "original": "finals",
+                "translate": "выпускные экзамены",
+                "isActive": true
+            },
+            {
+                "id": 28,
+                "original": "grade/mark",
+                "translate": "оценка",
+                "isActive": true
+            },
+            {
+                "id": 29,
+                "original": "scholarship",
+                "translate": "стипендия",
+                "isActive": true
+            },
+            {
+                "id": 30,
+                "original": "uniform",
+                "translate": "школьная форма",
+                "isActive": true
+            },
+            {
+                "id": 31,
+                "original": "gap year",
+                "translate": "год перерыва (например, перед поступлением в вуз)",
+                "isActive": true
+            },
+            {
+                "id": 32,
+                "original": "faculty",
+                "translate": "факультет",
+                "isActive": true
+            },
+            {
+                "id": 33,
+                "original": "graduate",
+                "translate": "выпускник",
+                "isActive": true
+            },
+            {
+                "id": 34,
+                "original": "postgraduate",
+                "translate": "аспирантский, последипломный",
+                "isActive": true
+            },
+            {
+                "id": 35,
+                "original": "bachelor's / master's / doctoral/PhD thesis",
+                "translate": "бакалаврская / магистерская / докторская работа",
+                "isActive": true
+            },
+            {
+                "id": 36,
+                "original": "bachelor's degree",
+                "translate": "степень бакалавра",
+                "isActive": true
+            },
+            {
+                "id": 37,
+                "original": "master's degree",
+                "translate": "степень магистра",
+                "isActive": true
+            },
+            {
+                "id": 38,
+                "original": "PhD (Doctor of Philosophy)",
+                "translate": "степень доктора (кандидата наук)",
+                "isActive": true
+            },
+            {
+                "id": 39,
+                "original": "to attend classes",
+                "translate": "посещать занятия",
+                "isActive": true
+            },
+            {
+                "id": 40,
+                "original": "to cheat in an exam",
+                "translate": "списывать на экзамене",
+                "isActive": true
+            },
+            {
+                "id": 41,
+                "original": "to cram for an exam",
+                "translate": "зубрить к экзамену",
+                "isActive": true
+            },
+            {
+                "id": 42,
+                "original": "to do one's homework",
+                "translate": "делать домашнее задание",
+                "isActive": true
+            },
+            {
+                "id": 43,
+                "original": "to drop out of school/university",
+                "translate": "бросить школу/университет",
+                "isActive": true
+            },
+            {
+                "id": 44,
+                "original": "to fail an exam",
+                "translate": "провалить экзамен",
+                "isActive": true
+            },
+            {
+                "id": 45,
+                "original": "to pass an exam",
+                "translate": "сдать экзамен",
+                "isActive": true
+            },
+            {
+                "id": 46,
+                "original": "to pay attention",
+                "translate": "быть внимательным, слушать внимательно",
+                "isActive": true
+            },
+            {
+                "id": 47,
+                "original": "to work hard",
+                "translate": "усердно работать",
+                "isActive": true
+            },
+            {
+                "id": 48,
+                "original": "to play truant / skive",
+                "translate": "прогуливать (занятия)",
+                "isActive": true
+            },
+            {
+                "id": 49,
+                "original": "to take/sit an exam",
+                "translate": "сдавать экзамен",
+                "isActive": true
+            },
+            {
+                "id": 50,
+                "original": "to retake/resit an exam",
+                "translate": "пересдавать экзамен",
+                "isActive": true
+            }
+        ]
+    },
+    {
+        "title": "prepositions",
+        "items": [
+            {
+                "id": 51,
+                "original": "absent <b>from</b>",
+                "translate": "отсутствующий (на)",
+                "isActive": true
+            },
+            {
+                "id": 52,
+                "original": "<b>at</b> school",
+                "translate": "в школе",
+                "isActive": true
+            },
+            {
+                "id": 53,
+                "original": "<b>at</b> university",
+                "translate": "в университете",
+                "isActive": true
+            },
+            {
+                "id": 54,
+                "original": "to graduate <b>from</b>",
+                "translate": "окончить (учебное заведение)",
+                "isActive": true
+            },
+            {
+                "id": 55,
+                "original": "to learn <b>by</b> heart",
+                "translate": "учить наизусть",
+                "isActive": true
+            },
+            {
+                "id": 56,
+                "original": "to revise <b>for</b>",
+                "translate": "повторять к (экзамену)",
+                "isActive": true
+            }
+        ]
+    },
+    {
+        "title": "phrasal verbs",
+        "items": [
+            {
+                "id": 57,
+                "original": "to give away",
+                "translate": "выдать, раскрыть (секрет)",
+                "isActive": true
+            },
+            {
+                "id": 58,
+                "original": "to give back",
+                "translate": "вернуть, отдать обратно",
+                "isActive": true
+            },
+            {
+                "id": 59,
+                "original": "to give in",
+                "translate": "уступить, сдаться (кому-то, соблазну)",
+                "isActive": true
+            },
+            {
+                "id": 60,
+                "original": "to give off",
+                "translate": "испускать, выделять (например, запах)",
+                "isActive": true
+            },
+            {
+                "id": 61,
+                "original": "to give up (sth)",
+                "translate": "сдаваться; бросить (что-то)",
+                "isActive": true
+            }
+        ]
+    },
+    {
+        "title": "grammar",
+        "description": "<h3>Too & enough</h3>\n<p><b>too</b> — <b>слишком, чересчур</b> (больше, чем нужно). Стоит <b>перед</b> словом:</p>\n<ul>\n<li>с прилагательными и наречиями: <b>too</b> long, <b>too</b> slowly</li>\n<li><b>too much</b> после глагола — слишком много: He sleeps <b>too much</b>.</li>\n<li><b>too many</b> + исчисляемое: <b>too many</b> options</li>\n<li><b>too much</b> + неисчисляемое: <b>too much</b> salt</li>\n<li>усиление — <b>far too</b> (намного слишком): This lecture was <b>far too</b> long.</li>\n</ul>\n<p><b>enough</b> — <b>достаточно</b>. Место в предложении зависит от слова:</p>\n<ul>\n<li><b>после</b> прилагательного или наречия: tall <b>enough</b>, fast <b>enough</b></li>\n<li><b>после</b> глагола: You didn't practise <b>enough</b>.</li>\n<li><b>перед</b> существительным: <b>enough</b> food, <b>enough</b> time</li>\n</ul>\n<p><b>Часто с to + глагол:</b> I'm <b>too</b> tired <b>to work</b>. / He isn't old <b>enough to drive</b>.</p>",
+        "items": [
+            {
+                "id": 62,
+                "original": "This lecture was <b>too long</b>.",
+                "translate": "Эта лекция была слишком длинной. (too + прилагательное)",
+                "isActive": true
+            },
+            {
+                "id": 63,
+                "original": "She was <b>too tired</b> to go any further.",
+                "translate": "Она слишком устала, чтобы идти дальше. (too + прилагательное + to)",
+                "isActive": true
+            },
+            {
+                "id": 64,
+                "original": "It's <b>too cold</b>, and there's <b>too much</b> snow outside.",
+                "translate": "Слишком холодно, и на улице слишком много снега. (too cold / too much + неисчисляемое)",
+                "isActive": true
+            },
+            {
+                "id": 65,
+                "original": "I feel sick. I've eaten <b>too much</b>.",
+                "translate": "Меня тошнит. Я слишком много съел. (too much после глагола)",
+                "isActive": true
+            },
+            {
+                "id": 66,
+                "original": "Why don't you get some rest? You work <b>far too much</b>.",
+                "translate": "Почему бы тебе не отдохнуть? Ты работаешь намного больше, чем нужно. (far too much)",
+                "isActive": true
+            },
+            {
+                "id": 67,
+                "original": "I couldn't sleep because I drank <b>too much</b> coffee.",
+                "translate": "Я не мог уснуть, потому что выпил слишком много кофе. (too much + неисчисляемое)",
+                "isActive": true
+            },
+            {
+                "id": 68,
+                "original": "There are <b>too many</b> students in this class.",
+                "translate": "В этом классе слишком много учеников. (too many + исчисляемое)",
+                "isActive": true
+            },
+            {
+                "id": 69,
+                "original": "I have <b>too many</b> things to do and <b>not enough</b> time.",
+                "translate": "У меня слишком много дел и недостаточно времени. (too many / not enough)",
+                "isActive": true
+            },
+            {
+                "id": 70,
+                "original": "There are <b>too many</b> people and <b>not enough</b> tables here.",
+                "translate": "Здесь слишком много людей и недостаточно столиков. (too many / not enough)",
+                "isActive": true
+            },
+            {
+                "id": 71,
+                "original": "The exam was <b>far too difficult</b> for me.",
+                "translate": "Экзамен был намного слишком трудным для меня. (far too)",
+                "isActive": true
+            },
+            {
+                "id": 72,
+                "original": "He's <b>too young</b> to drop out of school.",
+                "translate": "Он слишком молод, чтобы бросать школу. (too + прилагательное + to)",
+                "isActive": true
+            },
+            {
+                "id": 73,
+                "original": "I'm not <b>strong enough</b> to carry my suitcase.",
+                "translate": "Я недостаточно сильный, чтобы нести свой чемодан. (прилагательное + enough)",
+                "isActive": true
+            },
+            {
+                "id": 74,
+                "original": "He wasn't <b>good enough</b> to get this job.",
+                "translate": "Он был недостаточно хорош, чтобы получить эту работу. (good enough)",
+                "isActive": true
+            },
+            {
+                "id": 75,
+                "original": "You didn't speak <b>loudly enough</b>.",
+                "translate": "Ты говорил недостаточно громко. (наречие + enough)",
+                "isActive": true
+            },
+            {
+                "id": 76,
+                "original": "You didn't <b>study enough</b>, so you failed the exam again.",
+                "translate": "Ты мало занимался, поэтому снова провалил экзамен. (глагол + enough)",
+                "isActive": true
+            },
+            {
+                "id": 77,
+                "original": "He didn't <b>sleep enough</b>, so he's too tired to work now.",
+                "translate": "Он недостаточно спал, поэтому сейчас слишком устал, чтобы работать. (sleep enough / too tired)",
+                "isActive": true
+            },
+            {
+                "id": 78,
+                "original": "We didn't have <b>enough money</b> to buy her a present.",
+                "translate": "У нас не хватило денег, чтобы купить ей подарок. (enough + существительное)",
+                "isActive": true
+            },
+            {
+                "id": 79,
+                "original": "He didn't have <b>enough experience</b> for this position.",
+                "translate": "У него было недостаточно опыта для этой должности. (enough + существительное)",
+                "isActive": true
+            },
+            {
+                "id": 80,
+                "original": "Is there <b>enough time</b> to retake the exam?",
+                "translate": "Хватит ли времени, чтобы пересдать экзамен? (enough time — вопрос)",
+                "isActive": true
+            },
+            {
+                "id": 81,
+                "original": "My marks weren't <b>high enough</b> to get a scholarship.",
+                "translate": "Мои оценки были недостаточно высокими, чтобы получить стипендию. (high enough + to)",
+                "isActive": true
+            }
+        ]
+    }
+]

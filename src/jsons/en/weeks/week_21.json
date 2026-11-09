@@ -1,0 +1,329 @@
+[
+    {
+        "title": "words",
+        "items": [
+            {
+                "id": 1,
+                "original": "to appreciate",
+                "translate": "ценить",
+                "isActive": true
+            },
+            {
+                "id": 2,
+                "original": "to avoid",
+                "translate": "избегать",
+                "isActive": true
+            },
+            {
+                "id": 3,
+                "original": "to change",
+                "translate": "менять, изменять",
+                "isActive": true
+            },
+            {
+                "id": 4,
+                "original": "to confirm",
+                "translate": "подтверждать",
+                "isActive": true
+            },
+            {
+                "id": 5,
+                "original": "to decide (to do sth)",
+                "translate": "решить (что-то сделать)",
+                "isActive": true
+            },
+            {
+                "id": 6,
+                "original": "to face",
+                "translate": "столкнуться с, смотреть в лицо (трудностям)",
+                "isActive": true
+            },
+            {
+                "id": 7,
+                "original": "to guess",
+                "translate": "угадывать, догадываться",
+                "isActive": true
+            },
+            {
+                "id": 8,
+                "original": "to hurry up",
+                "translate": "поторопиться",
+                "isActive": true
+            },
+            {
+                "id": 9,
+                "original": "to improve",
+                "translate": "улучшить",
+                "isActive": true
+            },
+            {
+                "id": 10,
+                "original": "to join",
+                "translate": "присоединиться",
+                "isActive": true
+            },
+            {
+                "id": 11,
+                "original": "to let sb do sth",
+                "translate": "позволить кому-то что-то сделать",
+                "isActive": true
+            },
+            {
+                "id": 12,
+                "original": "to mean",
+                "translate": "иметь в виду",
+                "isActive": true
+            },
+            {
+                "id": 13,
+                "original": "to promise (to do sth)",
+                "translate": "обещать (что-то сделать)",
+                "isActive": true
+            },
+            {
+                "id": 14,
+                "original": "to realise",
+                "translate": "осознать, понять",
+                "isActive": true
+            },
+            {
+                "id": 15,
+                "original": "to receive",
+                "translate": "получить",
+                "isActive": true
+            },
+            {
+                "id": 16,
+                "original": "to require",
+                "translate": "требовать",
+                "isActive": true
+            },
+            {
+                "id": 17,
+                "original": "to seem",
+                "translate": "казаться",
+                "isActive": true
+            },
+            {
+                "id": 18,
+                "original": "to support",
+                "translate": "поддерживать",
+                "isActive": true
+            },
+            {
+                "id": 19,
+                "original": "to suppose",
+                "translate": "предполагать",
+                "isActive": true
+            },
+            {
+                "id": 20,
+                "original": "to try",
+                "translate": "пытаться, пробовать",
+                "isActive": true
+            }
+        ]
+    },
+    {
+        "title": "prepositions",
+        "items": [
+            {
+                "id": 21,
+                "original": "to comment <b>on</b> sth",
+                "translate": "комментировать что-то",
+                "isActive": true
+            },
+            {
+                "id": 22,
+                "original": "to criticise sb <b>for</b> (sth / doing sth)",
+                "translate": "критиковать кого-то за (что-то)",
+                "isActive": true
+            },
+            {
+                "id": 23,
+                "original": "to differ <b>from</b>",
+                "translate": "отличаться от",
+                "isActive": true
+            },
+            {
+                "id": 24,
+                "original": "to disapprove <b>of</b> (sth / doing sth) (≠ to approve <b>of</b>)",
+                "translate": "не одобрять (что-то) (≠ одобрять)",
+                "isActive": true
+            },
+            {
+                "id": 25,
+                "original": "to result <b>from</b>",
+                "translate": "быть результатом, происходить из",
+                "isActive": true
+            },
+            {
+                "id": 26,
+                "original": "to result <b>in</b>",
+                "translate": "приводить к, заканчиваться (чем-то)",
+                "isActive": true
+            }
+        ]
+    },
+    {
+        "title": "phrasal verbs",
+        "items": [
+            {
+                "id": 27,
+                "original": "to fall out with sb (over sth)",
+                "translate": "поссориться с кем-то (из-за чего-то)",
+                "isActive": true
+            },
+            {
+                "id": 28,
+                "original": "to fall behind",
+                "translate": "отставать, иметь задолженность",
+                "isActive": true
+            },
+            {
+                "id": 29,
+                "original": "to fall for sth",
+                "translate": "попасться на (уловку)",
+                "isActive": true
+            },
+            {
+                "id": 30,
+                "original": "to fall for sb",
+                "translate": "влюбиться в кого-то",
+                "isActive": true
+            },
+            {
+                "id": 31,
+                "original": "to fall through",
+                "translate": "провалиться, сорваться (о планах)",
+                "isActive": true
+            }
+        ]
+    },
+    {
+        "title": "grammar",
+        "description": "<h3>Indirect questions</h3>\n<p><b>Косвенный вопрос</b> — вопрос внутри другой фразы: Do you know…? Can you tell me…? I'm not sure… I wonder… I don't remember…</p>\n<p><b>Главное:</b> после вопросительного слова — <b>прямой порядок слов</b>, как в утверждении (подлежащее + глагол), и <b>без do/does/did</b>.</p>\n<ul>\n<li>Where <b>is the cinema</b>? → Do you know where <b>the cinema is</b>? (не <s>where is the cinema</s>)</li>\n<li>Where <b>does Olivia work</b>? → Do you know where <b>Olivia works</b>?</li>\n<li>When <b>did they get</b> married? → I don't remember when <b>they got</b> married.</li>\n</ul>\n<p>Подсказка: представь утвердительное предложение — The cinema <b>is</b>… (opposite the post office).</p>\n<p><b>После повелительного наклонения</b> тоже косвенный вопрос: Ask her what time <b>she came</b>. (не <s>what time did she come</s>)</p>\n<p><b>Вопросы «да/нет»</b> — через <b>if</b> или <b>whether</b> (ли): Does he like chocolate? → Do you know <b>if/whether</b> he <b>likes</b> chocolate?</p>",
+        "items": [
+            {
+                "id": 32,
+                "original": "Do you know where <b>the cinema is</b>?",
+                "translate": "Ты знаешь, где кинотеатр? (where the cinema is — прямой порядок)",
+                "isActive": true
+            },
+            {
+                "id": 33,
+                "original": "Can you tell me where <b>the cinema is</b>?",
+                "translate": "Можете сказать, где кинотеатр? (Can you tell me…)",
+                "isActive": true
+            },
+            {
+                "id": 34,
+                "original": "Do you know what time <b>it is</b>?",
+                "translate": "Вы знаете, который час? (what time it is)",
+                "isActive": true
+            },
+            {
+                "id": 35,
+                "original": "Do you know where <b>Olivia works</b>?",
+                "translate": "Ты знаешь, где работает Оливия? (без does: Olivia works)",
+                "isActive": true
+            },
+            {
+                "id": 36,
+                "original": "Can you tell me what <b>your husband's phone number is</b>?",
+                "translate": "Можешь сказать, какой номер телефона у твоего мужа? (… number is)",
+                "isActive": true
+            },
+            {
+                "id": 37,
+                "original": "I don't remember when <b>they got</b> married.",
+                "translate": "Я не помню, когда они поженились. (без did: they got)",
+                "isActive": true
+            },
+            {
+                "id": 38,
+                "original": "Do you remember how long <b>we have lived</b> here?",
+                "translate": "Ты помнишь, как долго мы здесь живём? (we have lived)",
+                "isActive": true
+            },
+            {
+                "id": 39,
+                "original": "I'd like to know what <b>he is going to do</b> after school.",
+                "translate": "Я бы хотел знать, что он собирается делать после школы. (he is going to)",
+                "isActive": true
+            },
+            {
+                "id": 40,
+                "original": "I forgot why <b>I came</b> here.",
+                "translate": "Я забыл, зачем пришёл сюда. (why I came)",
+                "isActive": true
+            },
+            {
+                "id": 41,
+                "original": "Do you remember what <b>he gave</b> you for your birthday?",
+                "translate": "Ты помнишь, что он подарил тебе на день рождения? (what he gave)",
+                "isActive": true
+            },
+            {
+                "id": 42,
+                "original": "I have no idea how long <b>Sarah has known</b> him.",
+                "translate": "Понятия не имею, как давно Сара его знает. (Sarah has known)",
+                "isActive": true
+            },
+            {
+                "id": 43,
+                "original": "Can you tell me what <b>he told</b> you about me?",
+                "translate": "Можешь сказать, что он говорил тебе обо мне? (what he told)",
+                "isActive": true
+            },
+            {
+                "id": 44,
+                "original": "I'm wondering what <b>he's</b> like.",
+                "translate": "Мне интересно, какой он. (what he's like)",
+                "isActive": true
+            },
+            {
+                "id": 45,
+                "original": "I'd like to know if <b>you've received</b> my email.",
+                "translate": "Я хотел бы знать, получили ли вы моё письмо. (if — вопрос да/нет)",
+                "isActive": true
+            },
+            {
+                "id": 46,
+                "original": "I wonder <b>if/whether</b> he'll come with his wife.",
+                "translate": "Интересно, придёт ли он с женой. (if/whether)",
+                "isActive": true
+            },
+            {
+                "id": 47,
+                "original": "Do you know <b>if</b> he <b>likes</b> chocolate?",
+                "translate": "Ты не знаешь, любит ли он шоколад? (if + likes, без does)",
+                "isActive": true
+            },
+            {
+                "id": 48,
+                "original": "Ask them <b>if</b> they <b>eat</b> meat.",
+                "translate": "Спроси их, едят ли они мясо. (Ask + if)",
+                "isActive": true
+            },
+            {
+                "id": 49,
+                "original": "Ask him <b>if</b> he'<b>ll be</b> here tomorrow.",
+                "translate": "Спроси его, будет ли он здесь завтра. (Ask + if)",
+                "isActive": true
+            },
+            {
+                "id": 50,
+                "original": "Ask her what time <b>she came</b> yesterday.",
+                "translate": "Спроси её, во сколько она пришла вчера. (не what time did she come)",
+                "isActive": true
+            },
+            {
+                "id": 51,
+                "original": "Can you tell me if the prices in the UK <b>differ</b> much from those in Poland?",
+                "translate": "Можешь сказать, сильно ли цены в Великобритании отличаются от польских? (if + differ)",
+                "isActive": true
+            }
+        ]
+    }
+]

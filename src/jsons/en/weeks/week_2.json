@@ -1,0 +1,401 @@
+[
+    {
+        "title": "words",
+        "items": [
+            {
+                "id": 1,
+                "original": "tall",
+                "translate": "высокий",
+                "isActive": true
+            },
+            {
+                "id": 2,
+                "original": "short",
+                "translate": "низкий; короткий (о волосах)",
+                "isActive": true
+            },
+            {
+                "id": 3,
+                "original": "medium-height",
+                "translate": "среднего роста",
+                "isActive": true
+            },
+            {
+                "id": 4,
+                "original": "slim",
+                "translate": "стройный",
+                "isActive": true
+            },
+            {
+                "id": 5,
+                "original": "thin / skinny",
+                "translate": "худой / тощий",
+                "isActive": true
+            },
+            {
+                "id": 6,
+                "original": "fat",
+                "translate": "толстый",
+                "isActive": true
+            },
+            {
+                "id": 7,
+                "original": "overweight",
+                "translate": "с лишним весом, полный",
+                "isActive": true
+            },
+            {
+                "id": 40,
+                "original": "plump",
+                "translate": "пухлый, полненький",
+                "isActive": true
+            },
+            {
+                "id": 8,
+                "original": "well-built",
+                "translate": "хорошо сложённый",
+                "isActive": true
+            },
+            {
+                "id": 9,
+                "original": "middle-aged",
+                "translate": "средних лет",
+                "isActive": true
+            },
+            {
+                "id": 10,
+                "original": "attractive / good-looking",
+                "translate": "привлекательный, симпатичный",
+                "isActive": true
+            },
+            {
+                "id": 11,
+                "original": "handsome",
+                "translate": "красивый (о мужчине)",
+                "isActive": true
+            },
+            {
+                "id": 12,
+                "original": "pretty",
+                "translate": "хорошенькая, симпатичная",
+                "isActive": true
+            },
+            {
+                "id": 13,
+                "original": "beautiful",
+                "translate": "красивая, прекрасная",
+                "isActive": true
+            },
+            {
+                "id": 14,
+                "original": "ugly",
+                "translate": "некрасивый, уродливый",
+                "isActive": true
+            },
+            {
+                "id": 15,
+                "original": "long",
+                "translate": "длинный",
+                "isActive": true
+            },
+            {
+                "id": 16,
+                "original": "medium-length",
+                "translate": "средней длины",
+                "isActive": true
+            },
+            {
+                "id": 17,
+                "original": "straight",
+                "translate": "прямые (о волосах)",
+                "isActive": true
+            },
+            {
+                "id": 18,
+                "original": "wavy",
+                "translate": "волнистые (о волосах)",
+                "isActive": true
+            },
+            {
+                "id": 19,
+                "original": "curly",
+                "translate": "кудрявые, вьющиеся (о волосах)",
+                "isActive": true
+            },
+            {
+                "id": 20,
+                "original": "blonde",
+                "translate": "светлые (о волосах), блондинка",
+                "isActive": true
+            },
+            {
+                "id": 21,
+                "original": "dark",
+                "translate": "тёмный",
+                "isActive": true
+            },
+            {
+                "id": 29,
+                "original": "fair (fair complexion, fair hair)",
+                "translate": "светлый (светлая кожа, светлые волосы)",
+                "isActive": true
+            },
+            {
+                "id": 22,
+                "original": "ginger / red",
+                "translate": "рыжий (о волосах)",
+                "isActive": true
+            },
+            {
+                "id": 23,
+                "original": "grey",
+                "translate": "седой (о волосах)",
+                "isActive": true
+            },
+            {
+                "id": 24,
+                "original": "bald",
+                "translate": "лысый",
+                "isActive": true
+            },
+            {
+                "id": 25,
+                "original": "beard",
+                "translate": "борода",
+                "isActive": true
+            },
+            {
+                "id": 26,
+                "original": "moustache",
+                "translate": "усы",
+                "isActive": true
+            },
+            {
+                "id": 27,
+                "original": "freckles",
+                "translate": "веснушки",
+                "isActive": true
+            },
+            {
+                "id": 41,
+                "original": "birthmark",
+                "translate": "родимое пятно",
+                "isActive": true
+            },
+            {
+                "id": 42,
+                "original": "mole",
+                "translate": "родинка",
+                "isActive": true
+            },
+            {
+                "id": 28,
+                "original": "pimple / zit",
+                "translate": "прыщ",
+                "isActive": true
+            },
+            {
+                "id": 43,
+                "original": "spot",
+                "translate": "прыщик",
+                "isActive": true
+            }
+        ]
+    },
+    {
+        "title": "prepositions",
+        "items": [
+            {
+                "id": 30,
+                "original": "to agree <b>with</b>",
+                "translate": "соглашаться с",
+                "isActive": true
+            },
+            {
+                "id": 31,
+                "original": "to ask <b>about</b>",
+                "translate": "спрашивать о",
+                "isActive": true
+            },
+            {
+                "id": 32,
+                "original": "to ask <b>for</b>",
+                "translate": "просить о (чём-то)",
+                "isActive": true
+            },
+            {
+                "id": 33,
+                "original": "to belong <b>to</b>",
+                "translate": "принадлежать (кому-то)",
+                "isActive": true
+            },
+            {
+                "id": 34,
+                "original": "to depend <b>on</b>",
+                "translate": "зависеть от",
+                "isActive": true
+            }
+        ]
+    },
+    {
+        "title": "phrasal verbs",
+        "items": [
+            {
+                "id": 35,
+                "original": "to move in (with sb)",
+                "translate": "въезжать, переезжать (к кому-то)",
+                "isActive": true
+            },
+            {
+                "id": 36,
+                "original": "to move on",
+                "translate": "двигаться дальше, жить дальше",
+                "isActive": true
+            },
+            {
+                "id": 37,
+                "original": "to move on to",
+                "translate": "переходить к (например, следующему пункту)",
+                "isActive": true
+            },
+            {
+                "id": 38,
+                "original": "to move out",
+                "translate": "выезжать, съезжать",
+                "isActive": true
+            },
+            {
+                "id": 39,
+                "original": "to move over",
+                "translate": "подвинуться",
+                "isActive": true
+            }
+        ]
+    },
+    {
+        "title": "grammar",
+        "description": "<h3>Must / have to</h3>\n<p>Оба глагола значат <b>«должен, надо»</b>, и часто их можно менять местами. Но есть разница в оттенке:</p>\n<ul>\n<li><b>must</b> — личное мнение говорящего: я сам считаю, что это нужно. You <b>must</b> read this book. (советую, книга хорошая)</li>\n<li><b>have to</b> — обязанность извне: правила, закон, кто-то другой требует. You <b>have to</b> read this book. (это обязательная литература)</li>\n</ul>\n<p><b>Вопросы</b></p>\n<ul>\n<li>Чаще с have to: <b>Do</b> you <b>have to</b> go now? / <b>Does</b> she <b>have to</b>…?</li>\n<li>С must тоже можно, но реже: <b>Must</b> you go now?</li>\n</ul>\n<p><b>Отрицания — значение разное!</b></p>\n<ul>\n<li><b>mustn't</b> = <b>нельзя</b> (запрет): You <b>mustn't</b> use the lift. — Тебе нельзя пользоваться лифтом.</li>\n<li><b>don't/doesn't have to</b> = <b>не обязательно</b>: You <b>don't have to</b> use the lift. — Тебе не обязательно пользоваться лифтом.</li>\n</ul>\n<p><b>Запомни</b></p>\n<ul>\n<li>have to можно заменить на <b>need to</b>.</li>\n<li>В прошедшем и будущем только have to: I <b>had to</b>…, I'<b>ll have to</b>… (не <s>I'll must</s>).</li>\n<li>must может говорить о будущем, но без will: I <b>must</b> call him next week.</li>\n</ul>",
+        "items": [
+            {
+                "id": 44,
+                "original": "You <b>must</b> see this film. It's great!",
+                "translate": "Ты должен посмотреть этот фильм. Он отличный! (must — личный совет)",
+                "isActive": true
+            },
+            {
+                "id": 45,
+                "original": "I <b>must</b> call my mum tonight.",
+                "translate": "Мне нужно позвонить маме сегодня вечером. (must — сам считаю нужным)",
+                "isActive": true
+            },
+            {
+                "id": 46,
+                "original": "We <b>must</b> visit grandma more often.",
+                "translate": "Нам надо чаще навещать бабушку. (must)",
+                "isActive": true
+            },
+            {
+                "id": 47,
+                "original": "I <b>must</b> lose some weight. I'm a bit overweight.",
+                "translate": "Мне надо похудеть. У меня небольшой лишний вес. (must)",
+                "isActive": true
+            },
+            {
+                "id": 48,
+                "original": "You <b>mustn't</b> smoke here.",
+                "translate": "Здесь нельзя курить. (mustn't — запрет)",
+                "isActive": true
+            },
+            {
+                "id": 49,
+                "original": "You <b>mustn't</b> tell anyone about it. It's a secret.",
+                "translate": "Тебе нельзя никому об этом рассказывать. Это секрет. (mustn't)",
+                "isActive": true
+            },
+            {
+                "id": 50,
+                "original": "Children <b>mustn't</b> play with matches.",
+                "translate": "Детям нельзя играть со спичками. (mustn't)",
+                "isActive": true
+            },
+            {
+                "id": 51,
+                "original": "I <b>have to</b> wear a uniform at work.",
+                "translate": "Я обязан носить форму на работе. (have to — правило, обязанность)",
+                "isActive": true
+            },
+            {
+                "id": 52,
+                "original": "She <b>has to</b> get up at 6 every day.",
+                "translate": "Ей приходится вставать в 6 каждый день. (have to)",
+                "isActive": true
+            },
+            {
+                "id": 53,
+                "original": "<b>Do</b> I <b>have to</b> come here tomorrow?",
+                "translate": "Мне обязательно приходить сюда завтра? (have to — вопрос)",
+                "isActive": true
+            },
+            {
+                "id": 54,
+                "original": "<b>Does</b> he <b>have to</b> work at weekends?",
+                "translate": "Ему приходится работать по выходным? (have to)",
+                "isActive": true
+            },
+            {
+                "id": 55,
+                "original": "You <b>don't have to</b> use the lift. You can take the stairs.",
+                "translate": "Тебе не обязательно пользоваться лифтом. Можешь подняться по лестнице. (don't have to — нет необходимости)",
+                "isActive": true
+            },
+            {
+                "id": 56,
+                "original": "I <b>don't have to</b> get up early tomorrow.",
+                "translate": "Мне не нужно завтра рано вставать. (don't have to)",
+                "isActive": true
+            },
+            {
+                "id": 57,
+                "original": "She <b>doesn't have to</b> dye her hair. She's naturally blonde.",
+                "translate": "Ей не нужно красить волосы. Она натуральная блондинка. (doesn't have to)",
+                "isActive": true
+            },
+            {
+                "id": 58,
+                "original": "You <b>mustn't</b> drive fast here, but you <b>don't have to</b> drive very slowly either.",
+                "translate": "Здесь нельзя ездить быстро, но и очень медленно ехать не обязательно. (mustn't vs don't have to)",
+                "isActive": true
+            },
+            {
+                "id": 59,
+                "original": "Yesterday I <b>had to</b> stay at work late.",
+                "translate": "Вчера мне пришлось задержаться на работе. (had to — прошлое, must нельзя)",
+                "isActive": true
+            },
+            {
+                "id": 60,
+                "original": "We <b>didn't have to</b> wait long.",
+                "translate": "Нам не пришлось долго ждать. (didn't have to — прошлое)",
+                "isActive": true
+            },
+            {
+                "id": 61,
+                "original": "I'<b>ll have to</b> call him next week.",
+                "translate": "Мне придётся позвонить ему на следующей неделе. (will have to — будущее, не will must)",
+                "isActive": true
+            },
+            {
+                "id": 62,
+                "original": "I <b>need to</b> buy a new razor. My beard is too long.",
+                "translate": "Мне нужно купить новую бритву. Моя борода слишком длинная. (need to = have to)",
+                "isActive": true
+            },
+            {
+                "id": 63,
+                "original": "<b>Must</b> you go now? / <b>Do</b> you <b>have to</b> go now?",
+                "translate": "Тебе обязательно уходить сейчас? (вопрос с must возможен, но с have to — чаще)",
+                "isActive": true
+            }
+        ]
+    }
+]

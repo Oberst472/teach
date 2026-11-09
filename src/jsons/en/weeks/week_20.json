@@ -1,0 +1,437 @@
+[
+    {
+        "title": "words",
+        "items": [
+            {
+                "id": 1,
+                "original": "long",
+                "translate": "длинный",
+                "isActive": true
+            },
+            {
+                "id": 2,
+                "original": "length",
+                "translate": "длина",
+                "isActive": true
+            },
+            {
+                "id": 3,
+                "original": "high/tall",
+                "translate": "высокий",
+                "isActive": true
+            },
+            {
+                "id": 4,
+                "original": "height",
+                "translate": "высота",
+                "isActive": true
+            },
+            {
+                "id": 5,
+                "original": "wide",
+                "translate": "широкий",
+                "isActive": true
+            },
+            {
+                "id": 6,
+                "original": "width",
+                "translate": "ширина",
+                "isActive": true
+            },
+            {
+                "id": 7,
+                "original": "deep",
+                "translate": "глубокий",
+                "isActive": true
+            },
+            {
+                "id": 8,
+                "original": "depth",
+                "translate": "глубина",
+                "isActive": true
+            },
+            {
+                "id": 9,
+                "original": "How wide/deep is…",
+                "translate": "Какой ширины/глубины…",
+                "isActive": true
+            },
+            {
+                "id": 10,
+                "original": "large/huge/enormous",
+                "translate": "большой, огромный",
+                "isActive": true
+            },
+            {
+                "id": 11,
+                "original": "vast",
+                "translate": "обширный",
+                "isActive": true
+            },
+            {
+                "id": 12,
+                "original": "small",
+                "translate": "маленький",
+                "isActive": true
+            },
+            {
+                "id": 13,
+                "original": "tiny",
+                "translate": "крошечный",
+                "isActive": true
+            },
+            {
+                "id": 14,
+                "original": "narrow",
+                "translate": "узкий",
+                "isActive": true
+            },
+            {
+                "id": 15,
+                "original": "short",
+                "translate": "короткий, низкий",
+                "isActive": true
+            },
+            {
+                "id": 16,
+                "original": "low",
+                "translate": "низкий",
+                "isActive": true
+            },
+            {
+                "id": 17,
+                "original": "shallow",
+                "translate": "мелкий, неглубокий",
+                "isActive": true
+            },
+            {
+                "id": 18,
+                "original": "thin",
+                "translate": "тонкий",
+                "isActive": true
+            },
+            {
+                "id": 19,
+                "original": "thick",
+                "translate": "толстый",
+                "isActive": true
+            },
+            {
+                "id": 20,
+                "original": "vertical",
+                "translate": "вертикальный",
+                "isActive": true
+            },
+            {
+                "id": 21,
+                "original": "horizontal",
+                "translate": "горизонтальный",
+                "isActive": true
+            },
+            {
+                "id": 22,
+                "original": "diagonal",
+                "translate": "диагональный",
+                "isActive": true
+            },
+            {
+                "id": 23,
+                "original": "parallel",
+                "translate": "параллельный",
+                "isActive": true
+            },
+            {
+                "id": 24,
+                "original": "square",
+                "translate": "квадрат, квадратный",
+                "isActive": true
+            },
+            {
+                "id": 25,
+                "original": "rectangle",
+                "translate": "прямоугольник",
+                "isActive": true
+            },
+            {
+                "id": 26,
+                "original": "rectangular",
+                "translate": "прямоугольный",
+                "isActive": true
+            },
+            {
+                "id": 27,
+                "original": "triangle",
+                "translate": "треугольник",
+                "isActive": true
+            },
+            {
+                "id": 28,
+                "original": "triangular",
+                "translate": "треугольный",
+                "isActive": true
+            },
+            {
+                "id": 29,
+                "original": "cube",
+                "translate": "куб, кубик",
+                "isActive": true
+            },
+            {
+                "id": 30,
+                "original": "circle",
+                "translate": "круг",
+                "isActive": true
+            },
+            {
+                "id": 31,
+                "original": "circular/round",
+                "translate": "круглый",
+                "isActive": true
+            },
+            {
+                "id": 32,
+                "original": "semi-circle",
+                "translate": "полукруг",
+                "isActive": true
+            },
+            {
+                "id": 33,
+                "original": "semi-circular",
+                "translate": "полукруглый",
+                "isActive": true
+            },
+            {
+                "id": 34,
+                "original": "oval",
+                "translate": "овал, овальный",
+                "isActive": true
+            },
+            {
+                "id": 35,
+                "original": "sphere",
+                "translate": "шар, сфера",
+                "isActive": true
+            },
+            {
+                "id": 36,
+                "original": "three-dimensional",
+                "translate": "трёхмерный",
+                "isActive": true
+            },
+            {
+                "id": 37,
+                "original": "egg/heart/pear/star…-shaped",
+                "translate": "в форме яйца/сердца/груши/звезды…",
+                "isActive": true
+            },
+            {
+                "id": 38,
+                "original": "angle",
+                "translate": "угол",
+                "isActive": true
+            }
+        ]
+    },
+    {
+        "title": "prepositions",
+        "items": [
+            {
+                "id": 39,
+                "original": "excited <b>about</b>",
+                "translate": "взволнованный (в предвкушении чего-то)",
+                "isActive": true
+            },
+            {
+                "id": 40,
+                "original": "familiar <b>with</b>",
+                "translate": "знакомый с, осведомлённый о",
+                "isActive": true
+            },
+            {
+                "id": 41,
+                "original": "grateful <b>to</b> sb <b>for</b> sth",
+                "translate": "благодарный кому-то за что-то",
+                "isActive": true
+            },
+            {
+                "id": 42,
+                "original": "keen <b>on</b> (to be keen <b>on</b> sth)",
+                "translate": "увлечённый (увлекаться чем-то, любить что-то делать)",
+                "isActive": true
+            },
+            {
+                "id": 43,
+                "original": "suitable <b>for</b>",
+                "translate": "подходящий для",
+                "isActive": true
+            }
+        ]
+    },
+    {
+        "title": "phrasal verbs",
+        "items": [
+            {
+                "id": 44,
+                "original": "to carry on",
+                "translate": "продолжать",
+                "isActive": true
+            },
+            {
+                "id": 45,
+                "original": "to carry out",
+                "translate": "проводить, осуществлять",
+                "isActive": true
+            },
+            {
+                "id": 46,
+                "original": "to pick out",
+                "translate": "выбрать (из группы)",
+                "isActive": true
+            },
+            {
+                "id": 47,
+                "original": "to pick up",
+                "translate": "забрать (кого-то/что-то откуда-то), заехать (за кем-то)",
+                "isActive": true
+            },
+            {
+                "id": 48,
+                "original": "to tell on sb",
+                "translate": "наябедничать на кого-то",
+                "isActive": true
+            },
+            {
+                "id": 49,
+                "original": "to tell sb off",
+                "translate": "отругать кого-то",
+                "isActive": true
+            }
+        ]
+    },
+    {
+        "title": "grammar",
+        "description": "<h3>Present Perfect Simple – ever, never, since, for</h3>\n<p>Форма та же: <b>have/has + 3-я форма</b>. I'<b>ve been</b> to Paris. · I <b>haven't been</b>. · <b>Have</b> you <b>been</b>? · Yes, I have. / No, I haven't.</p>\n<p><b>1. Жизненный опыт</b> (без указания, когда)</p>\n<ul>\n<li><b>ever</b> — когда-нибудь (в вопросах): <b>Have</b> you <b>ever been</b> to Europe?</li>\n<li><b>never</b> — никогда: I'<b>ve never been</b> to Europe.</li>\n<li><b>so far</b> — пока что, до сих пор: I'<b>ve been</b> to five countries <b>so far</b>.</li>\n</ul>\n<p><b>2. Началось в прошлом и продолжается сейчас</b> (по-русски часто настоящее время!)</p>\n<ul>\n<li><b>since</b> — с (момент начала): I'<b>ve worked</b> here <b>since</b> 2010 / last year / I moved to Warsaw. — Я работаю здесь с 2010…</li>\n<li><b>for</b> — в течение (длительность): I'<b>ve worked</b> here <b>for</b> 8 years / six months. — Я работаю здесь 8 лет.</li>\n<li>в отрицаниях вместо for иногда <b>in</b>: I <b>haven't seen</b> them <b>in</b> months.</li>\n<li><b>How long</b> — как долго: <b>How long</b> has she <b>been</b> a teacher?</li>\n</ul>",
+        "items": [
+            {
+                "id": 50,
+                "original": "<b>Have</b> you <b>ever been</b> to Europe?",
+                "translate": "Ты когда-нибудь был в Европе? (ever — опыт)",
+                "isActive": true
+            },
+            {
+                "id": 51,
+                "original": "– <b>Have</b> you <b>ever been</b> to the USA? – No, I <b>haven't</b>.",
+                "translate": "– Ты когда-нибудь был в США? – Нет. (Have … ever? / No, I haven't)",
+                "isActive": true
+            },
+            {
+                "id": 52,
+                "original": "I'<b>ve never been</b> abroad.",
+                "translate": "Я никогда не был за границей. (never)",
+                "isActive": true
+            },
+            {
+                "id": 53,
+                "original": "She'<b>s never met</b> him before.",
+                "translate": "Она никогда раньше его не встречала. (never)",
+                "isActive": true
+            },
+            {
+                "id": 54,
+                "original": "<b>Has</b> your husband <b>ever lied</b> to you?",
+                "translate": "Твой муж когда-нибудь тебе лгал? (ever)",
+                "isActive": true
+            },
+            {
+                "id": 55,
+                "original": "I'<b>ve never met</b> anyone as helpful as him.",
+                "translate": "Я никогда не встречал никого столь же отзывчивого, как он. (never)",
+                "isActive": true
+            },
+            {
+                "id": 56,
+                "original": "I'<b>ve never seen</b> such an enormous building.",
+                "translate": "Я никогда не видел такого огромного здания. (never)",
+                "isActive": true
+            },
+            {
+                "id": 57,
+                "original": "I'<b>ve been</b> to five European countries <b>so far</b>.",
+                "translate": "Я пока побывал в пяти европейских странах. (so far)",
+                "isActive": true
+            },
+            {
+                "id": 58,
+                "original": "I'<b>ve worked</b> here <b>since</b> 2010.",
+                "translate": "Я работаю здесь с 2010 года. (since + момент)",
+                "isActive": true
+            },
+            {
+                "id": 59,
+                "original": "I'<b>ve had</b> this car <b>since</b> April.",
+                "translate": "У меня эта машина с апреля. (since April)",
+                "isActive": true
+            },
+            {
+                "id": 60,
+                "original": "I <b>haven't talked</b> to him <b>since</b> we left school.",
+                "translate": "Я не разговаривал с ним с тех пор, как мы окончили школу. (since + событие)",
+                "isActive": true
+            },
+            {
+                "id": 61,
+                "original": "I'<b>ve liked</b> him <b>since</b> I first saw him.",
+                "translate": "Он мне нравится с тех пор, как я впервые его увидела. (since)",
+                "isActive": true
+            },
+            {
+                "id": 62,
+                "original": "I'<b>ve worked</b> here <b>for</b> eight years.",
+                "translate": "Я работаю здесь восемь лет. (for + длительность)",
+                "isActive": true
+            },
+            {
+                "id": 63,
+                "original": "We'<b>ve lived</b> together <b>for</b> five months.",
+                "translate": "Мы живём вместе пять месяцев. (for)",
+                "isActive": true
+            },
+            {
+                "id": 64,
+                "original": "They'<b>ve been</b> married <b>for</b> more than ten years.",
+                "translate": "Они женаты больше десяти лет. (for)",
+                "isActive": true
+            },
+            {
+                "id": 65,
+                "original": "I <b>haven't seen</b> them <b>in</b> months.",
+                "translate": "Я не видел их уже несколько месяцев. (in — в отрицании вместо for)",
+                "isActive": true
+            },
+            {
+                "id": 66,
+                "original": "<b>How long have</b> you <b>known</b> him?",
+                "translate": "Как давно ты его знаешь? (How long)",
+                "isActive": true
+            },
+            {
+                "id": 67,
+                "original": "– <b>How long have</b> you <b>had</b> this car? – I'<b>ve had</b> it <b>since</b> April.",
+                "translate": "– Давно у тебя эта машина? – С апреля. (How long / since)",
+                "isActive": true
+            },
+            {
+                "id": 68,
+                "original": "<b>How long has</b> she <b>been</b> a teacher?",
+                "translate": "Как долго она работает учителем? (How long)",
+                "isActive": true
+            },
+            {
+                "id": 69,
+                "original": "This round table <b>has been</b> in our family <b>for</b> fifty years.",
+                "translate": "Этот круглый стол принадлежит нашей семье уже пятьдесят лет. (for)",
+                "isActive": true
+            }
+        ]
+    }
+]
