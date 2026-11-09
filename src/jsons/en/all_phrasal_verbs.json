@@ -1,0 +1,596 @@
+[
+    {
+        "id": 1,
+        "original": "Turn <b>on</b> the light, please.",
+        "translate": "Включи свет, пожалуйста.",
+        "isActive": true
+    },
+    {
+        "id": 2,
+        "original": "Don't forget to turn <b>off</b> the TV.",
+        "translate": "Не забудь выключить телевизор.",
+        "isActive": true
+    },
+    {
+        "id": 3,
+        "original": "Can you turn <b>down</b> the music?",
+        "translate": "Можешь сделать музыку тише?",
+        "isActive": true
+    },
+    {
+        "id": 4,
+        "original": "She turned <b>down</b> the job offer.",
+        "translate": "Она отклонила предложение о работе.",
+        "isActive": true
+    },
+    {
+        "id": 5,
+        "original": "Turn <b>up</b> the volume!",
+        "translate": "Сделай погромче!",
+        "isActive": true
+    },
+    {
+        "id": 6,
+        "original": "He turned <b>up</b> an hour late.",
+        "translate": "Он появился с опозданием на час.",
+        "isActive": true
+    },
+    {
+        "id": 7,
+        "original": "Turn <b>around</b> and look at me.",
+        "translate": "Повернись и посмотри на меня.",
+        "isActive": true
+    },
+    {
+        "id": 8,
+        "original": "She moved <b>in</b> with her boyfriend.",
+        "translate": "Она переехала к своему парню.",
+        "isActive": true
+    },
+    {
+        "id": 9,
+        "original": "It's time to move <b>on</b>.",
+        "translate": "Пора жить дальше.",
+        "isActive": true
+    },
+    {
+        "id": 10,
+        "original": "Let's move <b>on to</b> the next question.",
+        "translate": "Давайте перейдём к следующему вопросу.",
+        "isActive": true
+    },
+    {
+        "id": 11,
+        "original": "We're moving <b>out</b> next month.",
+        "translate": "Мы съезжаем в следующем месяце.",
+        "isActive": true
+    },
+    {
+        "id": 12,
+        "original": "Can you move <b>over</b> a bit?",
+        "translate": "Можешь немного подвинуться?",
+        "isActive": true
+    },
+    {
+        "id": 13,
+        "original": "Look <b>at</b> this photo!",
+        "translate": "Посмотри на эту фотографию!",
+        "isActive": true
+    },
+    {
+        "id": 14,
+        "original": "I'm looking <b>for</b> my keys.",
+        "translate": "Я ищу ключи.",
+        "isActive": true
+    },
+    {
+        "id": 15,
+        "original": "Can you look <b>after</b> my cat?",
+        "translate": "Можешь присмотреть за моей кошкой?",
+        "isActive": true
+    },
+    {
+        "id": 16,
+        "original": "We just looked <b>around</b> the shop.",
+        "translate": "Мы просто осмотрелись в магазине.",
+        "isActive": true
+    },
+    {
+        "id": 17,
+        "original": "Look <b>up</b> this word in a dictionary.",
+        "translate": "Посмотри это слово в словаре.",
+        "isActive": true
+    },
+    {
+        "id": 18,
+        "original": "Calm <b>down</b>, it's not a problem.",
+        "translate": "Успокойся, это не проблема.",
+        "isActive": true
+    },
+    {
+        "id": 19,
+        "original": "We need to speed <b>up</b>.",
+        "translate": "Нам нужно ускориться.",
+        "isActive": true
+    },
+    {
+        "id": 20,
+        "original": "Can you print <b>out</b> the tickets?",
+        "translate": "Можешь распечатать билеты?",
+        "isActive": true
+    },
+    {
+        "id": 21,
+        "original": "Slow <b>down</b>, you're driving too fast!",
+        "translate": "Сбавь скорость, ты едешь слишком быстро!",
+        "isActive": true
+    },
+    {
+        "id": 22,
+        "original": "Always warm <b>up</b> before running.",
+        "translate": "Всегда разминайся перед бегом.",
+        "isActive": true
+    },
+    {
+        "id": 23,
+        "original": "Two pizzas to take <b>away</b>, please.",
+        "translate": "Две пиццы навынос, пожалуйста.",
+        "isActive": true
+    },
+    {
+        "id": 24,
+        "original": "Take <b>down</b> my phone number.",
+        "translate": "Запиши мой номер телефона.",
+        "isActive": true
+    },
+    {
+        "id": 25,
+        "original": "Take <b>off</b> your shoes, please.",
+        "translate": "Сними обувь, пожалуйста.",
+        "isActive": true
+    },
+    {
+        "id": 26,
+        "original": "He took her <b>out</b> to dinner.",
+        "translate": "Он сводил её на ужин.",
+        "isActive": true
+    },
+    {
+        "id": 27,
+        "original": "She took her phone <b>out of</b> her bag.",
+        "translate": "Она достала телефон из сумки.",
+        "isActive": true
+    },
+    {
+        "id": 28,
+        "original": "Put your toys <b>away</b>!",
+        "translate": "Убери свои игрушки!",
+        "isActive": true
+    },
+    {
+        "id": 29,
+        "original": "Let's put <b>off</b> the meeting until Monday.",
+        "translate": "Давай перенесём встречу на понедельник.",
+        "isActive": true
+    },
+    {
+        "id": 30,
+        "original": "Put <b>on</b> your coat, it's cold.",
+        "translate": "Надень пальто, холодно.",
+        "isActive": true
+    },
+    {
+        "id": 31,
+        "original": "Please put <b>out</b> your cigarette.",
+        "translate": "Пожалуйста, потушите сигарету.",
+        "isActive": true
+    },
+    {
+        "id": 32,
+        "original": "Put <b>down</b> your pens.",
+        "translate": "Положите ручки.",
+        "isActive": true
+    },
+    {
+        "id": 33,
+        "original": "Put the milk <b>into</b> the fridge.",
+        "translate": "Поставь молоко в холодильник.",
+        "isActive": true
+    },
+    {
+        "id": 34,
+        "original": "Go <b>away</b>, I'm busy!",
+        "translate": "Уходи, я занят!",
+        "isActive": true
+    },
+    {
+        "id": 35,
+        "original": "The pain went <b>away</b>.",
+        "translate": "Боль прошла.",
+        "isActive": true
+    },
+    {
+        "id": 36,
+        "original": "Let's go <b>through</b> the report.",
+        "translate": "Давай просмотрим отчёт.",
+        "isActive": true
+    },
+    {
+        "id": 37,
+        "original": "My alarm went <b>off</b> at six.",
+        "translate": "Мой будильник прозвенел в шесть.",
+        "isActive": true
+    },
+    {
+        "id": 38,
+        "original": "The milk has gone <b>off</b>.",
+        "translate": "Молоко испортилось.",
+        "isActive": true
+    },
+    {
+        "id": 39,
+        "original": "What's going <b>on</b>?",
+        "translate": "Что происходит?",
+        "isActive": true
+    },
+    {
+        "id": 40,
+        "original": "Let's go <b>on to</b> the next topic.",
+        "translate": "Давайте перейдём к следующей теме.",
+        "isActive": true
+    },
+    {
+        "id": 41,
+        "original": "Come <b>round</b> for dinner tonight.",
+        "translate": "Заходи сегодня на ужин.",
+        "isActive": true
+    },
+    {
+        "id": 42,
+        "original": "I came <b>across</b> an old photo.",
+        "translate": "Я наткнулся на старую фотографию.",
+        "isActive": true
+    },
+    {
+        "id": 43,
+        "original": "When are you coming <b>back</b>?",
+        "translate": "Когда ты вернёшься?",
+        "isActive": true
+    },
+    {
+        "id": 44,
+        "original": "I think I'm coming <b>down with</b> a cold.",
+        "translate": "Кажется, я заболеваю простудой.",
+        "isActive": true
+    },
+    {
+        "id": 45,
+        "original": "Their new album comes <b>out</b> in May.",
+        "translate": "Их новый альбом выходит в мае.",
+        "isActive": true
+    },
+    {
+        "id": 46,
+        "original": "She broke <b>up with</b> her boyfriend.",
+        "translate": "Она рассталась со своим парнем.",
+        "isActive": true
+    },
+    {
+        "id": 47,
+        "original": "Our car broke <b>down</b> on the motorway.",
+        "translate": "Наша машина сломалась на трассе.",
+        "isActive": true
+    },
+    {
+        "id": 48,
+        "original": "A fire broke <b>out</b> in the kitchen.",
+        "translate": "На кухне вспыхнул пожар.",
+        "isActive": true
+    },
+    {
+        "id": 49,
+        "original": "Someone broke <b>into</b> our house.",
+        "translate": "Кто-то вломился в наш дом.",
+        "isActive": true
+    },
+    {
+        "id": 50,
+        "original": "Don't give <b>away</b> the ending!",
+        "translate": "Не выдавай концовку!",
+        "isActive": true
+    },
+    {
+        "id": 51,
+        "original": "Give me <b>back</b> my phone!",
+        "translate": "Верни мне мой телефон!",
+        "isActive": true
+    },
+    {
+        "id": 52,
+        "original": "OK, I give <b>in</b>. You win.",
+        "translate": "Ладно, сдаюсь. Ты победил.",
+        "isActive": true
+    },
+    {
+        "id": 53,
+        "original": "These flowers give <b>off</b> a lovely smell.",
+        "translate": "Эти цветы источают чудесный запах.",
+        "isActive": true
+    },
+    {
+        "id": 54,
+        "original": "He gave <b>up</b> smoking.",
+        "translate": "Он бросил курить.",
+        "isActive": true
+    },
+    {
+        "id": 55,
+        "original": "Never give <b>up</b>!",
+        "translate": "Никогда не сдавайся!",
+        "isActive": true
+    },
+    {
+        "id": 56,
+        "original": "What time did you get <b>back</b>?",
+        "translate": "Во сколько ты вернулся?",
+        "isActive": true
+    },
+    {
+        "id": 57,
+        "original": "Get <b>in</b> the car!",
+        "translate": "Садись в машину!",
+        "isActive": true
+    },
+    {
+        "id": 58,
+        "original": "Get <b>out of</b> the car!",
+        "translate": "Выходи из машины!",
+        "isActive": true
+    },
+    {
+        "id": 59,
+        "original": "We get <b>off</b> at the next stop.",
+        "translate": "Мы выходим на следующей остановке.",
+        "isActive": true
+    },
+    {
+        "id": 60,
+        "original": "Get <b>on</b> the train, quick!",
+        "translate": "Садись в поезд, быстрее!",
+        "isActive": true
+    },
+    {
+        "id": 61,
+        "original": "I get <b>up</b> at seven.",
+        "translate": "Я встаю в семь.",
+        "isActive": true
+    },
+    {
+        "id": 62,
+        "original": "They threw him <b>out of</b> the club.",
+        "translate": "Его выгнали из клуба.",
+        "isActive": true
+    },
+    {
+        "id": 63,
+        "original": "Don't throw <b>away</b> that box.",
+        "translate": "Не выбрасывай эту коробку.",
+        "isActive": true
+    },
+    {
+        "id": 64,
+        "original": "I threw <b>on</b> a jacket and ran out.",
+        "translate": "Я накинул куртку и выбежал.",
+        "isActive": true
+    },
+    {
+        "id": 65,
+        "original": "I feel sick, I think I'm going to throw <b>up</b>.",
+        "translate": "Мне плохо, кажется, меня сейчас стошнит.",
+        "isActive": true
+    },
+    {
+        "id": 66,
+        "original": "The baby fell <b>down</b>.",
+        "translate": "Малыш упал.",
+        "isActive": true
+    },
+    {
+        "id": 67,
+        "original": "He fell <b>into</b> the river.",
+        "translate": "Он упал в реку.",
+        "isActive": true
+    },
+    {
+        "id": 68,
+        "original": "My phone fell <b>out of</b> my pocket.",
+        "translate": "Телефон выпал у меня из кармана.",
+        "isActive": true
+    },
+    {
+        "id": 69,
+        "original": "I tripped and fell <b>over</b>.",
+        "translate": "Я споткнулся и упал.",
+        "isActive": true
+    },
+    {
+        "id": 70,
+        "original": "The dog ran <b>away</b>.",
+        "translate": "Собака убежала.",
+        "isActive": true
+    },
+    {
+        "id": 71,
+        "original": "She's running <b>for</b> president.",
+        "translate": "Она баллотируется в президенты.",
+        "isActive": true
+    },
+    {
+        "id": 72,
+        "original": "I ran <b>into</b> an old friend yesterday.",
+        "translate": "Вчера я случайно встретил старого друга.",
+        "isActive": true
+    },
+    {
+        "id": 73,
+        "original": "We've run <b>out of</b> milk.",
+        "translate": "У нас закончилось молоко.",
+        "isActive": true
+    },
+    {
+        "id": 74,
+        "original": "The kids ran <b>up to</b> their dad.",
+        "translate": "Дети подбежали к папе.",
+        "isActive": true
+    },
+    {
+        "id": 75,
+        "original": "It started to rain, so we turned <b>back</b>.",
+        "translate": "Пошёл дождь, и мы повернули назад.",
+        "isActive": true
+    },
+    {
+        "id": 76,
+        "original": "The caterpillar turned <b>into</b> a butterfly.",
+        "translate": "Гусеница превратилась в бабочку.",
+        "isActive": true
+    },
+    {
+        "id": 77,
+        "original": "The test turned <b>out</b> to be easy.",
+        "translate": "Тест оказался лёгким.",
+        "isActive": true
+    },
+    {
+        "id": 78,
+        "original": "You can always turn <b>to</b> me.",
+        "translate": "Ты всегда можешь обратиться ко мне.",
+        "isActive": true
+    },
+    {
+        "id": 79,
+        "original": "He asked her <b>out</b>.",
+        "translate": "Он пригласил её на свидание.",
+        "isActive": true
+    },
+    {
+        "id": 80,
+        "original": "We checked <b>in</b> at two o'clock.",
+        "translate": "Мы заселились в два часа.",
+        "isActive": true
+    },
+    {
+        "id": 81,
+        "original": "We have to check <b>out</b> by noon.",
+        "translate": "Нам нужно выселиться до полудня.",
+        "isActive": true
+    },
+    {
+        "id": 82,
+        "original": "Cheer <b>up</b>! It's not so bad.",
+        "translate": "Не унывай! Всё не так плохо.",
+        "isActive": true
+    },
+    {
+        "id": 83,
+        "original": "I found <b>out</b> the truth.",
+        "translate": "Я узнал правду.",
+        "isActive": true
+    },
+    {
+        "id": 84,
+        "original": "I signed <b>up for</b> a yoga class.",
+        "translate": "Я записался на йогу.",
+        "isActive": true
+    },
+    {
+        "id": 85,
+        "original": "He made <b>up</b> an excuse.",
+        "translate": "Он выдумал отговорку.",
+        "isActive": true
+    },
+    {
+        "id": 86,
+        "original": "Have you made <b>up</b> with your sister?",
+        "translate": "Ты помирился с сестрой?",
+        "isActive": true
+    },
+    {
+        "id": 87,
+        "original": "I'll make <b>up for</b> it, I promise.",
+        "translate": "Я заглажу вину, обещаю.",
+        "isActive": true
+    },
+    {
+        "id": 88,
+        "original": "I can't make <b>up</b> my mind.",
+        "translate": "Я не могу решиться.",
+        "isActive": true
+    },
+    {
+        "id": 89,
+        "original": "Carry <b>on</b>, I'm listening.",
+        "translate": "Продолжай, я слушаю.",
+        "isActive": true
+    },
+    {
+        "id": 90,
+        "original": "They carried <b>out</b> a survey.",
+        "translate": "Они провели опрос.",
+        "isActive": true
+    },
+    {
+        "id": 91,
+        "original": "Pick <b>out</b> a dress you like.",
+        "translate": "Выбери платье, которое тебе нравится.",
+        "isActive": true
+    },
+    {
+        "id": 92,
+        "original": "I'll pick you <b>up</b> at eight.",
+        "translate": "Я заеду за тобой в восемь.",
+        "isActive": true
+    },
+    {
+        "id": 93,
+        "original": "Don't tell <b>on</b> me!",
+        "translate": "Не ябедничай на меня!",
+        "isActive": true
+    },
+    {
+        "id": 94,
+        "original": "Mum told me <b>off</b> for being late.",
+        "translate": "Мама отругала меня за опоздание.",
+        "isActive": true
+    },
+    {
+        "id": 95,
+        "original": "I fell <b>out with</b> my brother over money.",
+        "translate": "Я поссорился с братом из-за денег.",
+        "isActive": true
+    },
+    {
+        "id": 96,
+        "original": "He fell <b>behind</b> at school.",
+        "translate": "Он отстал в школе.",
+        "isActive": true
+    },
+    {
+        "id": 97,
+        "original": "Don't fall <b>for</b> that old trick!",
+        "translate": "Не попадись на этот старый трюк!",
+        "isActive": true
+    },
+    {
+        "id": 98,
+        "original": "She fell <b>for</b> her teacher.",
+        "translate": "Она влюбилась в своего учителя.",
+        "isActive": true
+    },
+    {
+        "id": 99,
+        "original": "Our holiday plans fell <b>through</b>.",
+        "translate": "Наши планы на отпуск сорвались.",
+        "isActive": true
+    }
+]
