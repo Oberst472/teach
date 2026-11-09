@@ -219,11 +219,13 @@ onMounted(() => {
     }
 
     &.first {
-      width: 400px;
+      width: 320px;
+      flex-shrink: 0;
     }
 
     &.second {
-      width: 800px;
+      flex: 1 1 auto;
+      min-width: 0;
     }
 
     &-item {
@@ -331,9 +333,10 @@ onMounted(() => {
 
   &__content {
     list-style: none;
-    margin-left: 30px;
+    margin-left: 15px;
     padding: 15px;
-    flex-basis: 100%;
+    width: 420px;
+    flex-shrink: 0;
     background-color: rgba(255, 255, 255, 0.05);
     max-height: calc(100vh - 60px);
     overflow: auto;
@@ -341,7 +344,7 @@ onMounted(() => {
     flex-direction: column;
     border-radius: 10px;
     position: relative;
-    padding-top: 60px;
+    padding-top: 45px;
 
     &-number {
       margin-bottom: 50px;
@@ -358,17 +361,17 @@ onMounted(() => {
     }
 
     &-current {
-      font-size: 40px;
+      font-size: 28px;
       text-align: center;
       line-height: 1.2;
-      margin-bottom: 60px;
+      margin-bottom: 30px;
     }
 
     &-translate {
       border: 1px dashed;
       padding: 15px;
       border-radius: 15px;
-      font-size: 30px;
+      font-size: 22px;
       text-align: center;
       color: #6aff46;
       background-color: rgba(255, 255, 255, 0.07);
@@ -379,11 +382,11 @@ onMounted(() => {
     }
 
     &-inp {
-      margin-top: 30px;
+      margin-top: 20px;
 
       input {
         width: 100%;
-        min-height: 60px;
+        min-height: 48px;
         padding: 10px 15px;
         font-size: 18px;
         border: 1px solid #ff50c0;
@@ -393,14 +396,14 @@ onMounted(() => {
     }
 
     &-btns {
-      margin-top: 60px;
+      margin-top: 30px;
       display: flex;
-      gap: 30px;
+      gap: 15px;
     }
 
     &-btn {
       flex-basis: 50%;
-      height: 60px;
+      height: 48px;
       background-color: #ff7f2e;
 
       &.show {
