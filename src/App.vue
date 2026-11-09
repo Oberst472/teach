@@ -36,9 +36,10 @@
       <li class='app__nav-item app__nav-title'>
         <span class="app__nav-title-text">Words</span>
         <button class="app__nav-item-btn app__nav-item-btn--green"
-                @click="data.isAlgorithmChanged = !data.isAlgorithmChanged">Change algorithm
+                title="Swap the question and answer languages"
+                @click="data.isAlgorithmChanged = !data.isAlgorithmChanged">{{ data.isAlgorithmChanged ? 'EN → RU' : 'RU → EN' }}
         </button>
-        <button class="app__nav-item-btn" @click="data.isKeyboardActive = true">Open keyboard</button>
+        <button class="app__nav-item-btn" @click="data.isKeyboardActive = true">Typing practice</button>
       </li>
 
       <li class='app__nav-item app__nav-description'
@@ -54,23 +55,47 @@
     </ul>
 
     <div class='app__content'>
-      <div class='app__content-number' :class="{'app__content-number--accent': data.els.length === 0}">
-        {{ data.els.length }}
+      <div class='app__content-stats'>
+        <span class='app__content-stat app__content-stat--correct' title='Correct answers'>✓ {{ data.score.correct }}</span>
+        <span class='app__content-stat app__content-stat--wrong' title='Wrong answers'>✗ {{ data.score.wrong }}</span>
+        <span class='app__content-stat' :class="{'app__content-stat--accent': data.els.length === 0}"
+              title='Cards left in this round'>
+          {{ data.els.length === 0 ? 'last card' : `${data.els.length} left` }}
+        </span>
       </div>
-      <div class='app__content-current'
-           v-html="data.isAlgorithmChanged ? data.current.original : data.current.translate"
-      ></div>
+
+      <div class='app__content-label'>{{ data.isAlgorithmChanged ? 'English' : 'Russian' }}</div>
+      <div class='app__content-current' v-html='question'></div>
+
       <div class='app__content-translate'
-           :class='{"hide": data.hidePrompt}'
-           v-html="data.isAlgorithmChanged ? data.current.translate : data.current.original"
+           :class='{"hide": data.hidePrompt, [`app__content-translate--${data.result}`]: data.result}'
+           v-html='answer'
       ></div>
-      <div class="app__content-inp">
-        <input type="text" v-model="data.inpValue" placeholder="enter the word">
+
+      <div class='app__content-inp'>
+        <input type='text'
+               ref='answerInput'
+               v-model='data.inpValue'
+               :class='{[`is-${data.result}`]: data.result}'
+               :placeholder='`type the ${data.isAlgorithmChanged ? "Russian" : "English"} and press Enter`'
+               autocomplete='off'
+               spellcheck='false'
+               @keydown.enter.prevent='onEnter'
+        >
+        <div class='app__content-feedback' v-if='data.result'>
+          {{ feedbackText }}
+        </div>
       </div>
+
       <div class='app__content-btns'>
-        <button class='app__content-btn show' @click='data.hidePrompt = false'>Prompt</button>
-        <button class='app__content-btn' @click='showNextWord'>Next word</button>
+        <button class='app__content-btn show' @click='showAnswer' :disabled='!data.hidePrompt'>Show answer</button>
+        <button class='app__content-btn' @click='showNextWord'>Next →</button>
       </div>
+
+      <p class='app__content-help'>
+        <b>Enter</b> — check, then next card · empty <b>Enter</b> — show answer.<br>
+        Outside the input: <b>Space</b> — show answer, <b>→</b> — next card.
+      </p>
     </div>
     <SectionKeyboard
         v-if="data.isKeyboardActive"
@@ -88,7 +113,7 @@ export default {
 
 <script setup lang='ts'>
 import {en} from './jsons/en'
-import {computed, onMounted, reactive, watch} from 'vue';
+import {computed, nextTick, onMounted, reactive, ref, watch} from 'vue';
 import SectionKeyboard from './components/sections/keyboard/index.vue'
 
 const data = reactive({
@@ -102,8 +127,67 @@ const data = reactive({
   words: [],
   isKeyboardActive: false,
   isAlgorithmChanged: false,
-  openGroups: [] as string[]
+  openGroups: [] as string[],
+  result: '' as '' | 'correct' | 'wrong' | 'shown',
+  score: {correct: 0, wrong: 0}
 })
+
+const answerInput = ref(null)
+let nextTimer = null
+
+const stripHtml = (text = '') => text.replace(/<[^>]*>/g, '').replace(/\s+/g, ' ').trim()
+
+const question = computed(() => data.isAlgorithmChanged ? data.current.original : data.current.translate)
+const answer = computed(() => data.isAlgorithmChanged ? data.current.translate : data.current.original)
+
+// Loose comparison: case, apostrophe style, punctuation and extra spaces don't matter
+const normalize = (text: string) => stripHtml(text).toLowerCase()
+  .replace(/[’‘`]/g, "'")
+  .replace(/[.,!?;:"«»—–-]/g, ' ')
+  .replace(/\s+/g, ' ')
+  .trim()
+
+// Accepted answers: the whole text, with or without the parts in brackets,
+// and each alternative of "thin / skinny" or "mother, mum"
+const acceptedAnswers = computed(() => {
+  const full = stripHtml(answer.value)
+  const versions = [full, full.replace(/\([^)]*\)/g, ' '), full.replace(/[()]/g, '')]
+  const parts = versions.flatMap(version => [version, ...version.split(/\s\/\s|,/)])
+  return new Set(parts.map(normalize).filter(Boolean))
+})
+
+const feedbackText = computed(() => ({
+  correct: 'Correct! Next card…',
+  wrong: 'Not quite — compare with the answer above. Enter — next card.',
+  shown: 'Enter — next card.',
+}[data.result]))
+
+const focusInput = () => nextTick(() => answerInput.value?.focus())
+
+const showAnswer = function () {
+  data.hidePrompt = false
+  if (!data.result) data.result = 'shown'
+  focusInput()
+}
+
+const checkAnswer = function () {
+  data.hidePrompt = false
+  if (acceptedAnswers.value.has(normalize(data.inpValue))) {
+    data.result = 'correct'
+    data.score.correct++
+    nextTimer = setTimeout(showNextWord, 900)
+  } else {
+    data.result = 'wrong'
+    data.score.wrong++
+  }
+}
+
+// Enter: empty input shows the answer, typed input is checked, after a result goes next
+const onEnter = function () {
+  if (data.result) return showNextWord()
+  if (!data.inpValue.trim()) return showAnswer()
+  checkAnswer()
+}
 
 // A category is either an array of words or an array of groups: { title, items: [words] }
 const isGroup = (item) => Boolean(item[0]?.items)
@@ -143,16 +227,20 @@ const openParentGroup = function (category: string) {
 
 const changeActiveCategory = function (val: string) {
   data.activeCategoryWord = val
-  data.hidePrompt = true
+  data.score = {correct: 0, wrong: 0}
   data.currentCategoryWords = categories.value[val]
   data.defaultEls = JSON.parse(JSON.stringify(data.currentCategoryWords))
   data.els = JSON.parse(JSON.stringify(data.currentCategoryWords))
-  changeInfo()
+  showNextWord()
   localStorage.setItem('activeCategoryWord', val)
 }
 const goNextWord = function (e) {
-  if (e.code === 'Space' || e.code === 'ShiftRight') data.hidePrompt = false
-  if (['MetaRight', 'Enter', 'ArrowRight'].includes(e.code)) showNextWord()
+  // The typing overlay has its own input; don't reveal or skip cards behind it
+  if (data.isKeyboardActive) return
+  // While typing an answer, keys belong to the input (Enter is handled by it)
+  if (['INPUT', 'TEXTAREA'].includes(e.target.tagName)) return
+  if (e.code === 'Space') showAnswer()
+  if (['Enter', 'ArrowRight'].includes(e.code)) showNextWord()
 }
 const changeInfo = function () {
   if (!data.els.length) data.els = JSON.parse(JSON.stringify(data.defaultEls))
@@ -160,9 +248,12 @@ const changeInfo = function () {
   data.current = data.els.splice(randomIndex, 1)[0]
 }
 const showNextWord = function () {
+  clearTimeout(nextTimer)
   data.inpValue = ''
+  data.result = ''
   changeInfo()
   data.hidePrompt = true
+  focusInput()
 }
 
 watch(() => [
@@ -172,6 +263,8 @@ watch(() => [
   data.currentCategoryWords,
 ], () => {
   data.inpValue = ''
+  data.result = ''
+  data.hidePrompt = true
 })
 
 onMounted(() => {
@@ -187,7 +280,7 @@ onMounted(() => {
   data.currentCategoryWords = categories.value[word]
   data.defaultEls = JSON.parse(JSON.stringify(data.currentCategoryWords))
   data.els = JSON.parse(JSON.stringify(data.currentCategoryWords))
-  changeInfo()
+  showNextWord()
 
   window.addEventListener('keyup', goNextWord)
   console.info(`${new Date()} v2`);
@@ -332,52 +425,83 @@ onMounted(() => {
   }
 
   &__content {
-    list-style: none;
     margin-left: 15px;
-    padding: 15px;
+    padding: 15px 20px 20px;
     width: 420px;
     flex-shrink: 0;
+    box-sizing: border-box;
     background-color: rgba(255, 255, 255, 0.05);
     max-height: calc(100vh - 60px);
     overflow: auto;
     display: flex;
     flex-direction: column;
     border-radius: 10px;
-    position: relative;
-    padding-top: 45px;
 
-    &-number {
-      margin-bottom: 50px;
-      opacity: 0.7;
-      text-align: right;
-      position: absolute;
-      right: 10px;
-      top: 10px;
+    &-stats {
+      display: flex;
+      justify-content: flex-end;
+      gap: 12px;
+      margin-bottom: 25px;
+      font-size: 13px;
+    }
+
+    &-stat {
+      opacity: 0.6;
+
+      &--correct {
+        color: #20ff67;
+        opacity: 0.9;
+      }
+
+      &--wrong {
+        color: #ff8a8a;
+        opacity: 0.9;
+      }
 
       &--accent {
-        font-size: 30px;
-        color: #20ff67;
+        color: #ffd24e;
+        opacity: 1;
       }
     }
 
-    &-current {
-      font-size: 28px;
+    &-label {
+      margin-bottom: 8px;
+      font-size: 12px;
       text-align: center;
-      line-height: 1.2;
-      margin-bottom: 30px;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      opacity: 0.45;
+    }
+
+    &-current {
+      font-size: 26px;
+      text-align: center;
+      line-height: 1.25;
+      margin-bottom: 25px;
+      word-break: break-word;
     }
 
     &-translate {
-      border: 1px dashed;
-      padding: 15px;
-      border-radius: 15px;
-      font-size: 22px;
+      border: 1px dashed rgba(255, 255, 255, 0.3);
+      padding: 12px 15px;
+      border-radius: 12px;
+      font-size: 20px;
       text-align: center;
       color: #6aff46;
       background-color: rgba(255, 255, 255, 0.07);
+      word-break: break-word;
+      transition: opacity 0.2s;
 
       &.hide {
         opacity: 0;
+      }
+
+      &--correct {
+        border: 1px solid #20ff67;
+      }
+
+      &--wrong {
+        border: 1px solid #ff5050;
       }
     }
 
@@ -390,13 +514,34 @@ onMounted(() => {
         padding: 10px 15px;
         font-size: 18px;
         border: 1px solid #ff50c0;
-        border-radius: 15px;
+        border-radius: 12px;
         box-sizing: border-box;
+
+        &:focus {
+          outline: none;
+          box-shadow: 0 0 0 2px rgba(255, 80, 192, 0.25);
+        }
+
+        &.is-correct {
+          border-color: #20ff67;
+          box-shadow: 0 0 0 2px rgba(32, 255, 103, 0.25);
+        }
+
+        &.is-wrong {
+          border-color: #ff5050;
+          box-shadow: 0 0 0 2px rgba(255, 80, 80, 0.25);
+        }
       }
     }
 
+    &-feedback {
+      margin-top: 8px;
+      font-size: 13px;
+      opacity: 0.7;
+    }
+
     &-btns {
-      margin-top: 30px;
+      margin-top: 20px;
       display: flex;
       gap: 15px;
     }
@@ -409,8 +554,27 @@ onMounted(() => {
       &.show {
         background-color: #2d6cff;
       }
+
+      &:disabled {
+        opacity: 0.4;
+        cursor: default;
+      }
+    }
+
+    &-help {
+      margin: auto 0 0;
+      padding-top: 20px;
+      font-size: 12px;
+      line-height: 1.6;
+      opacity: 0.45;
+
+      b {
+        color: inherit;
+        font-weight: 600;
+      }
     }
   }
+
 }
 
 b {
