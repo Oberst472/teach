@@ -26,7 +26,7 @@ There are no tests, linter, or type-checker configured. `<script setup lang="ts"
 
 ## Vocabulary data
 
-Each week is its own file, `src/jsons/en/weeks/week_N.json`. `src/jsons/en/index.js` loads them all with `import.meta.glob`, sorts them by week number, and exports `en`: an object whose keys (`week_N`) are the categories shown in the sidebar. To add a week, just create a new `week_N.json`; gaps in the numbering are fine. `src/jsons/en/idioms.json` is a separate flat list of words, added after the weeks as the `idioms` category. Words are objects of the form:
+Each week is its own file, `src/jsons/en/weeks/week_N.json`. `src/jsons/en/index.js` loads them all with `import.meta.glob`, sorts them by week number, and exports `en`: an object whose keys (`week_N`) are the categories shown in the sidebar. To add a week, just create a new `week_N.json`; gaps in the numbering are fine. `src/jsons/en/idioms.json` is a separate flat list of words, added after the weeks as the `idioms` category; `src/jsons/en/all_prepositions.json` is likewise a flat list (the `all prepositions` category) with one short example sentence for each preposition entry from every week. Words are objects of the form:
 
 ```js
 { id: <unique number>, original: '...', translate: '...', isActive: true }

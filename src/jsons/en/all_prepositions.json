@@ -1,0 +1,728 @@
+[
+    {
+        "id": 1,
+        "original": "I never argue <b>with</b> my sister.",
+        "translate": "Я никогда не ссорюсь с сестрой.",
+        "isActive": true
+    },
+    {
+        "id": 2,
+        "original": "I get <b>on</b> well <b>with</b> my neighbours.",
+        "translate": "Я хорошо лажу с соседями.",
+        "isActive": true
+    },
+    {
+        "id": 3,
+        "original": "I have a lot <b>in</b> common <b>with</b> him.",
+        "translate": "У меня с ним много общего.",
+        "isActive": true
+    },
+    {
+        "id": 4,
+        "original": "She lives <b>with</b> her parents.",
+        "translate": "Она живёт с родителями.",
+        "isActive": true
+    },
+    {
+        "id": 5,
+        "original": "You look <b>like</b> your mum.",
+        "translate": "Ты похож на маму.",
+        "isActive": true
+    },
+    {
+        "id": 6,
+        "original": "Who takes care <b>of</b> your dog?",
+        "translate": "Кто присматривает за твоей собакой?",
+        "isActive": true
+    },
+    {
+        "id": 7,
+        "original": "I agree <b>with</b> you.",
+        "translate": "Я с тобой согласен.",
+        "isActive": true
+    },
+    {
+        "id": 8,
+        "original": "He asked <b>about</b> your job.",
+        "translate": "Он спрашивал о твоей работе.",
+        "isActive": true
+    },
+    {
+        "id": 9,
+        "original": "Can I ask <b>for</b> some help?",
+        "translate": "Можно попросить о помощи?",
+        "isActive": true
+    },
+    {
+        "id": 10,
+        "original": "This bag belongs <b>to</b> me.",
+        "translate": "Эта сумка принадлежит мне.",
+        "isActive": true
+    },
+    {
+        "id": 11,
+        "original": "It depends <b>on</b> the weather.",
+        "translate": "Это зависит от погоды.",
+        "isActive": true
+    },
+    {
+        "id": 12,
+        "original": "He has a good sense <b>of</b> humour.",
+        "translate": "У него хорошее чувство юмора.",
+        "isActive": true
+    },
+    {
+        "id": 13,
+        "original": "Don't talk about me <b>behind</b> my back.",
+        "translate": "Не говори обо мне за моей спиной.",
+        "isActive": true
+    },
+    {
+        "id": 14,
+        "original": "Everyone laughed <b>at</b> his joke.",
+        "translate": "Все смеялись над его шуткой.",
+        "isActive": true
+    },
+    {
+        "id": 15,
+        "original": "I like listening <b>to</b> music.",
+        "translate": "Я люблю слушать музыку.",
+        "isActive": true
+    },
+    {
+        "id": 16,
+        "original": "I'll pay <b>for</b> the coffee.",
+        "translate": "Я заплачу за кофе.",
+        "isActive": true
+    },
+    {
+        "id": 17,
+        "original": "I often think <b>about</b> you.",
+        "translate": "Я часто думаю о тебе.",
+        "isActive": true
+    },
+    {
+        "id": 18,
+        "original": "She's afraid <b>of</b> spiders.",
+        "translate": "Она боится пауков.",
+        "isActive": true
+    },
+    {
+        "id": 19,
+        "original": "Don't talk to him, he's <b>in</b> a mood.",
+        "translate": "Не говори с ним, он не в духе.",
+        "isActive": true
+    },
+    {
+        "id": 20,
+        "original": "I'm nervous <b>about</b> the exam.",
+        "translate": "Я нервничаю из-за экзамена.",
+        "isActive": true
+    },
+    {
+        "id": 21,
+        "original": "We are proud <b>of</b> you.",
+        "translate": "Мы гордимся тобой.",
+        "isActive": true
+    },
+    {
+        "id": 22,
+        "original": "I was shocked <b>by</b> the news.",
+        "translate": "Я был шокирован новостями.",
+        "isActive": true
+    },
+    {
+        "id": 23,
+        "original": "Don't worry <b>about</b> me.",
+        "translate": "Не беспокойся обо мне.",
+        "isActive": true
+    },
+    {
+        "id": 24,
+        "original": "I'll have tea instead <b>of</b> coffee.",
+        "translate": "Я буду чай вместо кофе.",
+        "isActive": true
+    },
+    {
+        "id": 25,
+        "original": "I apologised <b>to</b> her <b>for</b> being late.",
+        "translate": "Я извинился перед ней за опоздание.",
+        "isActive": true
+    },
+    {
+        "id": 26,
+        "original": "Let's begin <b>with</b> a short test.",
+        "translate": "Давайте начнём с короткого теста.",
+        "isActive": true
+    },
+    {
+        "id": 27,
+        "original": "He always complains <b>about</b> the food.",
+        "translate": "Он всегда жалуется на еду.",
+        "isActive": true
+    },
+    {
+        "id": 28,
+        "original": "I took part <b>in</b> the competition.",
+        "translate": "Я принял участие в соревновании.",
+        "isActive": true
+    },
+    {
+        "id": 29,
+        "original": "She works <b>as</b> a nurse.",
+        "translate": "Она работает медсестрой.",
+        "isActive": true
+    },
+    {
+        "id": 30,
+        "original": "He works <b>at</b> Google.",
+        "translate": "Он работает в Google.",
+        "isActive": true
+    },
+    {
+        "id": 31,
+        "original": "I work <b>for</b> a big company.",
+        "translate": "Я работаю на большую компанию.",
+        "isActive": true
+    },
+    {
+        "id": 32,
+        "original": "My sister works <b>in</b> a library.",
+        "translate": "Моя сестра работает в библиотеке.",
+        "isActive": true
+    },
+    {
+        "id": 33,
+        "original": "I'm working <b>on</b> a new project.",
+        "translate": "Я работаю над новым проектом.",
+        "isActive": true
+    },
+    {
+        "id": 34,
+        "original": "It's five degrees <b>below</b> zero.",
+        "translate": "Пять градусов ниже нуля.",
+        "isActive": true
+    },
+    {
+        "id": 35,
+        "original": "What's the weather <b>like</b> today?",
+        "translate": "Какая сегодня погода?",
+        "isActive": true
+    },
+    {
+        "id": 36,
+        "original": "There isn't a cloud <b>in</b> the sky.",
+        "translate": "На небе ни облачка.",
+        "isActive": true
+    },
+    {
+        "id": 37,
+        "original": "We lay <b>in</b> the sun all day.",
+        "translate": "Мы весь день лежали на солнце.",
+        "isActive": true
+    },
+    {
+        "id": 38,
+        "original": "It's pouring <b>with</b> rain.",
+        "translate": "Льёт как из ведра.",
+        "isActive": true
+    },
+    {
+        "id": 39,
+        "original": "I'm fed up <b>with</b> this rain.",
+        "translate": "Мне надоел этот дождь.",
+        "isActive": true
+    },
+    {
+        "id": 40,
+        "original": "Paris is famous <b>for</b> its food.",
+        "translate": "Париж известен своей едой.",
+        "isActive": true
+    },
+    {
+        "id": 41,
+        "original": "I'm bad <b>at</b> maths.",
+        "translate": "Я плох в математике.",
+        "isActive": true
+    },
+    {
+        "id": 42,
+        "original": "Are you interested <b>in</b> art?",
+        "translate": "Ты интересуешься искусством?",
+        "isActive": true
+    },
+    {
+        "id": 43,
+        "original": "Don't be rude <b>to</b> your teacher.",
+        "translate": "Не груби учителю.",
+        "isActive": true
+    },
+    {
+        "id": 44,
+        "original": "We met <b>at</b> the cinema.",
+        "translate": "Мы встретились в кино.",
+        "isActive": true
+    },
+    {
+        "id": 45,
+        "original": "The film is based <b>on</b> a book.",
+        "translate": "Фильм основан на книге.",
+        "isActive": true
+    },
+    {
+        "id": 46,
+        "original": "It was directed <b>by</b> Spielberg.",
+        "translate": "Его снял Спилберг.",
+        "isActive": true
+    },
+    {
+        "id": 47,
+        "original": "Let's go <b>to</b> a concert.",
+        "translate": "Пойдём на концерт.",
+        "isActive": true
+    },
+    {
+        "id": 48,
+        "original": "The band is going <b>on</b> tour.",
+        "translate": "Группа едет на гастроли.",
+        "isActive": true
+    },
+    {
+        "id": 49,
+        "original": "The film tells the story <b>of</b> a young girl.",
+        "translate": "Фильм рассказывает историю молодой девушки.",
+        "isActive": true
+    },
+    {
+        "id": 50,
+        "original": "He was absent <b>from</b> school yesterday.",
+        "translate": "Вчера его не было в школе.",
+        "isActive": true
+    },
+    {
+        "id": 51,
+        "original": "The kids are <b>at</b> school.",
+        "translate": "Дети в школе.",
+        "isActive": true
+    },
+    {
+        "id": 52,
+        "original": "My brother is <b>at</b> university.",
+        "translate": "Мой брат учится в университете.",
+        "isActive": true
+    },
+    {
+        "id": 53,
+        "original": "She graduated <b>from</b> Oxford.",
+        "translate": "Она окончила Оксфорд.",
+        "isActive": true
+    },
+    {
+        "id": 54,
+        "original": "Learn this poem <b>by</b> heart.",
+        "translate": "Выучи это стихотворение наизусть.",
+        "isActive": true
+    },
+    {
+        "id": 55,
+        "original": "I'm revising <b>for</b> my exam.",
+        "translate": "Я готовлюсь к экзамену.",
+        "isActive": true
+    },
+    {
+        "id": 56,
+        "original": "There's no cure <b>for</b> a cold.",
+        "translate": "От простуды нет лекарства.",
+        "isActive": true
+    },
+    {
+        "id": 57,
+        "original": "I'm allergic <b>to</b> cats.",
+        "translate": "У меня аллергия на кошек.",
+        "isActive": true
+    },
+    {
+        "id": 58,
+        "original": "My grandma is <b>in</b> good health.",
+        "translate": "Моя бабушка в хорошем здоровье.",
+        "isActive": true
+    },
+    {
+        "id": 59,
+        "original": "He's been <b>in</b> hospital for a week.",
+        "translate": "Он уже неделю в больнице.",
+        "isActive": true
+    },
+    {
+        "id": 60,
+        "original": "Are you <b>in</b> pain?",
+        "translate": "Тебе больно?",
+        "isActive": true
+    },
+    {
+        "id": 61,
+        "original": "She suffers <b>from</b> headaches.",
+        "translate": "Она страдает от головных болей.",
+        "isActive": true
+    },
+    {
+        "id": 62,
+        "original": "I'm a bit short <b>of</b> money.",
+        "translate": "У меня немного не хватает денег.",
+        "isActive": true
+    },
+    {
+        "id": 63,
+        "original": "I borrowed a pen <b>from</b> Tom.",
+        "translate": "Я взял ручку у Тома.",
+        "isActive": true
+    },
+    {
+        "id": 64,
+        "original": "Give the keys <b>to</b> me.",
+        "translate": "Дай мне ключи.",
+        "isActive": true
+    },
+    {
+        "id": 65,
+        "original": "Can you lend your car <b>to</b> me?",
+        "translate": "Можешь одолжить мне машину?",
+        "isActive": true
+    },
+    {
+        "id": 66,
+        "original": "I'm saving <b>for</b> a new phone.",
+        "translate": "Я коплю на новый телефон.",
+        "isActive": true
+    },
+    {
+        "id": 67,
+        "original": "Don't waste money <b>on</b> sweets.",
+        "translate": "Не трать деньги на сладости.",
+        "isActive": true
+    },
+    {
+        "id": 68,
+        "original": "Sorry, she's <b>in</b> a meeting.",
+        "translate": "Извините, она на совещании.",
+        "isActive": true
+    },
+    {
+        "id": 69,
+        "original": "He's in London <b>on</b> business.",
+        "translate": "Он в Лондоне по делам.",
+        "isActive": true
+    },
+    {
+        "id": 70,
+        "original": "He's been <b>out of</b> work for a year.",
+        "translate": "Он без работы уже год.",
+        "isActive": true
+    },
+    {
+        "id": 71,
+        "original": "I applied <b>for</b> the job.",
+        "translate": "Я подал заявку на эту работу.",
+        "isActive": true
+    },
+    {
+        "id": 72,
+        "original": "Who is <b>in</b> charge <b>of</b> this project?",
+        "translate": "Кто отвечает за этот проект?",
+        "isActive": true
+    },
+    {
+        "id": 73,
+        "original": "I'm responsible <b>for</b> the budget.",
+        "translate": "Я отвечаю за бюджет.",
+        "isActive": true
+    },
+    {
+        "id": 74,
+        "original": "I'm taking a day <b>off</b> tomorrow.",
+        "translate": "Завтра я беру выходной.",
+        "isActive": true
+    },
+    {
+        "id": 75,
+        "original": "He started school <b>at</b> the age <b>of</b> six.",
+        "translate": "Он пошёл в школу в шесть лет.",
+        "isActive": true
+    },
+    {
+        "id": 76,
+        "original": "She's married <b>to</b> a doctor.",
+        "translate": "Она замужем за врачом.",
+        "isActive": true
+    },
+    {
+        "id": 77,
+        "original": "My parents are <b>in</b> their fifties.",
+        "translate": "Моим родителям за пятьдесят.",
+        "isActive": true
+    },
+    {
+        "id": 78,
+        "original": "Where do you come <b>from</b>?",
+        "translate": "Откуда ты родом?",
+        "isActive": true
+    },
+    {
+        "id": 79,
+        "original": "He died <b>of</b> cancer.",
+        "translate": "Он умер от рака.",
+        "isActive": true
+    },
+    {
+        "id": 80,
+        "original": "She died <b>in</b> a car accident.",
+        "translate": "Она погибла в автокатастрофе.",
+        "isActive": true
+    },
+    {
+        "id": 81,
+        "original": "What happened <b>to</b> you?",
+        "translate": "Что с тобой случилось?",
+        "isActive": true
+    },
+    {
+        "id": 82,
+        "original": "She's crazy <b>about</b> him.",
+        "translate": "Она от него без ума.",
+        "isActive": true
+    },
+    {
+        "id": 83,
+        "original": "He cheated <b>on</b> his wife.",
+        "translate": "Он изменил жене.",
+        "isActive": true
+    },
+    {
+        "id": 84,
+        "original": "I fell <b>in</b> love <b>with</b> her.",
+        "translate": "Я влюбился в неё.",
+        "isActive": true
+    },
+    {
+        "id": 85,
+        "original": "We went <b>on</b> a date last night.",
+        "translate": "Вчера вечером мы ходили на свидание.",
+        "isActive": true
+    },
+    {
+        "id": 86,
+        "original": "He proposed <b>to</b> her in Paris.",
+        "translate": "Он сделал ей предложение в Париже.",
+        "isActive": true
+    },
+    {
+        "id": 87,
+        "original": "I'll meet you <b>at</b> the airport.",
+        "translate": "Встречу тебя в аэропорту.",
+        "isActive": true
+    },
+    {
+        "id": 88,
+        "original": "I left my phone <b>in</b> the car.",
+        "translate": "Я оставил телефон в машине.",
+        "isActive": true
+    },
+    {
+        "id": 89,
+        "original": "I read books <b>on</b> the train.",
+        "translate": "Я читаю книги в поезде.",
+        "isActive": true
+    },
+    {
+        "id": 90,
+        "original": "I'm <b>on</b> my way!",
+        "translate": "Я уже в пути!",
+        "isActive": true
+    },
+    {
+        "id": 91,
+        "original": "The train departs <b>from</b> platform 2.",
+        "translate": "Поезд отправляется со второй платформы.",
+        "isActive": true
+    },
+    {
+        "id": 92,
+        "original": "We were driving <b>at</b> 100 km per hour.",
+        "translate": "Мы ехали со скоростью 100 км/ч.",
+        "isActive": true
+    },
+    {
+        "id": 93,
+        "original": "I go to work <b>by</b> bus.",
+        "translate": "Я езжу на работу на автобусе.",
+        "isActive": true
+    },
+    {
+        "id": 94,
+        "original": "I go to school <b>on</b> foot.",
+        "translate": "Я хожу в школу пешком.",
+        "isActive": true
+    },
+    {
+        "id": 95,
+        "original": "The film starts <b>at</b> 7 o'clock.",
+        "translate": "Фильм начинается в 7 часов.",
+        "isActive": true
+    },
+    {
+        "id": 96,
+        "original": "I never eat <b>at</b> night.",
+        "translate": "Я никогда не ем ночью.",
+        "isActive": true
+    },
+    {
+        "id": 97,
+        "original": "Let's meet <b>at</b> noon.",
+        "translate": "Давай встретимся в полдень.",
+        "isActive": true
+    },
+    {
+        "id": 98,
+        "original": "What are you doing <b>at</b> the weekend?",
+        "translate": "Что ты делаешь на выходных?",
+        "isActive": true
+    },
+    {
+        "id": 99,
+        "original": "We visit my grandma <b>at</b> Christmas.",
+        "translate": "На Рождество мы навещаем бабушку.",
+        "isActive": true
+    },
+    {
+        "id": 100,
+        "original": "I drink coffee <b>in</b> the morning.",
+        "translate": "Утром я пью кофе.",
+        "isActive": true
+    },
+    {
+        "id": 101,
+        "original": "I'll be back <b>in</b> 20 minutes.",
+        "translate": "Я вернусь через 20 минут.",
+        "isActive": true
+    },
+    {
+        "id": 102,
+        "original": "My birthday is <b>in</b> March.",
+        "translate": "Мой день рождения в марте.",
+        "isActive": true
+    },
+    {
+        "id": 103,
+        "original": "We go to the sea <b>in</b> summer.",
+        "translate": "Летом мы ездим на море.",
+        "isActive": true
+    },
+    {
+        "id": 104,
+        "original": "I was born <b>in</b> 2005.",
+        "translate": "Я родился в 2005 году.",
+        "isActive": true
+    },
+    {
+        "id": 105,
+        "original": "This song was popular <b>in</b> the 80s.",
+        "translate": "Эта песня была популярна в 80-х.",
+        "isActive": true
+    },
+    {
+        "id": 106,
+        "original": "We live <b>in</b> the 21st century.",
+        "translate": "Мы живём в 21 веке.",
+        "isActive": true
+    },
+    {
+        "id": 107,
+        "original": "See you <b>on</b> Monday!",
+        "translate": "Увидимся в понедельник!",
+        "isActive": true
+    },
+    {
+        "id": 108,
+        "original": "Are you free <b>on</b> Friday evening?",
+        "translate": "Ты свободен в пятницу вечером?",
+        "isActive": true
+    },
+    {
+        "id": 109,
+        "original": "The wedding is <b>on</b> the 5th of July.",
+        "translate": "Свадьба 5 июля.",
+        "isActive": true
+    },
+    {
+        "id": 110,
+        "original": "We have a party <b>on</b> New Year's Eve.",
+        "translate": "В канун Нового года у нас вечеринка.",
+        "isActive": true
+    },
+    {
+        "id": 111,
+        "original": "The kids are excited <b>about</b> the trip.",
+        "translate": "Дети в предвкушении поездки.",
+        "isActive": true
+    },
+    {
+        "id": 112,
+        "original": "Are you familiar <b>with</b> this program?",
+        "translate": "Ты знаком с этой программой?",
+        "isActive": true
+    },
+    {
+        "id": 113,
+        "original": "I'm grateful <b>to</b> you <b>for</b> your help.",
+        "translate": "Я благодарен тебе за помощь.",
+        "isActive": true
+    },
+    {
+        "id": 114,
+        "original": "I'm not keen <b>on</b> football.",
+        "translate": "Я не очень люблю футбол.",
+        "isActive": true
+    },
+    {
+        "id": 115,
+        "original": "This film isn't suitable <b>for</b> children.",
+        "translate": "Этот фильм не подходит для детей.",
+        "isActive": true
+    },
+    {
+        "id": 116,
+        "original": "He didn't comment <b>on</b> the news.",
+        "translate": "Он не прокомментировал новости.",
+        "isActive": true
+    },
+    {
+        "id": 117,
+        "original": "She criticised me <b>for</b> being late.",
+        "translate": "Она раскритиковала меня за опоздание.",
+        "isActive": true
+    },
+    {
+        "id": 118,
+        "original": "British English differs <b>from</b> American English.",
+        "translate": "Британский английский отличается от американского.",
+        "isActive": true
+    },
+    {
+        "id": 119,
+        "original": "My parents disapprove <b>of</b> smoking.",
+        "translate": "Мои родители не одобряют курение.",
+        "isActive": true
+    },
+    {
+        "id": 120,
+        "original": "The accident resulted <b>from</b> bad weather.",
+        "translate": "Авария произошла из-за плохой погоды.",
+        "isActive": true
+    },
+    {
+        "id": 121,
+        "original": "The match resulted <b>in</b> a draw.",
+        "translate": "Матч закончился вничью.",
+        "isActive": true
+    }
+]

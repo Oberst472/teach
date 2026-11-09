@@ -1,4 +1,5 @@
 import idioms from './idioms.json'
+import allPrepositions from './all_prepositions.json'
 
 // Each week lives in ./weeks/week_N.json; drop in a new file to add a week
 const modules = import.meta.glob('./weeks/week_*.json', { eager: true, import: 'default' })
@@ -11,4 +12,4 @@ const weeks = Object.fromEntries(
         .map(path => [`week_${weekNumber(path)}`, modules[path]])
 )
 
-export const en = { ...weeks, idioms }
+export const en = { ...weeks, idioms, 'all prepositions': allPrepositions }
