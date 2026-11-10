@@ -1,5 +1,15 @@
 <template>
-  <section class='app'>
+  <section class='app' :class='`app--tab-${data.mobileTab}`'>
+    <!-- Only shown on narrow screens, where one panel is visible at a time -->
+    <nav class='app__tabs'>
+      <button class='app__tab'
+              v-for='tab in tabs'
+              :key='tab.key'
+              :class='{"app__tab--active": data.mobileTab === tab.key}'
+              @click='selectTab(tab.key)'
+      >{{ tab.title }}</button>
+    </nav>
+
     <ul class='app__nav first'>
       <li class='app__nav-item app__nav-title'>
         Categories
@@ -39,7 +49,7 @@
                 title="Swap the question and answer languages"
                 @click="data.isAlgorithmChanged = !data.isAlgorithmChanged">{{ data.isAlgorithmChanged ? 'EN → RU' : 'RU → EN' }}
         </button>
-        <button class="app__nav-item-btn" @click="data.isKeyboardActive = true">Typing practice</button>
+        <button class="app__nav-item-btn app__nav-item-btn--typing" @click="data.isKeyboardActive = true">Typing practice</button>
       </li>
 
       <li class='app__nav-item app__nav-description'
@@ -128,6 +138,7 @@ const data = reactive({
   isKeyboardActive: false,
   isAlgorithmChanged: false,
   openGroups: [] as string[],
+  mobileTab: 'practice' as 'categories' | 'words' | 'practice',
   result: '' as '' | 'correct' | 'wrong' | 'shown',
   score: {correct: 0, wrong: 0}
 })
@@ -161,6 +172,17 @@ const feedbackText = computed(() => ({
   wrong: 'Not quite — compare with the answer above. Enter — next card.',
   shown: 'Enter — next card.',
 }[data.result]))
+
+const tabs = [
+  {key: 'categories', title: 'Categories'},
+  {key: 'words', title: 'Words'},
+  {key: 'practice', title: 'Practice'},
+]
+
+const selectTab = function (key) {
+  data.mobileTab = key
+  if (key === 'practice') focusInput()
+}
 
 const focusInput = () => nextTick(() => answerInput.value?.focus())
 
@@ -227,6 +249,8 @@ const openParentGroup = function (category: string) {
 
 const changeActiveCategory = function (val: string) {
   data.activeCategoryWord = val
+  // On narrow screens picking a category goes straight to practice
+  data.mobileTab = 'practice'
   data.score = {correct: 0, wrong: 0}
   data.currentCategoryWords = categories.value[val]
   data.defaultEls = JSON.parse(JSON.stringify(data.currentCategoryWords))
@@ -575,6 +599,97 @@ onMounted(() => {
     }
   }
 
+  &__tabs {
+    display: none;
+  }
+
+  @media (max-width: 1200px) {
+    padding: 20px;
+
+    &__nav {
+      max-height: calc(100vh - 40px);
+
+      &.first {
+        width: 240px;
+      }
+    }
+
+    &__content {
+      width: 360px;
+      max-height: calc(100vh - 40px);
+    }
+  }
+
+  // Narrow screens: tabs on top, one panel at a time
+  @media (max-width: 900px) {
+    height: 100dvh;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+
+    &__tabs {
+      display: flex;
+      flex-shrink: 0;
+      gap: 6px;
+      padding: 4px;
+      background-color: rgba(255, 255, 255, 0.05);
+      border-radius: 10px;
+    }
+
+    &__tab {
+      flex: 1 1 0;
+      padding: 10px 5px;
+      font-size: 14px;
+      background-color: transparent;
+
+      &--active {
+        background-color: rgba(255, 255, 255, 0.18);
+      }
+    }
+
+    &__nav,
+    &__content {
+      display: none;
+      flex: 1 1 auto;
+      width: auto !important;
+      min-height: 0;
+      max-height: none;
+      margin-left: 0 !important;
+    }
+
+    &--tab-categories &__nav.first,
+    &--tab-words &__nav.second,
+    &--tab-practice &__content {
+      display: flex;
+    }
+
+    &__nav-title {
+      height: auto;
+      min-height: 44px;
+    }
+
+    &__nav-item-btn--typing {
+      display: none;
+    }
+
+    &__content {
+      padding: 15px;
+
+      &-current {
+        font-size: 22px;
+      }
+
+      &-translate {
+        font-size: 18px;
+      }
+
+      // No typing on phones: just "Show answer" / "Next", and no keyboard shortcuts
+      &-inp,
+      &-help {
+        display: none;
+      }
+    }
+  }
 }
 
 b {

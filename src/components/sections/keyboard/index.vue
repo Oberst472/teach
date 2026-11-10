@@ -185,6 +185,7 @@ onMounted(focusInput)
   background-color: rgba(0, 0, 0, 0.6);
 
   &__card {
+    position: relative;
     width: 100%;
     max-width: 860px;
     max-height: 100%;
@@ -324,6 +325,47 @@ onMounted(focusInput)
     &-title {
       font-size: 28px;
       color: #20ff67;
+    }
+  }
+
+  @media (max-width: 600px) {
+    padding: 10px;
+
+    &__card {
+      padding: 15px;
+    }
+
+    &__header {
+      flex-wrap: wrap;
+      gap: 8px 12px;
+      margin-bottom: 15px;
+    }
+
+    &__title {
+      width: 100%;
+      order: -1;
+    }
+
+    &__close {
+      position: absolute;
+      top: 12px;
+      right: 12px;
+    }
+
+    &__hint {
+      font-size: 16px;
+    }
+
+    &__target {
+      font-size: 20px;
+    }
+
+    &__actions {
+      flex-wrap: wrap;
+    }
+
+    &__btn {
+      flex: 1 1 auto;
     }
   }
 }

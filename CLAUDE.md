@@ -20,6 +20,7 @@ There are no tests, linter, or type-checker configured. `<script setup lang="ts"
 
 - `src/App.vue` holds almost all app logic and state in a single `reactive` `data` object: category selection, random word picking, prompt reveal, and keyboard shortcuts (`keyup` listener: Space/ShiftRight reveal the answer; Enter/ArrowRight/MetaRight go to the next word).
 - Word selection draws randomly without replacement from `data.els` (a deep copy of the current category); when it empties, it refills from `data.defaultEls`. The counter in the UI shows how many words remain.
+- Layout is responsive: three columns (categories, words, practice panel) on wide screens, narrower columns below 1200px, and below 900px a tab bar (`data.mobileTab`) shows one panel at a time; choosing a category switches to the practice tab, and the answer input and "Typing practice" button are hidden (flashcard mode: Show answer / Next).
 - "Change algorithm" (`isAlgorithmChanged`) swaps which side (`original` vs `translate`) is shown as the question.
 - The active category persists in `localStorage` (`activeCategoryWord`).
 - `src/components/sections/keyboard/index.vue` (`SectionKeyboard`) is a typing-practice overlay: it shuffles the current category's `translate` strings, joins them, and colors each character green/red as the user types; it reshuffles once the full length is typed.
