@@ -1,0 +1,302 @@
+[
+    {
+        "id": 1,
+        "original": "The lesson starts <b>at</b> 9 o'clock.",
+        "translate": "Урок начинается в 9 часов.",
+        "isActive": true
+    },
+    {
+        "id": 2,
+        "original": "Let's meet <b>at</b> noon.",
+        "translate": "Давай встретимся в полдень.",
+        "isActive": true
+    },
+    {
+        "id": 3,
+        "original": "I often wake up <b>at</b> night.",
+        "translate": "Я часто просыпаюсь ночью.",
+        "isActive": true
+    },
+    {
+        "id": 4,
+        "original": "The party ended <b>at</b> midnight.",
+        "translate": "Вечеринка закончилась в полночь.",
+        "isActive": true
+    },
+    {
+        "id": 5,
+        "original": "I usually call my mum <b>at</b> lunchtime.",
+        "translate": "Я обычно звоню маме в обед.",
+        "isActive": true
+    },
+    {
+        "id": 6,
+        "original": "We have dinner <b>at</b> 7 pm.",
+        "translate": "Мы ужинаем в 7 вечера.",
+        "isActive": true
+    },
+    {
+        "id": 7,
+        "original": "What are you doing <b>at</b> the weekend?",
+        "translate": "Что ты делаешь на выходных?",
+        "isActive": true
+    },
+    {
+        "id": 8,
+        "original": "We always visit my grandparents <b>at</b> Christmas.",
+        "translate": "На Рождество мы всегда навещаем бабушку и дедушку.",
+        "isActive": true
+    },
+    {
+        "id": 9,
+        "original": "The shop opens <b>at</b> half past eight.",
+        "translate": "Магазин открывается в половине девятого.",
+        "isActive": true
+    },
+    {
+        "id": 10,
+        "original": "I'll see you <b>at</b> the end of the week.",
+        "translate": "Увидимся в конце недели.",
+        "isActive": true
+    },
+    {
+        "id": 11,
+        "original": "We arrived <b>at</b> sunset.",
+        "translate": "Мы приехали на закате.",
+        "isActive": true
+    },
+    {
+        "id": 12,
+        "original": "I'm busy <b>at</b> the moment.",
+        "translate": "Я сейчас занят.",
+        "isActive": true
+    },
+    {
+        "id": 13,
+        "original": "The birds start singing <b>at</b> dawn.",
+        "translate": "Птицы начинают петь на рассвете.",
+        "isActive": true
+    },
+    {
+        "id": 14,
+        "original": "She left <b>at</b> the same time as me.",
+        "translate": "Она ушла в то же время, что и я.",
+        "isActive": true
+    },
+    {
+        "id": 15,
+        "original": "We have a long break <b>at</b> Easter.",
+        "translate": "На Пасху у нас длинные каникулы.",
+        "isActive": true
+    },
+    {
+        "id": 16,
+        "original": "My train leaves <b>at</b> a quarter to six.",
+        "translate": "Мой поезд отправляется без четверти шесть.",
+        "isActive": true
+    },
+    {
+        "id": 17,
+        "original": "I was born <b>in</b> June.",
+        "translate": "Я родился в июне.",
+        "isActive": true
+    },
+    {
+        "id": 18,
+        "original": "I drink coffee <b>in</b> the morning.",
+        "translate": "Я пью кофе утром.",
+        "isActive": true
+    },
+    {
+        "id": 19,
+        "original": "He usually sleeps <b>in</b> the afternoon.",
+        "translate": "Днём он обычно спит.",
+        "isActive": true
+    },
+    {
+        "id": 20,
+        "original": "We watch TV <b>in</b> the evening.",
+        "translate": "Вечером мы смотрим телевизор.",
+        "isActive": true
+    },
+    {
+        "id": 21,
+        "original": "It often snows here <b>in</b> winter.",
+        "translate": "Зимой здесь часто идёт снег.",
+        "isActive": true
+    },
+    {
+        "id": 22,
+        "original": "We go to the seaside <b>in</b> summer.",
+        "translate": "Летом мы ездим на море.",
+        "isActive": true
+    },
+    {
+        "id": 23,
+        "original": "My parents got married <b>in</b> 1995.",
+        "translate": "Мои родители поженились в 1995 году.",
+        "isActive": true
+    },
+    {
+        "id": 24,
+        "original": "This house was built <b>in</b> the 19th century.",
+        "translate": "Этот дом построили в 19 веке.",
+        "isActive": true
+    },
+    {
+        "id": 25,
+        "original": "Jeans became popular <b>in</b> the 1950s.",
+        "translate": "Джинсы стали популярными в 1950-х.",
+        "isActive": true
+    },
+    {
+        "id": 26,
+        "original": "I'll be ready <b>in</b> five minutes.",
+        "translate": "Я буду готов через пять минут.",
+        "isActive": true
+    },
+    {
+        "id": 27,
+        "original": "The film starts <b>in</b> an hour.",
+        "translate": "Фильм начнётся через час.",
+        "isActive": true
+    },
+    {
+        "id": 28,
+        "original": "Leaves fall <b>in</b> autumn.",
+        "translate": "Листья опадают осенью.",
+        "isActive": true
+    },
+    {
+        "id": 29,
+        "original": "We're going on holiday <b>in</b> August.",
+        "translate": "Мы едем в отпуск в августе.",
+        "isActive": true
+    },
+    {
+        "id": 30,
+        "original": "People didn't have phones <b>in</b> the past.",
+        "translate": "В прошлом у людей не было телефонов.",
+        "isActive": true
+    },
+    {
+        "id": 31,
+        "original": "Robots will do our work <b>in</b> the future.",
+        "translate": "В будущем роботы будут делать нашу работу.",
+        "isActive": true
+    },
+    {
+        "id": 32,
+        "original": "I learnt to swim <b>in</b> two weeks.",
+        "translate": "Я научился плавать за две недели.",
+        "isActive": true
+    },
+    {
+        "id": 33,
+        "original": "The garden is beautiful <b>in</b> spring.",
+        "translate": "Весной сад прекрасен.",
+        "isActive": true
+    },
+    {
+        "id": 34,
+        "original": "I'll finish the report <b>in</b> the middle of the week.",
+        "translate": "Я закончу отчёт в середине недели.",
+        "isActive": true
+    },
+    {
+        "id": 35,
+        "original": "My birthday is <b>on</b> the 15th of October.",
+        "translate": "Мой день рождения 15 октября.",
+        "isActive": true
+    },
+    {
+        "id": 36,
+        "original": "See you <b>on</b> Monday!",
+        "translate": "Увидимся в понедельник!",
+        "isActive": true
+    },
+    {
+        "id": 37,
+        "original": "I go swimming <b>on</b> Wednesdays.",
+        "translate": "По средам я хожу плавать.",
+        "isActive": true
+    },
+    {
+        "id": 38,
+        "original": "We're having a party <b>on</b> Saturday night.",
+        "translate": "В субботу вечером у нас вечеринка.",
+        "isActive": true
+    },
+    {
+        "id": 39,
+        "original": "He called me <b>on</b> Friday morning.",
+        "translate": "Он позвонил мне в пятницу утром.",
+        "isActive": true
+    },
+    {
+        "id": 40,
+        "original": "I got a bike <b>on</b> my birthday.",
+        "translate": "На день рождения мне подарили велосипед.",
+        "isActive": true
+    },
+    {
+        "id": 41,
+        "original": "We open presents <b>on</b> Christmas Day.",
+        "translate": "Мы открываем подарки в день Рождества.",
+        "isActive": true
+    },
+    {
+        "id": 42,
+        "original": "What do you do <b>on</b> New Year's Eve?",
+        "translate": "Что ты делаешь в канун Нового года?",
+        "isActive": true
+    },
+    {
+        "id": 43,
+        "original": "The exam is <b>on</b> the 3rd of May.",
+        "translate": "Экзамен 3 мая.",
+        "isActive": true
+    },
+    {
+        "id": 44,
+        "original": "They got married <b>on</b> a sunny day in July.",
+        "translate": "Они поженились в солнечный день в июле.",
+        "isActive": true
+    },
+    {
+        "id": 45,
+        "original": "The shop is closed <b>on</b> Sundays.",
+        "translate": "По воскресеньям магазин закрыт.",
+        "isActive": true
+    },
+    {
+        "id": 46,
+        "original": "I was born <b>on</b> the 1st of January 2000.",
+        "translate": "Я родился 1 января 2000 года.",
+        "isActive": true
+    },
+    {
+        "id": 47,
+        "original": "We met <b>on</b> Valentine's Day.",
+        "translate": "Мы познакомились в День святого Валентина.",
+        "isActive": true
+    },
+    {
+        "id": 48,
+        "original": "It rained heavily <b>on</b> the night of the concert.",
+        "translate": "В ночь концерта шёл сильный дождь.",
+        "isActive": true
+    },
+    {
+        "id": 49,
+        "original": "I have English classes <b>on</b> Tuesday evenings.",
+        "translate": "По вторникам вечером у меня английский.",
+        "isActive": true
+    },
+    {
+        "id": 50,
+        "original": "We don't work <b>on</b> public holidays.",
+        "translate": "Мы не работаем в государственные праздники.",
+        "isActive": true
+    }
+]
