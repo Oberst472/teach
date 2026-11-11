@@ -37,7 +37,7 @@
             :class='{"app__nav-item--active": data.activeCategoryWord === key}'
             @click='changeActiveCategory(key)'
         >
-          {{ `${key} (${item.length} сл.)` }}
+          {{ `${key} (${wordsOf(item).length} сл.)` }}
         </li>
       </template>
     </ul>
@@ -255,15 +255,17 @@ const onEnter = function () {
   checkAnswer()
 }
 
-// A category is either an array of words or an array of groups: { title, items: [words] }
+// A category is an array of words, an array of groups: { title, description?, items: [words] },
+// or a single list with a description: { description, items: [words] }
 const isGroup = (item) => Boolean(item[0]?.items)
+const wordsOf = (item) => Array.isArray(item) ? item : item.items
 
 // Flat map of selectable categories; grouped ones are keyed as `week / group title`
 const categories = computed(() => {
   const result = {}
   Object.entries(data.words).forEach(([key, item]) => {
     if (isGroup(item)) item.forEach(group => result[`${key} / ${group.title}`] = group.items)
-    else result[key] = item
+    else result[key] = wordsOf(item)
   })
   return result
 })
@@ -275,6 +277,7 @@ const descriptions = computed(() => {
     if (isGroup(item)) item.forEach(group => {
       if (group.description) result[`${key} / ${group.title}`] = group.description
     })
+    else if (item.description) result[key] = item.description
   })
   return result
 })
