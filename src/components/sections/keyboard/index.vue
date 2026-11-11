@@ -24,18 +24,22 @@
           >{{ charView(char, index) }}</span>
         </div>
 
-        <input
+        <!-- A one-line textarea: browsers don't offer autofill suggestions for it, unlike <input> -->
+        <textarea
             ref="input"
+            rows="1"
             class="section-keyboard__input"
             v-model="data.value"
             :maxlength="current.target.length"
             :readonly="isDone"
             placeholder="type the English phrase…"
             autocomplete="off"
+            autocorrect="off"
             autocapitalize="off"
             spellcheck="false"
             @keydown.esc="emits('onClose')"
-        >
+            @keydown.enter.prevent
+        ></textarea>
 
         <div class="section-keyboard__actions">
           <button class="section-keyboard__btn" @click="giveHint" :disabled="isDone">Hint (next letter)</button>
@@ -277,7 +281,12 @@ onMounted(focusInput)
   }
 
   &__input {
+    display: block;
     width: 100%;
+    line-height: 1.5;
+    resize: none;
+    overflow: hidden;
+    field-sizing: content;
     min-height: 48px;
     padding: 10px 15px;
     font-size: 20px;

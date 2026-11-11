@@ -90,16 +90,19 @@
       ></div>
 
       <div class='app__content-inp'>
-        <input type='text'
-               ref='answerInput'
-               v-model='data.inpValue'
-               :class='{[`is-${data.result}`]: data.result}'
-               :placeholder='`type the ${data.isAlgorithmChanged ? "Russian" : "English"} and press Enter`'
-               autocomplete='off'
-               spellcheck='false'
-               @keydown.enter.prevent='onEnter'
-               @keydown='onInputHotkey'
-        >
+        <!-- A one-line textarea: browsers don't offer autofill suggestions for it, unlike <input> -->
+        <textarea ref='answerInput'
+                  rows='1'
+                  v-model='data.inpValue'
+                  :class='{[`is-${data.result}`]: data.result}'
+                  :placeholder='`type the ${data.isAlgorithmChanged ? "Russian" : "English"} and press Enter`'
+                  autocomplete='off'
+                  autocorrect='off'
+                  autocapitalize='off'
+                  spellcheck='false'
+                  @keydown.enter.prevent='onEnter'
+                  @keydown='onInputHotkey'
+        ></textarea>
         <div class='app__content-feedback' v-if='data.result'>
           {{ feedbackText }}
         </div>
@@ -601,11 +604,18 @@ onMounted(() => {
     &-inp {
       margin-top: 20px;
 
-      input {
+      textarea {
+        display: block;
         width: 100%;
         min-height: 48px;
         padding: 10px 15px;
         font-size: 18px;
+        font-family: inherit;
+        line-height: 1.5;
+        resize: none;
+        overflow: hidden;
+        // Grows with long answers where supported
+        field-sizing: content;
         border: 1px solid #ff50c0;
         border-radius: 12px;
         box-sizing: border-box;
