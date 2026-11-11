@@ -68,12 +68,19 @@
       <div class='app__content-stats'>
         <span class='app__content-stat app__content-stat--correct' title='Correct answers'>✓ {{ data.score.correct }}</span>
         <span class='app__content-stat app__content-stat--wrong' title='Wrong answers'>✗ {{ data.score.wrong }}</span>
-        <span class='app__content-stat' :class="{'app__content-stat--accent': data.els.length === 0}"
-              title='Cards left in this round'>
-          {{ data.els.length === 0 ? 'last card' : `${data.els.length} left` }}
+        <span class='app__content-stat' :class="{'app__content-stat--accent': cardsLeft === 1}"
+              title='Cards not marked correct yet'>
+          {{ cardsLeft === 1 ? 'last card' : `${cardsLeft} left` }}
         </span>
       </div>
 
+      <div class='app__content-finish' v-if='isFinished'>
+        <div class='app__content-finish-title'>All {{ data.defaultEls.length }} cards correct! 🎉</div>
+        <div>✓ {{ data.score.correct }} · ✗ {{ data.score.wrong }}</div>
+        <button class='app__content-btn' @click='restartLearning'>Start again</button>
+      </div>
+
+      <template v-else>
       <div class='app__content-label'>{{ data.isAlgorithmChanged ? 'English' : 'Russian' }}</div>
       <div class='app__content-current' v-html='question'></div>
 
@@ -91,6 +98,7 @@
                autocomplete='off'
                spellcheck='false'
                @keydown.enter.prevent='onEnter'
+               @keydown='onInputHotkey'
         >
         <div class='app__content-feedback' v-if='data.result'>
           {{ feedbackText }}
@@ -98,13 +106,20 @@
       </div>
 
       <div class='app__content-btns'>
-        <button class='app__content-btn show' @click='showAnswer' :disabled='!data.hidePrompt'>Show answer</button>
-        <button class='app__content-btn' @click='showNextWord'>Next →</button>
+        <button class='app__content-btn show' @click='showAnswer' :disabled='!data.hidePrompt'>Show answer <span class='app__content-key'>1</span></button>
+        <button class='app__content-btn' @click='showNextWord'>Next → <span class='app__content-key'>2</span></button>
       </div>
 
+      <div class='app__content-btns'>
+        <button class='app__content-btn correct' @click='markCorrect'>✓ Correct <span class='app__content-key'>3</span></button>
+        <button class='app__content-btn wrong' @click='markWrong'>✗ Incorrect <span class='app__content-key'>4</span></button>
+      </div>
+      </template>
+
       <p class='app__content-help'>
-        <b>Enter</b> — check, then next card · empty <b>Enter</b> — show answer.<br>
-        Outside the input: <b>Space</b> — show answer, <b>→</b> — next card.
+        <b>1</b> — show answer, <b>2</b> — next card, <b>3</b> — correct (card leaves the deck),
+        <b>4</b> — incorrect (card stays). In the input digits work only while it's empty.<br>
+        <b>Enter</b> — check, then next card · empty <b>Enter</b> — show answer.
       </p>
     </div>
     <SectionKeyboard
@@ -140,10 +155,17 @@ const data = reactive({
   openGroups: [] as string[],
   mobileTab: 'practice' as 'categories' | 'words' | 'practice',
   result: '' as '' | 'correct' | 'wrong' | 'shown',
-  score: {correct: 0, wrong: 0}
+  score: {correct: 0, wrong: 0},
+  // Cards marked correct leave the deck until the category is restarted
+  learned: [] as string[],
 })
 
 const answerInput = ref(null)
+
+const cardKey = (card) => `${card.original}|${card.translate}`
+const isLearned = (card) => data.learned.includes(cardKey(card))
+const cardsLeft = computed(() => data.defaultEls.length - data.learned.length)
+const isFinished = computed(() => data.defaultEls.length > 0 && cardsLeft.value <= 0)
 let nextTimer = null
 
 const stripHtml = (text = '') => text.replace(/<[^>]*>/g, '').replace(/\s+/g, ' ').trim()
@@ -197,11 +219,33 @@ const checkAnswer = function () {
   if (acceptedAnswers.value.has(normalize(data.inpValue))) {
     data.result = 'correct'
     data.score.correct++
+    if (!isLearned(data.current)) data.learned.push(cardKey(data.current))
     nextTimer = setTimeout(showNextWord, 900)
   } else {
     data.result = 'wrong'
     data.score.wrong++
   }
+}
+
+// Self-check buttons: "correct" removes the card from the deck, "incorrect" keeps it
+const markCorrect = function () {
+  if (isFinished.value) return
+  if (data.result !== 'correct') data.score.correct++
+  if (!isLearned(data.current)) data.learned.push(cardKey(data.current))
+  showNextWord()
+}
+
+const markWrong = function () {
+  if (isFinished.value) return
+  if (data.result !== 'wrong') data.score.wrong++
+  showNextWord()
+}
+
+const restartLearning = function () {
+  data.learned = []
+  data.score = {correct: 0, wrong: 0}
+  data.els = JSON.parse(JSON.stringify(data.defaultEls))
+  showNextWord()
 }
 
 // Enter: empty input shows the answer, typed input is checked, after a result goes next
@@ -249,6 +293,7 @@ const openParentGroup = function (category: string) {
 
 const changeActiveCategory = function (val: string) {
   data.activeCategoryWord = val
+  data.learned = []
   // On narrow screens picking a category goes straight to practice
   data.mobileTab = 'practice'
   data.score = {correct: 0, wrong: 0}
@@ -263,12 +308,33 @@ const goNextWord = function (e) {
   if (data.isKeyboardActive) return
   // While typing an answer, keys belong to the input (Enter is handled by it)
   if (['INPUT', 'TEXTAREA'].includes(e.target.tagName)) return
-  if (e.code === 'Space') showAnswer()
-  if (['Enter', 'ArrowRight'].includes(e.code)) showNextWord()
+  if (isFinished.value) return
+  if (['Space', 'Digit1', 'Numpad1'].includes(e.code)) showAnswer()
+  if (['Enter', 'ArrowRight', 'Digit2', 'Numpad2'].includes(e.code)) showNextWord()
+  if (['Digit3', 'Numpad3'].includes(e.code)) markCorrect()
+  if (['Digit4', 'Numpad4'].includes(e.code)) markWrong()
 }
+
+// 1 / 2 in the input: hotkeys while it's empty or the card is already answered,
+// otherwise they're typed as usual (answers like "in 2005")
+const onInputHotkey = function (e) {
+  const actions = {1: showAnswer, 2: showNextWord, 3: markCorrect, 4: markWrong}
+  if (!actions[e.key] || e.ctrlKey || e.metaKey || e.altKey) return
+  if (data.inpValue && !data.result) return
+  e.preventDefault()
+  actions[e.key]()
+}
+// Draws a random card from the round; a new round takes every card not marked correct yet
 const changeInfo = function () {
-  if (!data.els.length) data.els = JSON.parse(JSON.stringify(data.defaultEls))
+  const previous = data.current
+  data.els = data.els.filter(card => !isLearned(card))
+  if (!data.els.length) data.els = JSON.parse(JSON.stringify(data.defaultEls)).filter(card => !isLearned(card))
+  if (!data.els.length) return data.current = ''
   let randomIndex = Math.floor(Math.random() * data.els.length)
+  // Don't show the same card twice in a row when there is a choice
+  if (data.els.length > 1 && previous && cardKey(data.els[randomIndex]) === cardKey(previous)) {
+    randomIndex = (randomIndex + 1) % data.els.length
+  }
   data.current = data.els.splice(randomIndex, 1)[0]
 }
 const showNextWord = function () {
@@ -570,6 +636,41 @@ onMounted(() => {
       gap: 15px;
     }
 
+    &-key {
+      display: inline-block;
+      min-width: 18px;
+      margin-left: 6px;
+      padding: 0 4px;
+      font-size: 12px;
+      line-height: 18px;
+      border: 1px solid rgba(255, 255, 255, 0.5);
+      border-radius: 4px;
+      opacity: 0.8;
+    }
+
+    &-btns + &-btns {
+      margin-top: 12px;
+    }
+
+    &-finish {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+      padding: 30px 0;
+      text-align: center;
+
+      &-title {
+        font-size: 22px;
+        color: #20ff67;
+      }
+
+      .app__content-btn {
+        flex-basis: auto;
+        padding: 0 30px;
+      }
+    }
+
     &-btn {
       flex-basis: 50%;
       height: 48px;
@@ -577,6 +678,14 @@ onMounted(() => {
 
       &.show {
         background-color: #2d6cff;
+      }
+
+      &.correct {
+        background-color: #1f9d55;
+      }
+
+      &.wrong {
+        background-color: #c53b3b;
       }
 
       &:disabled {
@@ -685,6 +794,7 @@ onMounted(() => {
 
       // No typing on phones: just "Show answer" / "Next", and no keyboard shortcuts
       &-inp,
+      &-key,
       &-help {
         display: none;
       }

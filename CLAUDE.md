@@ -18,8 +18,8 @@ There are no tests, linter, or type-checker configured. `<script setup lang="ts"
 
 ## Architecture
 
-- `src/App.vue` holds almost all app logic and state in a single `reactive` `data` object: category selection, random word picking, prompt reveal, and keyboard shortcuts (`keyup` listener: Space/ShiftRight reveal the answer; Enter/ArrowRight/MetaRight go to the next word).
-- Word selection draws randomly without replacement from `data.els` (a deep copy of the current category); when it empties, it refills from `data.defaultEls`. The counter in the UI shows how many words remain.
+- `src/App.vue` holds almost all app logic and state in a single `reactive` `data` object: category selection, random word picking, prompt reveal, and keyboard shortcuts (`keyup` listener outside the input: 1/Space reveal the answer, 2/Enter/ArrowRight go to the next card; inside the answer input 1/2 act as hotkeys only while it is empty or the card is already answered, and Enter checks the answer).
+- Word selection draws randomly without replacement from `data.els` (a deep copy of the current category); each new round refills it from `data.defaultEls`, minus the cards in `data.learned`. The Correct button (or a correctly typed answer) adds a card to `data.learned`, removing it from the deck until the category is changed or restarted; Incorrect keeps it. When every card is learned the panel shows a finish screen. Hotkeys: 3 = correct, 4 = incorrect.
 - Layout is responsive: three columns (categories, words, practice panel) on wide screens, narrower columns below 1200px, and below 900px a tab bar (`data.mobileTab`) shows one panel at a time; choosing a category switches to the practice tab, and the answer input and "Typing practice" button are hidden (flashcard mode: Show answer / Next).
 - "Change algorithm" (`isAlgorithmChanged`) swaps which side (`original` vs `translate`) is shown as the question.
 - The active category persists in `localStorage` (`activeCategoryWord`).
