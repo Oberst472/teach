@@ -1,0 +1,456 @@
+[
+    {
+        "title": "sentences",
+        "items": [
+            {
+                "id": 1,
+                "original": "They are working.",
+                "translate": "Они работают",
+                "isActive": true
+            },
+            {
+                "id": 2,
+                "original": "She is late for work.",
+                "translate": "Она опаздывает на работу",
+                "isActive": true
+            },
+            {
+                "id": 3,
+                "original": "Why is he late?",
+                "translate": "Почему он опаздывает?",
+                "isActive": true
+            },
+            {
+                "id": 4,
+                "original": "We are writing.",
+                "translate": "Мы пишем",
+                "isActive": true
+            },
+            {
+                "id": 5,
+                "original": "What are you writing?",
+                "translate": "Что вы пишете?",
+                "isActive": true
+            },
+            {
+                "id": 6,
+                "original": "She is tired of this work.",
+                "translate": "Она устала от этой работы",
+                "isActive": true
+            },
+            {
+                "id": 7,
+                "original": "Are you enjoying this?",
+                "translate": "Вы наслаждаетесь этим?",
+                "isActive": true
+            },
+            {
+                "id": 8,
+                "original": "They are at school.",
+                "translate": "Они учатся в школе",
+                "isActive": true
+            },
+            {
+                "id": 9,
+                "original": "What are you learning?",
+                "translate": "Что вы изучаете?",
+                "isActive": true
+            },
+            {
+                "id": 10,
+                "original": "Are you interested in this?",
+                "translate": "Вы интересуетесь этим?",
+                "isActive": true
+            },
+            {
+                "id": 11,
+                "original": "They are sorry about this.",
+                "translate": "Они жалеют об этом",
+                "isActive": true
+            },
+            {
+                "id": 12,
+                "original": "We are going home.",
+                "translate": "Мы идем домой",
+                "isActive": true
+            },
+            {
+                "id": 13,
+                "original": "She isn't laughing.",
+                "translate": "Она не смеется",
+                "isActive": true
+            },
+            {
+                "id": 14,
+                "original": "Don't laugh now.",
+                "translate": "Не смейся сейчас",
+                "isActive": true
+            },
+            {
+                "id": 15,
+                "original": "We're not interested in him.",
+                "translate": "Мы не заинтересованы в нем",
+                "isActive": true
+            },
+            {
+                "id": 16,
+                "original": "Why are you asking?",
+                "translate": "Почему ты спрашиваешь?",
+                "isActive": true
+            },
+            {
+                "id": 17,
+                "original": "She isn't waiting for us.",
+                "translate": "Она не ждет нас",
+                "isActive": true
+            },
+            {
+                "id": 18,
+                "original": "He isn't late.",
+                "translate": "Он не опаздывает",
+                "isActive": true
+            },
+            {
+                "id": 19,
+                "original": "Wait for me now.",
+                "translate": "Подожди меня сейчас",
+                "isActive": true
+            },
+            {
+                "id": 20,
+                "original": "We're good at it.",
+                "translate": "У нас это хорошо получается",
+                "isActive": true
+            },
+            {
+                "id": 21,
+                "original": "She is meeting him today.",
+                "translate": "Она встречается с ним сегодня",
+                "isActive": true
+            },
+            {
+                "id": 22,
+                "original": "What are you good at?",
+                "translate": "Что у вас хорошо получается?",
+                "isActive": true
+            },
+            {
+                "id": 23,
+                "original": "Why are we stopping?",
+                "translate": "Почему мы останавливаемся?",
+                "isActive": true
+            },
+            {
+                "id": 24,
+                "original": "Meet her today.",
+                "translate": "Встреть ее сегодня",
+                "isActive": true
+            },
+            {
+                "id": 25,
+                "original": "They aren't at college.",
+                "translate": "Они не учатся в колледже",
+                "isActive": true
+            },
+            {
+                "id": 26,
+                "original": "She is good at swimming.",
+                "translate": "Она хорошо плавает",
+                "isActive": true
+            },
+            {
+                "id": 27,
+                "original": "They are singing.",
+                "translate": "Они поют",
+                "isActive": true
+            },
+            {
+                "id": 28,
+                "original": "Don't stop.",
+                "translate": "Не останавливайся",
+                "isActive": true
+            },
+            {
+                "id": 29,
+                "original": "We are studying.",
+                "translate": "Мы учимся",
+                "isActive": true
+            },
+            {
+                "id": 30,
+                "original": "Who is she helping?",
+                "translate": "Кому она помогает?",
+                "isActive": true
+            },
+            {
+                "id": 31,
+                "original": "Answer my question right now.",
+                "translate": "Немедленно отвечай на мой вопрос",
+                "isActive": true
+            },
+            {
+                "id": 32,
+                "original": "Where is he sitting?",
+                "translate": "Где он сидит?",
+                "isActive": true
+            },
+            {
+                "id": 33,
+                "original": "What are they writing?",
+                "translate": "Что они пишут?",
+                "isActive": true
+            },
+            {
+                "id": 34,
+                "original": "Don't be late.",
+                "translate": "Не опаздывайте",
+                "isActive": true
+            },
+            {
+                "id": 35,
+                "original": "Don't wait for us today.",
+                "translate": "Не жди нас сегодня",
+                "isActive": true
+            },
+            {
+                "id": 36,
+                "original": "Who is he smiling at?",
+                "translate": "Кому он улыбается?",
+                "isActive": true
+            },
+            {
+                "id": 37,
+                "original": "She is coming.",
+                "translate": "Она подходит",
+                "isActive": true
+            },
+            {
+                "id": 38,
+                "original": "We're not singing.",
+                "translate": "Мы не поем",
+                "isActive": true
+            },
+            {
+                "id": 39,
+                "original": "I'm not coming.",
+                "translate": "Я не приду",
+                "isActive": true
+            },
+            {
+                "id": 40,
+                "original": "What are you asking?",
+                "translate": "Что вы спрашиваете?",
+                "isActive": true
+            },
+            {
+                "id": 41,
+                "original": "Where are you putting this?",
+                "translate": "Куда ты это кладешь?",
+                "isActive": true
+            },
+            {
+                "id": 42,
+                "original": "Why are they standing here?",
+                "translate": "Почему они тут стоят?",
+                "isActive": true
+            },
+            {
+                "id": 43,
+                "original": "They are late now.",
+                "translate": "Они сейчас опаздывают",
+                "isActive": true
+            },
+            {
+                "id": 44,
+                "original": "She often has lunch here.",
+                "translate": "Она часто обедает тут",
+                "isActive": true
+            },
+            {
+                "id": 45,
+                "original": "Do their friends often have lunch here?",
+                "translate": "Их друзья часто обедают тут?",
+                "isActive": true
+            },
+            {
+                "id": 46,
+                "original": "He never has dinner here.",
+                "translate": "Он никогда не ужинает тут",
+                "isActive": true
+            },
+            {
+                "id": 47,
+                "original": "What does your sister do?",
+                "translate": "Кем работает твоя сестра?",
+                "isActive": true
+            },
+            {
+                "id": 48,
+                "original": "What do you do?",
+                "translate": "А ты кем работаешь?",
+                "isActive": true
+            },
+            {
+                "id": 49,
+                "original": "When do you usually get up?",
+                "translate": "Когда ты обычно просыпаешься?",
+                "isActive": true
+            },
+            {
+                "id": 50,
+                "original": "When does your boss come to work (arrive at work)?",
+                "translate": "Когда твой начальник приходит на работу?",
+                "isActive": true
+            },
+            {
+                "id": 51,
+                "original": "She doesn't cook dinner every day.",
+                "translate": "Она не готовит еду каждый день",
+                "isActive": true
+            },
+            {
+                "id": 52,
+                "original": "My kids don't watch TV very often.",
+                "translate": "Мои дети не очень часто смотрят телевизор",
+                "isActive": true
+            },
+            {
+                "id": 53,
+                "original": "Does he have a job?",
+                "translate": "Он работает?",
+                "isActive": true
+            },
+            {
+                "id": 54,
+                "original": "Does he like his job?",
+                "translate": "Ему нравится его работа?",
+                "isActive": true
+            },
+            {
+                "id": 55,
+                "original": "I rarely meet my friends.",
+                "translate": "Я редко встречаюсь с друзьями",
+                "isActive": true
+            },
+            {
+                "id": 56,
+                "original": "How often do you meet your friends?",
+                "translate": "Как часто ты встречаешься с друзьями?",
+                "isActive": true
+            },
+            {
+                "id": 57,
+                "original": "When do you usually finish work?",
+                "translate": "Когда ты обычно заканчиваешь работу?",
+                "isActive": true
+            },
+            {
+                "id": 58,
+                "original": "He finishes work late.",
+                "translate": "Он заканчивает работу поздно",
+                "isActive": true
+            },
+            {
+                "id": 59,
+                "original": "She never comes to work too early.",
+                "translate": "Она никогда не приходит на работу слишком рано",
+                "isActive": true
+            },
+            {
+                "id": 60,
+                "original": "My dad works in a school.",
+                "translate": "Мой отец работает в школе",
+                "isActive": true
+            },
+            {
+                "id": 61,
+                "original": "Does your girlfriend work in a hotel?",
+                "translate": "Твоя подруга работает в отеле?",
+                "isActive": true
+            },
+            {
+                "id": 62,
+                "original": "Her son rarely washes his face.",
+                "translate": "Ее сын редко умывается",
+                "isActive": true
+            },
+            {
+                "id": 63,
+                "original": "He doesn't wash his face every morning.",
+                "translate": "Он умывается не каждое утро",
+                "isActive": true
+            },
+            {
+                "id": 64,
+                "original": "Why doesn't he wash his face?",
+                "translate": "Почему бы ему не умыться?",
+                "isActive": true
+            }
+        ]
+    },
+    {
+        "title": "why don't you…",
+        "items": [
+            {
+                "id": 1,
+                "original": "Why don't you take a shower?",
+                "translate": "Почему бы тебе не сходить в душ?",
+                "isActive": true
+            },
+            {
+                "id": 2,
+                "original": "Why don't we have lunch at home?",
+                "translate": "Почему бы нам не пообедать дома?",
+                "isActive": true
+            },
+            {
+                "id": 3,
+                "original": "Why don't we go to the store in the evening?",
+                "translate": "Почему бы нам не сходить в магазин вечером?",
+                "isActive": true
+            },
+            {
+                "id": 4,
+                "original": "Why don't you go to bed now?",
+                "translate": "Почему бы тебе не лечь спать сейчас?",
+                "isActive": true
+            },
+            {
+                "id": 5,
+                "original": "Why don't they cook lunch?",
+                "translate": "Почему бы им не приготовить обед?",
+                "isActive": true
+            },
+            {
+                "id": 6,
+                "original": "Why don't you have breakfast before work?",
+                "translate": "Почему бы вам не позавтракать перед работой?",
+                "isActive": true
+            },
+            {
+                "id": 7,
+                "original": "Why doesn't she finish work earlier?",
+                "translate": "Почему бы ей не закончить работу раньше?",
+                "isActive": true
+            },
+            {
+                "id": 8,
+                "original": "It's 9 a.m. Why don't you get out of bed?",
+                "translate": "Сейчас 9 утра. Почему бы тебе не встать с кровати?",
+                "isActive": true
+            },
+            {
+                "id": 9,
+                "original": "It's late. Why don't we go home?",
+                "translate": "Уже поздно, почему бы нам не пойти домой?",
+                "isActive": true
+            },
+            {
+                "id": 10,
+                "original": "Why don't you turn the music down?",
+                "translate": "Почему бы тебе не сделать музыку тише?",
+                "isActive": true
+            }
+        ]
+    }
+]
