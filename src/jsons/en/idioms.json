@@ -1,116 +1,119 @@
-[
-    {
-        "id": 1,
-        "original": "to run in the family",
-        "translate": "передаваться по наследству, быть семейной чертой",
-        "isActive": true
-    },
-    {
-        "id": 2,
-        "original": "to feel/look like a million dollars",
-        "translate": "чувствовать себя / выглядеть на миллион долларов, великолепно",
-        "isActive": true
-    },
-    {
-        "id": 3,
-        "original": "speak of the devil",
-        "translate": "лёгок на помине",
-        "isActive": true
-    },
-    {
-        "id": 4,
-        "original": "to stick to your guns",
-        "translate": "стоять на своём, не сдавать позиций",
-        "isActive": true
-    },
-    {
-        "id": 5,
-        "original": "better safe than sorry",
-        "translate": "лучше перестраховаться, береженого Бог бережёт",
-        "isActive": true
-    },
-    {
-        "id": 6,
-        "original": "to pull someone's leg",
-        "translate": "подшучивать над кем-то, разыгрывать кого-то",
-        "isActive": true
-    },
-    {
-        "id": 7,
-        "original": "to be on cloud nine",
-        "translate": "быть на седьмом небе от счастья",
-        "isActive": true
-    },
-    {
-        "id": 8,
-        "original": "(it's) easier said than done",
-        "translate": "легче сказать, чем сделать",
-        "isActive": true
-    },
-    {
-        "id": 9,
-        "original": "to read between the lines",
-        "translate": "читать между строк",
-        "isActive": true
-    },
-    {
-        "id": 10,
-        "original": "to pass with flying colours",
-        "translate": "сдать блестяще, с отличием",
-        "isActive": true
-    },
-    {
-        "id": 11,
-        "original": "to be back on one's feet",
-        "translate": "встать на ноги, оправиться (после болезни, трудностей)",
-        "isActive": true
-    },
-    {
-        "id": 12,
-        "original": "at all costs",
-        "translate": "любой ценой",
-        "isActive": true
-    },
-    {
-        "id": 13,
-        "original": "to work like a dog",
-        "translate": "работать как вол, не покладая рук",
-        "isActive": true
-    },
-    {
-        "id": 14,
-        "original": "to beat about the bush",
-        "translate": "ходить вокруг да около",
-        "isActive": true
-    },
-    {
-        "id": 15,
-        "original": "to be head over heels in love",
-        "translate": "быть влюблённым по уши",
-        "isActive": true
-    },
-    {
-        "id": 16,
-        "original": "to meet sb halfway",
-        "translate": "пойти кому-то навстречу, найти компромисс",
-        "isActive": true
-    },
-    {
-        "id": 17,
-        "original": "to see eye to eye with somebody",
-        "translate": "сходиться во мнениях с кем-то",
-        "isActive": true
-    },
-    {
-        "id": 18,
-        "original": "it's not rocket science",
-        "translate": "это не бином Ньютона, это не так уж сложно",
-        "isActive": true
-    },
-    {
-        "id": 19,
-        "original": "to call it a day",
-        "translate": "закончить на сегодня, закругляться",
-        "isActive": true
-    }
-]
+{
+    "description": "<h3>Идиомы</h3>\n<p>Значения идиом. Для тренировки ниже — примеры употребления в предложениях.</p>\n<ul>\n<li><b>to run in the family</b> — передаваться по наследству, быть семейной чертой</li>\n<li><b>to feel/look like a million dollars</b> — чувствовать себя / выглядеть на миллион долларов, великолепно</li>\n<li><b>speak of the devil</b> — лёгок на помине</li>\n<li><b>to stick to your guns</b> — стоять на своём, не сдавать позиций</li>\n<li><b>better safe than sorry</b> — лучше перестраховаться, береженого Бог бережёт</li>\n<li><b>to pull someone's leg</b> — подшучивать над кем-то, разыгрывать кого-то</li>\n<li><b>to be on cloud nine</b> — быть на седьмом небе от счастья</li>\n<li><b>(it's) easier said than done</b> — легче сказать, чем сделать</li>\n<li><b>to read between the lines</b> — читать между строк</li>\n<li><b>to pass with flying colours</b> — сдать блестяще, с отличием</li>\n<li><b>to be back on one's feet</b> — встать на ноги, оправиться (после болезни, трудностей)</li>\n<li><b>at all costs</b> — любой ценой</li>\n<li><b>to work like a dog</b> — работать как вол, не покладая рук</li>\n<li><b>to beat about the bush</b> — ходить вокруг да около</li>\n<li><b>to be head over heels in love</b> — быть влюблённым по уши</li>\n<li><b>to meet sb halfway</b> — пойти кому-то навстречу, найти компромисс</li>\n<li><b>to see eye to eye with somebody</b> — сходиться во мнениях с кем-то</li>\n<li><b>it's not rocket science</b> — это не бином Ньютона, это не так уж сложно</li>\n<li><b>to call it a day</b> — закончить на сегодня, закругляться</li>\n</ul>",
+    "items": [
+        {
+            "id": 1,
+            "original": "Musical talent <b>runs in our family</b>.",
+            "translate": "Музыкальный талант передаётся в нашей семье по наследству.",
+            "isActive": true
+        },
+        {
+            "id": 2,
+            "original": "You <b>look like a million dollars</b> in that dress!",
+            "translate": "Ты выглядишь великолепно в этом платье!",
+            "isActive": true
+        },
+        {
+            "id": 3,
+            "original": "<b>Speak of the devil</b> — here comes Tom!",
+            "translate": "Лёгок на помине — а вот и Том!",
+            "isActive": true
+        },
+        {
+            "id": 4,
+            "original": "Everyone said no, but she <b>stuck to her guns</b>.",
+            "translate": "Все были против, но она стояла на своём.",
+            "isActive": true
+        },
+        {
+            "id": 5,
+            "original": "Take an umbrella — <b>better safe than sorry</b>.",
+            "translate": "Возьми зонт — лучше перестраховаться.",
+            "isActive": true
+        },
+        {
+            "id": 6,
+            "original": "Don't worry, I'm just <b>pulling your leg</b>.",
+            "translate": "Не волнуйся, я просто тебя разыгрываю.",
+            "isActive": true
+        },
+        {
+            "id": 7,
+            "original": "When she got the job, she <b>was on cloud nine</b>.",
+            "translate": "Когда она получила эту работу, она была на седьмом небе от счастья.",
+            "isActive": true
+        },
+        {
+            "id": 8,
+            "original": "Stop eating sweets? <b>Easier said than done</b>!",
+            "translate": "Перестать есть сладкое? Легче сказать, чем сделать!",
+            "isActive": true
+        },
+        {
+            "id": 9,
+            "original": "His email was polite, but if you <b>read between the lines</b>, he's angry.",
+            "translate": "Его письмо вежливое, но если читать между строк, он злится.",
+            "isActive": true
+        },
+        {
+            "id": 10,
+            "original": "She <b>passed</b> her driving test <b>with flying colours</b>.",
+            "translate": "Она блестяще сдала экзамен по вождению.",
+            "isActive": true
+        },
+        {
+            "id": 11,
+            "original": "After a long illness, he's finally <b>back on his feet</b>.",
+            "translate": "После долгой болезни он наконец встал на ноги.",
+            "isActive": true
+        },
+        {
+            "id": 12,
+            "original": "We must finish the project on time <b>at all costs</b>.",
+            "translate": "Мы должны закончить проект вовремя любой ценой.",
+            "isActive": true
+        },
+        {
+            "id": 13,
+            "original": "I <b>worked like a dog</b> all week.",
+            "translate": "Я всю неделю работал не покладая рук.",
+            "isActive": true
+        },
+        {
+            "id": 14,
+            "original": "Stop <b>beating about the bush</b> and tell me what happened.",
+            "translate": "Хватит ходить вокруг да около, расскажи, что случилось.",
+            "isActive": true
+        },
+        {
+            "id": 15,
+            "original": "He's <b>head over heels in love</b> with his new neighbour.",
+            "translate": "Он по уши влюблён в свою новую соседку.",
+            "isActive": true
+        },
+        {
+            "id": 16,
+            "original": "You want 100 dollars, I offer 60 — let's <b>meet halfway</b> at 80.",
+            "translate": "Ты хочешь 100 долларов, я предлагаю 60 — давай найдём компромисс: 80.",
+            "isActive": true
+        },
+        {
+            "id": 17,
+            "original": "My brother and I don't always <b>see eye to eye</b>.",
+            "translate": "Мы с братом не всегда сходимся во мнениях.",
+            "isActive": true
+        },
+        {
+            "id": 18,
+            "original": "Just turn it off and on again — <b>it's not rocket science</b>.",
+            "translate": "Просто выключи и включи снова — это не так уж сложно.",
+            "isActive": true
+        },
+        {
+            "id": 19,
+            "original": "It's late, let's <b>call it a day</b>.",
+            "translate": "Уже поздно, давай закончим на сегодня.",
+            "isActive": true
+        }
+    ]
+}

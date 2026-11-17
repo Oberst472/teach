@@ -545,7 +545,7 @@ onMounted(() => {
       opacity: 0.6;
 
       &--correct {
-        color: #20ff67;
+        color: #8fd19e;
         opacity: 0.9;
       }
 
@@ -583,7 +583,7 @@ onMounted(() => {
       border-radius: 12px;
       font-size: 20px;
       text-align: center;
-      color: #6aff46;
+      color: #8fd19e;
       background-color: rgba(255, 255, 255, 0.07);
       word-break: break-word;
       transition: opacity 0.2s;
@@ -593,7 +593,7 @@ onMounted(() => {
       }
 
       &--correct {
-        border: 1px solid #20ff67;
+        border: 1px solid #8fd19e;
       }
 
       &--wrong {
@@ -626,8 +626,8 @@ onMounted(() => {
         }
 
         &.is-correct {
-          border-color: #20ff67;
-          box-shadow: 0 0 0 2px rgba(32, 255, 103, 0.25);
+          border-color: #8fd19e;
+          box-shadow: 0 0 0 2px rgba(143, 209, 158, 0.25);
         }
 
         &.is-wrong {
@@ -675,7 +675,7 @@ onMounted(() => {
 
       &-title {
         font-size: 22px;
-        color: #20ff67;
+        color: #8fd19e;
       }
 
       .app__content-btn {
@@ -694,7 +694,7 @@ onMounted(() => {
       }
 
       &.correct {
-        background-color: #1f9d55;
+        background-color: #3f8f5f;
       }
 
       &.wrong {
@@ -816,7 +816,7 @@ onMounted(() => {
 }
 
 b {
-  color: #20ff67;
+  color: #8fd19e;
   font-weight: 700;
 }
 </style>

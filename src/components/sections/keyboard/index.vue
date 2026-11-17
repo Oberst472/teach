@@ -270,7 +270,7 @@ onMounted(focusInput)
     }
 
     &--correct {
-      color: #20ff67;
+      color: #8fd19e;
     }
 
     &--wrong {
@@ -333,7 +333,7 @@ onMounted(focusInput)
 
     &-title {
       font-size: 28px;
-      color: #20ff67;
+      color: #8fd19e;
     }
   }
 
