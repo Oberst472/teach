@@ -1,0 +1,140 @@
+[
+    {
+        "id": 1,
+        "original": "I never argue <b>with</b> my sister.",
+        "translate": "Я никогда не ссорюсь с сестрой.",
+        "isActive": true
+    },
+    {
+        "id": 2,
+        "original": "I get <b>on</b> well <b>with</b> my neighbours.",
+        "translate": "Я хорошо лажу с соседями.",
+        "isActive": true
+    },
+    {
+        "id": 3,
+        "original": "I have a lot <b>in</b> common <b>with</b> him.",
+        "translate": "У меня с ним много общего.",
+        "isActive": true
+    },
+    {
+        "id": 4,
+        "original": "She lives <b>with</b> her parents.",
+        "translate": "Она живёт с родителями.",
+        "isActive": true
+    },
+    {
+        "id": 5,
+        "original": "You look <b>like</b> your mum.",
+        "translate": "Ты похож на маму.",
+        "isActive": true
+    },
+    {
+        "id": 6,
+        "original": "Who takes care <b>of</b> your dog?",
+        "translate": "Кто присматривает за твоей собакой?",
+        "isActive": true
+    },
+    {
+        "id": 7,
+        "original": "I agree <b>with</b> you.",
+        "translate": "Я с тобой согласен.",
+        "isActive": true
+    },
+    {
+        "id": 8,
+        "original": "He asked <b>about</b> your job.",
+        "translate": "Он спрашивал о твоей работе.",
+        "isActive": true
+    },
+    {
+        "id": 9,
+        "original": "Can I ask <b>for</b> some help?",
+        "translate": "Можно попросить о помощи?",
+        "isActive": true
+    },
+    {
+        "id": 10,
+        "original": "This bag belongs <b>to</b> me.",
+        "translate": "Эта сумка принадлежит мне.",
+        "isActive": true
+    },
+    {
+        "id": 11,
+        "original": "It depends <b>on</b> the weather.",
+        "translate": "Это зависит от погоды.",
+        "isActive": true
+    },
+    {
+        "id": 12,
+        "original": "He has a good sense <b>of</b> humour.",
+        "translate": "У него хорошее чувство юмора.",
+        "isActive": true
+    },
+    {
+        "id": 13,
+        "original": "Don't talk about me <b>behind</b> my back.",
+        "translate": "Не говори обо мне за моей спиной.",
+        "isActive": true
+    },
+    {
+        "id": 14,
+        "original": "Everyone laughed <b>at</b> his joke.",
+        "translate": "Все смеялись над его шуткой.",
+        "isActive": true
+    },
+    {
+        "id": 15,
+        "original": "I like listening <b>to</b> music.",
+        "translate": "Я люблю слушать музыку.",
+        "isActive": true
+    },
+    {
+        "id": 16,
+        "original": "I'll pay <b>for</b> the coffee.",
+        "translate": "Я заплачу за кофе.",
+        "isActive": true
+    },
+    {
+        "id": 17,
+        "original": "I often think <b>about</b> you.",
+        "translate": "Я часто думаю о тебе.",
+        "isActive": true
+    },
+    {
+        "id": 18,
+        "original": "She's afraid <b>of</b> spiders.",
+        "translate": "Она боится пауков.",
+        "isActive": true
+    },
+    {
+        "id": 19,
+        "original": "Don't talk to him, he's <b>in</b> a mood.",
+        "translate": "Не говори с ним, он не в духе.",
+        "isActive": true
+    },
+    {
+        "id": 20,
+        "original": "I'm nervous <b>about</b> the exam.",
+        "translate": "Я нервничаю из-за экзамена.",
+        "isActive": true
+    },
+    {
+        "id": 21,
+        "original": "We are proud <b>of</b> you.",
+        "translate": "Мы гордимся тобой.",
+        "isActive": true
+    },
+    {
+        "id": 22,
+        "original": "I was shocked <b>by</b> the news.",
+        "translate": "Я был шокирован новостями.",
+        "isActive": true
+    },
+    {
+        "id": 23,
+        "original": "Don't worry <b>about</b> me.",
+        "translate": "Не беспокойся обо мне.",
+        "isActive": true
+    }
+]

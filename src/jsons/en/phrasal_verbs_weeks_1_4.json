@@ -1,0 +1,134 @@
+[
+    {
+        "id": 1,
+        "original": "Turn <b>on</b> the light, please.",
+        "translate": "Включи свет, пожалуйста.",
+        "isActive": true
+    },
+    {
+        "id": 2,
+        "original": "Don't forget to turn <b>off</b> the TV.",
+        "translate": "Не забудь выключить телевизор.",
+        "isActive": true
+    },
+    {
+        "id": 3,
+        "original": "Can you turn <b>down</b> the music?",
+        "translate": "Можешь сделать музыку тише?",
+        "isActive": true
+    },
+    {
+        "id": 4,
+        "original": "She turned <b>down</b> the job offer.",
+        "translate": "Она отклонила предложение о работе.",
+        "isActive": true
+    },
+    {
+        "id": 5,
+        "original": "Turn <b>up</b> the volume!",
+        "translate": "Сделай погромче!",
+        "isActive": true
+    },
+    {
+        "id": 6,
+        "original": "He turned <b>up</b> an hour late.",
+        "translate": "Он появился с опозданием на час.",
+        "isActive": true
+    },
+    {
+        "id": 7,
+        "original": "Turn <b>around</b> and look at me.",
+        "translate": "Повернись и посмотри на меня.",
+        "isActive": true
+    },
+    {
+        "id": 8,
+        "original": "She moved <b>in</b> with her boyfriend.",
+        "translate": "Она переехала к своему парню.",
+        "isActive": true
+    },
+    {
+        "id": 9,
+        "original": "It's time to move <b>on</b>.",
+        "translate": "Пора жить дальше.",
+        "isActive": true
+    },
+    {
+        "id": 10,
+        "original": "Let's move <b>on to</b> the next question.",
+        "translate": "Давайте перейдём к следующему вопросу.",
+        "isActive": true
+    },
+    {
+        "id": 11,
+        "original": "We're moving <b>out</b> next month.",
+        "translate": "Мы съезжаем в следующем месяце.",
+        "isActive": true
+    },
+    {
+        "id": 12,
+        "original": "Can you move <b>over</b> a bit?",
+        "translate": "Можешь немного подвинуться?",
+        "isActive": true
+    },
+    {
+        "id": 13,
+        "original": "Look <b>at</b> this photo!",
+        "translate": "Посмотри на эту фотографию!",
+        "isActive": true
+    },
+    {
+        "id": 14,
+        "original": "I'm looking <b>for</b> my keys.",
+        "translate": "Я ищу ключи.",
+        "isActive": true
+    },
+    {
+        "id": 15,
+        "original": "Can you look <b>after</b> my cat?",
+        "translate": "Можешь присмотреть за моей кошкой?",
+        "isActive": true
+    },
+    {
+        "id": 16,
+        "original": "We just looked <b>around</b> the shop.",
+        "translate": "Мы просто осмотрелись в магазине.",
+        "isActive": true
+    },
+    {
+        "id": 17,
+        "original": "Look <b>up</b> this word in a dictionary.",
+        "translate": "Посмотри это слово в словаре.",
+        "isActive": true
+    },
+    {
+        "id": 18,
+        "original": "Calm <b>down</b>, it's not a problem.",
+        "translate": "Успокойся, это не проблема.",
+        "isActive": true
+    },
+    {
+        "id": 19,
+        "original": "We need to speed <b>up</b>.",
+        "translate": "Нам нужно ускориться.",
+        "isActive": true
+    },
+    {
+        "id": 20,
+        "original": "Can you print <b>out</b> the tickets?",
+        "translate": "Можешь распечатать билеты?",
+        "isActive": true
+    },
+    {
+        "id": 21,
+        "original": "Slow <b>down</b>, you're driving too fast!",
+        "translate": "Сбавь скорость, ты едешь слишком быстро!",
+        "isActive": true
+    },
+    {
+        "id": 22,
+        "original": "Always warm <b>up</b> before running.",
+        "translate": "Всегда разминайся перед бегом.",
+        "isActive": true
+    }
+]

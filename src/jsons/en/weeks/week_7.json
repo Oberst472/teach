@@ -15,27 +15,9 @@
                 "isActive": true
             },
             {
-                "id": 3,
-                "original": "hot",
-                "translate": "жаркий, жарко",
-                "isActive": true
-            },
-            {
-                "id": 4,
-                "original": "warm",
-                "translate": "тёплый, тепло",
-                "isActive": true
-            },
-            {
                 "id": 5,
                 "original": "cool/chilly",
                 "translate": "прохладный, прохладно",
-                "isActive": true
-            },
-            {
-                "id": 6,
-                "original": "cold",
-                "translate": "холодный, холодно",
                 "isActive": true
             },
             {
@@ -45,45 +27,9 @@
                 "isActive": true
             },
             {
-                "id": 8,
-                "original": "sunny",
-                "translate": "солнечный, солнечно",
-                "isActive": true
-            },
-            {
-                "id": 9,
-                "original": "cloudy",
-                "translate": "облачный, пасмурно",
-                "isActive": true
-            },
-            {
-                "id": 10,
-                "original": "rainy",
-                "translate": "дождливый, дождливо",
-                "isActive": true
-            },
-            {
-                "id": 11,
-                "original": "windy",
-                "translate": "ветреный, ветрено",
-                "isActive": true
-            },
-            {
                 "id": 12,
                 "original": "foggy",
                 "translate": "туманный, туманно",
-                "isActive": true
-            },
-            {
-                "id": 13,
-                "original": "snowy",
-                "translate": "снежный, снежно",
-                "isActive": true
-            },
-            {
-                "id": 14,
-                "original": "stormy",
-                "translate": "грозовой, штормовой",
                 "isActive": true
             },
             {
@@ -147,27 +93,9 @@
                 "isActive": true
             },
             {
-                "id": 25,
-                "original": "rainbow",
-                "translate": "радуга",
-                "isActive": true
-            },
-            {
                 "id": 26,
                 "original": "shade",
                 "translate": "тень",
-                "isActive": true
-            },
-            {
-                "id": 27,
-                "original": "degrees",
-                "translate": "градусы",
-                "isActive": true
-            },
-            {
-                "id": 28,
-                "original": "temperature",
-                "translate": "температура",
                 "isActive": true
             },
             {

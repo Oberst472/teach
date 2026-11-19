@@ -3,27 +3,9 @@
         "title": "words",
         "items": [
             {
-                "id": 1,
-                "original": "tall",
-                "translate": "высокий",
-                "isActive": true
-            },
-            {
-                "id": 2,
-                "original": "short",
-                "translate": "низкий; короткий (о волосах)",
-                "isActive": true
-            },
-            {
                 "id": 3,
                 "original": "medium-height",
                 "translate": "среднего роста",
-                "isActive": true
-            },
-            {
-                "id": 4,
-                "original": "slim",
-                "translate": "стройный",
                 "isActive": true
             },
             {
@@ -51,12 +33,6 @@
                 "isActive": true
             },
             {
-                "id": 8,
-                "original": "well-built",
-                "translate": "хорошо сложённый",
-                "isActive": true
-            },
-            {
                 "id": 9,
                 "original": "middle-aged",
                 "translate": "средних лет",
@@ -81,21 +57,9 @@
                 "isActive": true
             },
             {
-                "id": 13,
-                "original": "beautiful",
-                "translate": "красивая, прекрасная",
-                "isActive": true
-            },
-            {
                 "id": 14,
                 "original": "ugly",
                 "translate": "некрасивый, уродливый",
-                "isActive": true
-            },
-            {
-                "id": 15,
-                "original": "long",
-                "translate": "длинный",
                 "isActive": true
             },
             {
@@ -123,18 +87,6 @@
                 "isActive": true
             },
             {
-                "id": 20,
-                "original": "blonde",
-                "translate": "светлые (о волосах), блондинка",
-                "isActive": true
-            },
-            {
-                "id": 21,
-                "original": "dark",
-                "translate": "тёмный",
-                "isActive": true
-            },
-            {
                 "id": 29,
                 "original": "fair (fair complexion, fair hair)",
                 "translate": "светлый (светлая кожа, светлые волосы)",
@@ -150,12 +102,6 @@
                 "id": 23,
                 "original": "grey",
                 "translate": "седой (о волосах)",
-                "isActive": true
-            },
-            {
-                "id": 24,
-                "original": "bald",
-                "translate": "лысый",
                 "isActive": true
             },
             {

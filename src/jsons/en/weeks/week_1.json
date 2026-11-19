@@ -3,57 +3,9 @@
         "title": "words",
         "items": [
             {
-                "id": 1,
-                "original": "wife",
-                "translate": "жена",
-                "isActive": true
-            },
-            {
-                "id": 2,
-                "original": "husband",
-                "translate": "муж",
-                "isActive": true
-            },
-            {
-                "id": 3,
-                "original": "mother, mum",
-                "translate": "мать, мама",
-                "isActive": true
-            },
-            {
-                "id": 4,
-                "original": "father, dad",
-                "translate": "отец, папа",
-                "isActive": true
-            },
-            {
-                "id": 5,
-                "original": "daughter",
-                "translate": "дочь",
-                "isActive": true
-            },
-            {
-                "id": 6,
-                "original": "son",
-                "translate": "сын",
-                "isActive": true
-            },
-            {
                 "id": 7,
                 "original": "only child",
                 "translate": "единственный ребёнок",
-                "isActive": true
-            },
-            {
-                "id": 8,
-                "original": "sister",
-                "translate": "сестра",
-                "isActive": true
-            },
-            {
-                "id": 9,
-                "original": "brother",
-                "translate": "брат",
                 "isActive": true
             },
             {
@@ -69,45 +21,9 @@
                 "isActive": true
             },
             {
-                "id": 12,
-                "original": "grandmother",
-                "translate": "бабушка",
-                "isActive": true
-            },
-            {
-                "id": 13,
-                "original": "great-grandmother",
-                "translate": "прабабушка",
-                "isActive": true
-            },
-            {
-                "id": 14,
-                "original": "granddaughter",
-                "translate": "внучка",
-                "isActive": true
-            },
-            {
-                "id": 15,
-                "original": "aunt",
-                "translate": "тётя",
-                "isActive": true
-            },
-            {
-                "id": 16,
-                "original": "uncle",
-                "translate": "дядя",
-                "isActive": true
-            },
-            {
                 "id": 17,
                 "original": "nephew",
                 "translate": "племянник",
-                "isActive": true
-            },
-            {
-                "id": 18,
-                "original": "niece",
-                "translate": "племянница",
                 "isActive": true
             },
             {
@@ -117,21 +33,9 @@
                 "isActive": true
             },
             {
-                "id": 20,
-                "original": "parents-in-law",
-                "translate": "родители мужа/жены (свёкры, тесть и тёща)",
-                "isActive": true
-            },
-            {
                 "id": 21,
                 "original": "daughter-in-law",
                 "translate": "невестка (жена сына)",
-                "isActive": true
-            },
-            {
-                "id": 22,
-                "original": "sister-in-law",
-                "translate": "золовка, свояченица, невестка (жена брата)",
                 "isActive": true
             },
             {

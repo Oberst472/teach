@@ -27,30 +27,6 @@
                 "isActive": true
             },
             {
-                "id": 5,
-                "original": "doctor",
-                "translate": "врач",
-                "isActive": true
-            },
-            {
-                "id": 6,
-                "original": "driving instructor",
-                "translate": "инструктор по вождению",
-                "isActive": true
-            },
-            {
-                "id": 7,
-                "original": "electrician",
-                "translate": "электрик",
-                "isActive": true
-            },
-            {
-                "id": 8,
-                "original": "engineer",
-                "translate": "инженер",
-                "isActive": true
-            },
-            {
                 "id": 9,
                 "original": "estate agent",
                 "translate": "агент по недвижимости, риелтор",
@@ -81,21 +57,9 @@
                 "isActive": true
             },
             {
-                "id": 14,
-                "original": "lawyer",
-                "translate": "юрист, адвокат",
-                "isActive": true
-            },
-            {
                 "id": 15,
                 "original": "lorry/taxi driver",
                 "translate": "водитель грузовика / таксист",
-                "isActive": true
-            },
-            {
-                "id": 16,
-                "original": "musician",
-                "translate": "музыкант",
                 "isActive": true
             },
             {
@@ -105,39 +69,9 @@
                 "isActive": true
             },
             {
-                "id": 18,
-                "original": "photographer",
-                "translate": "фотограф",
-                "isActive": true
-            },
-            {
                 "id": 19,
                 "original": "plumber",
                 "translate": "сантехник",
-                "isActive": true
-            },
-            {
-                "id": 20,
-                "original": "politician",
-                "translate": "политик",
-                "isActive": true
-            },
-            {
-                "id": 21,
-                "original": "postman",
-                "translate": "почтальон",
-                "isActive": true
-            },
-            {
-                "id": 22,
-                "original": "priest",
-                "translate": "священник",
-                "isActive": true
-            },
-            {
-                "id": 23,
-                "original": "programmer",
-                "translate": "программист",
                 "isActive": true
             },
             {
@@ -147,27 +81,9 @@
                 "isActive": true
             },
             {
-                "id": 25,
-                "original": "journalist",
-                "translate": "журналист",
-                "isActive": true
-            },
-            {
                 "id": 26,
                 "original": "sales rep (representative)",
                 "translate": "торговый представитель",
-                "isActive": true
-            },
-            {
-                "id": 27,
-                "original": "scientist",
-                "translate": "учёный",
-                "isActive": true
-            },
-            {
-                "id": 28,
-                "original": "security guard",
-                "translate": "охранник",
                 "isActive": true
             },
             {
@@ -177,39 +93,15 @@
                 "isActive": true
             },
             {
-                "id": 30,
-                "original": "soldier",
-                "translate": "солдат",
-                "isActive": true
-            },
-            {
                 "id": 31,
                 "original": "tailor",
                 "translate": "портной",
                 "isActive": true
             },
             {
-                "id": 32,
-                "original": "teacher",
-                "translate": "учитель",
-                "isActive": true
-            },
-            {
                 "id": 33,
                 "original": "tour guide",
                 "translate": "экскурсовод, гид",
-                "isActive": true
-            },
-            {
-                "id": 34,
-                "original": "vet (veterinarian)",
-                "translate": "ветеринар",
-                "isActive": true
-            },
-            {
-                "id": 35,
-                "original": "waiter/waitress",
-                "translate": "официант / официантка",
                 "isActive": true
             }
         ]
