@@ -1,0 +1,92 @@
+[
+    {
+        "id": 24,
+        "original": "I'll have tea instead <b>of</b> coffee.",
+        "translate": "Я буду чай вместо кофе.",
+        "isActive": true
+    },
+    {
+        "id": 25,
+        "original": "I apologised <b>to</b> her <b>for</b> being late.",
+        "translate": "Я извинился перед ней за опоздание.",
+        "isActive": true
+    },
+    {
+        "id": 26,
+        "original": "Let's begin <b>with</b> a short test.",
+        "translate": "Давайте начнём с короткого теста.",
+        "isActive": true
+    },
+    {
+        "id": 27,
+        "original": "He always complains <b>about</b> the food.",
+        "translate": "Он всегда жалуется на еду.",
+        "isActive": true
+    },
+    {
+        "id": 28,
+        "original": "I took part <b>in</b> the competition.",
+        "translate": "Я принял участие в соревновании.",
+        "isActive": true
+    },
+    {
+        "id": 29,
+        "original": "She works <b>as</b> a nurse.",
+        "translate": "Она работает медсестрой.",
+        "isActive": true
+    },
+    {
+        "id": 30,
+        "original": "He works <b>at</b> Google.",
+        "translate": "Он работает в Google.",
+        "isActive": true
+    },
+    {
+        "id": 31,
+        "original": "I work <b>for</b> a big company.",
+        "translate": "Я работаю на большую компанию.",
+        "isActive": true
+    },
+    {
+        "id": 32,
+        "original": "My sister works <b>in</b> a library.",
+        "translate": "Моя сестра работает в библиотеке.",
+        "isActive": true
+    },
+    {
+        "id": 33,
+        "original": "I'm working <b>on</b> a new project.",
+        "translate": "Я работаю над новым проектом.",
+        "isActive": true
+    },
+    {
+        "id": 34,
+        "original": "It's five degrees <b>below</b> zero.",
+        "translate": "Пять градусов ниже нуля.",
+        "isActive": true
+    },
+    {
+        "id": 35,
+        "original": "What's the weather <b>like</b> today?",
+        "translate": "Какая сегодня погода?",
+        "isActive": true
+    },
+    {
+        "id": 36,
+        "original": "There isn't a cloud <b>in</b> the sky.",
+        "translate": "На небе ни облачка.",
+        "isActive": true
+    },
+    {
+        "id": 37,
+        "original": "We lay <b>in</b> the sun all day.",
+        "translate": "Мы весь день лежали на солнце.",
+        "isActive": true
+    },
+    {
+        "id": 38,
+        "original": "It's pouring <b>with</b> rain.",
+        "translate": "Льёт как из ведра.",
+        "isActive": true
+    }
+]

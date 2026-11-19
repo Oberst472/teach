@@ -1,0 +1,110 @@
+[
+    {
+        "id": 23,
+        "original": "Two pizzas to take <b>away</b>, please.",
+        "translate": "Две пиццы навынос, пожалуйста.",
+        "isActive": true
+    },
+    {
+        "id": 24,
+        "original": "Take <b>down</b> my phone number.",
+        "translate": "Запиши мой номер телефона.",
+        "isActive": true
+    },
+    {
+        "id": 25,
+        "original": "Take <b>off</b> your shoes, please.",
+        "translate": "Сними обувь, пожалуйста.",
+        "isActive": true
+    },
+    {
+        "id": 26,
+        "original": "He took her <b>out</b> to dinner.",
+        "translate": "Он сводил её на ужин.",
+        "isActive": true
+    },
+    {
+        "id": 27,
+        "original": "She took her phone <b>out of</b> her bag.",
+        "translate": "Она достала телефон из сумки.",
+        "isActive": true
+    },
+    {
+        "id": 28,
+        "original": "Put your toys <b>away</b>!",
+        "translate": "Убери свои игрушки!",
+        "isActive": true
+    },
+    {
+        "id": 29,
+        "original": "Let's put <b>off</b> the meeting until Monday.",
+        "translate": "Давай перенесём встречу на понедельник.",
+        "isActive": true
+    },
+    {
+        "id": 30,
+        "original": "Put <b>on</b> your coat, it's cold.",
+        "translate": "Надень пальто, холодно.",
+        "isActive": true
+    },
+    {
+        "id": 31,
+        "original": "Please put <b>out</b> your cigarette.",
+        "translate": "Пожалуйста, потушите сигарету.",
+        "isActive": true
+    },
+    {
+        "id": 32,
+        "original": "Put <b>down</b> your pens.",
+        "translate": "Положите ручки.",
+        "isActive": true
+    },
+    {
+        "id": 33,
+        "original": "Put the milk <b>into</b> the fridge.",
+        "translate": "Поставь молоко в холодильник.",
+        "isActive": true
+    },
+    {
+        "id": 34,
+        "original": "Go <b>away</b>, I'm busy!",
+        "translate": "Уходи, я занят!",
+        "isActive": true
+    },
+    {
+        "id": 35,
+        "original": "The pain went <b>away</b>.",
+        "translate": "Боль прошла.",
+        "isActive": true
+    },
+    {
+        "id": 36,
+        "original": "Let's go <b>through</b> the report.",
+        "translate": "Давай просмотрим отчёт.",
+        "isActive": true
+    },
+    {
+        "id": 37,
+        "original": "My alarm went <b>off</b> at six.",
+        "translate": "Мой будильник прозвенел в шесть.",
+        "isActive": true
+    },
+    {
+        "id": 38,
+        "original": "The milk has gone <b>off</b>.",
+        "translate": "Молоко испортилось.",
+        "isActive": true
+    },
+    {
+        "id": 39,
+        "original": "What's going <b>on</b>?",
+        "translate": "Что происходит?",
+        "isActive": true
+    },
+    {
+        "id": 40,
+        "original": "Let's go <b>on to</b> the next topic.",
+        "translate": "Давайте перейдём к следующей теме.",
+        "isActive": true
+    }
+]
