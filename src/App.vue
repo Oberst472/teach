@@ -16,28 +16,43 @@
       </li>
       <template v-for='(item, key) in data.words'>
         <template v-if='isGroup(item)'>
-          <li class='app__nav-item app__nav-group'
+          <li class='app__nav-item app__nav-group app__nav-item--category'
               :class='{"app__nav-group--open": data.openGroups.includes(key)}'
               @click='toggleGroup(key)'
           >
-            <span class='app__nav-group-arrow'>▸</span>{{ key }}
+            <span><span class='app__nav-group-arrow'>▸</span>{{ key }}</span>
+            <span class='app__nav-done'
+                  v-if='groupDone(key, item)'
+                  :class='`app__nav-done--${doneAge(groupDone(key, item).latest)}`'
+                  :title='groupDone(key, item).title'
+            >{{ groupDone(key, item).label }}</span>
           </li>
           <template v-if='data.openGroups.includes(key)'>
-            <li class='app__nav-item app__nav-item--nested'
+            <li class='app__nav-item app__nav-item--nested app__nav-item--category'
                 :class='{"app__nav-item--active": data.activeCategoryWord === `${key} / ${group.title}`}'
                 v-for='group in item'
                 @click='changeActiveCategory(`${key} / ${group.title}`)'
             >
-              {{ `${group.title} (${group.items.length} сл.)` }}
+              <span>{{ `${group.title} (${group.items.length} сл.)` }}</span>
+              <span class='app__nav-done'
+                    v-if='data.completed[`${key} / ${group.title}`]'
+                    :class='`app__nav-done--${doneAge(`${key} / ${group.title}`)}`'
+                    :title='doneTitle(`${key} / ${group.title}`)'
+              >{{ doneLabel(`${key} / ${group.title}`) }}</span>
             </li>
           </template>
         </template>
-        <li class='app__nav-item'
+        <li class='app__nav-item app__nav-item--category'
             v-else
             :class='{"app__nav-item--active": data.activeCategoryWord === key}'
             @click='changeActiveCategory(key)'
         >
-          {{ `${key} (${wordsOf(item).length} сл.)` }}
+          <span>{{ `${key} (${wordsOf(item).length} сл.)` }}</span>
+          <span class='app__nav-done'
+                v-if='data.completed[key]'
+                :class='`app__nav-done--${doneAge(key)}`'
+                :title='doneTitle(key)'
+          >{{ doneLabel(key) }}</span>
         </li>
       </template>
     </ul>
@@ -50,6 +65,10 @@
                 @click="data.isAlgorithmChanged = !data.isAlgorithmChanged">{{ data.isAlgorithmChanged ? 'EN → RU' : 'RU → EN' }}
         </button>
         <button class="app__nav-item-btn app__nav-item-btn--typing" @click="data.isKeyboardActive = true">Typing practice</button>
+        <button class="app__nav-item-btn app__nav-item-btn--done"
+                :title="data.completed[data.activeCategoryWord] ? `${doneTitle(data.activeCategoryWord)}. Нажмите, чтобы записать сегодняшнюю дату` : 'Отметить категорию пройденной сегодня'"
+                @click="markCategoryDone">{{ doneButtonText }}
+        </button>
       </li>
 
       <li class='app__nav-item app__nav-description'
@@ -77,7 +96,10 @@
       <div class='app__content-finish' v-if='isFinished'>
         <div class='app__content-finish-title'>All {{ data.defaultEls.length }} cards correct! 🎉</div>
         <div>✓ {{ data.score.correct }} · ✗ {{ data.score.wrong }}</div>
-        <button class='app__content-btn' @click='restartLearning'>Start again</button>
+        <div class='app__content-finish-btns'>
+          <button class='app__content-btn correct' @click='markCategoryDone'>{{ doneButtonText }}</button>
+          <button class='app__content-btn' @click='restartLearning'>Start again</button>
+        </div>
       </div>
 
       <template v-else>
@@ -161,6 +183,8 @@ const data = reactive({
   score: {correct: 0, wrong: 0},
   // Cards marked correct leave the deck until the category is restarted
   learned: [] as string[],
+  // When each category was last marked as done: { [category key]: ISO date }
+  completed: {} as Record<string, string>,
 })
 
 const answerInput = ref(null)
@@ -243,6 +267,68 @@ const markWrong = function () {
   if (data.result !== 'wrong') data.score.wrong++
   showNextWord()
 }
+
+const COMPLETED_KEY = 'completedCategories'
+
+const loadCompleted = function () {
+  try {
+    return JSON.parse(localStorage.getItem(COMPLETED_KEY)) || {}
+  } catch {
+    return {}
+  }
+}
+
+// Marking again overwrites the date with today's
+const markCategoryDone = function () {
+  data.completed = {...data.completed, [data.activeCategoryWord]: new Date().toISOString()}
+  localStorage.setItem(COMPLETED_KEY, JSON.stringify(data.completed))
+}
+
+// Whole calendar days between the date and today
+const daysSinceDone = function (key: string) {
+  const startOfDay = (date: Date) => new Date(date.getFullYear(), date.getMonth(), date.getDate()).getTime()
+  return Math.round((startOfDay(new Date()) - startOfDay(new Date(data.completed[key]))) / 86400000)
+}
+
+const pluralDays = function (n: number) {
+  if (n % 10 === 1 && n % 100 !== 11) return 'день'
+  if ([2, 3, 4].includes(n % 10) && ![12, 13, 14].includes(n % 100)) return 'дня'
+  return 'дней'
+}
+
+const doneLabel = function (key: string) {
+  const days = daysSinceDone(key)
+  if (days <= 0) return 'сегодня'
+  if (days === 1) return 'вчера'
+  return `${days} ${pluralDays(days)} назад`
+}
+
+// Badge colour: fresh (up to 3 days), week (up to 7), old (time to repeat)
+const doneAge = function (key: string) {
+  const days = daysSinceDone(key)
+  if (days <= 3) return 'fresh'
+  if (days <= 7) return 'week'
+  return 'old'
+}
+
+const doneTitle = (key: string) => `Пройдено ${new Date(data.completed[key]).toLocaleDateString('ru-RU')}`
+
+// Week summary: the most recent date among its groups, plus "2/4" while not every group is done
+const groupDone = function (key: string, groups) {
+  const keys = groups.map(group => `${key} / ${group.title}`)
+  const done = keys.filter(groupKey => data.completed[groupKey])
+  if (!done.length) return null
+  const latest = done.reduce((a, b) => data.completed[a] > data.completed[b] ? a : b)
+  return {
+    latest,
+    label: done.length < keys.length ? `${done.length}/${keys.length} · ${doneLabel(latest)}` : doneLabel(latest),
+    title: groups.map((group, index) => `${group.title}: ${data.completed[keys[index]] ? doneLabel(keys[index]) : 'не пройдено'}`).join('\n'),
+  }
+}
+
+const doneButtonText = computed(() => data.completed[data.activeCategoryWord] && daysSinceDone(data.activeCategoryWord) <= 0
+  ? '✓ Пройдено сегодня'
+  : '✓ Я прошёл')
 
 const restartLearning = function () {
   data.learned = []
@@ -364,6 +450,7 @@ watch(() => [
 })
 
 onMounted(() => {
+  data.completed = loadCompleted()
   data.words = en
 
   let word = localStorage.getItem('activeCategoryWord')
@@ -444,6 +531,40 @@ onMounted(() => {
 
       &--nested {
         padding-left: 35px;
+      }
+
+      &--category {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+      }
+
+      &-btn--done {
+        background-color: #8fd19e;
+      }
+    }
+
+    &-done {
+      flex-shrink: 0;
+      padding: 1px 8px;
+      font-size: 11px;
+      line-height: 18px;
+      white-space: nowrap;
+      border-radius: 10px;
+
+      &--fresh {
+        color: #8fd19e;
+        background-color: rgba(143, 209, 158, 0.15);
+      }
+
+      &--week {
+        color: rgba(255, 255, 255, 0.7);
+        background-color: rgba(255, 255, 255, 0.1);
+      }
+
+      &--old {
+        color: #ffc27a;
+        background-color: rgba(255, 194, 122, 0.15);
       }
     }
 
@@ -676,6 +797,13 @@ onMounted(() => {
       &-title {
         font-size: 22px;
         color: #8fd19e;
+      }
+
+      &-btns {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
       }
 
       .app__content-btn {
